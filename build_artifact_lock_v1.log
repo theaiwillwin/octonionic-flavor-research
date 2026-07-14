@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "snapshot_members": 1448,
+  "snapshot_bytes": 163761196,
+  "archive_bytes": 139192519,
+  "archive_sha256": "b9f1238baeb56a7abd15699b5eea2c008d2d6d43ec029619f9fedbaf8ec9482d",
+  "manifest_sha256": "087e1ca195ca98ec57dadacec4a14b6acbebfabf7128e6342c56ed8be6aef37f",
+  "read_only_targets": 107
+}

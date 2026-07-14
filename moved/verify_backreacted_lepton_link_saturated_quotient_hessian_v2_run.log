@@ -1,0 +1,30 @@
+primitive_plus__single_sum_hPh grad=6.352e-15 qmin=-7.219e-08 diff=5.639e-07
+primitive_minus__single_sum_phi_PPP grad=8.311e-15 qmin=-2.502e-07 diff=9.932e-07
+primitive_plus__single_sum_phi_PPhh grad=5.929e-15 qmin=-2.274e-07 diff=7.671e-07
+primitive_minus__pair_lr_sum_phi_symmetric grad=1.030e-14 qmin=-3.610e-07 diff=1.485e-06
+primitive_plus__pair_sector_sum_trPQ grad=5.828e-15 qmin=-2.110e-07 diff=5.839e-07
+primitive_minus__pair_sector_sum_phi_symmetric grad=1.080e-14 qmin=-3.754e-07 diff=1.464e-06
+primitive_minus__pair_sector_sum_psi_PPQQ grad=8.977e-15 qmin=-3.696e-07 diff=1.307e-06
+primitive_plus__pair_sector_sum_psi_PPQQ grad=6.998e-15 qmin=-2.144e-07 diff=1.160e-06
+primitive_minus__pair_diagonal_sum_phi_symmetric grad=8.170e-15 qmin=-3.775e-07 diff=1.519e-06
+primitive_minus__pair_diagonal_sum_psi_PPQQ grad=2.225e-12 qmin=-3.652e-07 diff=1.184e-06
+primitive_minus__four_psi_PQRS grad=1.312e-14 qmin=1.614e+00 diff=1.529e-06
+rademacher_00 grad=1.512e-14 qmin=1.852e+00 diff=2.096e-06
+rademacher_01 grad=1.008e-14 qmin=1.404e+00 diff=1.470e-06
+rademacher_06 grad=2.924e-13 qmin=2.097e-01 diff=1.041e-06
+rademacher_09 grad=1.423e-14 qmin=3.318e+00 diff=1.773e-06
+rademacher_14 grad=1.175e-14 qmin=3.536e-01 diff=1.042e-06
+rademacher_16 grad=7.396e-14 qmin=5.051e-01 diff=9.776e-07
+rademacher_20 grad=1.199e-14 qmin=1.547e+00 diff=1.369e-06
+rademacher_21 grad=2.446e-10 qmin=1.328e-01 diff=6.243e-07
+rademacher_25 grad=1.051e-14 qmin=1.932e+00 diff=1.172e-06
+rademacher_30 grad=7.618e-15 qmin=1.241e+00 diff=1.127e-06
+{
+  "status": "PASS",
+  "maximum_sorted_spectrum_difference": 2.0959110571538986e-06,
+  "stable_count": 21,
+  "isolated_count": 11,
+  "pmns_evaluable_count": 5,
+  "pmns_compatible_count": 0,
+  "output_json": "D:\\Projects\\can_o_worms\\verify_backreacted_lepton_link_saturated_quotient_hessian_v2_results.json"
+}

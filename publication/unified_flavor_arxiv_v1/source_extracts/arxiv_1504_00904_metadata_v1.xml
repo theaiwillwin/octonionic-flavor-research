@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KTmKe5GMpsHb7TWNaJcOfdRh5rg</id>
+  <title>arXiv Query: search_query=&amp;id_list=1504.00904&amp;start=0&amp;max_results=10</title>
+  <updated>2026-07-14T00:52:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1504.00904" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1504.00904v2</id>
+    <title>A Minimal Supersymmetric $\mathrm{E}_6$ Unified Theory</title>
+    <updated>2015-05-20T13:52:22Z</updated>
+    <link href="https://arxiv.org/abs/1504.00904v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.00904v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show explicitly that supersymmetric $E_6$ Grand Unified Theory with a Higgs sector consisting of $\{27+\bar{27}+351'+\bar{351'}+78\}$ fields provides a realistic scenario for symmetry breaking and fermion mass generation. While gauge symmetry breaking can be achieved without the $78$ field, its presence is critical for a successful doublet-triplet mass splitting. The Yukawa sector of the model consists of only two symmetric matrices describing all of quark, lepton and neutrino masses and mixings. The fermion mass matrices are computed at low energy and a fit to the second and third generation masses and mixings is performed. We find a good numerical fit to the low-energy data. Thus, this model, having $11$ superpotential parameters, alongside the two symmetric Yukawa matrices, seems to be the best realistic candidate for a minimal renormalizable supersymmetric $E_6$ unified theory.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-03T18:12:00Z</published>
+    <arxiv:comment>35 pages. Accepted for publication; minor comments added, extended discussion in Appendix D, references updated, conclusions unchanged</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>K. S. Babu</name>
+    </author>
+    <author>
+      <name>Borut Bajc</name>
+    </author>
+    <author>
+      <name>Vasja Susič</name>
+    </author>
+  </entry>
+</feed>

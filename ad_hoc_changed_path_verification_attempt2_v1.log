@@ -1,0 +1,4 @@
+AD_HOC_VERIFICATION ATTEMPT 2: FAIL (wrapper failed before verifier creation)
+ERROR: execute_code read_file response did not expose the expected `content` key on retry.
+TEMP_VERIFIER_CREATED: False
+CORRECTION: mechanically copy the already tool-read retained verifier to a tempfile with shutil.copyfile; do not reinterpret the read_file envelope.

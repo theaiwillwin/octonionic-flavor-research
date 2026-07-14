@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10081,
+  "call_index": 1,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_6Qbg8TLrVOeUQjF8pWBouNhw",
+    "call_id": "call_6Qbg8TLrVOeUQjF8pWBouNhw",
+    "response_item_id": "fc_071f367ba0e10612016a55399eb0c88191883b23c5ac03ba84",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":50,\"path\":\"C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results\",\"pattern\":\"call_*.txt\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 50,
+    "path": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results",
+    "pattern": "call_*.txt",
+    "target": "files"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "schema": "verify_shared_lepton_link_structural_gate_v1",
+  "source": "D:\\Projects\\can_o_worms\\shared_lepton_link_structural_gate_v1_results.json",
+  "status": "FAIL",
+  "correction_to_retained_v1_summary": "The v1 raw complex mixing residual compares convention-dependent SVD vectors, and its aggregate polar residual includes non-unique rank-deficient links. Physical verification must restrict polar covariance to full-rank K and compare |U| and Jarlskog under gauge trials.",
+  "full_rank_link_count_verified": 28,
+  "gauge_trials_per_link": 32,
+  "thresholds": {
+    "link_covariance": 1e-08,
+    "abs_mixing_gauge_invariance": 1e-09,
+    "jarlskog_gauge_invariance": 1e-09,
+    "jordan_covariance": 1e-08,
+    "mixing_unitarity": 1e-10
+  },
+  "maxima": {
+    "link_covariance": 5.967913326550271e-12,
+    "abs_mixing_gauge_invariance": 0.9477615655576584,
+    "jarlskog_gauge_invariance": 0.13554526096292405,
+    "J_e_covariance": 4.884981308350689e-15,
+    "J_nu_covariance": 1.8651751184664476e-14,
+    "mixing_unitarity": 2.220446049250313e-15
+  },
+  "passes": {
+    "link_covariance": true,
+    "abs_mixing_gauge_invariance": false,
+    "jarlskog_gauge_invariance": false,
+    "J_e_covariance": true,
+    "J_nu_covariance": true,
+    "mixing_unitarity": true
+  },
+  "results": [
+    {
+      "label": "primitive_plus__single_sum_hPh",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.11331125747040698,
+      "maximum_link_covariance_residual": 1.5565409952966682e-15,
+      "maximum_abs_mixing_gauge_residual": 2.7200464103316335e-15,
+      "maximum_jarlskog_gauge_residual": 1.6132928326584306e-16,
+      "maximum_J_e_covariance_residual": 4.440892098500626e-16,
+      "maximum_J_nu_covariance_residual": 4.441217213185963e-15,
+      "mixing_unitarity_residual": 2.220446049250313e-15
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.2369807154067755,
+      "maximum_link_covariance_residual": 1.4475537224895361e-15,
+      "maximum_abs_mixing_gauge_residual": 6.772360450213455e-15,
+      "maximum_jarlskog_gauge_residual": 5.273559366969494e-16,
+      "maximum_J_e_covariance_residual": 9.992007221626409e-16,
+      "maximum_J_nu_covariance_residual": 1.5610463633549198e-15,
+      "mixing_unitarity_residual": 8.491573300505515e-16
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.15311508696094087,
+      "maximum_link_covariance_residual": 1.1443916996305594e-15,
+      "maximum_abs_mixing_gauge_residual": 2.3314683517128287e-15,
+      "maximum_jarlskog_gauge_residual": 3.2612801348363973e-16,
+      "maximum_J_e_covariance_residual": 1.9984014443252818e-15,
+      "maximum_J_nu_covariance_residual": 3.7751664318895325e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPhh",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.04923250477281523,
+      "maximum_link_covariance_residual": 5.873764467847935e-15,
+      "maximum_abs_mixing_gauge_residual": 1.992850329202156e-14,
+      "maximum_jarlskog_gauge_residual": 1.1622647289044608e-15,
+      "maximum_J_e_covariance_residual": 1.3322676295501878e-15,
+      "maximum_J_nu_covariance_residual": 1.0053497077208614e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.04119763465564249,
+      "maximum_link_covariance_residual": 3.1441076983065962e-15,
+      "maximum_abs_mixing_gauge_residual": 0.8126934084235791,
+      "maximum_jarlskog_gauge_residual": 0.03400692894655886,
+      "maximum_J_e_covariance_residual": 8.881784197001252e-16,
+      "maximum_J_nu_covariance_residual": 2.5468671054250572e-15,
+      "mixing_unitarity_residual": 6.955527313080394e-16
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.3033079205290899,
+      "maximum_link_covariance_residual": 4.394155578771497e-15,
+      "maximum_abs_mixing_gauge_residual": 0.6811359904782645,
+      "maximum_jarlskog_gauge_residual": 0.13002650349935768,
+      "maximum_J_e_covariance_residual": 5.204170427930421e-17,
+      "maximum_J_nu_covariance_residual": 7.495094114362994e-16,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.4977045089675921,
+      "maximum_link_covariance_residual": 1.7554167342883505e-15,
+      "maximum_abs_mixing_gauge_residual": 0.5910155463807086,
+      "maximum_jarlskog_gauge_residual": 0.13554526096292405,
+      "maximum_J_e_covariance_residual": 6.591949208711867e-17,
+      "maximum_J_nu_covariance_residual": 4.3368551560145735e-17,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.09832711512355527,
+      "maximum_link_covariance_residual": 4.511305742390249e-15,
+      "maximum_abs_mixing_gauge_residual": 6.5503158452884236e-15,
+      "maximum_jarlskog_gauge_residual": 2.914335439641036e-16,
+      "maximum_J_e_covariance_residual": 3.885780586188048e-16,
+      "maximum_J_nu_covariance_residual": 7.660586166659236e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.3161128789550174,
+      "maximum_link_covariance_residual": 1.324147507406233e-15,
+      "maximum_abs_mixing_gauge_residual": 1.887379141862766e-15,
+      "maximum_jarlskog_gauge_residual": 1.3183898417423734e-16,
+      "maximum_J_e_covariance_residual": 6.661338147750939e-16,
+      "maximum_J_nu_covariance_residual": 5.552254528270006e-16,
+      "mixing_unitarity_residual": 8.881784197001252e-16
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.010867746127763206,
+      "maximum_link_covariance_residual": 1.0615230586634098e-14,
+      "maximum_abs_mixing_gauge_residual": 8.665399726724631e-15,
+      "maximum_jarlskog_gauge_residual": 1.619271030158514e-30,
+      "maximum_J_e_covariance_residual": 1.7763568394002505e-15,
+      "maximum_J_nu_covariance_residual": 1.3988810110276972e-14,
+      "mixing_unitarity_residual": 1.9984014443252818e-15
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.066646545234851,
+      "maximum_link_covariance_residual": 1.8524795763375e-15,
+      "maximum_abs_mixing_gauge_residual": 1.705647198434648e-15,
+      "maximum_jarlskog_gauge_residual": 3.1089157977282327e-31,
+      "maximum_J_e_covariance_residual": 3.3306690738754696e-16,
+      "maximum_J_nu_covariance_residual": 1.4432899320127035e-15,
+      "mixing_unitarity_residual": 1.0318964032102116e-15
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.1834406063179649,
+      "maximum_link_covariance_residual": 1.5381550505879239e-15,
+      "maximum_abs_mixing_gauge_residual": 2.1952897949607288e-15,
+      "maximum_jarlskog_gauge_residual": 5.6050971507193555e-31,
+      "maximum_J_e_covariance_residual": 6.661338147750939e-16,
+      "maximum_J_nu_covariance_residual": 1.887379141862766e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.021004986907718737,
+      "maximum_link_covariance_residual": 4.232338505691245e-15,
+      "maximum_abs_mixing_gauge_residual": 3.774758283725532e-15,
+      "maximum_jarlskog_gauge_residual": 2.706168622523819e-16,
+      "maximum_J_e_covariance_residual": 1.7763568394002505e-15,
+      "maximum_J_nu_covariance_residual": 7.582335026075009e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.048583408103302375,
+      "maximum_link_covariance_residual": 3.653477551705879e-15,
+      "maximum_abs_mixing_gauge_residual": 2.7755575615628914e-15,
+      "maximum_jarlskog_gauge_residual": 3.608224830031759e-16,
+      "maximum_J_e_covariance_residual": 7.771561172376096e-16,
+      "maximum_J_nu_covariance_residual": 5.107081714248496e-15,
+      "mixing_unitarity_residual": 8.881784197001252e-16
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.23165587141962898,
+      "maximum_link_covariance_residual": 1.9119139715078642e-15,
+      "maximum_abs_mixing_gauge_residual": 1.9984014443252818e-15,
+      "maximum_jarlskog_gauge_residual": 1.97758476261356e-16,
+      "maximum_J_e_covariance_residual": 1.3322676295501878e-15,
+      "maximum_J_nu_covariance_residual": 3.775038665026709e-15,
+      "mixing_unitarity_residual": 4.440892098500626e-16
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.03273685922241949,
+      "maximum_link_covariance_residual": 4.545902364027965e-15,
+      "maximum_abs_mixing_gauge_residual": 1.9984014443252818e-15,
+      "maximum_jarlskog_gauge_residual": 6.21247844834194e-17,
+      "maximum_J_e_covariance_residual": 3.3306690738754696e-16,
+      "maximum_J_nu_covariance_residual": 5.551215774486705e-16,
+      "mixing_unitarity_residual": 1.7763568394002505e-15
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.5846743062145313,
+      "maximum_link_covariance_residual": 1.2815744444133687e-15,
+      "maximum_abs_mixing_gauge_residual": 5.495603971894525e-15,
+      "maximum_jarlskog_gauge_residual": 9.432558900623889e-16,
+      "maximum_J_e_covariance_residual": 1.7763568394002505e-15,
+      "maximum_J_nu_covariance_residual": 4.663148119558203e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.09741096265445731,
+      "maximum_link_covariance_residual": 2.3420180361420893e-15,
+      "maximum_abs_mixing_gauge_residual": 3.3861802251067274e-15,
+      "maximum_jarlskog_gauge_residual": 3.5388358909926865e-16,
+      "maximum_J_e_covariance_residual": 7.771561172376096e-16,
+      "maximum_J_nu_covariance_residual": 3.185488924951312e-15,
+      "mixing_unitarity_residual": 6.661338147750939e-16
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.09042738029290293,
+      "maximum_link_covariance_residual": 1.6736404963781187e-15,
+      "maximum_abs_mixing_gauge_residual": 1.7208456881689926e-15,
+      "maximum_jarlskog_gauge_residual": 2.8449465006019636e-16,
+      "maximum_J_e_covariance_residual": 9.992007221626409e-16,
+      "maximum_J_nu_covariance_residual": 1.2214241393426579e-15,
+      "mixing_unitarity_residual": 1.5543122344752192e-15
+    },
+    {
+      "label": "primitive_plus__triple_sum_phi_PQR",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.09487831901807782,
+      "maximum_link_covariance_residual": 1.93335067591649e-15,
+      "maximum_abs_mixing_gauge_residual": 1.8596235662471372e-15,
+      "maximum_jarlskog_gauge_residual": 9.020562075079397e-17,
+      "maximum_J_e_covariance_residual": 3.885780586188048e-16,
+      "maximum_J_nu_covariance_residual": 1.7210351278643429e-15,
+      "mixing_unitarity_residual": 6.733945391863337e-16
+    },
+    {
+      "label": "primitive_plus__four_psi_PQRS",
+      "vacuum_class": "continuous_extra_moduli",
+      "link_min_singular_value": 0.16084735581686602,
+      "maximum_link_covariance_residual": 2.424922536124218e-15,
+      "maximum_abs_mixing_gauge_residual": 1.887379141862766e-15,
+      "maximum_jarlskog_gauge_residual": 3.469446951953614e-16,
+      "maximum_J_e_covariance_residual": 3.3306690738754696e-16,
+      "maximum_J_nu_covariance_residual": 1.943254367259351e-16,
+      "mixing_unitarity_residual": 8.402725478524888e-16
+    },
+    {
+      "label": "rademacher_04",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.3139362821807159,
+      "maximum_link_covariance_residual": 1.254736414591327e-15,
+      "maximum_abs_mixing_gauge_residual": 3.3754584127798637e-09,
+      "maximum_jarlskog_gauge_residual": 7.897408714398896e-11,
+      "maximum_J_e_covariance_residual": 7.771561172376096e-16,
+      "maximum_J_nu_covariance_residual": 9.437012579917081e-16,
+      "mixing_unitarity_residual": 4.440892098500626e-16
+    },
+    {
+      "label": "rademacher_07",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 1.616878117006284e-05,
+      "maximum_link_covariance_residual": 5.967913326550271e-12,
+      "maximum_abs_mixing_gauge_residual": 5.236366895644551e-13,
+      "maximum_jarlskog_gauge_residual": 5.649310064514198e-17,
+      "maximum_J_e_covariance_residual": 3.552713678800501e-15,
+      "maximum_J_nu_covariance_residual": 1.8651751184664476e-14,
+      "mixing_unitarity_residual": 1.9984014443252818e-15
+    },
+    {
+      "label": "rademacher_11",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.8831310667677553,
+      "maximum_link_covariance_residual": 3.2205392106257432e-15,
+      "maximum_abs_mixing_gauge_residual": 0.8551035980498566,
+      "maximum_jarlskog_gauge_residual": 7.191752505239169e-31,
+      "maximum_J_e_covariance_residual": 9.992007221626409e-16,
+      "maximum_J_nu_covariance_residual": 2.645499409692319e-15,
+      "mixing_unitarity_residual": 5.551115123125783e-16
+    },
+    {
+      "label": "rademacher_12",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.0731882455875397,
+      "maximum_link_covariance_residual": 1.0325671005860943e-15,
+      "maximum_abs_mixing_gauge_residual": 1.1921019726912618e-14,
+      "maximum_jarlskog_gauge_residual": 5.065392549852277e-16,
+      "maximum_J_e_covariance_residual": 8.881784197001252e-16,
+      "maximum_J_nu_covariance_residual": 1.666229693490034e-15,
+      "mixing_unitarity_residual": 6.661338147750939e-16
+    },
+    {
+      "label": "rademacher_16",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.3725355288144351,
+      "maximum_link_covariance_residual": 2.3321291051203735e-15,
+      "maximum_abs_mixing_gauge_residual": 0.5945353029950853,
+      "maximum_jarlskog_gauge_residual": 0.07425307782241941,
+      "maximum_J_e_covariance_residual": 3.3306690738754696e-16,
+      "maximum_J_nu_covariance_residual": 7.216692579823564e-16,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "rademacher_23",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.1199496496887658,
+      "maximum_link_covariance_residual": 1.653958484192854e-15,
+      "maximum_abs_mixing_gauge_residual": 1.1075490140716964e-14,
+      "maximum_jarlskog_gauge_residual": 2.1750564713256462e-23,
+      "maximum_J_e_covariance_residual": 5.551115123125783e-16,
+      "maximum_J_nu_covariance_residual": 1.9984014443252818e-15,
+      "mixing_unitarity_residual": 1.5543122344752192e-15
+    },
+    {
+      "label": "rademacher_28",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "link_min_singular_value": 0.1752376770861718,
+      "maximum_link_covariance_residual": 2.2661550110643456e-15,
+      "maximum_abs_mixing_gauge_residual": 0.9477615655576584,
+      "maximum_jarlskog_gauge_residual": 1.482363306106809e-30,
+      "maximum_J_e_covariance_residual": 4.884981308350689e-15,
+      "maximum_J_nu_covariance_residual": 7.105427357601002e-15,
+      "mixing_unitarity_residual": 5.551115123125783e-16
+    }
+  ],
+  "claim_boundary": "This verifies covariance and physical gauge invariance of the conditional auxiliary-link construction. It does not add link backreaction to the vacuum action and does not compare with PMNS data."
+}

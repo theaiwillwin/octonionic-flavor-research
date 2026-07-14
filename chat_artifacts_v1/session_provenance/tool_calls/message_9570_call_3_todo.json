@@ -1,0 +1,35 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9570,
+  "call_index": 3,
+  "tool_name": "todo",
+  "call": {
+    "id": "call_GHb68lcWrphgcO8Rnaxqq71b",
+    "call_id": "call_GHb68lcWrphgcO8Rnaxqq71b",
+    "response_item_id": "fc_071f367ba0e10612016a5530fe23b88191a456757a59999741",
+    "type": "function",
+    "function": {
+      "name": "todo",
+      "arguments": "{\"todos\":[{\"content\":\"Draft the verified historical FTS recovery write-up in the canonical lock document\",\"id\":\"draft\",\"status\":\"in_progress\"},{\"content\":\"Check numerical claims, paths, and fit-versus-derivation language against verified receipts\",\"id\":\"check\",\"status\":\"pending\"},{\"content\":\"Inspect the final document and report the completed artifact\",\"id\":\"finalize\",\"status\":\"pending\"}]}"
+    }
+  },
+  "parsed_arguments": {
+    "todos": [
+      {
+        "content": "Draft the verified historical FTS recovery write-up in the canonical lock document",
+        "id": "draft",
+        "status": "in_progress"
+      },
+      {
+        "content": "Check numerical claims, paths, and fit-versus-derivation language against verified receipts",
+        "id": "check",
+        "status": "pending"
+      },
+      {
+        "content": "Inspect the final document and report the completed artifact",
+        "id": "finalize",
+        "status": "pending"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10060,
+  "call_index": 1,
+  "tool_name": "todo",
+  "call": {
+    "id": "call_4kuKwNbgWqzIdMcRK5j9qqsa",
+    "call_id": "call_4kuKwNbgWqzIdMcRK5j9qqsa",
+    "response_item_id": "fc_071f367ba0e10612016a553793d4008191b114b5ea087cd157",
+    "type": "function",
+    "function": {
+      "name": "todo",
+      "arguments": "{\"todos\": [{\"content\": \"Inventory every artifact created or modified in this chat\", \"id\": \"inventory\", \"status\": \"in_progress\"}, {\"content\": \"Copy all surviving artifacts into D:/Projects/can_o_worms/chat_artifacts_v1 without overwriting\", \"id\": \"copy\", \"status\": \"pending\"}, {\"content\": \"Reconstruct previously deleted temporary verifier scripts and save their receipts\", \"id\": \"reconstruct\", \"status\": \"pending\"}, {\"content\": \"Create a preserved manifest with source paths and checksums\", \"id\": \"manifest\", \"status\": \"pending\"}, {\"content\": \"Verify copied contents and completeness without deleting anything\", \"id\": \"verify\", \"status\": \"pending\"}]}"
+    }
+  },
+  "parsed_arguments": {
+    "todos": [
+      {
+        "content": "Inventory every artifact created or modified in this chat",
+        "id": "inventory",
+        "status": "in_progress"
+      },
+      {
+        "content": "Copy all surviving artifacts into D:/Projects/can_o_worms/chat_artifacts_v1 without overwriting",
+        "id": "copy",
+        "status": "pending"
+      },
+      {
+        "content": "Reconstruct previously deleted temporary verifier scripts and save their receipts",
+        "id": "reconstruct",
+        "status": "pending"
+      },
+      {
+        "content": "Create a preserved manifest with source paths and checksums",
+        "id": "manifest",
+        "status": "pending"
+      },
+      {
+        "content": "Verify copied contents and completeness without deleting anything",
+        "id": "verify",
+        "status": "pending"
+      }
+    ]
+  }
+}

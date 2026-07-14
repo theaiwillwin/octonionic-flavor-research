@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "page_count": 11,
+  "assertions": {
+    "pdf_opens": true,
+    "page_count_at_least_ten": true,
+    "all_expected_phrases_present": true,
+    "no_forbidden_source_markers": true,
+    "tex_has_no_hidden_control_characters": true,
+    "bib_has_no_hidden_control_characters": true,
+    "compiled_text_has_no_unresolved_question_marks": true,
+    "compile_log_has_no_document_warnings": true,
+    "bibtex_output_has_six_cited_entries": true,
+    "all_pdf_fonts_embedded": true,
+    "pdf_metadata_title_present": true,
+    "pdf_metadata_author_correct": true,
+    "visual_target_pages_located": true
+  },
+  "output": "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\publication_verification_v4.json"
+}

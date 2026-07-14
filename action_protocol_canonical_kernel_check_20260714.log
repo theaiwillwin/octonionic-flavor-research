@@ -1,0 +1,12 @@
+========================================================================
+CANONICAL OCTONION / G2 KERNEL CHECK
+========================================================================
+Cayley-Dickson matches Fano: PASS
+octonion_mul_vec matches Fano: PASS
+phi_imn phi_jmn = 6 delta_ij error: 0
+Phi_imnp Phi_jmnp = 24 delta_ij error: 0
+A vs 2Phi: sign=-, error=0
+M0 = A_iklm A_jklm = 96 delta_ij error: 0
+Associator split: 7 Fano-zero / 28 non-Fano-nonzero
+ALL ALGEBRA TESTS PASSED: True
+========================================================================

@@ -1,0 +1,14 @@
+PASS: archive contains exactly the five declared source files
+PASS: archive has no absolute or parent-traversal member
+PASS: all extracted source hashes match the release directory
+PASS: release TeX log has no warning/error markers
+PASS: release PDF has valid header and substantial size
+PASS: clean archive TeX log has no warning/error markers
+PASS: clean archive PDF has valid header and substantial size
+PASS: release and clean-archive PDFs have the same page count
+PASS: release and clean-archive PDFs extract to identical normalized text
+PASS: clean PDF retains the finite-class claim boundary
+PASS: archive matches its recorded SHA-256
+CHECKS=11
+ARCHIVE_AD_HOC_VERIFICATION: PASS
+RESULT=D:\Projects\can_o_worms\publication\verify_target_free_g2_arxiv_v7_archive_v1_results.json

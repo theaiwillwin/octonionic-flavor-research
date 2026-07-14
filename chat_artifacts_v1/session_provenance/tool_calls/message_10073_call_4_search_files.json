@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10073,
+  "call_index": 4,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_PH7S4ZCrbLPSscBpV74Z6C3e",
+    "call_id": "call_PH7S4ZCrbLPSscBpV74Z6C3e",
+    "response_item_id": "fc_071f367ba0e10612016a55395f36dc81918098ab5c0242a0f6",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":100,\"path\":\"D:/Projects/can_o_worms\",\"pattern\":\"*\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 100,
+    "path": "D:/Projects/can_o_worms",
+    "pattern": "*",
+    "target": "files"
+  }
+}

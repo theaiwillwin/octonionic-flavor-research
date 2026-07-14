@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9603,
+  "call_index": 3,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_CIqD9w3WCQ8Av7xX4444LqQV",
+    "call_id": "call_CIqD9w3WCQ8Av7xX4444LqQV",
+    "response_item_id": "fc_071f367ba0e10612016a5532450ce881919bdea96e3b85ed6a",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"limit\":5,\"query\":\"\\\"connelly_fts_ckm_arxiv_2026.tex\\\" OR \\\"canonical manuscript\\\"\",\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 5,
+    "query": "\"connelly_fts_ckm_arxiv_2026.tex\" OR \"canonical manuscript\"",
+    "sort": "newest"
+  }
+}

@@ -1,0 +1,7 @@
+SKILL_MANAGE_SUMMARY_EXECUTE_CODE_V1: FAIL
+
+The helper attempted to parse read_file output as raw JSON. read_file prepends line numbers, so json.loads raised JSONDecodeError: Extra data.
+
+No project source or archived destination was modified, overwritten, or deleted by that failed helper. The generated sandbox script was created internally by execute_code outside the project and is not being used further. The durable archive workflow instead uses the preserved in-project script:
+
+D:/Projects/can_o_worms/chat_artifacts_v1/tools/archive_surviving_artifacts_v1.py

@@ -1,0 +1,30 @@
+TEMP_VERIFIER_PATH=C:\Users\theai\AppData\Local\Temp\hermes-verify-a6j1bkff.py
+{
+  "status": "FAIL",
+  "kind": "focused OS-temp ad-hoc verification, not canonical suite",
+  "checks": {
+    "changed_python_paths_imported_4_of_4": true,
+    "build_lock_retention_guard": true,
+    "preserve_temp_retention_guard": true,
+    "seal_receipt_retention_guard": true,
+    "persisted_lock_verifier_executes_pass": false,
+    "persisted_lock_verifier_all_checks_true": false,
+    "changed_json_parses_and_passes": true,
+    "changed_json_read_only": true,
+    "archive_hash_matches_lock_receipt": true,
+    "manifest_hash_matches_lock_receipt": true,
+    "archive_manifest_receipt_read_only": true,
+    "post_lock_receipt_passes": true,
+    "post_lock_hashes_current": true,
+    "post_lock_files_read_only": true,
+    "all_92_moves_still_verified": true,
+    "all_moved_sources_absent": true,
+    "all_moved_destinations_hash_match": true,
+    "no_other_scoped_hermes_temp_artifacts": true,
+    "no_scoped_temp_trees": true,
+    "no_claude_scratchpads": true
+  }
+}
+AD_HOC_VERIFICATION: FAIL
+CHANGED_PATHS_IMPORTED: 4/4 Python plus 1/1 JSON
+TEMP_VERIFIER_CLEANED=True

@@ -1,0 +1,123 @@
+from __future__ import annotations
+
+import contextlib
+import hashlib
+import importlib.util
+import io
+import json
+import stat
+from pathlib import Path
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+TEMP = Path(r"C:/Users/theai/AppData/Local/Temp")
+CHANGED_PYTHON = [
+    ROOT / "build_artifact_lock_v1.py",
+    ROOT / "preserve_windows_temp_artifacts_v1.py",
+    ROOT / "seal_post_lock_receipts_v1.py",
+    ROOT / "verify_artifact_lock_v1.py",
+]
+CHANGED_JSON = ROOT / "retained_temp_artifacts_v1/receipts/hermes-verify-AOS4lW_ad_hoc_pass_v1.json"
+
+
+def digest(path: Path) -> str:
+    value = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            value.update(block)
+    return value.hexdigest()
+
+
+def read_only(path: Path) -> bool:
+    attributes = getattr(path.stat(), "st_file_attributes", 0)
+    return bool(attributes & getattr(stat, "FILE_ATTRIBUTE_READONLY", 1))
+
+
+def load(path: Path, index: int):
+    name = f"hermes_changed_{index}_{path.stem}"
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"cannot import {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    if Path(module.__file__).resolve() != path.resolve():
+        raise AssertionError(f"wrong module path: {module.__file__}")
+    return module
+
+
+def expect_retention_guard(module) -> bool:
+    try:
+        module.main()
+    except FileExistsError:
+        return True
+    return False
+
+
+def main() -> int:
+    checks: dict[str, bool] = {}
+    modules = [load(path, index) for index, path in enumerate(CHANGED_PYTHON)]
+    checks["changed_python_paths_imported_4_of_4"] = len(modules) == 4
+    build, preserve, seal, verify = modules
+
+    checks["build_lock_retention_guard"] = expect_retention_guard(build)
+    checks["preserve_temp_retention_guard"] = expect_retention_guard(preserve)
+    checks["seal_receipt_retention_guard"] = expect_retention_guard(seal)
+
+    verify_stdout = io.StringIO()
+    with contextlib.redirect_stdout(verify_stdout):
+        verify_exit = verify.main()
+    verify_payload = json.loads(verify_stdout.getvalue())
+    checks["persisted_lock_verifier_executes_pass"] = verify_exit == 0 and verify_payload["status"] == "PASS"
+    checks["persisted_lock_verifier_all_checks_true"] = all(verify_payload["checks"].values())
+
+    changed_receipt = json.loads(CHANGED_JSON.read_text(encoding="utf-8"))
+    checks["changed_json_parses_and_passes"] = changed_receipt["status"] == "PASS" and all(changed_receipt["checks"].values())
+    checks["changed_json_read_only"] = read_only(CHANGED_JSON)
+
+    lock_receipt_path = ROOT / "ARTIFACT_LOCK_RECEIPT_v1.json"
+    lock_receipt = json.loads(lock_receipt_path.read_text(encoding="utf-8"))
+    archive = Path(lock_receipt["archive"]["path"])
+    manifest = Path(lock_receipt["manifest"]["path"])
+    checks["archive_hash_matches_lock_receipt"] = digest(archive) == lock_receipt["archive"]["sha256"]
+    checks["manifest_hash_matches_lock_receipt"] = digest(manifest) == lock_receipt["manifest"]["sha256"]
+    checks["archive_manifest_receipt_read_only"] = all(read_only(path) for path in (archive, manifest, lock_receipt_path))
+
+    post_receipt_path = ROOT / "POST_LOCK_RECEIPT_v1.json"
+    post_receipt = json.loads(post_receipt_path.read_text(encoding="utf-8"))
+    checks["post_lock_receipt_passes"] = post_receipt["status"] == "PASS" and post_receipt["all_targets_read_only"]
+    checks["post_lock_hashes_current"] = all(
+        digest(Path(item["path"])) == item["sha256"] and Path(item["path"]).stat().st_size == item["bytes"]
+        for item in post_receipt["files"]
+    )
+    checks["post_lock_files_read_only"] = read_only(post_receipt_path) and all(
+        read_only(Path(item["path"])) for item in post_receipt["files"]
+    )
+
+    moved = json.loads((ROOT / "retained_temp_artifacts_v1/moved_artifacts_manifest_v1.json").read_text(encoding="utf-8"))
+    checks["all_92_moves_still_verified"] = moved["moved_file_count"] == 92 and moved["all_moves_verified"]
+    checks["all_moved_sources_absent"] = all(not Path(item["source"]).exists() for item in moved["files"])
+    checks["all_moved_destinations_hash_match"] = all(
+        digest(Path(item["destination"])) == item["sha256_after_move"] for item in moved["files"]
+    )
+
+    current_temp_script = Path(__file__).resolve()
+    remaining_scoped = [
+        path
+        for path in TEMP.glob("hermes-*")
+        if path.resolve() != current_temp_script
+    ]
+    checks["no_other_scoped_hermes_temp_artifacts"] = not remaining_scoped
+    checks["no_scoped_temp_trees"] = all(
+        not (TEMP / name).exists()
+        for name in ("hermes-fts-higgs-audit", "tmp.nxKlaQQIuN", "pytest-of-theai")
+    )
+    checks["no_claude_scratchpads"] = not any((TEMP / "claude").glob("**/scratchpad"))
+
+    status = "PASS" if all(checks.values()) else "FAIL"
+    print(json.dumps({"status": status, "kind": "focused OS-temp ad-hoc verification, not canonical suite", "checks": checks}, indent=2))
+    print(f"AD_HOC_VERIFICATION: {status}")
+    print("CHANGED_PATHS_IMPORTED: 4/4 Python plus 1/1 JSON")
+    return 0 if status == "PASS" else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

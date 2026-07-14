@@ -1,0 +1,166 @@
+training baseline_no_state
+training wave_reset_no_carry
+training wave_fano_state_carry
+training wave_no_fano_features_state_carry
+training wave_random_antisymmetric_state_carry
+training wave_shuffled_fano_state_carry
+training gru_state_carry
+{
+  "task": "controlled delayed recall: value appears only in prefix; query segment has no value token",
+  "chance_acc": 0.125,
+  "args": {
+    "device": "cpu",
+    "steps": 2,
+    "eval_batches": 1,
+    "batch_size": 4,
+    "prefix_len": 16,
+    "query_len": 8,
+    "n_values": 8,
+    "d_model": 32,
+    "heads": 4,
+    "layers": 1,
+    "experts": 4,
+    "memory_slots": 4,
+    "lr": 0.001,
+    "suite": "ablations",
+    "out": "runs/ad_hoc_verify_ablation_cpu_now.json"
+  },
+  "torch": "2.4.1+cpu",
+  "cuda_available": false,
+  "device_name": null,
+  "models": {
+    "baseline_no_state": {
+      "loss": 2.3420439958572388,
+      "acc": 0.0,
+      "elapsed_s": 0.02917280001565814,
+      "eval": {
+        "loss": 2.199781894683838,
+        "acc": 0.25
+      }
+    },
+    "wave_reset_no_carry": {
+      "loss": 2.0794727206230164,
+      "acc": 0.375,
+      "elapsed_s": 0.11608709997381084,
+      "aux_last": {
+        "wave_energy": 0.021665945649147034,
+        "wave_field_energy": 0.025156183168292046,
+        "wave_velocity_energy": 0.018175706267356873,
+        "wave_laplacian_energy": 0.002560901455581188,
+        "router_entropy": 1.3280972242355347,
+        "load_balance_loss": 1.625,
+        "fano_energy": 0.17389385402202606,
+        "actual_associator_norm": 0.4295670986175537,
+        "g2_defect": 0.004450500942766666,
+        "expert_token_evals": 64.0,
+        "tensor_mode_id": 0.0,
+        "lorentz_constraint_error": 1.33514404296875e-05
+      },
+      "eval": {
+        "loss": 2.632786273956299,
+        "acc": 0.0
+      }
+    },
+    "wave_fano_state_carry": {
+      "loss": 1.9884846210479736,
+      "acc": 0.25,
+      "elapsed_s": 0.20866859998204745,
+      "aux_last": {
+        "wave_energy": 0.2211201936006546,
+        "wave_field_energy": 0.40061700344085693,
+        "wave_velocity_energy": 0.041623376309871674,
+        "wave_laplacian_energy": 0.006870613899081945,
+        "router_entropy": 1.341626524925232,
+        "load_balance_loss": 1.501953125,
+        "fano_energy": 0.2848362326622009,
+        "actual_associator_norm": 0.9503286480903625,
+        "g2_defect": 0.00444539962336421,
+        "expert_token_evals": 64.0,
+        "tensor_mode_id": 0.0,
+        "lorentz_constraint_error": 1.71661376953125e-05
+      },
+      "eval": {
+        "loss": 2.293257236480713,
+        "acc": 0.25
+      }
+    },
+    "wave_no_fano_features_state_carry": {
+      "loss": 2.1507266759872437,
+      "acc": 0.0,
+      "elapsed_s": 0.19120709999697283,
+      "aux_last": {
+        "wave_energy": 0.15970079600811005,
+        "wave_field_energy": 0.2886514365673065,
+        "wave_velocity_energy": 0.03075016289949417,
+        "wave_laplacian_energy": 0.003803989617154002,
+        "router_entropy": 1.3410791158676147,
+        "load_balance_loss": 1.125,
+        "fano_energy": 0.0,
+        "actual_associator_norm": 0.0,
+        "g2_defect": 0.0,
+        "expert_token_evals": 64.0,
+        "tensor_mode_id": 3.0,
+        "lorentz_constraint_error": 5.7220458984375e-06
+      },
+      "eval": {
+        "loss": 1.8008837699890137,
+        "acc": 0.75
+      }
+    },
+    "wave_random_antisymmetric_state_carry": {
+      "loss": 2.1498265266418457,
+      "acc": 0.125,
+      "elapsed_s": 0.16626609998638742,
+      "aux_last": {
+        "wave_energy": 0.16684161126613617,
+        "wave_field_energy": 0.3086300492286682,
+        "wave_velocity_energy": 0.02505316399037838,
+        "wave_laplacian_energy": 0.007017200812697411,
+        "router_entropy": 1.3077805042266846,
+        "load_balance_loss": 1.78125,
+        "fano_energy": 0.02979418821632862,
+        "actual_associator_norm": 0.20339372754096985,
+        "g2_defect": 0.005082705989480019,
+        "expert_token_evals": 64.0,
+        "tensor_mode_id": 1.0,
+        "lorentz_constraint_error": 2.09808349609375e-05
+      },
+      "eval": {
+        "loss": 2.060293197631836,
+        "acc": 0.0
+      }
+    },
+    "wave_shuffled_fano_state_carry": {
+      "loss": 1.8617967367172241,
+      "acc": 0.5,
+      "elapsed_s": 0.21169019999797456,
+      "aux_last": {
+        "wave_energy": 0.276920884847641,
+        "wave_field_energy": 0.5006109476089478,
+        "wave_velocity_energy": 0.05323079600930214,
+        "wave_laplacian_energy": 0.040984831750392914,
+        "router_entropy": 1.237791657447815,
+        "load_balance_loss": 1.53125,
+        "fano_energy": 0.06268203258514404,
+        "actual_associator_norm": 0.38136956095695496,
+        "g2_defect": 0.004306915681809187,
+        "expert_token_evals": 64.0,
+        "tensor_mode_id": 2.0,
+        "lorentz_constraint_error": 2.288818359375e-05
+      },
+      "eval": {
+        "loss": 2.2188315391540527,
+        "acc": 0.0
+      }
+    },
+    "gru_state_carry": {
+      "loss": 2.1217528581619263,
+      "acc": 0.125,
+      "elapsed_s": 0.031755799980601296,
+      "eval": {
+        "loss": 2.0490946769714355,
+        "acc": 0.0
+      }
+    }
+  }
+}

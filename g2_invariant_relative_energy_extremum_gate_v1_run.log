@@ -1,0 +1,107 @@
+{
+  "output": "D:\\Projects\\can_o_worms\\g2_invariant_relative_energy_extremum_gate_v1_results.json",
+  "conclusion": "no_recognizable_relative_energy_extremum_in_tested_basis",
+  "low_balance_but_nonstationary": [
+    "pair_phi_XXY_sq_over_2",
+    "pair_psi_XXYY_sq_over_4"
+  ],
+  "recognizable_extrema": [],
+  "summary": {
+    "single_tr_P_hh": {
+      "down_over_up": 0.6740071013473008,
+      "balance_energy": 0.037922912782695266,
+      "value_percentile": 51.07421875,
+      "gradient_norm": 0.26813330889580045,
+      "increase_fraction": 0.5078125,
+      "hessian_min": -0.3804852480913576
+    },
+    "single_phi_XXX_sq_over_6": {
+      "down_over_up": 0.5200196627131298,
+      "balance_energy": 0.09971224198377307,
+      "value_percentile": 38.57421875,
+      "gradient_norm": 1.8434121517994808,
+      "increase_fraction": 0.50146484375,
+      "hessian_min": -4.475001482585327
+    },
+    "single_phi_XXh_sq_over_2": {
+      "down_over_up": 0.661351268310691,
+      "balance_energy": 0.04155047300997154,
+      "value_percentile": 51.46484375,
+      "gradient_norm": 0.49144374495658255,
+      "increase_fraction": 0.5185546875,
+      "hessian_min": -0.5956884780916831
+    },
+    "single_assoc_XXh_sq_over_2": {
+      "down_over_up": 1.5912371272563346,
+      "balance_energy": 0.05206058945068295,
+      "value_percentile": 91.69921875,
+      "gradient_norm": 0.25348082070195305,
+      "increase_fraction": 0.50830078125,
+      "hessian_min": -0.39054675964836777
+    },
+    "pair_tr_PQ": {
+      "down_over_up": 1.0450267568388962,
+      "balance_energy": 0.0004847784934617105,
+      "value_percentile": 7.91015625,
+      "gradient_norm": 0.039692833907151386,
+      "increase_fraction": 0.509765625,
+      "hessian_min": -0.05911078890362068
+    },
+    "pair_tr_PQPQ": {
+      "down_over_up": 0.8458351918194978,
+      "balance_energy": 0.006975649490121395,
+      "value_percentile": 25.48828125,
+      "gradient_norm": 0.24339582049350728,
+      "increase_fraction": 0.5,
+      "hessian_min": -0.6316969983477085
+    },
+    "pair_det_XtY_sq": {
+      "down_over_up": 0.33649355094828676,
+      "balance_energy": 0.24646574183010855,
+      "value_percentile": 26.171875,
+      "gradient_norm": 11.802001096613793,
+      "increase_fraction": 0.4873046875,
+      "hessian_min": -19.12818465621828
+    },
+    "pair_phi_XXY_sq_over_2": {
+      "down_over_up": 1.009935616483341,
+      "balance_energy": 2.4435731615862388e-05,
+      "value_percentile": 2.83203125,
+      "gradient_norm": 0.008681640332272197,
+      "increase_fraction": 0.48876953125,
+      "hessian_min": -0.01951122210901242
+    },
+    "pair_phi_XYY_sq_over_2": {
+      "down_over_up": 0.8614615495963757,
+      "balance_energy": 0.005539014620865753,
+      "value_percentile": 33.203125,
+      "gradient_norm": 0.12200784916840685,
+      "increase_fraction": 0.505859375,
+      "hessian_min": -0.34538326165299715
+    },
+    "pair_psi_XXYY_sq_over_4": {
+      "down_over_up": 1.0246545819598243,
+      "balance_energy": 0.0001482836968438817,
+      "value_percentile": 2.83203125,
+      "gradient_norm": 0.05150038337511707,
+      "increase_fraction": 0.4853515625,
+      "hessian_min": -0.12053331585155218
+    },
+    "pair_assoc_XXY_sq_over_2": {
+      "down_over_up": 0.9748153953087816,
+      "balance_energy": 0.00016263621865104493,
+      "value_percentile": 12.01171875,
+      "gradient_norm": 0.010169683967439466,
+      "increase_fraction": 0.5068359375,
+      "hessian_min": -0.020185438666888947
+    },
+    "pair_assoc_YYX_sq_over_2": {
+      "down_over_up": 1.0163659543584662,
+      "balance_energy": 6.587853905205731e-05,
+      "value_percentile": 8.0078125,
+      "gradient_norm": 0.008204050043711846,
+      "increase_fraction": 0.4921875,
+      "hessian_min": -0.012709342181392315
+    }
+  }
+}

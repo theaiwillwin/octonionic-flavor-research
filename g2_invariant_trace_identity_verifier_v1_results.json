@@ -1,0 +1,43 @@
+{
+  "schema": "g2_invariant_trace_identity_verifier_v1",
+  "identities": {
+    "single_frame": "A_XXh + 8 Tr(P hh^T) + 4 Phi_XXh = 12",
+    "ordered_pair_half": "A_XXY + 8 Tr(PQ) + 4 Phi_XXY = 36",
+    "four_frame_aggregate": "sum_assoc_XXh + 8 sum_Tr(P hh^T) + 4 sum_phi_XXh = 48",
+    "two_sector_aggregate": "sector_assoc_mixed + 16 sector_Tr(PQ) + 4 sector_phi_mixed = 144"
+  },
+  "normalization_note": "A and Phi labels denote the squared contractions with the divisors declared in the extremum-gate artifact.",
+  "archived_residuals": {
+    "single": {
+      "Ld": 3.552713678800501e-15,
+      "Rd": -1.7763568394002505e-15,
+      "Lu": 0.0,
+      "Ru": -1.7763568394002505e-15
+    },
+    "pair": {
+      "down_XXY": 0.0,
+      "down_YYX": -7.105427357601002e-15,
+      "up_XXY": -1.4210854715202004e-14,
+      "up_YYX": -1.4210854715202004e-14,
+      "left_cross_XXY": 0.0,
+      "left_cross_YYX": 0.0,
+      "right_cross_XXY": -7.105427357601002e-15,
+      "right_cross_YYX": -7.105427357601002e-15
+    },
+    "aggregate": {
+      "single_four_frame_identity": 0.0,
+      "two_sector_pair_identity": -2.842170943040401e-14
+    }
+  },
+  "random_test": {
+    "seed": 20260714,
+    "configurations": 1024,
+    "maximum_absolute_residuals": {
+      "single": 1.5987211554602254e-14,
+      "pair": 5.684341886080802e-14,
+      "aggregate": 1.4210854715202004e-13
+    }
+  },
+  "verdict": "verified_to_machine_precision",
+  "interpretation": "The near-null post-hoc gradient combinations are globally constant identities, not extrema selected by the archived frames."
+}

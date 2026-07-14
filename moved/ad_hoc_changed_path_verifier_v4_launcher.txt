@@ -1,0 +1,50 @@
+from __future__ import annotations
+
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+SOURCE = ROOT / "ad_hoc_changed_path_verifier_v4_source.txt"
+EXPECTED_TEMP = Path(r"C:/Users/theai/AppData/Local/Temp").resolve()
+actual_temp = Path(tempfile.gettempdir()).resolve()
+if actual_temp != EXPECTED_TEMP:
+    raise RuntimeError(f"unexpected OS temp: {actual_temp} != {EXPECTED_TEMP}")
+
+script_path = None
+exit_code = 1
+try:
+    with tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        prefix="hermes-verify-",
+        suffix=".py",
+        dir=str(actual_temp),
+        delete=False,
+    ) as handle:
+        handle.write(SOURCE.read_text(encoding="utf-8"))
+        script_path = Path(handle.name)
+    print(f"TEMP_VERIFIER_PATH: {script_path}")
+    completed = subprocess.run(
+        [sys.executable, str(script_path)],
+        cwd=str(ROOT),
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+    )
+    print(completed.stdout, end="")
+    exit_code = completed.returncode
+    print(f"TEMP_VERIFIER_EXIT: {exit_code}")
+finally:
+    cleaned = False
+    if script_path is not None:
+        try:
+            script_path.unlink(missing_ok=True)
+            cleaned = not script_path.exists()
+        except OSError as exc:
+            print(f"TEMP_VERIFIER_CLEANUP_ERROR: {exc}")
+    print(f"TEMP_VERIFIER_CLEANED: {cleaned}")
+
+raise SystemExit(exit_code)

@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9453,
+  "call_index": 4,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_CArcM5YpyWgl1eEKYfjcBujr",
+    "call_id": "call_CArcM5YpyWgl1eEKYfjcBujr",
+    "response_item_id": "fc_08b2fa3ea771ea86016a551e0c4af08191bac0f48a8f096572",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"query\":\"\\\"diagnostic fit\\\" AND (Q OR frame)\",\"limit\":10,\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "query": "\"diagnostic fit\" AND (Q OR frame)",
+    "limit": 10,
+    "sort": "newest"
+  }
+}

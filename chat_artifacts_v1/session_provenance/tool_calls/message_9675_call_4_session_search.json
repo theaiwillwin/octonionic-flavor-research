@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9675,
+  "call_index": 4,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_tsakCO9rqtzsuyk5ccwA5f1x",
+    "call_id": "call_tsakCO9rqtzsuyk5ccwA5f1x",
+    "response_item_id": "fc_071f367ba0e10612016a5532450cfc8191988ba71d5c4af97c",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"limit\":5,\"query\":\"\\\"claim ledger\\\" AND (flavour OR FTS OR CKM)\",\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 5,
+    "query": "\"claim ledger\" AND (flavour OR FTS OR CKM)",
+    "sort": "newest"
+  }
+}

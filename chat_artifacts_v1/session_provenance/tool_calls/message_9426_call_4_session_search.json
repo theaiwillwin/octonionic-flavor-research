@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9426,
+  "call_index": 4,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_OD4pv2vQczYgreG6bzX7YMBj",
+    "call_id": "call_OD4pv2vQczYgreG6bzX7YMBj",
+    "response_item_id": "fc_071f367ba0e10612016a552aa976908191ba7891896db36ff7",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"around_message_id\":4051,\"session_id\":\"20260711_022434_8a1e75\",\"window\":5}"
+    }
+  },
+  "parsed_arguments": {
+    "around_message_id": 4051,
+    "session_id": "20260711_022434_8a1e75",
+    "window": 5
+  }
+}

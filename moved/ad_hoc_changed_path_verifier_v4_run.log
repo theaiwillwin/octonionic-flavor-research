@@ -1,0 +1,7 @@
+TEMP_VERIFIER_PATH: C:\Users\theai\AppData\Local\Temp\hermes-verify-kwfk1hdo.py
+Traceback (most recent call last):
+  File "C:\Users\theai\AppData\Local\Temp\hermes-verify-kwfk1hdo.py", line 95, in <module>
+    raise AssertionError(f"final report missing boundary statement: {required}")
+AssertionError: final report missing boundary statement: Exact polar-link reachability: PASS
+TEMP_VERIFIER_EXIT: 1
+TEMP_VERIFIER_CLEANED: True

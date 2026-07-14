@@ -1,0 +1,1747 @@
+{
+  "schema": "recent-e6-neutrino-artifact-inventory/v1",
+  "generated_utc": "2026-07-13T22:23:58.436198+00:00",
+  "cutoff_utc": "2026-07-08T22:23:22.604147+00:00",
+  "roots": [
+    "D:\\Projects",
+    "C:\\Users\\theai\\stage_h_test",
+    "C:\\Users\\theai\\Desktop",
+    "C:\\Users\\theai\\Documents",
+    "C:\\Users\\theai\\Downloads",
+    "C:\\Users\\theai\\AppData\\Local\\Temp",
+    "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal"
+  ],
+  "missing_roots": [],
+  "recent_file_count": 2182,
+  "relevant_file_count": 174,
+  "relevant_files": [
+    {
+      "path": "D:\\Projects\\can_o_worms\\inventory_recent_e6_neutrino_artifacts_v1.log",
+      "modified_utc": "2026-07-13T22:23:22.504563+00:00",
+      "size_bytes": 0,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\inventory_recent_e6_neutrino_artifacts_v1.py",
+      "modified_utc": "2026-07-13T22:23:16.154932+00:00",
+      "size_bytes": 5352,
+      "suffix": ".py",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "351'",
+        "doublet mass matrix",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "higgs composition",
+        "lambda6",
+        "mdoublets",
+        "neutrino",
+        "null eigenvector",
+        "null-eigenvector",
+        "sterile",
+        "y351",
+        "λ6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verifier_v2_source.txt",
+      "modified_utc": "2026-07-13T22:05:07.381030+00:00",
+      "size_bytes": 4515,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verifier_v1.log",
+      "modified_utc": "2026-07-13T22:03:49.356484+00:00",
+      "size_bytes": 1799,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6",
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_ad_hoc_independent_verification_v1.json",
+      "modified_utc": "2026-07-13T22:03:49.352485+00:00",
+      "size_bytes": 1926,
+      "suffix": ".json",
+      "keyword_hits": [
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_ad_hoc_spectrum_results_v1.json",
+      "modified_utc": "2026-07-13T22:03:49.266289+00:00",
+      "size_bytes": 5332,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_ad_hoc_source_extract_v1.json",
+      "modified_utc": "2026-07-13T22:03:49.218191+00:00",
+      "size_bytes": 1912842,
+      "suffix": ".json",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "doublet mass matrix",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351",
+        "λ6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_ad_hoc_benchmark_table_page_v1.png",
+      "modified_utc": "2026-07-13T22:03:48.075462+00:00",
+      "size_bytes": 116860,
+      "suffix": ".png",
+      "keyword_hits": [
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verifier_v1_source.txt",
+      "modified_utc": "2026-07-13T22:03:40.369735+00:00",
+      "size_bytes": 4924,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_artifact_hashes_v1.txt",
+      "modified_utc": "2026-07-13T22:02:02.518670+00:00",
+      "size_bytes": 1349,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_gate_report_v1.md",
+      "modified_utc": "2026-07-13T22:01:44.878199+00:00",
+      "size_bytes": 4656,
+      "suffix": ".md",
+      "keyword_hits": [
+        "1504.00904",
+        "351'",
+        "e6",
+        "ew vev",
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\164e7e66-e954-47cd-948b-c48f3d87b8a0.tmp",
+      "modified_utc": "2026-07-13T22:01:39.211254+00:00",
+      "size_bytes": 22830,
+      "suffix": ".tmp",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\833b73fa-a239-42b8-ae40-2aee67a8f28c.tmp",
+      "modified_utc": "2026-07-13T22:01:04.574108+00:00",
+      "size_bytes": 0,
+      "suffix": ".tmp",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_heavy_sterile_neutrino_spectrum_v1.log",
+      "modified_utc": "2026-07-13T22:01:01.809317+00:00",
+      "size_bytes": 508,
+      "suffix": ".log",
+      "keyword_hits": [
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_independent_verification_v1.json",
+      "modified_utc": "2026-07-13T22:01:01.779857+00:00",
+      "size_bytes": 1926,
+      "suffix": ".json",
+      "keyword_hits": [
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_heavy_sterile_neutrino_spectrum_v1.py",
+      "modified_utc": "2026-07-13T22:00:53.935086+00:00",
+      "size_bytes": 5944,
+      "suffix": ".py",
+      "keyword_hits": [
+        "1504.00904",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\02dfe220-71e4-4cfe-805f-e6f74f076b04.tmp",
+      "modified_utc": "2026-07-13T22:00:23.053159+00:00",
+      "size_bytes": 4573452,
+      "suffix": ".tmp",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_spectrum_gate_v1.log",
+      "modified_utc": "2026-07-13T22:00:06.259449+00:00",
+      "size_bytes": 479,
+      "suffix": ".log",
+      "keyword_hits": [
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_spectrum_results_v1.json",
+      "modified_utc": "2026-07-13T22:00:06.237447+00:00",
+      "size_bytes": 5332,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_spectrum_gate_v1.py",
+      "modified_utc": "2026-07-13T22:00:00.293251+00:00",
+      "size_bytes": 4924,
+      "suffix": ".py",
+      "keyword_hits": [
+        "1504.00904",
+        "e6",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_benchmark_inputs_v1.json",
+      "modified_utc": "2026-07-13T21:59:23.299096+00:00",
+      "size_bytes": 1720,
+      "suffix": ".json",
+      "keyword_hits": [
+        "1504.00904",
+        "e6",
+        "neutrino",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_source_extract_v1.log",
+      "modified_utc": "2026-07-13T21:55:41.601057+00:00",
+      "size_bytes": 314,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6",
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_source_extract_v1.json",
+      "modified_utc": "2026-07-13T21:55:41.574705+00:00",
+      "size_bytes": 1912842,
+      "suffix": ".json",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "doublet mass matrix",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "neutrino",
+        "sterile",
+        "y351",
+        "λ6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_benchmark_table_page_v1.png",
+      "modified_utc": "2026-07-13T21:55:40.610474+00:00",
+      "size_bytes": 116860,
+      "suffix": ".png",
+      "keyword_hits": [
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_source_extract_v1.py",
+      "modified_utc": "2026-07-13T21:55:30.553984+00:00",
+      "size_bytes": 4250,
+      "suffix": ".py",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "e6",
+        "neutrino",
+        "sterile"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v3\\README.md",
+      "modified_utc": "2026-07-13T21:49:59.332176+00:00",
+      "size_bytes": 1031,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v4\\README.md",
+      "modified_utc": "2026-07-13T21:49:59.332176+00:00",
+      "size_bytes": 1031,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v5\\README.md",
+      "modified_utc": "2026-07-13T21:49:59.332176+00:00",
+      "size_bytes": 1031,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v6\\README.md",
+      "modified_utc": "2026-07-13T21:49:59.332176+00:00",
+      "size_bytes": 1031,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v7\\README.md",
+      "modified_utc": "2026-07-13T21:49:59.332176+00:00",
+      "size_bytes": 1031,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\dcedb75d-2798-47e6-ab69-5d7b66c6913f.tmp",
+      "modified_utc": "2026-07-13T21:46:59.939460+00:00",
+      "size_bytes": 0,
+      "suffix": ".tmp",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v1\\README.md",
+      "modified_utc": "2026-07-13T21:46:01.247058+00:00",
+      "size_bytes": 963,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v2\\README.md",
+      "modified_utc": "2026-07-13T21:46:01.247058+00:00",
+      "size_bytes": 963,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\extract_matthew_connelly_prior_work_metadata_v1_results.json",
+      "modified_utc": "2026-07-13T21:39:55.566736+00:00",
+      "size_bytes": 38882,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_target_free_g2_action_to_flavor_pipeline_v1_results.json",
+      "modified_utc": "2026-07-13T21:33:53.528480+00:00",
+      "size_bytes": 1173,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\G2_INVARIANT_TRACE_EXTREMUM_GATE_REPORT_v1.md",
+      "modified_utc": "2026-07-13T20:04:51.260853+00:00",
+      "size_bytes": 8851,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\G2_INVARIANT_TRACE_EXTREMUM_HANDOFF_v2.md",
+      "modified_utc": "2026-07-13T20:03:48.923156+00:00",
+      "size_bytes": 6656,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_g2_invariant_trace_extremum_gates_v1_run.log",
+      "modified_utc": "2026-07-13T19:54:04.362059+00:00",
+      "size_bytes": 3782,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_g2_invariant_trace_extremum_gates_v1_results.json",
+      "modified_utc": "2026-07-13T19:54:04.356059+00:00",
+      "size_bytes": 3782,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\g2_invariant_relative_energy_extremum_gate_v1_results.json",
+      "modified_utc": "2026-07-13T19:45:16.229987+00:00",
+      "size_bytes": 23510,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\g2_invariant_trace_extremum_gate_v2_results.json",
+      "modified_utc": "2026-07-13T19:37:00.499609+00:00",
+      "size_bytes": 13675,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\manifests\\FINAL_CONTENT_MANIFEST_v1.json",
+      "modified_utc": "2026-07-13T19:36:04.416132+00:00",
+      "size_bytes": 110800,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\manifests\\RECONSTRUCTED_VERIFIER_RUNS_v1.json",
+      "modified_utc": "2026-07-13T19:33:45.201572+00:00",
+      "size_bytes": 6385,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\verification_receipts\\reconstructed_verifiers\\message_9650_call_1_write_file__hermes-verify-fts-writeup__51a0dfacea53.log",
+      "modified_utc": "2026-07-13T19:33:36.946470+00:00",
+      "size_bytes": 700,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\verification_receipts\\reconstructed_verifiers\\message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch__46dd17071da7.log",
+      "modified_utc": "2026-07-13T19:33:36.817800+00:00",
+      "size_bytes": 626,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\manifests\\COPY_RECEIPT_v2.json",
+      "modified_utc": "2026-07-13T19:32:34.948669+00:00",
+      "size_bytes": 39023,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\manifests\\COPY_RECEIPT_v1.json",
+      "modified_utc": "2026-07-13T19:30:43.279467+00:00",
+      "size_bytes": 33132,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\target_free_bifundamental_no_go_sha256_v1.txt",
+      "modified_utc": "2026-07-13T19:21:50.599464+00:00",
+      "size_bytes": 572,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9841_call_1_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.519333+00:00",
+      "size_bytes": 621,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9835_call_4_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.512161+00:00",
+      "size_bytes": 673,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9822_call_1_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.461435+00:00",
+      "size_bytes": 8218,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\recovered_write_file_payloads\\message_9795_call_1_write_file__OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T19:21:25.378083+00:00",
+      "size_bytes": 14746,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9795_call_1_write_file.json",
+      "modified_utc": "2026-07-13T19:21:25.372083+00:00",
+      "size_bytes": 30586,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9776_call_2_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.335708+00:00",
+      "size_bytes": 638,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9772_call_2_skill_view.json",
+      "modified_utc": "2026-07-13T19:21:25.334625+00:00",
+      "size_bytes": 629,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9772_call_3_skill_view.json",
+      "modified_utc": "2026-07-13T19:21:25.334625+00:00",
+      "size_bytes": 667,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9764_call_1_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.329624+00:00",
+      "size_bytes": 744,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9760_call_3_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.328623+00:00",
+      "size_bytes": 973,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9760_call_2_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.328216+00:00",
+      "size_bytes": 777,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9760_call_1_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.327215+00:00",
+      "size_bytes": 773,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9750_call_2_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.321706+00:00",
+      "size_bytes": 1002,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9748_call_1_session_search.json",
+      "modified_utc": "2026-07-13T19:21:25.319705+00:00",
+      "size_bytes": 636,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\recovered_write_file_payloads\\message_9727_call_1_write_file__OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T19:21:25.298951+00:00",
+      "size_bytes": 14746,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9727_call_1_write_file.json",
+      "modified_utc": "2026-07-13T19:21:25.298951+00:00",
+      "size_bytes": 30586,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9708_call_2_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.266896+00:00",
+      "size_bytes": 638,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9704_call_2_skill_view.json",
+      "modified_utc": "2026-07-13T19:21:25.264794+00:00",
+      "size_bytes": 629,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9704_call_3_skill_view.json",
+      "modified_utc": "2026-07-13T19:21:25.264794+00:00",
+      "size_bytes": 667,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9692_call_3_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.261795+00:00",
+      "size_bytes": 973,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9696_call_1_read_file.json",
+      "modified_utc": "2026-07-13T19:21:25.261795+00:00",
+      "size_bytes": 744,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9692_call_2_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.260797+00:00",
+      "size_bytes": 777,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9692_call_1_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.259795+00:00",
+      "size_bytes": 773,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9682_call_2_search_files.json",
+      "modified_utc": "2026-07-13T19:21:25.252708+00:00",
+      "size_bytes": 1002,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9680_call_1_session_search.json",
+      "modified_utc": "2026-07-13T19:21:25.251707+00:00",
+      "size_bytes": 636,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9632_call_1_skill_manage.json",
+      "modified_utc": "2026-07-13T19:21:25.190262+00:00",
+      "size_bytes": 1690,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9620_call_1_skill_manage.json",
+      "modified_utc": "2026-07-13T19:21:25.183260+00:00",
+      "size_bytes": 1528,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9608_call_1_session_search.json",
+      "modified_utc": "2026-07-13T19:21:25.178260+00:00",
+      "size_bytes": 636,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9560_call_1_skill_manage.json",
+      "modified_utc": "2026-07-13T19:21:25.144525+00:00",
+      "size_bytes": 3433,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9548_call_1_skill_manage.json",
+      "modified_utc": "2026-07-13T19:21:25.135525+00:00",
+      "size_bytes": 1683,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9487_call_1_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.089355+00:00",
+      "size_bytes": 4383,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9475_call_3_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.083187+00:00",
+      "size_bytes": 1302,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9475_call_2_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.082187+00:00",
+      "size_bytes": 948,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9438_call_1_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.043191+00:00",
+      "size_bytes": 4383,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9426_call_3_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.035878+00:00",
+      "size_bytes": 1302,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9426_call_2_terminal.json",
+      "modified_utc": "2026-07-13T19:21:25.034780+00:00",
+      "size_bytes": 948,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9403_call_2_terminal.json",
+      "modified_utc": "2026-07-13T19:21:24.996722+00:00",
+      "size_bytes": 792,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\tool_calls\\message_9403_call_1_terminal.json",
+      "modified_utc": "2026-07-13T19:21:24.995721+00:00",
+      "size_bytes": 802,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\session_provenance\\transcript\\20260714_031854_c2a49e_messages_v1.json",
+      "modified_utc": "2026-07-13T19:21:24.913837+00:00",
+      "size_bytes": 3289601,
+      "suffix": ".json",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "doublet mass matrix",
+        "e6",
+        "lambda6",
+        "sterile",
+        "λ6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\TARGET_FREE_ACTION_NUMERICAL_VERIFICATION_PROTOCOL_V1.md",
+      "modified_utc": "2026-07-13T19:19:35.184362+00:00",
+      "size_bytes": 22487,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\action_structural_preflight_v1_run.log",
+      "modified_utc": "2026-07-13T19:17:19.152638+00:00",
+      "size_bytes": 4101,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\action_structural_preflight_v1_results.json",
+      "modified_utc": "2026-07-13T19:17:19.145635+00:00",
+      "size_bytes": 4066,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_jHj89wZhO63KcGtDSvxAuBdP.txt",
+      "modified_utc": "2026-07-13T19:16:00.959270+00:00",
+      "size_bytes": 152840,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\single_channel_target_free_no_go_v1_results.json",
+      "modified_utc": "2026-07-13T19:13:34.583695+00:00",
+      "size_bytes": 7223,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\single_channel_target_free_no_go_v1.py",
+      "modified_utc": "2026-07-13T19:13:21.945834+00:00",
+      "size_bytes": 8400,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_qkhAOtganIDuEzVeVzE3RjGk.txt",
+      "modified_utc": "2026-07-13T19:10:43.018486+00:00",
+      "size_bytes": 344327,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "351'",
+        "doublet mass matrix",
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\workflow_snapshot\\verified-algebra-workflow\\SKILL.md",
+      "modified_utc": "2026-07-13T19:04:15.428837+00:00",
+      "size_bytes": 53482,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T18:56:56.570960+00:00",
+      "size_bytes": 14406,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\octonionic_hierarchy\\OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T18:56:56.570960+00:00",
+      "size_bytes": 14406,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\surviving_generated_or_modified_files\\D\\Projects\\ToE_21st_June_NEWEST\\OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T18:56:56.570960+00:00",
+      "size_bytes": 14406,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\ToE_21st_June_NEWEST\\OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "modified_utc": "2026-07-13T18:56:56.570960+00:00",
+      "size_bytes": 14406,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_tsakCO9rqtzsuyk5ccwA5f1x.txt",
+      "modified_utc": "2026-07-13T18:45:36.837599+00:00",
+      "size_bytes": 210849,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "doublet mass matrix",
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_CIqD9w3WCQ8Av7xX4444LqQV.txt",
+      "modified_utc": "2026-07-13T18:45:36.564544+00:00",
+      "size_bytes": 421134,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "351'",
+        "doublet mass matrix",
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\codex-review-objects-b6eb12a5-a56c-464a-859e-72e3a4a345c8\\95\\59c92c15a2652e6952e44357d1612840cfdd6a",
+      "modified_utc": "2026-07-13T14:45:31.505111+00:00",
+      "size_bytes": 326,
+      "suffix": "",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-pdg2026-ckm.txt",
+      "modified_utc": "2026-07-13T14:39:48.768378+00:00",
+      "size_bytes": 74363,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_r7Qb0HNPQsrKrG4n8EfqGp80.txt",
+      "modified_utc": "2026-07-13T14:25:55.833571+00:00",
+      "size_bytes": 135598,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_bjrinitC26DmQPb7Soj7LFmK.txt",
+      "modified_utc": "2026-07-13T14:25:55.541919+00:00",
+      "size_bytes": 323544,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_YR7SBktdL9TMBJGERlJHyYBE.txt",
+      "modified_utc": "2026-07-13T14:25:55.333391+00:00",
+      "size_bytes": 308970,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_d2u28tOWmq3QlDZrQNb8DJCu.txt",
+      "modified_utc": "2026-07-13T14:25:08.712008+00:00",
+      "size_bytes": 455025,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "351'",
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_qFB5paLMafuRM0xS7ghzgcFk.txt",
+      "modified_utc": "2026-07-13T14:25:08.500282+00:00",
+      "size_bytes": 135878,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "351'",
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\results\\rg_selector_audit.json",
+      "modified_utc": "2026-07-13T14:24:39.316088+00:00",
+      "size_bytes": 1363,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\results\\rg_selector_audit_run.txt",
+      "modified_utc": "2026-07-13T14:24:39.316088+00:00",
+      "size_bytes": 1430,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\results\\C_boundary_audit_run.txt",
+      "modified_utc": "2026-07-13T14:24:39.208445+00:00",
+      "size_bytes": 2383,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\results\\C_boundary_audit.json",
+      "modified_utc": "2026-07-13T14:24:39.207448+00:00",
+      "size_bytes": 2308,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\e6_pivot_gate.md",
+      "modified_utc": "2026-07-13T14:24:27.370499+00:00",
+      "size_bytes": 14914,
+      "suffix": ".md",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "351'",
+        "doublet mass matrix",
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\scripts\\audit_C_boundary.py",
+      "modified_utc": "2026-07-13T14:24:13.075259+00:00",
+      "size_bytes": 3847,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\hep-ph-9810350.txt",
+      "modified_utc": "2026-07-13T14:21:31.328882+00:00",
+      "size_bytes": 60712,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1504.00904.txt",
+      "modified_utc": "2026-07-13T14:21:29.050541+00:00",
+      "size_bytes": 106362,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "1504.00904",
+        "doublet mass matrix",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "mdoublets",
+        "neutrino",
+        "null-eigenvector",
+        "sterile",
+        "y351"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1504.00904.pdf",
+      "modified_utc": "2026-07-13T14:21:28.644761+00:00",
+      "size_bytes": 537407,
+      "suffix": ".pdf",
+      "keyword_hits": [
+        "1504.00904"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1311.0775.txt",
+      "modified_utc": "2026-07-13T14:21:26.931529+00:00",
+      "size_bytes": 118932,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "1311.0775",
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "mdoublets",
+        "neutrino",
+        "null eigenvector",
+        "y351"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1311.0775.pdf",
+      "modified_utc": "2026-07-13T14:21:26.587644+00:00",
+      "size_bytes": 378026,
+      "suffix": ".pdf",
+      "keyword_hits": [
+        "1311.0775"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\scripts\\audit_rg_selector.py",
+      "modified_utc": "2026-07-13T14:13:47.876172+00:00",
+      "size_bytes": 2743,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\haber-oneil.txt",
+      "modified_utc": "2026-07-13T14:13:47.643426+00:00",
+      "size_bytes": 105117,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "λ6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\e6-model.txt",
+      "modified_utc": "2026-07-13T14:13:47.473321+00:00",
+      "size_bytes": 25873,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "mdoublets",
+        "neutrino",
+        "y351",
+        "λ6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\2hdm-review.txt",
+      "modified_utc": "2026-07-13T14:13:47.423607+00:00",
+      "size_bytes": 440284,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino",
+        "λ6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\e6-model.pdf",
+      "modified_utc": "2026-07-13T14:13:46.819191+00:00",
+      "size_bytes": 82794,
+      "suffix": ".pdf",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1106.0034.txt",
+      "modified_utc": "2026-07-13T14:12:31.075846+00:00",
+      "size_bytes": 533447,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1705.01411.txt",
+      "modified_utc": "2026-07-13T14:04:56.791584+00:00",
+      "size_bytes": 111501,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\e6_pivot_gate\\sources\\1310.4422.txt",
+      "modified_utc": "2026-07-13T14:04:54.130550+00:00",
+      "size_bytes": 35467,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "ew vev",
+        "f1y351",
+        "f3y351",
+        "mdoublets",
+        "neutrino",
+        "y351"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\sources\\arxiv_abstracts.json",
+      "modified_utc": "2026-07-13T13:39:55.735546+00:00",
+      "size_bytes": 33744,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\first_candidate_gate.md",
+      "modified_utc": "2026-07-13T13:37:50.305780+00:00",
+      "size_bytes": 8880,
+      "suffix": ".md",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\sources\\hep-th-0107143.txt",
+      "modified_utc": "2026-07-13T13:27:10.935507+00:00",
+      "size_bytes": 29390,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\sources\\1811.00063.txt",
+      "modified_utc": "2026-07-13T13:20:49.893774+00:00",
+      "size_bytes": 99015,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\sources\\1708.07215.txt",
+      "modified_utc": "2026-07-13T13:05:05.743049+00:00",
+      "size_bytes": 118874,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\sources\\2002.11820.txt",
+      "modified_utc": "2026-07-13T12:55:24.757416+00:00",
+      "size_bytes": 95237,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-theorem.txt",
+      "modified_utc": "2026-07-13T12:49:05.538628+00:00",
+      "size_bytes": 18486,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_hZtBehRvR6K1OtvrQ22Eq6Mi.txt",
+      "modified_utc": "2026-07-13T12:48:34.567044+00:00",
+      "size_bytes": 183930,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_RdmUN171ukS9hkxkoBt4GLH7.txt",
+      "modified_utc": "2026-07-13T12:48:24.883003+00:00",
+      "size_bytes": 387076,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\g2_sm_flux_search\\README.md",
+      "modified_utc": "2026-07-13T12:46:17.985113+00:00",
+      "size_bytes": 4336,
+      "suffix": ".md",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\vscode-inno-updater-1783942061.log",
+      "modified_utc": "2026-07-13T11:27:41.911742+00:00",
+      "size_bytes": 2141,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\g2_invariant_trace_extremum_gate_v2.py",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 14366,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\g2_invariant_trace_extremum_gate_v2_results.json",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 6417,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\pasted_content_2.txt",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 3292,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\pasted_content_3.txt",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 6656,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\pasted_content_4.txt",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 6656,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\output\\Research Handoff_ G2-Invariant Trace Extremum Gate.md",
+      "modified_utc": "2026-07-13T11:02:00+00:00",
+      "size_bytes": 7167,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_OiMM0aoremSklBwCUDnrwx3d.txt",
+      "modified_utc": "2026-07-13T04:16:08.045674+00:00",
+      "size_bytes": 189631,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_UtbhR9B3a5eJdfReJ727FIdI.txt",
+      "modified_utc": "2026-07-13T04:15:16.768465+00:00",
+      "size_bytes": 154843,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\a67cd9f2-c445-43e7-9fc2-0332a5af1e66.tmp",
+      "modified_utc": "2026-07-12T23:50:35.091464+00:00",
+      "size_bytes": 0,
+      "suffix": ".tmp",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\dd_BackgroundDownload_20260713094227.log",
+      "modified_utc": "2026-07-12T23:42:31.857290+00:00",
+      "size_bytes": 3371,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\dd_BackgroundDownload_20260713051544.log",
+      "modified_utc": "2026-07-12T19:15:49.485470+00:00",
+      "size_bytes": 3370,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-connelly.txt",
+      "modified_utc": "2026-07-12T18:57:17.582561+00:00",
+      "size_bytes": 25966,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-paper.txt",
+      "modified_utc": "2026-07-12T18:57:17.194731+00:00",
+      "size_bytes": 21418,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-toee.txt",
+      "modified_utc": "2026-07-12T18:57:16.809516+00:00",
+      "size_bytes": 21412,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-theroym.txt",
+      "modified_utc": "2026-07-12T18:57:16.389230+00:00",
+      "size_bytes": 18486,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_XyrPeu8JOhBEnR40Em56b1gR.txt",
+      "modified_utc": "2026-07-12T18:56:41.560729+00:00",
+      "size_bytes": 222921,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6",
+        "λ6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_aVNSwTUIhQ4t4ckyJqTHbSDN.txt",
+      "modified_utc": "2026-07-12T18:56:41.385191+00:00",
+      "size_bytes": 231731,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_ho5woNe4R6Hh4gRY8G9qSObp.txt",
+      "modified_utc": "2026-07-12T18:56:41.215702+00:00",
+      "size_bytes": 240491,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\chat_artifacts_v1\\persisted_tool_outputs\\call_hTmGCAggj6QbOVFrJhPtNbt1.txt",
+      "modified_utc": "2026-07-12T18:56:41.047296+00:00",
+      "size_bytes": 241648,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\Desktop\\lead_up_to_missing_gate_c.txt",
+      "modified_utc": "2026-07-12T15:13:17.675748+00:00",
+      "size_bytes": 124415,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\Desktop\\glm_chat.txt",
+      "modified_utc": "2026-07-12T14:19:58.766550+00:00",
+      "size_bytes": 459453,
+      "suffix": ".txt",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\Downloads\\flavor-higgs-lagrangian-framework-20260712.json",
+      "modified_utc": "2026-07-12T13:50:37.120389+00:00",
+      "size_bytes": 637478,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6",
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\Downloads\\su-3-reduction-of-octonions-20260711.json",
+      "modified_utc": "2026-07-12T13:50:11.226453+00:00",
+      "size_bytes": 528082,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\Downloads\\higgs-wedge-frame-optimization-output-search-20260712.json",
+      "modified_utc": "2026-07-12T13:49:57.294676+00:00",
+      "size_bytes": 395954,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\ToE_21st_June_NEWEST\\gate_c_fit_scan.py",
+      "modified_utc": "2026-07-11T22:01:03.470373+00:00",
+      "size_bytes": 14467,
+      "suffix": ".py",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\make_flavor_paper_figures.py",
+      "modified_utc": "2026-07-11T21:33:37.877979+00:00",
+      "size_bytes": 7082,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\brief_gate_c_multisector_unification_handoff.md",
+      "modified_utc": "2026-07-11T21:15:44.306983+00:00",
+      "size_bytes": 12648,
+      "suffix": ".md",
+      "keyword_hits": [
+        "neutrino"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\vscode-inno-updater-1783741618.log",
+      "modified_utc": "2026-07-11T03:46:58.052936+00:00",
+      "size_bytes": 2141,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\codex-review-objects-06220319-03b8-4cd3-8a63-4d7bbf48e8e2\\95\\59c92c15a2652e6952e44357d1612840cfdd6a",
+      "modified_utc": "2026-07-10T14:43:16.061397+00:00",
+      "size_bytes": 326,
+      "suffix": "",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\vscode-inno-updater-1783688338.log",
+      "modified_utc": "2026-07-10T12:58:58.139160+00:00",
+      "size_bytes": 2141,
+      "suffix": ".log",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\Hyper_context\\data\\gpt2-tokenizer\\vocab.json",
+      "modified_utc": "2026-07-10T09:36:36.675231+00:00",
+      "size_bytes": 1042301,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6",
+        "sterile"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\unleash-repo-schema-v1-codeium-language-server.json",
+      "modified_utc": "2026-07-09T21:29:20.486214+00:00",
+      "size_bytes": 463641,
+      "suffix": ".json",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal\\claude_handoff_g2wave_hyperfanomem.md",
+      "modified_utc": "2026-07-09T16:41:07.172191+00:00",
+      "size_bytes": 13657,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\node-compile-cache\\v24.15.0-x64-cf738c9d\\d21e673c",
+      "modified_utc": "2026-07-09T13:37:41.480941+00:00",
+      "size_bytes": 2372,
+      "suffix": "",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\non_associative_ai_claude\\EQUATIONS.md",
+      "modified_utc": "2026-07-09T00:41:46.751064+00:00",
+      "size_bytes": 11423,
+      "suffix": ".md",
+      "keyword_hits": [
+        "e6"
+      ]
+    },
+    {
+      "path": "D:\\Projects\\non_associative_ai_claude\\make_ladder_figure.py",
+      "modified_utc": "2026-07-09T00:17:39.978920+00:00",
+      "size_bytes": 3210,
+      "suffix": ".py",
+      "keyword_hits": [
+        "e6"
+      ]
+    }
+  ]
+}

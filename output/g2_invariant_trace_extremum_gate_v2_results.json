@@ -1,0 +1,169 @@
+{
+  "source_sha256": "a9a4e352fd174835be088fe053fc0191b5d31f648033e2ca94975c80324e66d7",
+  "source_sha256_verified": true,
+  "joint_fit_objective": 1.0265501502469025e-21,
+  "seed": 20260714,
+  "fd_steps": [
+    1e-06,
+    3e-06
+  ],
+  "n_random_value": 512,
+  "n_random_gradient": 64,
+  "n_local_directions": 512,
+  "local_step": 0.001,
+  "orthonormality_residuals": {
+    "L_d": 4.440892098500626e-16,
+    "R_d": 3.3306690738754696e-16,
+    "L_u": 1.1102230246251565e-16,
+    "R_u": 3.3306690738754696e-16
+  },
+  "energies": {
+    "Tr(P_X h h^T)": {
+      "archived_value": 2.188995772946847,
+      "gradient_norm_step1": 1.4886792157417634,
+      "gradient_norm_step2": 1.488679215847248,
+      "gradient_relative_disagreement": 8.259854263602744e-10,
+      "random_value_percentile": 82.6171875,
+      "random_gradient_median": 1.7715003529083138,
+      "gradient_to_median_ratio": 0.8403493757693944,
+      "gradient_rank_in_random": 3,
+      "fraction_increasing": 0.50390625
+    },
+    "||phi(X,X,X)||^2/6": {
+      "archived_value": 0.8790949634536099,
+      "gradient_norm_step1": 2.4985641495263855,
+      "gradient_norm_step2": 2.4985641496088458,
+      "gradient_relative_disagreement": 2.86344658280816e-10,
+      "random_value_percentile": 59.9609375,
+      "random_gradient_median": 2.2801819208600325,
+      "gradient_to_median_ratio": 1.0957740374434617,
+      "gradient_rank_in_random": 42,
+      "fraction_increasing": 0.51171875
+    },
+    "||phi(X,X,h)||^2/2": {
+      "archived_value": 2.0521324540093357,
+      "gradient_norm_step1": 2.4156644823973963,
+      "gradient_norm_step2": 2.4156644820369864,
+      "gradient_relative_disagreement": 4.726839341968045e-10,
+      "random_value_percentile": 72.0703125,
+      "random_gradient_median": 2.240707755833202,
+      "gradient_to_median_ratio": 1.0780810108363004,
+      "gradient_rank_in_random": 58,
+      "fraction_increasing": 0.484375
+    },
+    "||[X,X,h]||^2/2": {
+      "archived_value": 22.279504000387874,
+      "gradient_norm_step1": 12.252013537603608,
+      "gradient_norm_step2": 12.25201353849491,
+      "gradient_relative_disagreement": 1.0477325025950852e-09,
+      "random_value_percentile": 7.421875,
+      "random_gradient_median": 13.793679683427055,
+      "gradient_to_median_ratio": 0.8882338736866754,
+      "gradient_rank_in_random": 9,
+      "fraction_increasing": 0.46484375
+    },
+    "Tr(P_X P_Y)": {
+      "archived_value": 2.5879968706809366,
+      "gradient_norm_step1": 2.3484324454428736,
+      "gradient_norm_step2": 2.3484324455271595,
+      "gradient_relative_disagreement": 6.48203053788202e-10,
+      "random_value_percentile": 49.8046875,
+      "random_gradient_median": 2.488493068144268,
+      "gradient_to_median_ratio": 0.9437166916418854,
+      "gradient_rank_in_random": 18,
+      "fraction_increasing": 0.498046875
+    },
+    "Tr(P_X P_Y P_X P_Y)": {
+      "archived_value": 1.8986050017763627,
+      "gradient_norm_step1": 2.5888383135438393,
+      "gradient_norm_step2": 2.5888383135027753,
+      "gradient_relative_disagreement": 8.178187330144373e-10,
+      "random_value_percentile": 56.8359375,
+      "random_gradient_median": 2.744295647310996,
+      "gradient_to_median_ratio": 0.9433525560850261,
+      "gradient_rank_in_random": 21,
+      "fraction_increasing": 0.484375
+    },
+    "det(X^T Y)^2": {
+      "archived_value": 0.016320658166844814,
+      "gradient_norm_step1": 0.19608119932076384,
+      "gradient_norm_step2": 0.19608119931806206,
+      "gradient_relative_disagreement": 2.3492165312613284e-10,
+      "random_value_percentile": 34.1796875,
+      "random_gradient_median": 0.24248545242259978,
+      "gradient_to_median_ratio": 0.8086307750084597,
+      "gradient_rank_in_random": 25,
+      "fraction_increasing": 0.5234375
+    },
+    "||phi(X,X,Y)||^2/2": {
+      "archived_value": 2.801726224555029,
+      "gradient_norm_step1": 2.4578344917529087,
+      "gradient_norm_step2": 2.457834491812557,
+      "gradient_relative_disagreement": 1.133577614919406e-09,
+      "random_value_percentile": 69.921875,
+      "random_gradient_median": 2.7846770725109673,
+      "gradient_to_median_ratio": 0.8826281926962031,
+      "gradient_rank_in_random": 13,
+      "fraction_increasing": 0.48828125
+    },
+    "||phi(X,Y,Y)||^2/2": {
+      "archived_value": 2.641716338893585,
+      "gradient_norm_step1": 2.201717527475104,
+      "gradient_norm_step2": 2.2017175278164034,
+      "gradient_relative_disagreement": 1.1113924756311779e-09,
+      "random_value_percentile": 54.8828125,
+      "random_gradient_median": 2.7871436286367137,
+      "gradient_to_median_ratio": 0.7899548142598014,
+      "gradient_rank_in_random": 5,
+      "fraction_increasing": 0.4921875
+    },
+    "||psi(X,X,Y,Y)||^2/4": {
+      "archived_value": 1.2370723252002462,
+      "gradient_norm_step1": 2.6217437745029155,
+      "gradient_norm_step2": 2.621743774342793,
+      "gradient_relative_disagreement": 6.753386831332219e-10,
+      "random_value_percentile": 15.8203125,
+      "random_gradient_median": 2.5789376027396194,
+      "gradient_to_median_ratio": 1.0165983743529983,
+      "gradient_rank_in_random": 35,
+      "fraction_increasing": 0.4453125
+    },
+    "||[X,X,Y]||^2/2": {
+      "archived_value": 40.08912013633238,
+      "gradient_norm_step1": 15.937933850554124,
+      "gradient_norm_step2": 15.937933851900054,
+      "gradient_relative_disagreement": 2.134194066529429e-09,
+      "random_value_percentile": 40.234375,
+      "random_gradient_median": 18.39331929413105,
+      "gradient_to_median_ratio": 0.8665066699320338,
+      "gradient_rank_in_random": 11,
+      "fraction_increasing": 0.509765625
+    },
+    "||[Y,Y,X]||^2/2": {
+      "archived_value": 40.72915967897815,
+      "gradient_norm_step1": 20.573335318873134,
+      "gradient_norm_step2": 20.57333531439565,
+      "gradient_relative_disagreement": 1.70270054394206e-09,
+      "random_value_percentile": 41.40625,
+      "random_gradient_median": 18.02167205241986,
+      "gradient_to_median_ratio": 1.1415885972750597,
+      "gradient_rank_in_random": 53,
+      "fraction_increasing": 0.48828125
+    }
+  },
+  "max_gradient_disagreement": 2.134194066529429e-09,
+  "verdict": "NEGATIVE",
+  "all_gradients_nonzero": true,
+  "gradient_ratio_range": [
+    0.7899548142598014,
+    1.1415885972750597
+  ],
+  "fraction_increasing_range": [
+    0.4453125,
+    0.5234375
+  ],
+  "percentile_range": [
+    7.421875,
+    82.6171875
+  ]
+}

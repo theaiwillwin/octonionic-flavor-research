@@ -1,0 +1,18 @@
+{
+  "schema": "verify_g2_invariant_trace_extremum_report_v1",
+  "checks": {
+    "negative_absolute_verdict_matches": false,
+    "negative_relative_verdict_matches": false,
+    "no_recognizable_extrema_matches": true,
+    "independent_verifier_passed": true,
+    "identity_verifier_passed": true,
+    "source_hash_present": true,
+    "all_relative_ratios_present": true,
+    "identity_constants_present": true,
+    "claim_boundary_present": true,
+    "target_fit_warning_present": true,
+    "markdown_fences_balanced": true,
+    "no_hidden_control_characters": true
+  },
+  "all_pass": false
+}

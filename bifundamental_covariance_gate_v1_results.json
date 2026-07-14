@@ -1,0 +1,195 @@
+{
+  "status": "TARGET_FREE_OPERATOR_COVARIANCE_GATE",
+  "seed": 2026071402,
+  "algebra_identity_gate": {
+    "A_sign_vs_2Phi": "-",
+    "pass": true
+  },
+  "basis_changes": {
+    "O_L": [
+      [
+        0.6597992866598006,
+        0.7066827419132852,
+        0.25546898756040687
+      ],
+      [
+        -0.7476822959573162,
+        0.5834289646123753,
+        0.31714638191744826
+      ],
+      [
+        0.07507386785836033,
+        -0.40026259572092515,
+        0.9133201896550479
+      ]
+    ],
+    "O_R": [
+      [
+        -0.5281012077405285,
+        -0.01127473654939691,
+        0.8491065861826399
+      ],
+      [
+        -0.31476216144196034,
+        -0.9260856207329565,
+        -0.20806298276252763
+      ],
+      [
+        0.788691255249721,
+        -0.37714493684443956,
+        0.48551807433423455
+      ]
+    ],
+    "O_L_orthogonality_max_abs": 2.220446049250313e-16,
+    "O_R_orthogonality_max_abs": 7.471103600864923e-17
+  },
+  "squared_pair_energy": {
+    "definition": "S_ab = ||[l_a,r_b,H]||^2",
+    "matrix": [
+      [
+        3.0752032567041727,
+        3.0093526955399357,
+        1.528969968075998
+      ],
+      [
+        1.7199587358946395,
+        3.1333782594685613,
+        1.1058456666650427
+      ],
+      [
+        2.904524445503121,
+        1.3984466922072998,
+        2.467529756682778
+      ]
+    ],
+    "directly_rotated_matrix": [
+      [
+        0.5706033146856956,
+        3.079828998656769,
+        2.232116999867967
+      ],
+      [
+        2.590353505953308,
+        2.682697299177276,
+        2.3328728405624437
+      ],
+      [
+        2.455521152746459,
+        0.7792121120978536,
+        3.620003252993773
+      ]
+    ],
+    "bifundamental_prediction": [
+      [
+        -0.13852552691551684,
+        0.08423513533040904,
+        1.046844234012007
+      ],
+      [
+        -1.5501987089170184,
+        -3.4451234866474376,
+        1.3621254017663154
+      ],
+      [
+        -0.6985816684629539,
+        -3.989535590278183,
+        4.204367087278974
+      ]
+    ],
+    "covariance_residual_frobenius": 9.977415948087446,
+    "singular_values": [
+      6.922027978000545,
+      1.7906371419200149,
+      0.45804551235442276
+    ],
+    "rotated_singular_values": [
+      6.890400191374273,
+      2.2929053232855594,
+      1.0716914014386263
+    ],
+    "singular_value_change_l2": 0.7936213959370495
+  },
+  "signed_associator_bilinear": {
+    "definition": "Y_ab = <[l_a,V,H],r_b>",
+    "matrix": [
+      [
+        0.5324032471618652,
+        0.9774790698451234,
+        -0.35876065320184847
+      ],
+      [
+        -0.2644943990617885,
+        0.05507818236616022,
+        -0.4007793021607064
+      ],
+      [
+        0.7569042625733049,
+        -0.1077947142534843,
+        0.3546971190325893
+      ]
+    ],
+    "directly_rotated_matrix": [
+      [
+        -0.43680280391581894,
+        -0.592251449894682,
+        0.43399407268378926
+      ],
+      [
+        -0.6946744341479952,
+        -0.47116444394719303,
+        -0.5337429266763709
+      ],
+      [
+        -0.36274853209150415,
+        -0.20431594770371125,
+        0.6472137703635359
+      ]
+    ],
+    "bifundamental_prediction": [
+      [
+        -0.43680280391581877,
+        -0.592251449894682,
+        0.43399407268378926
+      ],
+      [
+        -0.6946744341479956,
+        -0.47116444394719265,
+        -0.533742926676371
+      ],
+      [
+        -0.3627485320915041,
+        -0.20431594770371128,
+        0.6472137703635358
+      ]
+    ],
+    "covariance_residual_frobenius": 5.640599496620651e-16,
+    "singular_values": [
+      1.1873907478413108,
+      0.9298217915069983,
+      0.1926425590570771
+    ],
+    "rotated_singular_values": [
+      1.1873907478413106,
+      0.9298217915069986,
+      0.19264255905707664
+    ],
+    "singular_value_change_l2": 6.187688364358555e-16,
+    "rank": 3,
+    "diagonal_min_abs": 0.05507818236616022,
+    "symmetry_residual_frobenius": 2.3971008616707863
+  },
+  "claim_boundary": {
+    "proved_by_algebra": "The signed contraction is bilinear in L and R, so it transforms as O_L^T Y O_R. Complete octonion contractions remain invariant under simultaneous G2 action on matter and vacuum vectors.",
+    "numerically_demonstrated": "The squared pair-energy table fails the bifundamental covariance test, while the signed bilinear passes to floating-point precision.",
+    "not_claimed": "No hierarchy, vacuum selection, Standard Model mass, CKM, or CP derivation is claimed."
+  },
+  "checks": {
+    "basis_changes_are_orthogonal": true,
+    "squared_operator_fails_bifundamental_covariance": true,
+    "squared_operator_singular_values_are_basis_dependent": true,
+    "signed_operator_passes_bifundamental_covariance": true,
+    "signed_operator_singular_values_are_basis_invariant": true,
+    "signed_operator_is_full_rank": true
+  },
+  "all_pass": true
+}

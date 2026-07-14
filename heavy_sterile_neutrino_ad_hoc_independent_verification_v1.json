@@ -1,0 +1,55 @@
+{
+  "schema": "heavy-sterile-neutrino-independent-verification/v1",
+  "status": "PASS",
+  "primary_pdf_sha256": "95e049a617565f13856abedb30c593451664300dc0f5cdbb1280f0a7d9be0c3a",
+  "input_sha256": "473fa77ae07e9a643522b4c90371cfa56e962d1fdc89b497dea066af4652cb79",
+  "result_sha256": "dde9c2937272d98a3c6b3314362c14afbb605fd705efdaf5e5292cb992b883cb",
+  "source_checks": {
+    "nu_c_in_16": true,
+    "s_is_sterile_SO10_singlet": true,
+    "nu_c_majorana_entry_f1Y351prime": true,
+    "s_majorana_entry_f3Y351prime": true,
+    "fit_point_1_f1": true,
+    "fit_point_1_f3": true,
+    "fit_y351_11": true,
+    "fit_y351_22": true
+  },
+  "independently_computed": {
+    "point_1": {
+      "nu_c_physical_masses_GeV": [
+        "149556000000.0000",
+        "152852000000.0000"
+      ],
+      "s_physical_masses_GeV": [
+        "6.6792E+15",
+        "6.8264E+15"
+      ]
+    },
+    "point_2": {
+      "nu_c_physical_masses_GeV": [
+        "1584240000000.0000",
+        "4046160000000.0000"
+      ],
+      "s_physical_masses_GeV": [
+        "3.9606E+15",
+        "1.01154E+16"
+      ]
+    }
+  },
+  "arithmetic_checks": [
+    "point_1.nu_c[0] relative_error=0",
+    "point_1.nu_c[1] relative_error=0",
+    "point_1.s[0] relative_error=0E-12",
+    "point_1.s[1] relative_error=0E-12",
+    "point_2.nu_c[0] relative_error=1.2624349845982931879008231076099580871585113366662E-16",
+    "point_2.nu_c[1] relative_error=0",
+    "point_2.s[0] relative_error=1.2624349845982931879008231076099580871585113366662E-16",
+    "point_2.s[1] relative_error=0"
+  ],
+  "local_F4_26_branching_dimension_check": {
+    "claimed_F4_26_lhs": 26,
+    "claimed_rhs_16_plus_10_plus_1": 27,
+    "equal": false
+  },
+  "scope_limit": "The heavy nu_c and s Majorana subblocks are verified. Exact full neutral-fermion mixing is not verified because the benchmark table omits the needed EW VEV composition."
+}

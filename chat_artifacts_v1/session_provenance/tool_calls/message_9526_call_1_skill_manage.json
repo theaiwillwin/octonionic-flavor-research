@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9526,
+  "call_index": 1,
+  "tool_name": "skill_manage",
+  "call": {
+    "id": "call_IGC5u4RqzqxYe2gUscUECSID",
+    "call_id": "call_IGC5u4RqzqxYe2gUscUECSID",
+    "response_item_id": "fc_071f367ba0e10612016a552d09a7948191969a192dbd10640c",
+    "type": "function",
+    "function": {
+      "name": "skill_manage",
+      "arguments": "{\"action\":\"patch\",\"name\":\"verified-algebra-workflow\",\"new_string\":\"  - **After recovery, switch from provenance gate to derivation gate.** Do not keep searching for the historical quark `Q_star` or generator; they are locked and rerunnable. The open scientific task is stronger: find a CKM-independent selector for `Q,r,s`. Freeze the diagnostic lock, prohibit CKM magnitudes/Jarlskog/angles or distance-to-`Q_star` in candidate objectives, test stationarity/Hessian and multiple starts, then score CKM only afterward. A failed selector remains a negative derivation gate; never relabel the recovered fit as a prediction.\",\"old_string\":\"  - **Re-derivation, not recovery, is the only forward move.** Once a frame `Q` / generator is confirmed never-checkpointed and the faithful code is unrecoverable, STOP searching and switch to: rebuild the missing object from the locked algebra conventions + published fit coefficients, run it with a DOCUMENTED seeded frame, and checkpoint `Q` this time. Do not re-fit to CKM to \\\"recover\\\" the number — that is circular (`locked-jordan-gap-decision.md`).\"}"
+    }
+  },
+  "parsed_arguments": {
+    "action": "patch",
+    "name": "verified-algebra-workflow",
+    "new_string": "  - **After recovery, switch from provenance gate to derivation gate.** Do not keep searching for the historical quark `Q_star` or generator; they are locked and rerunnable. The open scientific task is stronger: find a CKM-independent selector for `Q,r,s`. Freeze the diagnostic lock, prohibit CKM magnitudes/Jarlskog/angles or distance-to-`Q_star` in candidate objectives, test stationarity/Hessian and multiple starts, then score CKM only afterward. A failed selector remains a negative derivation gate; never relabel the recovered fit as a prediction.",
+    "old_string": "  - **Re-derivation, not recovery, is the only forward move.** Once a frame `Q` / generator is confirmed never-checkpointed and the faithful code is unrecoverable, STOP searching and switch to: rebuild the missing object from the locked algebra conventions + published fit coefficients, run it with a DOCUMENTED seeded frame, and checkpoint `Q` this time. Do not re-fit to CKM to \"recover\" the number — that is circular (`locked-jordan-gap-decision.md`)."
+  }
+}

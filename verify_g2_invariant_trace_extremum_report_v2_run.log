@@ -1,0 +1,21 @@
+{
+  "schema": "verify_g2_invariant_trace_extremum_report_v2",
+  "v1_failure_explanation": "v1 compared machine enum strings against a human-readable report; the report was not defective",
+  "checks": {
+    "machine_absolute_verdict_is_negative": true,
+    "machine_relative_verdict_is_negative": true,
+    "human_negative_verdict_present": true,
+    "human_no_stationary_statement_present": true,
+    "no_recognizable_extrema_matches": true,
+    "independent_verifier_passed": true,
+    "identity_verifier_passed": true,
+    "source_hash_present": true,
+    "all_relative_ratios_present": true,
+    "identity_constants_present": true,
+    "claim_boundary_present": true,
+    "target_fit_warning_present": true,
+    "markdown_fences_balanced": true,
+    "no_hidden_control_characters": true
+  },
+  "all_pass": true
+}

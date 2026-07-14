@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9506,
+  "call_index": 1,
+  "tool_name": "close_terminal",
+  "call": {
+    "id": "call_Y2yT1FzU50KfF587fuI1y4JQ",
+    "call_id": "call_Y2yT1FzU50KfF587fuI1y4JQ",
+    "response_item_id": "fc_071f367ba0e10612016a552bd4e1c88191849ba983192f025e",
+    "type": "function",
+    "function": {
+      "name": "close_terminal",
+      "arguments": "{\"process_id\":\"proc_1a5a78e83baa\"}"
+    }
+  },
+  "parsed_arguments": {
+    "process_id": "proc_1a5a78e83baa"
+  }
+}

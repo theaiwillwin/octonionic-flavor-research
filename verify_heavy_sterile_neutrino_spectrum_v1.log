@@ -1,0 +1,6 @@
+PASS
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_independent_verification_v1.json
+OUTPUT_SHA256 54fe5f7934dffe062a81dac4add6af43e5f7e74dfb199ff5852a1cd4741447dc
+point_1 {'nu_c_physical_masses_GeV': ['149556000000.0000', '152852000000.0000'], 's_physical_masses_GeV': ['6.6792E+15', '6.8264E+15']}
+point_2 {'nu_c_physical_masses_GeV': ['1584240000000.0000', '4046160000000.0000'], 's_physical_masses_GeV': ['3.9606E+15', '1.01154E+16']}
+FULL_MIXING_STATUS BLOCKED_BY_MISSING_EW_VEV_COMPOSITION

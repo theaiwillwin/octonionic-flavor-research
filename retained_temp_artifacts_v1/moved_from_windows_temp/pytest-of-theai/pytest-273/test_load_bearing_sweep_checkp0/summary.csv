@@ -1,0 +1,2 @@
+teacher_type,noise,n_train,model,test_mse_mean,test_mse_std,train_mse_mean,params,repeats,wins,win_rate
+random_associator,0.0,8,AssociatorEnergy,0.2,0.0,0.1,31,1,1,1.0

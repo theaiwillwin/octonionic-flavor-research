@@ -1,0 +1,25 @@
+{
+  "schema": "pmns_held_out_benchmark_nufit60_v1",
+  "status": "external_benchmark_frozen_after_shared_link_structural_gate",
+  "ordering": "normal",
+  "analysis_variant": "NuFIT 6.0 IC24 including Super-Kamiokande and IceCube atmospheric tabulated chi-square data",
+  "best_fit": {
+    "theta12_deg": 33.68,
+    "theta23_deg": 43.3,
+    "theta13_deg": 8.56,
+    "delta_cp_deg": 212.0
+  },
+  "three_sigma_ranges_deg": {
+    "theta12": [31.63, 35.95],
+    "theta23": [41.3, 49.9],
+    "theta13": [8.19, 8.89],
+    "delta_cp": [124.0, 364.0]
+  },
+  "source": {
+    "parameter_table": "https://www.nu-fit.org/sites/default/files/v60.tbl-parameters.pdf",
+    "release_page": "https://www.nu-fit.org/?q=node/294",
+    "paper": "https://arxiv.org/abs/2410.05380",
+    "citation": "I. Esteban et al., NuFit-6.0: updated global analysis of three-flavor neutrino oscillations, JHEP 12 (2024) 216"
+  },
+  "claim_boundary": "This benchmark was created only after shared_lepton_link_structural_gate_v1_results.json and its degeneracy-aware verification existed. It was not read by any vacuum, link, Jordan, or Yukawa construction."
+}

@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9374,
+  "call_index": 2,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_m5Vpc42WPNNeLNEfFyIy1tqO",
+    "call_id": "call_m5Vpc42WPNNeLNEfFyIy1tqO",
+    "response_item_id": "fc_08b2fa3ea771ea86016a551e0c4adc81919e94a8efd5a0d897",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"query\":\"\\\"6.13\\\" AND Freudenthal\",\"limit\":10,\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "query": "\"6.13\" AND Freudenthal",
+    "limit": 10,
+    "sort": "newest"
+  }
+}

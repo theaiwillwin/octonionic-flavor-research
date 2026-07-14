@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9580,
+  "call_index": 4,
+  "tool_name": "read_file",
+  "call": {
+    "id": "call_NPcqgH7ljRVzaTBkBuCSSkn6",
+    "call_id": "call_NPcqgH7ljRVzaTBkBuCSSkn6",
+    "response_item_id": "fc_071f367ba0e10612016a55319b86f0819182bcce5dfba13029",
+    "type": "function",
+    "function": {
+      "name": "read_file",
+      "arguments": "{\"limit\":400,\"offset\":1,\"path\":\"D:/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 400,
+    "offset": 1,
+    "path": "D:/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md"
+  }
+}

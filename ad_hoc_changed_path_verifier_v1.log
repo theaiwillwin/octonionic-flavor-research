@@ -1,0 +1,29 @@
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_ad_hoc_source_extract_v1.json
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_ad_hoc_benchmark_table_page_v1.png
+JSON_SHA256 6637b2034ce3ff85769655b705efd6cee506dd29e7dcf33fb41c208e15af49cf
+PNG_SHA256 b171ae6344876e889b633ca04637c88fa78e0a737ec16026185bb7df0bd8750f
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_ad_hoc_spectrum_results_v1.json
+OUTPUT_SHA256 dde9c2937272d98a3c6b3314362c14afbb605fd705efdaf5e5292cb992b883cb
+point_1
+  nu_c physical masses [GeV] [149556000000.0, 152852000000.0]
+  s physical masses [GeV] [6679200000000000.0, 6826400000000000.0]
+point_2
+  nu_c physical masses [GeV] [1584239999999.9998, 4046160000000.0]
+  s physical masses [GeV] [3960599999999999.5, 1.01154e+16]
+LOCAL_26_BRANCHING_DIMENSION_CHECK False
+PASS
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_ad_hoc_independent_verification_v1.json
+OUTPUT_SHA256 54fe5f7934dffe062a81dac4add6af43e5f7e74dfb199ff5852a1cd4741447dc
+point_1 {'nu_c_physical_masses_GeV': ['149556000000.0000', '152852000000.0000'], 's_physical_masses_GeV': ['6.6792E+15', '6.8264E+15']}
+point_2 {'nu_c_physical_masses_GeV': ['1584240000000.0000', '4046160000000.0000'], 's_physical_masses_GeV': ['3.9606E+15', '1.01154E+16']}
+FULL_MIXING_STATUS BLOCKED_BY_MISSING_EW_VEV_COMPOSITION
+AD_HOC_VERIFICATION: PASS
+VERIFICATION_KIND: focused project-retained closure probe, not canonical suite
+CHANGED_PYTHON_PATHS_IMPORTED: 3/3
+CHANGED_JSON_PARSED: 1/1
+SOURCE_EXTRACTION_EXACT_REPRODUCTION: True
+BENCHMARK_RENDER_EXACT_REPRODUCTION: True
+SPECTRUM_EXACT_REPRODUCTION: True
+INDEPENDENT_VERIFIER_STATUS: PASS
+TEMP_VERIFIER_CLEANED: NOT_APPLICABLE_PROJECT_RETENTION_OVERRIDE
+PROJECT_RETENTION: all probe outputs preserved under D:/Projects/can_o_worms

@@ -1,0 +1,23 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9432,
+  "call_index": 1,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_mRtu1hsxcOFlEGUykZNztVb3",
+    "call_id": "call_mRtu1hsxcOFlEGUykZNztVb3",
+    "response_item_id": "fc_071f367ba0e10612016a552ac0f640819186d3609c5ee4d3d7",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"context\":3,\"limit\":50,\"path\":\"D:/Projects/ToE_21st_June_NEWEST\",\"pattern\":\"0396ff83436190e87696f1ec7f419b18bf3fba604b7e0cb9bf6f064507cff5f9|dab887e511e50ac784c2f09e26d94a40a25c0d7dcda7928fedfa9804cb2af3ac\",\"target\":\"content\"}"
+    }
+  },
+  "parsed_arguments": {
+    "context": 3,
+    "limit": 50,
+    "path": "D:/Projects/ToE_21st_June_NEWEST",
+    "pattern": "0396ff83436190e87696f1ec7f419b18bf3fba604b7e0cb9bf6f064507cff5f9|dab887e511e50ac784c2f09e26d94a40a25c0d7dcda7928fedfa9804cb2af3ac",
+    "target": "content"
+  }
+}

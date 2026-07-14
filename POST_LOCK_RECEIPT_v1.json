@@ -1,0 +1,23 @@
+{
+  "schema": "can-o-worms-post-lock-receipt/v1",
+  "created_utc": "2026-07-14T02:06:46.067960+00:00",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "D:\\Projects\\can_o_worms\\build_artifact_lock_v1.log",
+      "bytes": 326,
+      "sha256": "2f371844f79a7d6daa9d13b9809fa4d2666782879ecc9899aa73341c0f17245b"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verify_artifact_lock_v1.log",
+      "bytes": 897,
+      "sha256": "a77f99c990e613ee9892a868ee312aa96c1126389bf1e3cfe5ee5af52d9ed0ce"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\seal_post_lock_receipts_v1.py",
+      "bytes": 2004,
+      "sha256": "ff27835a8adc4f14eba2205b1f461f7311e3bc2f745b062d971d53cf5222df97"
+    }
+  ],
+  "all_targets_read_only": true
+}

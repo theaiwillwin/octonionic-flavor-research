@@ -1,0 +1,1 @@
+env -u PYTHONPATH /d/Projects/toe_new/.venv/Scripts/python.exe 'C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py'; code=$?; rm -f 'C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py'; printf 'CLEANED_TEMP=1\n'; exit $code

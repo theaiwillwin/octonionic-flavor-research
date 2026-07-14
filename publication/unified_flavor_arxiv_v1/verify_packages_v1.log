@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "assertions": {
+    "arxiv_archive_hash_matches_manifest": true,
+    "reproducibility_archive_hash_matches_manifest": true,
+    "arxiv_tar_member_paths_safe": true,
+    "reproducibility_zip_member_paths_safe": true,
+    "arxiv_tar_file_set_exact": true,
+    "reproducibility_zip_file_set_exact": true,
+    "arxiv_source_directory_hashes_match": true,
+    "extracted_arxiv_source_hashes_match": true,
+    "arxiv_tar_member_hashes_match": true,
+    "reproducibility_zip_member_hashes_match": true,
+    "canonical_and_clean_build_page_counts_are_eleven": true,
+    "canonical_and_clean_build_texts_identical": true,
+    "clean_build_metadata_titles_correct": true,
+    "direct_source_build_has_no_document_warnings": true,
+    "extracted_archive_build_has_no_document_warnings": true,
+    "main_entry_point_present": true,
+    "external_e6_benchmark_not_in_submission_main": true,
+    "ancillary_ledgers_present": true
+  },
+  "output": "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\package_verification_v1.json"
+}

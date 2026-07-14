@@ -1,0 +1,112 @@
+{
+  "schema": "third_tensor_chiral_loop_action_lock_v1",
+  "status": "UNIQUE_CHIRAL_CHANNEL_LOCKED_BEFORE_FLAVOR",
+  "frame_order": [
+    "Le",
+    "Re",
+    "Lnu",
+    "Rnu"
+  ],
+  "complex_overlap": "K_ab=X_a^T(P_h+iJ_h)X_b",
+  "primitive_cycles": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      0,
+      2,
+      1,
+      3
+    ]
+  ],
+  "primitive_characters": {
+    "I1": {
+      "sector_exchange": 1,
+      "left_right_exchange": -1
+    },
+    "I2": {
+      "sector_exchange": -1,
+      "left_right_exchange": -1
+    },
+    "I3": {
+      "sector_exchange": -1,
+      "left_right_exchange": 1
+    }
+  },
+  "selection": {
+    "required_character": {
+      "sector_exchange": 1,
+      "left_right_exchange": -1,
+      "CP": -1
+    },
+    "unique_primitive": "I1=ImTr(K_LeRe K_ReLnu K_LnuRnu K_RnuLe)",
+    "physical_reason": "sector exchange retained; Standard Model chirality breaks left-right exchange; octonion orientation supplies the pseudoscalar sign"
+  },
+  "locked_action": {
+    "chi_vacuum_convention": 1,
+    "V_chiral": "-chi*I1/haar_std_I1",
+    "coefficient": -1,
+    "free_continuous_coefficients": 0,
+    "CP_conjugate_vacuum": "chi=-1 gives the conjugate orientation"
+  },
+  "haar_calibration": {
+    "seed": 20260723,
+    "count": 4096,
+    "means": [
+      0.0037501103361862686,
+      -0.007790637770669913,
+      0.0006410992752703398
+    ],
+    "stds": [
+      0.27864809516562283,
+      0.28126638658534475,
+      0.2736715012050315
+    ],
+    "correlation": [
+      [
+        1.0,
+        -0.0008256273030038249,
+        -0.039659257960481246
+      ],
+      [
+        -0.000825627303003825,
+        1.0,
+        0.04302989581218226
+      ],
+      [
+        -0.039659257960481246,
+        0.04302989581218226,
+        1.0
+      ]
+    ],
+    "standardized_singular_values": [
+      65.85077587868984,
+      63.96585243369713,
+      62.10511282177211
+    ],
+    "rank": 3
+  },
+  "verification": {
+    "maximum_frame_gauge_residual": 1.3322676295501878e-15,
+    "maximum_CP_odd_residual": 0.0,
+    "maximum_sector_character_residual": 5.551115123125783e-16,
+    "maximum_left_right_character_residual": 5.273559366969494e-16,
+    "complex_structure_residual": 0.0
+  },
+  "target_firewall": {
+    "flavor_observables_read": [],
+    "mass_or_mixing_functions_called": [],
+    "selection_used_PMNS": false
+  },
+  "claim_boundary": "This locks the unique primitive four-frame loop in the sector-even/LR-odd/CP-odd character. It does not prove that its stationary vacuum is isolated or phenomenologically correct.",
+  "script_sha256": "2ddcc7291d1fa4b6df0dda81e40d5fb467cafc1fe0cf6c2b6e76a413f190c5b2"
+}

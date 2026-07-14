@@ -1,0 +1,2 @@
+teacher_type,noise,n_train,repeat_seed,model,train_mse,test_mse,params,epochs,n_test
+random_associator,0.0,8,0,AssociatorEnergy,0.1,0.2,31,1,8

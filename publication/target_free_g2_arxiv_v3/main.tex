@@ -1,0 +1,394 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black]{hyperref}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+\newcommand{\OO}{\mathbb O}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\St}{\operatorname{St}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\dd}{\mathrm d}
+
+\hypersetup{
+  pdftitle={Target-Free G2-Invariant Vacuum Dynamics Does Not Yet Select Three-Generation Flavor},
+  pdfauthor={Matthew Connelly},
+  pdfsubject={Target-free octonionic flavor vacua, stability, hierarchy, and mixing},
+  pdfkeywords={octonions, G2, flavor hierarchy, vacuum stability, Grassmann manifold, Yukawa matrices}
+}
+
+\title{Target-Free $G_2$-Invariant Vacuum Dynamics Does Not Yet Select Three-Generation Flavor\\
+\large A finite-class computational study}
+\author{Matthew Connelly\\[2pt]\small Independent Researcher}
+\date{14 July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We test a target-free exceptional-geometric route to three-generation fermion flavor.  Four rank-three planes in $\operatorname{Im}(\OO)\simeq\RR^7$ represent independent left- and right-handed flavor frames for two sectors.  With a unit vacuum direction fixed to the gauge representative $h=e_7$, we construct 21 numerically independent scalar invariants from projector traces and complete contractions of the canonical $G_2$ forms $\varphi$ and $\psi=*\varphi$.  The basis and its Haar normalization are locked before any mass or mixing observable is evaluated.  We then study 74 predeclared linear actions---42 signed primitive directions and 32 deterministic Rademacher combinations---from four generic initial conditions each on $\Gr(3,7)^4$.  Sixty-eight actions reach a strict first-order stationarity threshold and have no negative Hessian mode at the declared tolerance.  Explicit construction of the residual $SU(3)$ orbit separates symmetry zero modes from physical moduli: 29 selected vacua are isolated modulo residual symmetry, while 39 possess additional flat directions.  Only after these gates do we evaluate a signed associator Yukawa operator using a target-free composite vacuum direction.  Of the isolated vacua, 11 select that direction and six give full-rank operators in both sectors.  None has two successive decade-scale singular-value gaps.  Moreover, the action retains independent $O(3)$ gauges for the two left frames, so a CKM-like matrix formed from their left singular vectors is not gauge invariant.  The finite class therefore demonstrates that stable target-free $G_2$ vacua are easy to obtain, whereas a three-rung hierarchy and physical mixing require additional structure.  This is a negative computational gate for the specified invariant family, not a no-go theorem for the full $G_2$ invariant ring.
+\end{abstract}
+
+\section{Introduction}
+
+The Standard Model contains three generations of fermions with strongly hierarchical Yukawa singular values and nontrivial quark mixing.  Froggatt--Nielsen models encode these patterns through spontaneously broken flavor charges and powers of a small parameter~\cite{FroggattNielsen1979}.  A complementary question is whether the hierarchy can arise from the geometry of an exceptional algebra rather than being inserted as an external charge assignment.
+
+The octonions provide a particularly constrained test bed.  Their automorphism group is the exceptional group $G_2$, and their failure of associativity is measured by the alternating trilinear associator.  Octonionic and $G_2$ structures have long been studied in geometry and mathematical physics~\cite{Baez2002,Bryant1987}.  In earlier work, the present author investigated the direct associator-energy matrix
+\begin{equation}
+  M_{ab}=\lVert[u_a,u_b,H]\rVert^2,
+  \qquad [x,y,z]=(xy)z-x(yz),
+  \label{eq:oldM}
+\end{equation}
+as a candidate flavor operator~\cite{ConnellyObstruction2026,ConnellyWeighted2026,ConnellyGeometry2026}.  Alternativity makes~\eqref{eq:oldM} symmetric, entrywise nonnegative and hollow.  Its nonzero singular values obey a universal sum rule, so an exact three-rung geometric spectrum $(1,x,x^2)$ is possible only at $x=(\sqrt5-1)/2$.  This excludes Cabibbo-scaled Froggatt--Nielsen ladders for that operator class exactly, rather than as a failure of numerical optimization~\cite{ConnellyObstruction2026,ConnellyWeighted2026}.
+
+Independent left and right frames remove the hollow-symmetric hypothesis, but numerical attainability is not dynamical selection.  A frame fitted to masses or mixing does not constitute a vacuum prediction, and an invariant reconstructed after inspecting a fitted frame is still target leakage.  The correct causal order is therefore:
+\begin{enumerate}[label=(\roman*)]
+  \item define an invariant action class without flavor targets;
+  \item solve its stationary equations from generic initial conditions;
+  \item establish stability and characterize vacuum degeneracy;
+  \item only then evaluate masses and mixing.
+\end{enumerate}
+
+This paper executes that sequence for a finite, explicitly declared class.  The central result has two sides.  First, stable target-free vacua are abundant in the tested ensemble.  Second, the declared post-stability Yukawa map produces no isolated full-rank two-gap hierarchy, and the independent frame gauges prevent physical mixing from being defined.  The outcome narrows the model-building problem: the missing ingredient is not merely a stable $G_2$ vacuum, but an interaction that simultaneously selects a nondegenerate auxiliary direction, opens two successive singular-value gaps, and identifies the two left generation spaces.
+
+\section{Octonionic and geometric setup}
+
+\subsection{The $G_2$ tensors}
+
+Let $\OO$ be the real octonion algebra with orthonormal basis $1,e_1,\ldots,e_7$ and imaginary subspace $\operatorname{Im}(\OO)\simeq\RR^7$.  We use the Euclidean inner product induced by the octonion norm.  The automorphism group $G_2=\operatorname{Aut}(\OO)$ preserves the metric and the canonical alternating three-form $\varphi$.  Its Hodge dual is the four-form $\psi=*\varphi$.  In the locked convention used here, the imaginary associator tensor satisfies
+\begin{equation}
+  [e_i,e_j,e_k]=A_{ijk}{}^{\ell}e_\ell,
+  \qquad A_{ijk\ell}=-2\psi_{ijk\ell}.
+  \label{eq:Atensor}
+\end{equation}
+The sign depends on the chosen Fano orientation, whereas all squared complete contractions used below are convention independent.
+
+A nonzero unit vector $h\in\RR^7$ has stabilizer $SU(3)\subset G_2$.  Since $G_2$ acts transitively on the unit six-sphere, we fix the orbit representative
+\begin{equation}
+  h=e_7.
+\end{equation}
+This is a symmetry gauge choice, not an explicit breaking term.  Scalar contractions remain invariant when the frames and $h$ transform simultaneously under $G_2$; after fixing $h$, the manifest continuous symmetry is its residual $SU(3)$ stabilizer.
+
+\subsection{Four flavor planes}
+
+We introduce four orthonormal $7\times3$ frames
+\begin{equation}
+  X_A\in\St(3,7),\qquad
+  A\in\{L_d,R_d,L_u,R_u\},
+  \qquad X_A^T X_A=I_3,
+\end{equation}
+and their rank-three projectors $P_A=X_AX_A^T$.  Independent basis changes $X_A\mapsto X_AO_A$, $O_A\in O(3)$, leave every projector invariant.  The physical configuration manifold before quotienting the residual simultaneous $SU(3)$ orbit is therefore
+\begin{equation}
+  \mathcal C=\Gr(3,7)^4,
+  \qquad \dim\mathcal C=4\times3(7-3)=48.
+  \label{eq:configspace}
+\end{equation}
+The labels $d,u,L,R$ specify the discrete field content, not observed masses.  The action is constructed to respect sector exchange $d\leftrightarrow u$ and left--right exchange $L\leftrightarrow R$ through orbit sums.
+
+\section{A locked invariant action class}
+
+\subsection{Primitive contractions}
+
+For symmetric matrices $P,Q,R,S$, define
+\begin{align}
+  \Phi(P,Q,R)
+  &=\varphi_{abc}\varphi_{def}P_{ad}Q_{be}R_{cf},
+  \label{eq:PhiProj}\\
+  \Psi(P,Q,R,S)
+  &=\psi_{abcd}\psi_{efgh}P_{ae}Q_{bf}R_{cg}S_{dh}.
+  \label{eq:PsiProj}
+\end{align}
+These are nonnegative when all arguments coincide, but mixed arguments need not be.  They are complete $G_2$ contractions and are invariant under independent frame-basis changes.
+
+The four labels form three pair orbits under the discrete exchanges:
+\begin{align}
+  \mathcal O_{LR}&=\{(L_d,R_d),(L_u,R_u)\},\\
+  \mathcal O_{S}&=\{(L_d,L_u),(R_d,R_u)\},\\
+  \mathcal O_{D}&=\{(L_d,R_u),(R_d,L_u)\}.
+\end{align}
+The 21 candidate invariants are:
+\begin{enumerate}[label=\arabic*.,leftmargin=2.2em]
+  \item three single-frame sums,
+  \begin{equation}
+    \sum_A h^TP_Ah,qquad
+    \sum_A\Phi(P_A,P_A,P_A),qquad
+    \sum_A\Phi(P_A,P_A,hh^T);
+  \end{equation}
+  \item for each $\mathcal O\in\{\mathcal O_{LR},\mathcal O_S,\mathcal O_D\}$, four pair sums,
+  \begin{equation}
+  \sum_{(A,B)\in\mathcal O}
+  \left\{
+  \tr(P_AP_B),\ \tr(P_AP_BP_AP_B),\
+  \Phi(P_A,P_A,P_B)+\Phi(P_A,P_B,P_B),\
+  \Psi(P_A,P_A,P_B,P_B)
+  \right\};
+  \end{equation}
+  \item three sums over the four distinct three-frame subsets: the triple trace, the mixed $\varphi$ contraction, and the fully symmetrized $h$ word;
+  \item three four-frame contractions: the sum of three inequivalent projector cycle traces, the mixed $\psi$ contraction, and the fully symmetrized four-projector $h$ word.
+\end{enumerate}
+
+This list deliberately omits squared-associator contractions that are linearly dependent on projector and $\varphi$ contractions.  In the preceding low-degree gate, for example, the exact identities
+\begin{align}
+  \mathcal A_{XXh}+8\tr(P_Xhh^T)+4\mathcal P_{XXh}&=12,\\
+  \mathcal A_{XXY}+8\tr(P_XP_Y)+4\mathcal P_{XXY}&=36
+\end{align}
+generated false null directions.  Constants and syzygies must be removed before a stationary linear combination can be interpreted physically.
+
+\subsection{Target-free independence and normalization}
+
+The 21 candidates were evaluated on 768 independent Haar-distributed four-frame configurations with deterministic seed 20260714.  After centering and scaling each column by its sample standard deviation, the feature matrix had numerical rank 21 at relative tolerance $10^{-10}$.  Appending a constant column increased the affine rank to 22.  Thus no numerical linear dependency or hidden constant survived in this expanded list.
+
+Let $I_\alpha$ denote the selected features and $(\mu_\alpha,\sigma_\alpha)$ their Haar calibration statistics.  The locked action family is
+\begin{equation}
+  V_c(X)=\sum_{\alpha=1}^{21}c_\alpha z_\alpha(X),
+  \qquad
+  z_\alpha=\frac{I_\alpha-\mu_\alpha}{\sigma_\alpha}.
+  \label{eq:action}
+\end{equation}
+Standardization makes coefficient magnitudes comparable across contractions; it does not introduce flavor information.
+
+The finite coefficient ensemble contains (i) both signs of every coordinate vector, giving 42 signed primitive actions, and (ii) 32 deterministic Rademacher vectors $c_\alpha=\pm1/\sqrt{21}$ generated with seed 20260715.  No coefficient was chosen by inspecting masses, mixing, a Cabibbo parameter, or a previously fitted frame.  The ensemble samples the declared action class; it is not an exhaustive scan of its unit sphere.
+
+\section{Stationarity, stability, and degeneracy}
+
+\subsection{Generic-start optimization}
+
+For every coefficient vector, four independent Gaussian $7\times3$ matrices per frame were orthonormalized by QR factorization.  The resulting 296 configurations were optimized in parallel using QR-retracted Adam stages of 250 steps at learning rates $0.03$, $0.01$, and $0.003$, following the standard retraction-based viewpoint of optimization on matrix manifolds~\cite{AbsilMahonySepulchre2008}.  Direct form contractions on frame columns were used in place of large projector-tensor intermediates; the two implementations agree exactly in the float64 verification sample.
+
+The Grassmann gradient is the horizontal projection of the ambient frame derivative.  Every action had at least one branch with $\lVert\nabla V\rVert\le2\times10^{-4}$.  For promotion to the Hessian analysis and subsequent flavor diagnostic we imposed the stricter reliability cut
+\begin{equation}
+  \lVert\nabla V\rVert\le10^{-5}.
+  \label{eq:gradcut}
+\end{equation}
+Sixty-eight actions pass~\eqref{eq:gradcut}; six remain numerically unresolved.  A finite multi-start run cannot prove that all stationary branches were found.
+
+\subsection{Grassmann Hessian}
+
+At each selected branch, choose an orthonormal complement $N_A\in\RR^{7\times4}$ and local tangent coordinates $K_A\in\RR^{4\times3}$.  The QR retraction
+\begin{equation}
+  X_A(K_A)=\operatorname{qf}(X_A+N_AK_A)
+\end{equation}
+gives 48 local coordinates.  Automatic differentiation of $V_c(X(K))$ produces the full symmetric $48\times48$ Hessian.  We classify eigenvalues below $-10^{-5}$ as negative and those with absolute value at most $10^{-5}$ as numerical zero modes.
+
+Because $h=e_7$ leaves $SU(3)$ unbroken, zero Hessian eigenvalues can be required by symmetry.  We reconstruct the stabilizer algebra directly.  Starting from the 21-dimensional skew algebra $\mathfrak{so}(7)$, we solve
+\begin{equation}
+  T\cdot\varphi=0,qquad Th=0.
+\end{equation}
+The nullspace has dimension eight, as required for $\mathfrak{su}(3)$.  Each generator is projected onto the four Grassmann tangent spaces, and the rank of these orbit directions is compared with the Hessian nullity.  A branch is called \emph{isolated modulo residual symmetry} when it has no negative mode and no zero mode beyond that orbit rank.
+
+\subsection{Vacuum result}
+
+All 68 reliably stationary branches have no Hessian eigenvalue below the stated tolerance.  Of these,
+\begin{equation}
+  29\ \text{are isolated modulo residual symmetry},
+  \qquad
+  39\ \text{have additional flat moduli}.
+\end{equation}
+Thus the expanded invariant family has no difficulty generating stable target-free vacua.  The more selective question is whether those vacua define a viable flavor operator.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.92\linewidth]{selection_funnel.png}
+  \caption{Selection funnel for the locked coefficient ensemble.  ``Reliable stable'' imposes the strict gradient cut~\eqref{eq:gradcut} and the Hessian tolerance.  A selected $V$ requires a nondegenerate top eigenvalue of the composite operator~\eqref{eq:compositeV}.  The final hierarchy gate requires two adjacent decade gaps in both sectors.}
+  \label{fig:funnel}
+\end{figure}
+
+\section{Post-stability flavor diagnostic}
+
+\subsection{A target-free composite direction}
+
+The signed associator map requires a second direction in addition to $h$.  Only after the stability classification, we define the symmetric composite
+\begin{equation}
+  \mathcal S_\perp=(I-hh^T)\left(\sum_A P_A\right)(I-hh^T)
+  \label{eq:compositeS}
+\end{equation}
+and let
+\begin{equation}
+  V=\text{normalized top eigenvector of }\mathcal S_\perp.
+  \label{eq:compositeV}
+\end{equation}
+The rule is covariant and contains no observed flavor quantity.  It fails to select $V$ whenever the two largest eigenvalues of $\mathcal S_\perp$ are degenerate.  We require a gap of at least $10^{-8}$.
+
+For 32 of the 68 stable branches the top eigenspace is degenerate, and no mass diagnostic is assigned.  The remaining 36 branches select $V$ and permit evaluation of
+\begin{align}
+  (Y_d)_{ab}&=\langle[L_{d,a},V,h],R_{d,b}\rangle,\label{eq:Yd}\\
+  (Y_u)_{ab}&=\langle[L_{u,a},V,h],R_{u,b}\rangle.\label{eq:Yu}
+\end{align}
+Unlike the squared same-frame operator~\eqref{eq:oldM}, these signed left--right matrices are generically non-hollow and are not subject to the golden singular-value sum rule.  Their singular values are invariant under all four frame-basis gauges.
+
+\subsection{Mass-spectrum gates}
+
+Among the 36 evaluated stable branches, 23 give full-rank matrices in both sectors at relative smallest-singular-value threshold $10^{-10}$, while 13 are rank deficient.  Restricting further to vacua isolated modulo residual symmetry leaves 11 evaluated branches, of which six are full rank in both sectors.
+
+An endpoint span is not sufficient evidence of a three-generation hierarchy: $(1,1,10^{-7})$ has seven decades of total span but only one nontrivial splitting.  For normalized singular values $s_1\ge s_2\ge s_3$, we therefore impose the generic two-gap diagnostic
+\begin{equation}
+  \log_{10}\frac{s_1}{s_2}\ge1,
+  \qquad
+  \log_{10}\frac{s_2}{s_3}\ge1
+  \label{eq:twogap}
+\end{equation}
+in both sectors.  This is deliberately weaker than the observed quark hierarchy and is not a fit to it.
+
+Table~\ref{tab:spectra} lists all six isolated full-rank cases.  None passes~\eqref{eq:twogap}.  The best minimum adjacent gap is $0.419$ decades.  Large total spans in $c^{(02)}$, $c^{(03)}$, and $c^{(04)}$ arise from one nearly vanishing singular value while the leading pair remains nearly degenerate.  The branch $c^{(07)}$ instead separates the leading mode but leaves the two light modes too close.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Normalized singular spectra of every isolated full-rank branch.  The last column is the smallest of the four adjacent-gap logarithms across the two sectors.}
+\label{tab:spectra}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Branch & $s(Y_d)/s_1$ & $s(Y_u)/s_1$ & min. gap (decades)\\
+\midrule
+$c^{(07)}$ & $(1,4.478\!\times10^{-4},1.707\!\times10^{-4})$ & $(1,4.478\!\times10^{-4},1.707\!\times10^{-4})$ & $0.419$\\
+$c^{(23)}$ & $(1,0.3422,0.2310)$ & $(1,0.3422,0.2310)$ & $0.171$\\
+$c^{(12)}$ & $(1,0.8083,0.4825)$ & $(1,0.8083,0.4825)$ & $0.092$\\
+$c^{(02)}$ & $(1,0.8748,5.74\!\times10^{-8})$ & $(1,0.9740,1.30\!\times10^{-8})$ & $0.011$\\
+$c^{(03)}$ & $(1,0.9850,1.66\!\times10^{-4})$ & $(1,0.9890,2.56\!\times10^{-5})$ & $0.0048$\\
+$c^{(04)}$ & $(1,1.0000,1.58\!\times10^{-7})$ & $(1,1.0000,1.38\!\times10^{-7})$ & $6.8\!\times10^{-8}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{isolated_full_rank_spectra.png}
+  \caption{All isolated full-rank post-stability spectra.  Each panel shows the down- and up-sector normalized singular values for one Rademacher coefficient vector.  Every branch has either an approximately degenerate pair or an insufficient light-light splitting; none has two adjacent decade-scale gaps.}
+  \label{fig:spectra}
+\end{figure}
+
+\subsection{Mixing is not gauge defined}
+
+The obstruction to mixing is structural and can be stated without numerical data.
+
+\begin{proposition}[Independent-left-gauge obstruction]
+Suppose the action and mass observables are invariant under independent frame-basis transformations
+\begin{equation}
+  X_A\mapsto X_AO_A,qquad O_A\in O(3).
+\end{equation}
+Then the singular values of~\eqref{eq:Yd}--\eqref{eq:Yu} are gauge invariant, but a CKM-like matrix constructed as $U_u^TU_d$ from their left singular vectors is not gauge invariant unless the $L_u$ and $L_d$ gauge groups are dynamically identified to a common diagonal subgroup.
+\end{proposition}
+
+\begin{proof}
+The Yukawa matrices transform as
+\begin{equation}
+  Y_d\mapsto O_{L_d}^TY_dO_{R_d},
+  \qquad
+  Y_u\mapsto O_{L_u}^TY_uO_{R_u}.
+\end{equation}
+Hence their singular values are unchanged.  If $Y_d=U_d\Sigma_dW_d^T$ and $Y_u=U_u\Sigma_uW_u^T$, the left factors transform as $U_d\mapsto O_{L_d}^TU_d$ and $U_u\mapsto O_{L_u}^TU_u$.  Therefore
+\begin{equation}
+  U_u^TU_d\mapsto U_u^TO_{L_u}O_{L_d}^TU_d,
+\end{equation}
+which depends on two independent gauge choices.  Only a diagonal identification $O_{L_u}=O_{L_d}$ cancels the ambiguity.
+\end{proof}
+
+As a numerical check, 32 independent frame-gauge trials were applied to every evaluated stable vacuum.  Mass singular values were unchanged to a maximum absolute error $2.44\times10^{-15}$, whereas the entries of the raw mixing proxy varied.  Reporting that proxy as a CKM prediction would therefore be a gauge artifact.  This is distinct from the empirical CKM problem introduced by Kobayashi and Maskawa~\cite{KobayashiMaskawa1973} and its basis-invariant CP diagnostic~\cite{Jarlskog1985}: the present construction has not yet produced the common left-handed flavor space on which those observables are defined.
+
+\section{Discussion}
+
+\subsection{What has been established}
+
+The calculation separates three questions that are often conflated.
+
+First, can a target-free $G_2$-invariant action possess stable symmetry-breaking vacua?  In this finite class the answer is clearly yes: 68 coefficient choices yield reliably stationary branches without negative Hessian modes, and 29 are isolated modulo the explicitly reconstructed residual symmetry orbit.
+
+Second, does a simple covariant composite of those vacua define a nondegenerate Yukawa operator?  Only partly.  The composite direction is degenerate in 32 stable branches, and rank collapse occurs in 13 of the 36 evaluated branches.
+
+Third, do the qualified operators yield three-generation hierarchy and mixing?  In the declared diagnostic the answer is no.  None of the isolated full-rank spectra has two successive decade-scale gaps, and mixing is not gauge defined.
+
+The result advances the preceding octonionic flavor program~\cite{ConnellyGeometry2026} by replacing a post-hoc question about target-fitted frames with a genuinely target-free action-to-observable pipeline.  The negative answer is correspondingly sharper: the missing structure is visible before comparison with measured masses.
+
+\subsection{What has not been established}
+
+The following limitations are load bearing.
+\begin{enumerate}[label=(\roman*)]
+  \item The 21 features are numerically independent on a large random calibration set, but this is not a symbolic presentation of the full invariant ring.
+  \item The 74 coefficient vectors form a predeclared finite ensemble, not an exhaustive scan of all $c\in S^{20}$.
+  \item Four starts per action do not certify all stationary branches or global minima.
+  \item Hessian and rank decisions use declared numerical tolerances; interval or exact-algebraic certification has not been supplied.
+  \item The composite direction~\eqref{eq:compositeV} is one target-free covariant rule, not a unique consequence of $G_2$.
+  \item No renormalization-group evolution, electroweak normalization, scalar spectrum, anomaly analysis, or flavor-changing phenomenology is included.
+  \item The calculation concerns a $G_2$ frame model.  It does not constitute an $E_6$ gauge theory or ultraviolet completion.
+\end{enumerate}
+
+\subsection{Necessary next structure}
+
+Merely adding more random invariant coefficients is unlikely to address the two distinct failures.  A viable extension should be designed to satisfy three structural requirements simultaneously:
+\begin{enumerate}
+  \item select the auxiliary direction $V$ with a nonzero spectral gap;
+  \item generate two successive singular-value splittings without rank collapse;
+  \item reduce $O(3)_{L_d}\times O(3)_{L_u}$ to a shared diagonal left-flavor group so that mixing becomes gauge invariant.
+\end{enumerate}
+Possible mechanisms include a dynamical vacuum multiplet, an explicit bifundamental link field between the two left planes, or a larger exceptional representation whose invariant cubic form ties the sector bases together.  Any such extension must be locked before flavor scoring and must repeat the stationarity, quotient-Hessian, and degeneracy analysis used here.
+
+\section{Conclusion}
+
+We constructed a target-free, numerically independent 21-dimensional family of low- and mixed-degree $G_2$ invariants for four octonionic flavor planes and tested 74 predeclared actions from generic initial conditions.  Stable vacua are common, including 29 branches isolated modulo residual symmetry.  Stability alone, however, does not select flavor.  The declared composite signed-associator operator is undefined on nearly half the stable branches, and among the isolated full-rank cases none produces two adjacent hierarchy gaps.  Independent left-frame basis gauges also make a CKM-like matrix non-observable.
+
+The finite class therefore fails the stated flavor objective for precise reasons: not because no stable exceptional vacuum exists, but because the available dynamics neither produces a three-rung spectrum nor identifies the common left generation space.  Those two requirements provide falsifiable design criteria for the next target-free $G_2$ or $E_6$ construction.
+
+\section*{Data and code availability}
+
+The reproducibility package accompanying this manuscript contains the invariant-basis gate, the generic-start solver, the full Hessian and residual-orbit analysis, the post-stability mass diagnostic, the hierarchy-shape verifier, machine-readable JSON results, and a cross-artifact verification receipt.  All final consistency checks pass, including exact agreement between the direct-frame and projector-tensor contraction implementations in the verification sample.  The source package records deterministic seeds and SHA-256 hashes for the primary artifacts.
+
+\appendix
+
+\section{Numerical decision ledger}
+
+Table~\ref{tab:ledger} summarizes the numerical gates.  Counts at later stages are subsets of earlier stages; no mass observable is used to choose an action or vacuum.
+
+\begin{table}[h]
+\centering
+\caption{Claim-controlled numerical ledger.}
+\label{tab:ledger}
+\begin{tabularx}{\linewidth}{@{}l l X@{}}
+\toprule
+Stage & Result & Boundary\\
+\midrule
+Invariant independence & rank $21/21$ & numerical, relative tolerance $10^{-10}$\\
+Affine independence & rank $22/22$ with constant & numerical Haar calibration\\
+Locked actions & $74$ & finite coefficient ensemble\\
+Reliable stationary/stable & $68$ & $\|\nabla V\|\le10^{-5}$, $\lambda_{\min}\ge-10^{-5}$\\
+Isolated modulo symmetry & $29$ & residual $SU(3)$ orbit explicitly removed\\
+Extra-moduli vacua & $39$ & additional Hessian zero modes\\
+Selected composite $V$ & $36$ stable; $11$ isolated & top-eigenvalue gap $\ge10^{-8}$\\
+Isolated, full rank in both sectors & $6$ & relative $s_3>10^{-10}$\\
+Isolated two-gap hierarchy & $0$ & both adjacent gaps $\ge1$ decade\\
+Physical mixing & undefined & independent left $O(3)$ gauges\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Reproducibility sequence}
+
+The executable order is:
+\begin{enumerate}
+  \item run the canonical octonion/$G_2$ algebra checks;
+  \item generate and rank the target-free invariant features;
+  \item lock the Haar normalization and coefficient ensemble;
+  \item solve the 74 actions from generic starts on $\Gr(3,7)^4$;
+  \item compute every $48\times48$ Hessian and the residual-$SU(3)$ orbit rank;
+  \item admit only reliable stable branches to the mass diagnostic;
+  \item test composite-direction degeneracy, mass rank, adjacent gaps, and frame-gauge dependence;
+  \item run the cross-artifact consistency verifier.
+\end{enumerate}
+This order is part of the scientific claim: reordering the steps to choose coefficients after mass inspection would invalidate the target-free interpretation.
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}

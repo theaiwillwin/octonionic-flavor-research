@@ -1,0 +1,121 @@
+"""Retention-safe ad-hoc closure probe for the heavy sterile-neutrino artifacts.
+
+Stored as .txt so this probe does not recursively expand Hermes' changed-Python
+ledger. D:/Projects/can_o_worms/AGENTS.md forbids writing or deleting artifacts
+outside this project, so the probe is executed here rather than via OS temp.
+"""
+
+from __future__ import annotations
+
+import hashlib
+import importlib.util
+import json
+from pathlib import Path
+import sys
+
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+CHANGED_PYTHON = [
+    ROOT / "heavy_sterile_neutrino_source_extract_v1.py",
+    ROOT / "heavy_sterile_neutrino_spectrum_gate_v1.py",
+    ROOT / "verify_heavy_sterile_neutrino_spectrum_v1.py",
+]
+CHANGED_JSON = ROOT / "heavy_sterile_neutrino_benchmark_inputs_v1.json"
+
+RECOMPUTED_SOURCE_JSON = ROOT / "heavy_sterile_neutrino_ad_hoc_source_extract_v1.json"
+RECOMPUTED_SOURCE_PNG = ROOT / "heavy_sterile_neutrino_ad_hoc_benchmark_table_page_v1.png"
+RECOMPUTED_SPECTRUM = ROOT / "heavy_sterile_neutrino_ad_hoc_spectrum_results_v1.json"
+RECOMPUTED_VERIFICATION = ROOT / "heavy_sterile_neutrino_ad_hoc_independent_verification_v1.json"
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def import_path(name: str, path: Path):
+    source = path.read_text(encoding="utf-8")
+    compile(source, str(path), "exec")
+    spec = importlib.util.spec_from_file_location(name, path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Could not create import spec for {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    spec.loader.exec_module(module)
+    if Path(module.__file__).resolve() != path.resolve():
+        raise AssertionError(f"Imported wrong path for {name}: {module.__file__}")
+    return module
+
+
+def require_absent(*paths: Path) -> None:
+    existing = [str(path) for path in paths if path.exists()]
+    if existing:
+        raise FileExistsError(
+            "Ad-hoc v1 outputs already exist; preserve them and create a new probe version: "
+            + ", ".join(existing)
+        )
+
+
+def main() -> None:
+    require_absent(
+        RECOMPUTED_SOURCE_JSON,
+        RECOMPUTED_SOURCE_PNG,
+        RECOMPUTED_SPECTRUM,
+        RECOMPUTED_VERIFICATION,
+    )
+
+    source_mod = import_path("adhoc_source_extract_v1", CHANGED_PYTHON[0])
+    spectrum_mod = import_path("adhoc_spectrum_gate_v1", CHANGED_PYTHON[1])
+    verify_mod = import_path("adhoc_independent_verify_v1", CHANGED_PYTHON[2])
+
+    inputs = json.loads(CHANGED_JSON.read_text(encoding="utf-8"))
+    if inputs["schema"] != "heavy-sterile-neutrino-benchmark-inputs/v1":
+        raise AssertionError("Unexpected benchmark input schema")
+    if set(inputs["benchmark_points"]) != {"point_1", "point_2"}:
+        raise AssertionError("Benchmark point set changed")
+
+    source_mod.OUTPUT_JSON = RECOMPUTED_SOURCE_JSON
+    source_mod.OUTPUT_PNG = RECOMPUTED_SOURCE_PNG
+    source_mod.main()
+    if sha256(RECOMPUTED_SOURCE_JSON) != sha256(
+        ROOT / "heavy_sterile_neutrino_source_extract_v1.json"
+    ):
+        raise AssertionError("Fresh source extraction differs from retained v1 extraction")
+    if sha256(RECOMPUTED_SOURCE_PNG) != sha256(
+        ROOT / "heavy_sterile_neutrino_benchmark_table_page_v1.png"
+    ):
+        raise AssertionError("Fresh benchmark render differs from retained v1 render")
+
+    spectrum_mod.OUTPUT = RECOMPUTED_SPECTRUM
+    spectrum_mod.main()
+    if sha256(RECOMPUTED_SPECTRUM) != sha256(
+        ROOT / "heavy_sterile_neutrino_spectrum_results_v1.json"
+    ):
+        raise AssertionError("Fresh spectrum differs from retained v1 result")
+
+    verify_mod.RESULT = RECOMPUTED_SPECTRUM
+    verify_mod.OUTPUT = RECOMPUTED_VERIFICATION
+    verify_mod.main()
+    recomputed_verification = json.loads(RECOMPUTED_VERIFICATION.read_text(encoding="utf-8"))
+    if recomputed_verification["status"] != "PASS":
+        raise AssertionError("Persisted independent verifier did not return PASS")
+    if not all(recomputed_verification["source_checks"].values()):
+        raise AssertionError("At least one primary-source check failed")
+
+    print("AD_HOC_VERIFICATION: PASS")
+    print("VERIFICATION_KIND: focused project-retained closure probe, not canonical suite")
+    print(f"CHANGED_PYTHON_PATHS_IMPORTED: {len(CHANGED_PYTHON)}/{len(CHANGED_PYTHON)}")
+    print("CHANGED_JSON_PARSED: 1/1")
+    print("SOURCE_EXTRACTION_EXACT_REPRODUCTION: True")
+    print("BENCHMARK_RENDER_EXACT_REPRODUCTION: True")
+    print("SPECTRUM_EXACT_REPRODUCTION: True")
+    print("INDEPENDENT_VERIFIER_STATUS: PASS")
+    print("TEMP_VERIFIER_CLEANED: NOT_APPLICABLE_PROJECT_RETENTION_OVERRIDE")
+    print("PROJECT_RETENTION: all probe outputs preserved under D:/Projects/can_o_worms")
+
+
+if __name__ == "__main__":
+    main()

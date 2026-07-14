@@ -1,0 +1,404 @@
+ Octonionic Flavor Geometry, Chiral Pseudoscalars,
+           and the Higgs-Wedge EFT Boundary
+
+                                             Matthew Connelly
+
+                                                July 12, 2026
+
+                                                             Abstract
+            We study an octonionic flavor framework in which associator mass matrices, exceptional
+        Jordan observables, and Freudenthal moment maps provide a constrained geometric arena
+        for Standard Model generation structure. First, fixing a vacuum direction reduces the
+        octonionic associator to a complex SU (3) cross-product norm, implying a conditionally
+        negative definite Gram form and the singular-value sum rule s1 = i>1 si in the nonzero
+        hollow case. The full fixed-vacuum n = 7 frame problem is then constrained by tight-
+        frame identities such as G2 = 2G, giving a real-algebraic obstruction pattern rather than an
+        elementary topological obstruction. Second, in the J3(O) and Freudenthal setting, tested
+        even geometric actions collapse to a 2 + 1 heavy-light block, while a chiral pseudoscalar
+        supplies the necessary orientation-sensitive torque; its unit-generator normalization is Y =
+        1/2. Third, the compact Freudenthal moment-map extraction admits a CKM-localizing tau-
+        real Jordan-slot fit, but direct zero-parameter attractor closures tested here do not select
+        the fitted coefficients. We therefore formulate the honest low-energy boundary: exceptional
+        geometry supplies a rigid structural track and canonically normalized chiral torque, while
+        an external Higgs/Yukawa wedge acts as a phenomenological selector for the fitted CKM
+        spurion invariants. The result is a claim-controlled effective-field-theory framework, not a
+        zero-parameter derivation of flavor.
+
+Keywords: octonions; exceptional Jordan algebra; Freudenthal triple system; CKM matrix;
+chiral pseudoscalar; effective field theory; Higgs spurion.
+
+1 Introduction
+
+In octonionic approaches to flavor physics, a candidate mass operator for n generations is
+constructed using the octonion associator [x, y, z] = (xy)z - x(yz). For a frame of n vectors
+ua  Im(O) and a fixed vacuum H  Im(O), the matrix is defined as Mab = [ua, ub, H]2. The
+observed quark mixing data are encoded by the Cabibbo-Kobayashi-Maskawa matrix and the
+Jarlskog invariant [1-4]; the question here is whether exceptional algebra can supply a structural
+explanation of the mixing pattern.
+
+    For n = 3, it was previously shown that alternativity forces M to be symmetric, hollow, and
+entrywise non-negative, rigidly forcing the sum rule s1 = s2 + s3 and restricting the simplest
+geometric ladder to the golden ratio -1. For n  4, numerical scans suggested related k-
+bonacci ladder candidates through n = 6, while the full n = 7 hexanacci ladder fails. This note
+separates the universally valid CND sum rule from the stronger ladder-realizability constraints,
+then extends the framework to CKM mixing via the Exceptional Jordan Algebra J3(O).
+
+Honesty boundary. The algebraic sum rule and the chiral normalization are analytic results.
+The CKM part of the paper has a different status: it records a verified structural localization
+and a negative result for several direct zero-parameter Freudenthal attractor closures. It does
+not prove that no future exceptional-geometric UV completion can select CKM without external
+data.
+
+                                                             1
+Claim                            Status                   Boundary
+SU (3) associator reduction and
+CND sum rule                     Analytic                 Convention must be stated;
+n = 7 tight-frame obstruction                             not a full ladder theorem
+pattern                          Analytic identities      No formal emptiness certificate
+                                 plus numerical           yet
+Chiral coefficient Y = 1/2       obstruction evidence
+                                 Analytic trace-index     Does not by itself derive CKM
+FTS moment-map extraction        normalization
+                                 Verified                 Not equivalent to projected
+CKM-localizing r, s              implementation gate      3 × 3 commutator shortcuts
+                                 Diagnostic fit           Four real fitted parameters,
+                                                          not prediction
+Direct attractor closures        Negative                 Only tested closures are ruled
+Higgs wedge                      computational gate       out
+                                 External                 Local spurion-sector stability,
+                                 phenomenological         not full-vacuum global stability
+                                 selector
+
+2 The Universal Sum Rule via Conditional Negative Definite-
+     ness
+
+2.1 The SU (3) Reduction and Misalignment Energy
+
+To analyze the spectral properties of M for general n, we exploit the G2 automorphism symmetry
+of the octonions. By fixing the vacuum direction H = e7, the symmetry breaks to SU (3). The
+7-dimensional imaginary space decomposes as Im(O)  R  C3.
+
+    We decompose each frame vector as ua = xae7+za, where za  C3. By octonion alternativity,
+the singlet part xae7 does not contribute to the associator. The associator therefore only sees
+the transverse C3 parts. Direct calculation using the Cayley-Dickson convention (where right
+multiplication by e7 yields e1e7 = e6, e2e7 = -e5, e3e7 = -e4) shows that the associator maps
+to the complex cross product up to convention-dependent conjugations:
+
+                                 [za, zb, e7]  2iza × zb                           (1)
+
+Therefore, the mass matrix entries are given by the full complex norm:
+
+                           Mab = [ua, ub, e7]2 = 4za × zb2                         (2)
+
+Physically, this means the mass entry is a misalignment energy. If two generation vectors point
+in the same complex direction (za  zb), the cross product vanishes, and no associator mass is
+generated. If they span a complex area, the octonionic non-associativity stores twisting energy
+in that pair.
+
+2.2 Proof of Conditional Negative Definiteness
+
+Applying the complex Lagrange identity, za × zb2 = za2zb2 - |za, zb|2, we obtain:
+
+                                 Mab = 4 rarb - |Gab|2                             (3)
+
+where ra = za2 and Gab = za, zb is the complex Gram matrix of the za vectors.
+
+                                 2
+    To determine the eigenvalue signature of M , we evaluate its quadratic form for an arbitrary
+
+real vector c = (c1, . . . , cn). Let Z be the 3 × n complex matrix whose columns are za, and
+define the 3 × 3 Hermitian matrix A = Zdiag(ca)Z. The quadratic form evaluates exactly to:
+
+                                   1 cT M c = (trA)2 - tr(A2)      (4)
+                                   4
+
+We restrict to the codimension-one hyperplane defined by a cara = 0. On this hyperplane,
+trA = 0. Because A is Hermitian, tr(A2) = i i(A)2  0. Therefore:
+
+                                             cT M c = -4tr(A2)  0  (5)
+
+This proves that M is a conditionally negative definite (CND) matrix. Since M is also hollow
+(trM = 0), the inertia has at most one positive eigenvalue; if M is nonzero, trace zero then
+forces exactly one positive eigenvalue. Therefore, the positive eigenvalue exactly cancels the
+sum of the negative eigenvalues. Let the singular values be s1  s2  · · ·  sn. The universal
+sum rule is proven:
+
+Theorem 1 (Universal Sum Rule). For any finite collection u1, . . . , un, H  Im(O), the matrix
+Mab = [ua, ub, H]2 has at most one positive eigenvalue. If M = 0, its singular values satisfy
+
+s1 =  n    si;  if  M  =  0,  the  identity  is  trivial.
+      i=2
+
+3 The n = 7 Algebraic Obstruction
+
+For n = 7, the frame saturates the 7-dimensional space. A natural hypothesis is that the failure
+of the 7-step hexanacci ladder is caused by a topological obstruction. We show that this is not
+the mechanism seen in the algebraic model.
+
+    If the G2 structure and vacuum are transformed together, the standard quotient is:
+
+                                                 SO(7)/G2 = RP7    (6)
+
+The topological invariants of this space are highly restrictive. The Euler characteristic is
+(RP7) = 0. Furthermore, because RP7 is one of the parallelizable projective spaces, its tangent
+bundle satisfies T RP7  1 = 8. The total Stiefel-Whitney class is w(T RP7) = (1 + )8 = 1
+inside H(RP7; Z2), meaning all Stiefel-Whitney classes vanish (wi = 0).
+
+    In that moving-vacuum quotient, the five geometric ladder constraints may be viewed
+schematically as a map F : RP7  R5. Because the target bundle is trivial, these elementary
+characteristic classes do not force the section F -1(0) to be empty. Topology alone therefore
+
+does not explain the observed n = 7 miss.
+
+    The actual fixed-vacuum full-frame search is more rigid than this quotient picture: fixing
+
+H = e7 leaves the SU (3) stabilizer of the vacuum and imposes explicit tight-frame identities on
+the transverse complex columns. The obstruction below is therefore real-algebraic, not a proof
+
+by characteristic classes.
+
+    The true obstruction is strictly real-algebraic. When n = 7, the complex Gram matrix G
+
+is no longer an arbitrary rank-3 matrix. Because the frame is a complete orthonormal basis of
+R7, G is forced to be a scaled projection matrix satisfying the tight-frame condition:
+
+                                   G2 = 2G, rank(G) = 3            (7)
+
+Equivalently, in real variables, G = I - xxT + iS, with the constraints ST = -S, Sx = 0, and
+S2 = xxT - I. This tight-frame condition acts as an algebraic straightjacket. It rigidly links
+the diagonal lean vectors x to the off-diagonal twisting matrices S, consuming the degrees of
+
+freedom. The system can satisfy four of the five spectral moment equations required for the
+hexanacci ladder, but the rank-3 projection constraint G2 = 2G prevents the 5th moment from
+
+vanishing. The n = 7 hexanacci ladder is forbidden by the rigidity of the rank-3 source code,
+
+not by the topology of the ambient space.
+
+                                                           3
+4 The Exceptional Jordan Algebra and the CKM Action
+
+Given the rigid spectral bounds of the associator, we shift focus to the Exceptional Jordan
+
+Algebra J3(O) to address the flavor puzzle. A 3 × 3 Hermitian octonionic matrix provides
+a natural observable with 3 eigenvalues (generations), while its cubic norm and associated
+
+Freudenthal system carry the exceptional symmetry data used below [9-13].
+
+An initial action Atwist = FTS - 2Nd establishes a baseline vacuum strain. In the verified
+
+variational searches performed so far, full minimization of this even-norm action over the shared
+
+frame collapses the induced mixing matrix V to a 2 + 1 block structure:
+
+                                                            0.858 0.512 0  
+
+                                                                           
+                                                  |V |  0.512 0.858 0                                             (8)
+
+                                                             0        01
+
+This decouples the heavy generation (Vcb, Vub  0). Tested even commutator norms
+[Mu, Md]2 fail to resolve this: they measure symmetric deformation but lack the handedness
+
+required to stabilize heavy-light leakage.
+
+5 The Chiral Pseudoscalar and Structural Normalization
+
+To break the 2 + 1 degeneracy, an oriented, chiral term is required. We define the two unused-
+vacuum response matrices Bi as the directional derivatives of the mass matrix with respect to
+vacuum rotations  into the Ki planes:
+
+                                              (Bi)ab = 2 [ga, gb, Hd], [ga, gb, Ki]                               (9)
+
+We construct the Jarlskog-like chiral pseudoscalar:
+
+                                              Pchiral = tr [Mu, Md][B1, B2]                                       (10)
+
+where M denotes Frobenius normalization. This term is odd under K1  K2, acting as a
+
+gyroscopic ratchet that forces the heavy singlet to twist into the light doublet.
+
+The structural normalization constant Y for this term is derived from the native J3(O)
+
+metric. Let K, L  so(3) be real skew matrices. The compact unit-generator pairing is
+
+K, Lso(3) = - 12 tr3(KL).
+
+For real symmetric elements A, B  J3(O), the Jordan derivation is DA,B = [LA, LB], which
+                   1                                                  J3(O) = Sym2(R3)  72(R3).
+yields  DA,B X  =  4  [  [  A,  B  ],  X  ].  As  an  SO(3)  module,                                   The        trace
+
+index is therefore 5 + 7 = 12.
+
+The trace over the 27-dimensional algebra is:
+
+                                              Tr27((K)(L)) = 12 tr3(KL)                                           (11)
+
+Including the Jordan derivation factor 1/4:
+
+                                                            12        3
+                                       Tr27(DK DL) = 16 tr3(KL) = 4 tr3(KL) (12)
+
+The  Freudenthal   space        doubles       this  trace,  yielding  TrFTS(DK DL)   =  3  tr3 (K L).  This  raw  FTS
+                                                                                        2
+
+trace contains the representation-index factor of 3. Removing this multiplicity returns to the
+
+unit SO(3) generator normalization:
+
+Theorem 2 (Structural Normalization). The canonically normalized, parameter-free chiral ac-
+tion is:
+
+                                                                                 1
+                                  S = FTS(1, Ju, Jd, 1) - 2N (Jd) - 2 Pchiral (13)
+
+                                                                4
+6 The Effective Field-Theory Boundary
+
+The preceding sections define a constrained exceptional-geometric core. They do not by them-
+selves define a UV-complete theory of flavor. The honest low-energy interpretation is an effective
+field theory in which spacetime fields describe slow deformations of the octonionic flavor vacuum,
+while a separate spurion sector supplies the observed CKM-localizing strain.
+
+    We therefore distinguish the vacuum directions hu, hd  Im(O) from the extracted Hermitian
+generation observables Hu, Hd. A minimal field-content ansatz is
+
+Q(x)  SO(7)/G2, hu(x), hd(x)  Im(O), r(x), s(x)  C,                                   (14)
+
+with direction constraints such as hu = hd = 1, and with any further condition such as
+hu  hd stated explicitly rather than assumed.
+
+    Because Q is a coset coordinate, its kinetic term should project out redundant G2 frame
+rotations. Schematically,
+
+                         f 2Q -1                     -1 µ
+LQ = 2 Tr Pso(7)/g2 (Q µQ)Pso(7)/g2 (Q  Q) ,                                          (15)
+
+with analogous stiffness scale fH for the constrained vacuum directions. The full low-energy
+potential should also carry an overall flavor scale,
+
+                         Leff = Lkin - F4 Veff ,                                      (16)
+
+so collider masses or decay rates cannot be predicted until F , the kinetic normalizations, and
+the couplings are fixed.
+
+    A concrete Lagrangian construction should therefore proceed in layers rather than as a single
+claimed final action:
+
+1. define the constrained sigma-model geometry for Q, hu, hd and the projector Pso(7)/g2;
+2. insert the locked exceptional potential below as the dimensionless leading invariant;
+
+3. couple the spurions r, s through the Higgs-wedge selector and identify the residual rephas-
+   ing gauge direction;
+
+4. expand about a chosen vacuum to obtain canonically normalized fluctuation fields;
+
+5. only after that expansion compute RG flow, flavor-changing neutral-current bounds, scalar
+   masses, and decay rates.
+
+This ordering is important: the present paper fixes the algebraic and EFT boundary data, while
+the full phenomenological Lagrangian is the next work product.
+
+    The dimensionless effective potential is then organized as
+
+                                                         1
+Veff (Q, h, r, s) = FTS(Q, h) - 2Nd(Q, h) - 2 Pchiral(Q, h) + VHW(r, s) .
+
+                         exceptional-geometric core  external Higgs/Yukawa spurion selector
+
+                                                                                      (17)
+
+The Higgs-wedge term is
+
+VHW(r, s) = r(|r|2 - |r|2)2 + s(|s|2 - |s|2)2 + p|rs - |2,                            (18)
+
+where r, s are the CKM-localizing diagnostic values and  = rs. This potential selects the
+fitted spurion invariants modulo the expected rephasing direction; it is not a derivation of those
+values from the pure exceptional geometry.
+
+                         5
+For physical extraction one constructs FTS states such as
+
+u = (1, 1, Ju + rJd, Ju + rJd), d = (1, 1, sJu + Jd, sJu + Jd),       (19)
+
+and reconstructs the generation observable by the compact moment map
+
+                                                   i
+                                 Tr3(HA) = 2 ( , iA), A  u(3)gen. (20)
+Diagonalizing Hu and Hd yields VCKM = UuUd.
+
+Research boundary. The next gates are standard but not optional: test whether r, s are
+ultraviolet-irrelevant or symmetry-restored under RG flow; compute flavor-changing neutral-
+current bounds separately for a global nonlinear-sigma sector and for any gauged flavor sector;
+extend the construction to the lepton/PMNS sector; and only then compute scalar masses
+and collider signatures. Until those gates are completed, the result should be described as a
+structural EFT framework with an external Higgs-wedge selector, not as a finished dynamical
+derivation of Standard Model flavor.
+
+7 Conclusion
+
+By reducing the octonion associator to a complex cross product, we have definitively closed the
+spectral behavior of the mass operator, proving the universal sum rule via conditional negative
+definiteness and diagnosing the n = 7 failure as a purely algebraic tight-frame saturation.
+
+    Transitioning to the Exceptional Jordan Algebra, the verified variational searches show that
+even strain energies collapse to a 2 + 1 block. The necessary mechanism found in these gates
+for opening CKM-like heavy-light mixing is a chiral pseudoscalar, whose structural coefficient
+is derived as 1/2. However, the direct Freudenthal attractor closures tested here do not select
+the exact CKM matrix; they stall at nonzero residuals and wrong mixing angles.
+
+    The final conclusion is that the 27-dimensional Exceptional Jordan Algebra establishes the
+rigid structural track and the canonical chiral torque of the flavor vacuum, while an external
+complex Two-Higgs/Yukawa spurion matrix supplies the non-linear physical strain required, in
+the present framework, to deform the geometry away from its pristine baseline and lock it to the
+empirical parameters of the Standard Model CKM matrix. The direct zero-parameter attractor
+route tested here is closed; the structural localization framework remains as the honest output.
+
+References
+
+ [1] N. Cabibbo, "Unitary Symmetry and Leptonic Decays," Physical Review Letters 10 (1963),
+      531-533.
+
+ [2] M. Kobayashi and T. Maskawa, "CP-Violation in the Renormalizable Theory of Weak
+      Interaction," Progress of Theoretical Physics 49 (1973), 652-657.
+
+ [3] C. Jarlskog, "Commutator of the Quark Mass Matrices in the Standard Electroweak Model
+      and a Measure of Maximal CP Nonconservation," Physical Review Letters 55 (1985), 1039-
+      1042.
+
+ [4] S. Navas et al. (Particle Data Group), "Review of Particle Physics," Physical Review D
+      110 (2024), 030001.
+
+ [5] C. D. Froggatt and H. B. Nielsen, "Hierarchy of quark masses, Cabibbo angles and CP
+      violation," Nuclear Physics B 147 (1979), 277-298.
+
+6
+ [6] I. J. Schoenberg, "Metric spaces and positive definite functions," Transactions of the Amer-
+      ican Mathematical Society 44 (1938), 522-536.
+
+ [7] J. C. Baez, "The octonions," Bulletin of the American Mathematical Society 39 (2002),
+      145-205.
+
+ [8] M. Günaydin and F. Gürsey, "Quark structure and octonions," Journal of Mathematical
+      Physics 14 (1973), 1651-1667.
+
+ [9] T. A. Springer and F. D. Veldkamp, Octonions, Jordan Algebras and Exceptional Groups,
+      Springer Monographs in Mathematics, Springer, 2000.
+
+[10] K. McCrimmon, A Taste of Jordan Algebras, Universitext, Springer, 2004.
+[11] H. Freudenthal, "Beziehungen der E7 und E8 zur Oktavenebene," Indagationes Mathemat-
+
+      icae 16 (1954), 218-230.
+[12] R. B. Brown, "Groups of type E7," Journal für die reine und angewandte Mathematik 236
+
+      (1969), 79-102.
+[13] S. Krutelevich, "Jordan algebras, exceptional groups, and higher composition laws," Jour-
+
+      nal of Algebra 314 (2007), 924-977.
+[14] L. Borsten, M. J. Duff, S. Ferrara, A. Marrani, and W. Rubens, "Small Orbits," Physical
+
+      Review D 85 (2012), 086002.
+
+                                                             7
+

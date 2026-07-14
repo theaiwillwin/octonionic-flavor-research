@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "claims": 13,
+  "mechanical_assertions": {
+    "baseline_pipeline_verifier_passed": true,
+    "baseline_isolated_two_gap_count_is_zero": true,
+    "both_scalar_loop_candidates_are_stable_but_nonisolated": true,
+    "link_hessian_verifier_passed": true,
+    "link_gate_has_no_three_angle_compatible_stable_branch": true,
+    "heavy_external_benchmark_verifier_passed": true,
+    "local_F4_26_branching_is_dimensionally_inconsistent": true
+  },
+  "outputs": [
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\claim_ledger_v1.json",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\CLAIM_LEDGER_v1.md",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\pmns_angle_residuals_v1.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\predictivity_gate_summary_v1.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\baseline_selection_funnel_v1.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\baseline_isolated_full_rank_spectra_v1.png"
+  ]
+}

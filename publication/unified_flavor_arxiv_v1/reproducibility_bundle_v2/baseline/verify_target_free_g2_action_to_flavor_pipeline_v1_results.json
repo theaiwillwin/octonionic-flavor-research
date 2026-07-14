@@ -1,0 +1,28 @@
+{
+  "schema": "verify_target_free_g2_action_to_flavor_pipeline_v1",
+  "checks": {
+    "basis_21_of_21_independent": true,
+    "basis_affine_rank_22": true,
+    "solver_74_actions": true,
+    "solver_no_flavor_inputs": true,
+    "stability_74_hessians": true,
+    "strict_qualified_68": true,
+    "isolated_29": true,
+    "mass_evaluated_36": true,
+    "isolated_full_rank_6": true,
+    "isolated_two_gap_0": true,
+    "mixing_not_gauge_defined": true,
+    "mass_gauge_invariance_better_than_1e-12": true,
+    "fast_slow_contractions_equal": true
+  },
+  "all_passed": true,
+  "fast_slow_max_absolute_contraction_error": 0.0,
+  "artifact_sha256": {
+    "basis": "77d21197e03596a16a3630e469be9a630f73ccfd68bd8c772d4241b3398a838c",
+    "solver": "f2884b0a32f69bd498b9a044e6ce66a0923a8688a666d10c6869a42fe5b87db6",
+    "stability": "7f62f9dd5f7dc7c2aa1027c79cb91ee26e3649375d09fbdc393d3bd6ee717164",
+    "flavor": "b9f6699bfe1cbe4780fb0f003288ec95a7149a3bfb7dba4ec53d26618407873c",
+    "shape": "fd9b953bfb762e70a9dff48770e42e60169151c9c24b6f73c88b3c7415e1c3cb",
+    "report": "be957df394a10bc618bd3b66d6819ed6401d02e82fcfe8d83dd45fea6f4077b1"
+  }
+}

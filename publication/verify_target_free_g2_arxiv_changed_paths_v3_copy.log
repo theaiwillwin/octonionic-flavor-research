@@ -1,0 +1,3 @@
+VERIFIER_V3_COPY: PASS
+SOURCE=publication/verify_target_free_g2_arxiv_changed_paths_v2.py
+DESTINATION=publication/verify_target_free_g2_arxiv_changed_paths_v3.py

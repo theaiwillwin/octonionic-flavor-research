@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9831,
+  "call_index": 1,
+  "tool_name": "project_create",
+  "call": {
+    "id": "call_sRLSG8WII1SYrb8BbuWsvkfX",
+    "call_id": "call_sRLSG8WII1SYrb8BbuWsvkfX",
+    "response_item_id": "fc_071f367ba0e10612016a553729c0f0819185472dfd134961c9",
+    "type": "function",
+    "function": {
+      "name": "project_create",
+      "arguments": "{\"name\":\"can_o_worms\",\"path\":\"D:\\\\Projects\\\\can_o_worms\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "can_o_worms",
+    "path": "D:\\Projects\\can_o_worms"
+  }
+}

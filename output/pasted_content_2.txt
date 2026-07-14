@@ -1,0 +1,81 @@
+a/D:\Projects\can_o_worms\G2_INVARIANT_TRACE_EXTREMUM_GATE_REPORT_v1.md → b/D:\Projects\can_o_worms\G2_INVARIANT_TRACE_EXTREMUM_GATE_REPORT_v1.md
+@@ -0,0 +1,203 @@
++# G2-invariant trace/extremum gate for the archived flavor frames
++
++## Verdict
++
++**NEGATIVE GATE — NUMERICAL:** the archived machine-precision frames
++\(L_d,R_d,L_u,R_u\) do **not** form a recognizable extremum of the declared
++low-degree G2-invariant trace basis, either for the individual/summed traces or
++for target-free up/down relative-balance energies.
++
++Two relative traces are unusually well balanced, but neither is stationary:
++
++| relative energy | down/up | \(E_{\rm rel}=((I_d-I_u)/(I_d+I_u))^2\) | random percentile | \(\|\nabla_{\mathrm{Gr}(3,7)^4}E\|\) | Hessian \(\lambda_{\min}\) |
++|---|---:|---:|---:|---:|---:|
++| \(\phi(X,X,Y)^2/2\) | 1.0099356 | 2.44357e-5 | 2.832% | 8.68164e-3 | -1.95112e-2 |
++| \(\psi(X,X,Y,Y)^2/4\) | 1.0246546 | 1.48284e-4 | 2.832% | 5.15004e-2 | -1.20533e-1 |
++
++Both fail stationarity by orders of magnitude, have approximately 50/50 local
++increase/decrease directions, and have stable negative Hessian modes. A low
++balance value is therefore a coincidence/correlation at this fitted point, not
++an extremum.
++
++## Status labels
++
++- **INPUT — VERIFIED:** the source is
++  `D:/Projects/FINALFUCKINGTIME/fn_joint_ckm_results.json`, SHA-256
++  `a9a4e352fd174835be088fe053fc0191b5d31f648033e2ca94975c80324e66d7`.
++- **PROVENANCE WARNING:** these frames were optimized against mass-power and
++  CKM targets; the archived fit objective \(1.0265501502469025\times10^{-21}\)
++  is not a target-free vacuum energy.
++- **ALGEBRA — VERIFIED:** the locked convention has
++  \(A=-2\,\star\phi\). The four frame orthogonality residuals are
++  \(1.86\times10^{-16}\) to \(6.56\times10^{-16}\).
++- **NUMERICS — VERIFIED:** all raw contractions, gradients, source mass
++  operators, and singular ratios were independently reproduced.
++- **EXTREMUM CLAIM — FAILED in tested basis:** no tested energy is stationary.
++- **FULL G2-INVARIANT-RING CLAIM — NOT TESTED:** this is a bounded low-degree
++  basis, not a proof about every possible G2-invariant action.
++
++## Declared invariant basis
++
++For an orthonormal 3-frame \(X\), projector \(P_X=XX^T\), and the locked unit
++vacuum direction \(h=e_7\), the single-frame probes were
++
++\[
++\operatorname{tr}(P_Xhh^T),\quad
++\frac{\|\phi(X,X,X)\|^2}{6},\quad
++\frac{\|\phi(X,X,h)\|^2}{2},\quad
++\frac{\|A(X,X,h)\|^2}{2}.
++\]
++
++For a pair \((X,Y)\), the probes were
++
++\[
++\operatorname{tr}(P_XP_Y),\quad
++\operatorname{tr}(P_XP_YP_XP_Y),\quad
++\det(X^TY)^2,
++\]
++
++\[
++\frac{\|\phi(X,X,Y)\|^2}{2},\quad
++\frac{\|\phi(X,Y,Y)\|^2}{2},\quad
++\frac{\|\psi(X,X,Y,Y)\|^2}{4},
++\]
++
++\[
++\frac{\|A(X,X,Y)\|^2}{2},\quad
++\frac{\|A(Y,Y,X)\|^2}{2}.
++\]
++
++All contractions are invariant under simultaneous G2 action on the frames and
++\(h\). Fixing \(h=e_7\) leaves its SU(3) stabilizer. Squaring/summing also makes
++the probes invariant under independent frame-basis changes \(X\mapsto XO(3)\).
++
++## Raw traces on the archived frames
++
++### Single-frame traces
++
++| frame | \(\operatorname{tr}(P_Xhh^T)\) | \(\|\phi XXX\|^2/6\) | \(\|\phi XXh\|^2/2\) | \(\|A XXh\|^2/2\) |
+… omitted 125 diff line(s) across 1 additional file(s)/section(s)

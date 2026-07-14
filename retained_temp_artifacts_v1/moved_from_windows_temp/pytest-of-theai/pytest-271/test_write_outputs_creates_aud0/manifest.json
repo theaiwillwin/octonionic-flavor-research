@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-07-08T22:04:54.520296+00:00",
+  "inputs": {
+    "raw_csv": {
+      "bytes": 1131,
+      "columns": [
+        "teacher_type",
+        "noise",
+        "n_train",
+        "repeat_seed",
+        "model",
+        "test_mse",
+        "train_mse",
+        "params",
+        "epochs",
+        "n_test"
+      ],
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\raw.csv",
+      "rows": 18,
+      "sha256": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1"
+    }
+  },
+  "manifest_path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\manifest.json",
+  "outputs": {
+    "condition_csv": {
+      "bytes": 511,
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\condition.csv",
+      "sha256": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238"
+    },
+    "pair_csv": {
+      "bytes": 898,
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "sha256": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c"
+    },
+    "plot_path": {
+      "bytes": 126619,
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\heatmap.png",
+      "sha256": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620"
+    },
+    "report_path": {
+      "bytes": 3599,
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\report.md",
+      "sha256": "3652ab30d86fa2f26cdba631c2f5bd242f9fd88d2fe459dc41b653438d79802a"
+    },
+    "teacher_csv": {
+      "bytes": 476,
+      "exists": true,
+      "path": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\teacher.csv",
+      "sha256": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a"
+    }
+  },
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.9",
+  "verification": {
+    "expected_models": [
+      "AssociatorEnergy",
+      "StiefelEnergy"
+    ],
+    "observed_models": [
+      "AssociatorEnergy",
+      "StiefelEnergy"
+    ],
+    "observed_n_train": [
+      16
+    ],
+    "observed_noise": [
+      0.0
+    ],
+    "observed_teachers": [
+      "golden",
+      "random_associator",
+      "stiefel_non_octonion"
+    ],
+    "raw_required_columns_present": [
+      "epochs",
+      "model",
+      "n_test",
+      "n_train",
+      "noise",
+      "params",
+      "repeat_seed",
+      "teacher_type",
+      "test_mse",
+      "train_mse"
+    ],
+    "repeat_counts_unique": [
+      3
+    ]
+  }
+}

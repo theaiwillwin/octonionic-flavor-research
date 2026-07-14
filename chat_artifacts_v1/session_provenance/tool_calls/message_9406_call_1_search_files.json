@@ -1,0 +1,23 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9406,
+  "call_index": 1,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_OAxdS4qKrAkj02Je2VXg3xDc",
+    "call_id": "call_OAxdS4qKrAkj02Je2VXg3xDc",
+    "response_item_id": "fc_0fd13f151ca1b750016a551e75d2288191aa3e95f0a7f09149",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"context\":8,\"limit\":50,\"path\":\"D:/Projects/ToE_21st_June_NEWEST/fts_moment_map_extraction.py\",\"pattern\":\"def diagnostic_ckm_reproduction|ckm_reproduction|frobenius\",\"target\":\"content\"}"
+    }
+  },
+  "parsed_arguments": {
+    "context": 8,
+    "limit": 50,
+    "path": "D:/Projects/ToE_21st_June_NEWEST/fts_moment_map_extraction.py",
+    "pattern": "def diagnostic_ckm_reproduction|ckm_reproduction|frobenius",
+    "target": "content"
+  }
+}

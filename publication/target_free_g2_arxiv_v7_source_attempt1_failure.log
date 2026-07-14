@@ -1,0 +1,2 @@
+TARGET_FREE_G2_ARXIV_V7_SOURCE_ARCHIVE_ATTEMPT1: FAIL_PRESERVED
+The tar command was launched from D:/Projects/can_o_worms/publication but used the redundant relative source path publication/target_free_g2_arxiv_v7. tar therefore could not open the source directory. The resulting failed/empty archive target_free_g2_arxiv_v7_source.tar.gz and its checksum log are intentionally retained. No source file was changed, deleted, or overwritten. The corrected archive uses a new v2 filename.

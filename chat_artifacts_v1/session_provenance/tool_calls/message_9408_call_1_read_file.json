@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9408,
+  "call_index": 1,
+  "tool_name": "read_file",
+  "call": {
+    "id": "call_HXPxJgnBa9RqpgVudf34XbGr",
+    "call_id": "call_HXPxJgnBa9RqpgVudf34XbGr",
+    "response_item_id": "fc_0a45cef8a6861b5b016a551e7b26d48191af3f67956236f7f1",
+    "type": "function",
+    "function": {
+      "name": "read_file",
+      "arguments": "{\"limit\":100,\"offset\":247,\"path\":\"D:/Projects/ToE_21st_June_NEWEST/fts_moment_map_extraction.py\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 100,
+    "offset": 247,
+    "path": "D:/Projects/ToE_21st_June_NEWEST/fts_moment_map_extraction.py"
+  }
+}

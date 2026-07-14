@@ -1,0 +1,16 @@
+AD_HOC_VERIFICATION: PASS
+VERIFICATION_KIND: focused end-to-end OS-temp probe; NOT canonical suite green
+TEMP_VERIFIER_PATH: C:/Users/theai/AppData/Local/Temp/hermes-verify-138gwp_v.py
+GATE_EXIT: 0
+INDEPENDENT_VERIFIER_EXIT: 0
+CANONICAL_BASIS_PRODUCTS: 64/64
+VACUUM_POTENTIAL: -24.0
+HESSIAN_COUNTS_NEG_ZERO_POS: 0/23/33
+SECTOR_SINGULAR_VALUES: [2.0, 2.0, 2.0] / [2.0, 2.0, 2.0]
+RANDOM_START_BOUND_RESIDUAL_MAX: 2.8421709430404007e-14
+CERTIFICATE_RESIDUAL_MAX: 3.5527136788005009e-14
+ISOLATED_TEMP_RESULTS_CLEANED_BY_CONTEXT: True
+TEMP_VERIFIER_CLEANED: True
+
+Non-fatal runtime note:
+PyTorch emitted a UserWarning at target_free_bifundamental_no_go_gate_v1.py:199 when converting the differentiable scalar `value` to float after the gradient/Hessian had already been computed. Assertions and exit status passed; this warning does not alter the verified numerical result.

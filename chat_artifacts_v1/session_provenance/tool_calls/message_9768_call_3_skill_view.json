@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9768,
+  "call_index": 3,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_EhDfMiza9mQfKIjtGPKX9nL8",
+    "call_id": "call_EhDfMiza9mQfKIjtGPKX9nL8",
+    "response_item_id": "fc_071f367ba0e10612016a55336280c48191bf90a1d779f59833",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"spike\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "spike"
+  }
+}

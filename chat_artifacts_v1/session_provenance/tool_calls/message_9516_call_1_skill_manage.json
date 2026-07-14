@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9516,
+  "call_index": 1,
+  "tool_name": "skill_manage",
+  "call": {
+    "id": "call_wZnbJK8VGPY55ynyJNAkJxWh",
+    "call_id": "call_wZnbJK8VGPY55ynyJNAkJxWh",
+    "response_item_id": "fc_071f367ba0e10612016a552c7287bc8191b5d68f3b8cb46011",
+    "type": "function",
+    "function": {
+      "name": "skill_manage",
+      "arguments": "{\"action\":\"patch\",\"name\":\"verified-algebra-workflow\",\"old_string\":\"- **Locked Jordan-data gap — PENDING, never fabricate:** FTS extraction needs the up/down/lepton Jordan elements `J_u, J_d, J_ν, J_e` to turn a wedge `(r,s)` into a 3×3 mixing matrix. When absent the extractor must return `PENDING_LOCKED_DATA` and the scanner must REFUSE to emit any CKM/PMNS fit. Do not synthesize `J`'s; a `--demo` optimizer run on synthetic `J`'s must be tagged `SYNTHETIC_PROOF_OF_CODE`, not a physics result. See `references/locked-jordan-gap-decision.md` for the full decision tree, the global-floor test, and the honest-file generator shape.\",\"new_string\":\"- **Gate C lepton Jordan-data gap — PENDING, never fabricate:** The historical **quark** FTS diagnostic is now separately recovered in `locked_historical_fts_diagnostic_fit.json` with its full `Q_star,J_u,J_d,r,s` and executable (see `references/locked-historical-fts-fit-recovery-2026-07-14.md`). Gate C/PMNS still needs a real shared-frame construction of `J_ν,J_e`; when absent, the lepton extractor must return `PENDING_LOCKED_DATA` and REFUSE to emit a PMNS fit. Do not substitute synthetic Jordan elements; a `--demo` optimizer run must be tagged `SYNTHETIC_PROOF_OF_CODE`, not physics evidence. See `references/locked-jordan-gap-decision.md` for the remaining decision tree and honesty rules.\"}"
+    }
+  },
+  "parsed_arguments": {
+    "action": "patch",
+    "name": "verified-algebra-workflow",
+    "old_string": "- **Locked Jordan-data gap — PENDING, never fabricate:** FTS extraction needs the up/down/lepton Jordan elements `J_u, J_d, J_ν, J_e` to turn a wedge `(r,s)` into a 3×3 mixing matrix. When absent the extractor must return `PENDING_LOCKED_DATA` and the scanner must REFUSE to emit any CKM/PMNS fit. Do not synthesize `J`'s; a `--demo` optimizer run on synthetic `J`'s must be tagged `SYNTHETIC_PROOF_OF_CODE`, not a physics result. See `references/locked-jordan-gap-decision.md` for the full decision tree, the global-floor test, and the honest-file generator shape.",
+    "new_string": "- **Gate C lepton Jordan-data gap — PENDING, never fabricate:** The historical **quark** FTS diagnostic is now separately recovered in `locked_historical_fts_diagnostic_fit.json` with its full `Q_star,J_u,J_d,r,s` and executable (see `references/locked-historical-fts-fit-recovery-2026-07-14.md`). Gate C/PMNS still needs a real shared-frame construction of `J_ν,J_e`; when absent, the lepton extractor must return `PENDING_LOCKED_DATA` and REFUSE to emit a PMNS fit. Do not substitute synthetic Jordan elements; a `--demo` optimizer run must be tagged `SYNTHETIC_PROOF_OF_CODE`, not physics evidence. See `references/locked-jordan-gap-decision.md` for the remaining decision tree and honesty rules."
+  }
+}

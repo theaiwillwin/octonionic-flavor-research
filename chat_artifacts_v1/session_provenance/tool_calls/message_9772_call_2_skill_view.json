@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9772,
+  "call_index": 2,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_uh2qmBUcZHUhLV4DCkQPqLFu",
+    "call_id": "call_uh2qmBUcZHUhLV4DCkQPqLFu",
+    "response_item_id": "fc_071f367ba0e10612016a55336b73ac8191980be86c48328172",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"file_path\":\"references/e6-higgs-boundary-audit.md\",\"name\":\"gate-verification\"}"
+    }
+  },
+  "parsed_arguments": {
+    "file_path": "references/e6-higgs-boundary-audit.md",
+    "name": "gate-verification"
+  }
+}

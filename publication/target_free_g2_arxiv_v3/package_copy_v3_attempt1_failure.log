@@ -1,0 +1,6 @@
+PACKAGE_COPY_V3_ATTEMPT1: NOT_RUN
+REASON: destination publication/target_free_g2_arxiv_v3 already existed; exclusive destination guard stopped before copying or overwriting any file.
+SOURCE: publication/target_free_g2_arxiv_v2
+DESTINATION: publication/target_free_g2_arxiv_v3
+COMMAND_EXIT: 1
+FILES_CHANGED: 0

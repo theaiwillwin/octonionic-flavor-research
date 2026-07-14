@@ -1,0 +1,648 @@
+{
+  "status": "ANALYTIC_NO_GO_NUMERICALLY_VERIFIED",
+  "scope": "minimal single-associator-channel target-free two-sector action U0",
+  "specified_action": {
+    "fields": "(V,H) in St(7,2); L,R_u,R_d in St(7,3)",
+    "operator": "Y_f = L^T T_(V,H) R_f; T_(V,H)x=[x,V,H]",
+    "potential": "U0 = -Tr(Y_u Y_u^T) - Tr(Y_d Y_d^T)",
+    "empirical_inputs_in_action": 0,
+    "free_continuous_coefficients": 0,
+    "analytic_global_lower_bound": -24.0
+  },
+  "canonical_source": {
+    "path": "C:\\Users\\theai\\stage_h_test\\stage_h_extracted.py",
+    "sha256": "217e854b6dad64dfbf20c0466b7f62d742ac8625bf0d223bb8822bb50c38761b",
+    "basis_products_checked": 64,
+    "basis_product_mismatches": [],
+    "local_A_sign_vs_2Phi": "-"
+  },
+  "exact_operator_identity": {
+    "T_skew_max_abs": 0.0,
+    "TtT_minus_4P_active_max_abs": 0.0,
+    "TTt_minus_4P_active_max_abs": 0.0,
+    "T_rank": 4,
+    "T_singular_values_desc": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "associative_plane_kernel_residual": 0.0
+  },
+  "canonical_vacuum": {
+    "potential": -24.0,
+    "gradient_norm_tangent": 0.0,
+    "up_Y": [
+      [
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "down_Y": [
+      [
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "up_singular_values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "down_singular_values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "up_left_gram_minus_4I_max_abs": 0.0,
+    "down_left_gram_minus_4I_max_abs": 0.0,
+    "vacuum_plus_cross_product_span_rank": 7,
+    "symmetry_breaking_note": "The chosen ordered vacuum data and w=VxH span R7, so the connected G2 stabilizer fixing all VEV columns is trivial."
+  },
+  "constrained_hessian": {
+    "tangent_block_dimensions": [
+      11,
+      15,
+      15,
+      15
+    ],
+    "total_dimension": 56,
+    "expected_symmetry_zero_modes": 23,
+    "zero_eigenvalue_count": 23,
+    "negative_eigenvalue_count": 0,
+    "positive_eigenvalue_count": 33,
+    "minimum_eigenvalue": -7.756872302273263e-15,
+    "maximum_eigenvalue": 92.20942410980282,
+    "minimum_positive_eigenvalue": 7.999999999999991,
+    "eigenvalues": [
+      -7.756872302273263e-15,
+      -6.568040071971213e-15,
+      -5.609251316560184e-15,
+      -4.735241108035721e-15,
+      -4.107699352645636e-15,
+      -3.634206760005033e-15,
+      -2.405406060354402e-15,
+      -1.8711373057171428e-15,
+      -1.620053809171051e-15,
+      -1.089478741236178e-15,
+      -6.280344264901613e-17,
+      0.0,
+      2.4901445789243455e-16,
+      2.6974170927018727e-16,
+      7.842458212261659e-16,
+      1.1665652760557432e-15,
+      1.683016062401718e-15,
+      1.7763568394002505e-15,
+      3.4588605800832748e-15,
+      4.503691524825278e-15,
+      4.842725728783853e-15,
+      6.723170840743977e-15,
+      1.047866848794689e-14,
+      7.999999999999991,
+      7.999999999999995,
+      7.9999999999999964,
+      7.9999999999999964,
+      7.999999999999997,
+      7.999999999999998,
+      7.999999999999999,
+      8.0,
+      8.000000000000002,
+      8.000000000000004,
+      8.000000000000004,
+      8.000000000000004,
+      8.000000000000007,
+      9.775499808080664,
+      9.775499808080701,
+      9.823985018729866,
+      11.507577497529352,
+      11.507577497529372,
+      13.286514800978347,
+      13.28651480097838,
+      13.800662258917,
+      15.999999999999984,
+      24.000000000000007,
+      28.72856128113817,
+      28.72856128113818,
+      40.0,
+      40.00000000000001,
+      44.49242250247061,
+      44.49242250247064,
+      74.19933774108299,
+      78.17601498127009,
+      92.20942410980278,
+      92.20942410980282
+    ],
+    "interpretation": "Nonnegative Hessian; all 23 flat directions match G2 plus O(3)_L x O(3)_Ru x O(3)_Rd symmetry-orbit dimension."
+  },
+  "random_start_block_maximization": {
+    "starts": 64,
+    "maximum_global_bound_residual": 2.842170943040401e-14,
+    "maximum_up_singular_spread": 1.9984014443252818e-15,
+    "maximum_down_singular_spread": 1.9984014443252818e-15,
+    "runs": [
+      {
+        "seed": 0.0,
+        "potential": -24.000000000000025,
+        "global_bound_residual": 2.4868995751603507e-14,
+        "up_singular_spread": 1.7763568394002505e-15,
+        "down_singular_spread": 1.7763568394002505e-15
+      },
+      {
+        "seed": 1.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 2.0,
+        "potential": -24.0,
+        "global_bound_residual": 0.0,
+        "up_singular_spread": 1.7763568394002505e-15,
+        "down_singular_spread": 1.7763568394002505e-15
+      },
+      {
+        "seed": 3.0,
+        "potential": -24.000000000000004,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 1.1102230246251565e-15,
+        "down_singular_spread": 1.1102230246251565e-15
+      },
+      {
+        "seed": 4.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 5.0,
+        "potential": -24.0,
+        "global_bound_residual": 0.0,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 6.0,
+        "potential": -23.999999999999982,
+        "global_bound_residual": 1.7763568394002505e-14,
+        "up_singular_spread": 1.1102230246251565e-15,
+        "down_singular_spread": 1.1102230246251565e-15
+      },
+      {
+        "seed": 7.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.5543122344752192e-15,
+        "down_singular_spread": 1.5543122344752192e-15
+      },
+      {
+        "seed": 8.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 9.0,
+        "potential": -24.00000000000003,
+        "global_bound_residual": 2.842170943040401e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 10.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 11.0,
+        "potential": -23.99999999999999,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 1.1102230246251565e-15,
+        "down_singular_spread": 1.1102230246251565e-15
+      },
+      {
+        "seed": 12.0,
+        "potential": -23.99999999999998,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 13.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 14.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 15.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.9984014443252818e-15,
+        "down_singular_spread": 1.9984014443252818e-15
+      },
+      {
+        "seed": 16.0,
+        "potential": -23.999999999999982,
+        "global_bound_residual": 1.7763568394002505e-14,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 17.0,
+        "potential": -23.999999999999986,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 18.0,
+        "potential": -24.000000000000004,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 19.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 20.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.9984014443252818e-15,
+        "down_singular_spread": 1.9984014443252818e-15
+      },
+      {
+        "seed": 21.0,
+        "potential": -23.999999999999982,
+        "global_bound_residual": 1.7763568394002505e-14,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 22.0,
+        "potential": -24.00000000000002,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 23.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 24.0,
+        "potential": -23.999999999999996,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 1.5543122344752192e-15,
+        "down_singular_spread": 1.5543122344752192e-15
+      },
+      {
+        "seed": 25.0,
+        "potential": -24.000000000000025,
+        "global_bound_residual": 2.4868995751603507e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 26.0,
+        "potential": -23.999999999999986,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 27.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 28.0,
+        "potential": -24.000000000000004,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 29.0,
+        "potential": -23.999999999999996,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 30.0,
+        "potential": -24.000000000000004,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 31.0,
+        "potential": -24.0,
+        "global_bound_residual": 0.0,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 32.0,
+        "potential": -24.000000000000025,
+        "global_bound_residual": 2.4868995751603507e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 33.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 34.0,
+        "potential": -23.99999999999999,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 35.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 36.0,
+        "potential": -23.99999999999999,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 1.1102230246251565e-15,
+        "down_singular_spread": 1.1102230246251565e-15
+      },
+      {
+        "seed": 37.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 38.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 39.0,
+        "potential": -24.0,
+        "global_bound_residual": 0.0,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 40.0,
+        "potential": -24.00000000000001,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 41.0,
+        "potential": -24.00000000000003,
+        "global_bound_residual": 2.842170943040401e-14,
+        "up_singular_spread": 1.7763568394002505e-15,
+        "down_singular_spread": 1.7763568394002505e-15
+      },
+      {
+        "seed": 42.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.5543122344752192e-15,
+        "down_singular_spread": 1.5543122344752192e-15
+      },
+      {
+        "seed": 43.0,
+        "potential": -23.999999999999986,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 44.0,
+        "potential": -24.00000000000002,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 45.0,
+        "potential": -24.00000000000001,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 0.0,
+        "down_singular_spread": 0.0
+      },
+      {
+        "seed": 46.0,
+        "potential": -23.999999999999996,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 0.0,
+        "down_singular_spread": 0.0
+      },
+      {
+        "seed": 47.0,
+        "potential": -24.00000000000002,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 48.0,
+        "potential": -23.99999999999999,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 49.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 6.661338147750939e-16,
+        "down_singular_spread": 6.661338147750939e-16
+      },
+      {
+        "seed": 50.0,
+        "potential": -23.999999999999975,
+        "global_bound_residual": 2.4868995751603507e-14,
+        "up_singular_spread": 2.220446049250313e-16,
+        "down_singular_spread": 2.220446049250313e-16
+      },
+      {
+        "seed": 51.0,
+        "potential": -23.999999999999993,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 52.0,
+        "potential": -23.999999999999996,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 2.220446049250313e-16,
+        "down_singular_spread": 2.220446049250313e-16
+      },
+      {
+        "seed": 53.0,
+        "potential": -23.999999999999996,
+        "global_bound_residual": 3.552713678800501e-15,
+        "up_singular_spread": 1.5543122344752192e-15,
+        "down_singular_spread": 1.5543122344752192e-15
+      },
+      {
+        "seed": 54.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 1.5543122344752192e-15,
+        "down_singular_spread": 1.5543122344752192e-15
+      },
+      {
+        "seed": 55.0,
+        "potential": -24.00000000000002,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 56.0,
+        "potential": -24.00000000000001,
+        "global_bound_residual": 1.0658141036401503e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 57.0,
+        "potential": -24.00000000000002,
+        "global_bound_residual": 2.1316282072803006e-14,
+        "up_singular_spread": 1.7763568394002505e-15,
+        "down_singular_spread": 1.7763568394002505e-15
+      },
+      {
+        "seed": 58.0,
+        "potential": -24.000000000000025,
+        "global_bound_residual": 2.4868995751603507e-14,
+        "up_singular_spread": 1.3322676295501878e-15,
+        "down_singular_spread": 1.3322676295501878e-15
+      },
+      {
+        "seed": 59.0,
+        "potential": -24.000000000000007,
+        "global_bound_residual": 7.105427357601002e-15,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 60.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 0.0,
+        "down_singular_spread": 0.0
+      },
+      {
+        "seed": 61.0,
+        "potential": -24.0,
+        "global_bound_residual": 0.0,
+        "up_singular_spread": 4.440892098500626e-16,
+        "down_singular_spread": 4.440892098500626e-16
+      },
+      {
+        "seed": 62.0,
+        "potential": -24.000000000000014,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 8.881784197001252e-16,
+        "down_singular_spread": 8.881784197001252e-16
+      },
+      {
+        "seed": 63.0,
+        "potential": -23.999999999999986,
+        "global_bound_residual": 1.4210854715202004e-14,
+        "up_singular_spread": 1.1102230246251565e-15,
+        "down_singular_spread": 1.1102230246251565e-15
+      }
+    ]
+  },
+  "small_tangent_perturbations": {
+    "sample_count": 256,
+    "tangent_radius": 0.0001,
+    "minimum_potential_increase": 3.111900781505028e-08,
+    "maximum_potential_increase": 1.4578228757500256e-07,
+    "maximum_abs_second_order_residual": 1.6792283991544871e-12
+  },
+  "held_out_flavor_verdict": {
+    "mass_hierarchy": "FAIL: both normalized spectra are exactly (1,1,1)",
+    "mixing": "FAIL/UNDEFINED: Y_f Y_f^T=4I, so left diagonalizers and CKM are physically undetermined by the action",
+    "CP": "FAIL: the specified real action supplies no physical CP invariant"
+  },
+  "analytic_claim": "Every stable local minimum of U0 is global. At every such minimum, col(L) lies in the rank-4 active coassociative plane, each col(R_f) equals T^T col(L), and sv(Y_u)=sv(Y_d)=(2,2,2).",
+  "honesty_boundary": "This is a no-go theorem for the specified minimal one-channel norm action, not for all G2-invariant multi-vacuum, interference, chiral, Jordan, or Freudenthal actions.",
+  "checks": {
+    "canonical_basis_table_match": true,
+    "operator_skew": true,
+    "operator_projector_identity": true,
+    "operator_rank_four": true,
+    "stationary": true,
+    "global_bound_saturated": true,
+    "hessian_no_physical_negative_mode": true,
+    "hessian_zero_modes_match_symmetries": true,
+    "hessian_positive_transverse": true,
+    "both_sectors_exactly_degenerate": true,
+    "random_starts_reach_degenerate_global_vacuum": true,
+    "small_perturbations_do_not_lower_potential": true
+  },
+  "verification_all_pass": true,
+  "gate_verdict": "FAIL_STABLE_HIERARCHY_MINIMAL_ACTION_SELECTS_EXACT_DEGENERACY"
+}

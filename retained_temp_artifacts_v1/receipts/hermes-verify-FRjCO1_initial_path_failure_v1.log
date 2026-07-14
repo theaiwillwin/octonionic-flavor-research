@@ -1,0 +1,4 @@
+C:\\Users\\theai\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: can't open file 'D:\\\\c\\\\Users\\\\theai\\\\AppData\\\\Local\\\\Temp\\\\hermes-verify-FRjCO1.py': [Errno 2] No such file or directory
+exit_code=2
+classification=MSYS-to-Windows path conversion failure; verifier body did not execute
+cleanup=the temporary verifier was removed by the shell EXIT trap

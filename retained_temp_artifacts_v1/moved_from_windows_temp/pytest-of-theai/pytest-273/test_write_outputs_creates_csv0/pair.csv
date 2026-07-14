@@ -1,0 +1,7 @@
+teacher_type,noise,n_train,repeat_seed,Associator,StiefelNonOctonion,delta_stiefel_minus_assoc,relative_delta,assoc_better,winner
+golden,0.15,16,0,1.0,2.0,1.0,0.5,True,Associator
+golden,0.15,16,1,1.0,2.0,1.0,0.5,True,Associator
+golden,0.15,16,2,1.0,2.0,1.0,0.5,True,Associator
+non_associator,0.15,16,0,2.0,1.0,-1.0,-1.0,False,StiefelNonOctonion
+non_associator,0.15,16,1,2.0,1.0,-1.0,-1.0,False,StiefelNonOctonion
+non_associator,0.15,16,2,2.0,1.0,-1.0,-1.0,False,StiefelNonOctonion

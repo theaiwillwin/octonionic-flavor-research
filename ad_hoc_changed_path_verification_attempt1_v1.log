@@ -1,0 +1,6 @@
+AD_HOC_VERIFICATION ATTEMPT 1: FAIL (verifier did not execute)
+TEMP_PATH: C:/Users/theai/AppData/Local/Temp/hermes-verify-cceh5yvb.py
+EXIT_CODE: 1
+ERROR: read_file returned line-number-prefixed content, producing SyntaxError at `8|from __future__ import annotations`.
+TEMP_VERIFIER_CLEANED: True
+CORRECTION: strip the read_file `LINE|CONTENT` prefixes before recreating the tempfile.

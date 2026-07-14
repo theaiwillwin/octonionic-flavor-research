@@ -1,0 +1,52 @@
+{
+  "status": "FRESH_INDEPENDENT_GATE_RERUN",
+  "source_result": "target_free_bifundamental_no_go_gate_v1_results.json",
+  "source_gate_verdict": "FAIL_STABLE_HIERARCHY_MINIMAL_ACTION_SELECTS_EXACT_DEGENERACY",
+  "canonical_A_sign_vs_2Phi": "-",
+  "seed": 2026071417,
+  "samples": 512,
+  "random_pair_projector_identity_max_abs": 5.329070518200751e-15,
+  "global_bound_sum_of_squares_certificate_max_abs": 4.618527782440651e-14,
+  "O2_vacuum_pair_invariance_max_abs": 8.881784197001252e-15,
+  "O3_flavor_basis_invariance_max_abs": 1.0658141036401503e-14,
+  "canonical_vacuum": {
+    "potential": -24.0,
+    "tangent_gradient_norm": 0.0,
+    "tangent_dimensions": [
+      11,
+      15,
+      15,
+      15
+    ],
+    "hessian_zero_count": 23,
+    "hessian_negative_count": 0,
+    "hessian_positive_count": 33,
+    "hessian_minimum_positive": 7.999999999999991,
+    "up_singular_values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "down_singular_values": [
+      2.0,
+      2.0,
+      2.0
+    ]
+  },
+  "certificate_formula": "24-F = 8||P_A L||_F^2 + sum_f ||(I-P_Rf) T^T L||_F^2",
+  "checks": {
+    "canonical_sign_locked": true,
+    "projector_identity": true,
+    "sum_of_squares_certificate": true,
+    "O2_pair_symmetry": true,
+    "O3_basis_symmetry": true,
+    "stationary": true,
+    "global_bound_saturated": true,
+    "hessian_no_negative_mode": true,
+    "hessian_symmetry_zero_modes": true,
+    "hessian_positive_transverse": true,
+    "exact_threefold_degeneracy": true
+  },
+  "all_pass": true,
+  "scientific_gate_verdict": "FAIL_STABLE_HIERARCHY_MINIMAL_ACTION_SELECTS_EXACT_DEGENERACY"
+}

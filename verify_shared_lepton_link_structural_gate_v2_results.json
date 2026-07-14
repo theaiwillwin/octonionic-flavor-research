@@ -1,0 +1,417 @@
+{
+  "schema": "verify_shared_lepton_link_structural_gate_v2",
+  "status": "PASS",
+  "sources": [
+    "D:\\Projects\\can_o_worms\\shared_lepton_link_structural_gate_v1_results.json",
+    "D:\\Projects\\can_o_worms\\verify_shared_lepton_link_structural_gate_v1_results.json"
+  ],
+  "degeneracy_rule": "Mixing is withheld unless both sector singular spectra have every adjacent gap / largest singular value >= 1e-6.",
+  "relative_adjacent_singular_gap_min": 1e-06,
+  "qualified_non_degenerate_full_rank_link_count": 21,
+  "qualified_isolated_vacuum_count": 3,
+  "excluded_count": 15,
+  "maxima": {
+    "link_covariance": 5.967913326550271e-12,
+    "abs_mixing_gauge_invariance": 5.236366895644551e-13,
+    "jarlskog_gauge_invariance": 1.1622647289044608e-15,
+    "J_e_covariance": 3.552713678800501e-15,
+    "J_nu_covariance": 1.8651751184664476e-14,
+    "mixing_unitarity": 2.220446049250313e-15
+  },
+  "passes": {
+    "link_covariance": true,
+    "abs_mixing_gauge_invariance": true,
+    "jarlskog_gauge_invariance": true,
+    "J_e_covariance": true,
+    "J_nu_covariance": true,
+    "mixing_unitarity": true
+  },
+  "qualified": [
+    {
+      "label": "primitive_plus__single_sum_hPh",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.30694228067341267,
+      "neutrino_relative_gap": 0.17416215566114232,
+      "link_covariance_residual": 1.5565409952966682e-15,
+      "abs_mixing_gauge_residual": 2.7200464103316335e-15,
+      "jarlskog_gauge_residual": 1.6132928326584306e-16,
+      "J_e_covariance_residual": 4.440892098500626e-16,
+      "J_nu_covariance_residual": 4.441217213185963e-15,
+      "mixing_unitarity_residual": 2.220446049250313e-15
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.06886641968451587,
+      "neutrino_relative_gap": 0.1651965402232848,
+      "link_covariance_residual": 1.4475537224895361e-15,
+      "abs_mixing_gauge_residual": 6.772360450213455e-15,
+      "jarlskog_gauge_residual": 5.273559366969494e-16,
+      "J_e_covariance_residual": 9.992007221626409e-16,
+      "J_nu_covariance_residual": 1.5610463633549198e-15,
+      "mixing_unitarity_residual": 8.491573300505515e-16
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.18501295199174156,
+      "neutrino_relative_gap": 0.1798679468735452,
+      "link_covariance_residual": 1.1443916996305594e-15,
+      "abs_mixing_gauge_residual": 2.3314683517128287e-15,
+      "jarlskog_gauge_residual": 3.2612801348363973e-16,
+      "J_e_covariance_residual": 1.9984014443252818e-15,
+      "J_nu_covariance_residual": 3.7751664318895325e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPhh",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.3758845600946079,
+      "neutrino_relative_gap": 0.06911015606458247,
+      "link_covariance_residual": 5.873764467847935e-15,
+      "abs_mixing_gauge_residual": 1.992850329202156e-14,
+      "jarlskog_gauge_residual": 1.1622647289044608e-15,
+      "J_e_covariance_residual": 1.3322676295501878e-15,
+      "J_nu_covariance_residual": 1.0053497077208614e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.43534926004218205,
+      "neutrino_relative_gap": 0.4628388272920114,
+      "link_covariance_residual": 4.511305742390249e-15,
+      "abs_mixing_gauge_residual": 6.5503158452884236e-15,
+      "jarlskog_gauge_residual": 2.914335439641036e-16,
+      "J_e_covariance_residual": 3.885780586188048e-16,
+      "J_nu_covariance_residual": 7.660586166659236e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.2177504801502836,
+      "neutrino_relative_gap": 0.2823263315096798,
+      "link_covariance_residual": 1.324147507406233e-15,
+      "abs_mixing_gauge_residual": 1.887379141862766e-15,
+      "jarlskog_gauge_residual": 1.3183898417423734e-16,
+      "J_e_covariance_residual": 6.661338147750939e-16,
+      "J_nu_covariance_residual": 5.552254528270006e-16,
+      "mixing_unitarity_residual": 8.881784197001252e-16
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.47644557524411957,
+      "neutrino_relative_gap": 0.47644557524411957,
+      "link_covariance_residual": 1.0615230586634098e-14,
+      "abs_mixing_gauge_residual": 8.665399726724631e-15,
+      "jarlskog_gauge_residual": 1.619271030158514e-30,
+      "J_e_covariance_residual": 1.7763568394002505e-15,
+      "J_nu_covariance_residual": 1.3988810110276972e-14,
+      "mixing_unitarity_residual": 1.9984014443252818e-15
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.45996823751910376,
+      "neutrino_relative_gap": 0.45996823751910376,
+      "link_covariance_residual": 1.8524795763375e-15,
+      "abs_mixing_gauge_residual": 1.705647198434648e-15,
+      "jarlskog_gauge_residual": 3.1089157977282327e-31,
+      "J_e_covariance_residual": 3.3306690738754696e-16,
+      "J_nu_covariance_residual": 1.4432899320127035e-15,
+      "mixing_unitarity_residual": 1.0318964032102116e-15
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.20787316690152202,
+      "neutrino_relative_gap": 0.2078731669015219,
+      "link_covariance_residual": 1.5381550505879239e-15,
+      "abs_mixing_gauge_residual": 2.1952897949607288e-15,
+      "jarlskog_gauge_residual": 5.6050971507193555e-31,
+      "J_e_covariance_residual": 6.661338147750939e-16,
+      "J_nu_covariance_residual": 1.887379141862766e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.37005203358622535,
+      "neutrino_relative_gap": 0.303875519263524,
+      "link_covariance_residual": 4.232338505691245e-15,
+      "abs_mixing_gauge_residual": 3.774758283725532e-15,
+      "jarlskog_gauge_residual": 2.706168622523819e-16,
+      "J_e_covariance_residual": 1.7763568394002505e-15,
+      "J_nu_covariance_residual": 7.582335026075009e-15,
+      "mixing_unitarity_residual": 1.3322676295501878e-15
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.26358780936930154,
+      "neutrino_relative_gap": 0.09808688636268133,
+      "link_covariance_residual": 3.653477551705879e-15,
+      "abs_mixing_gauge_residual": 2.7755575615628914e-15,
+      "jarlskog_gauge_residual": 3.608224830031759e-16,
+      "J_e_covariance_residual": 7.771561172376096e-16,
+      "J_nu_covariance_residual": 5.107081714248496e-15,
+      "mixing_unitarity_residual": 8.881784197001252e-16
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.42732595290027797,
+      "neutrino_relative_gap": 0.42732595290027825,
+      "link_covariance_residual": 1.9119139715078642e-15,
+      "abs_mixing_gauge_residual": 1.9984014443252818e-15,
+      "jarlskog_gauge_residual": 1.97758476261356e-16,
+      "J_e_covariance_residual": 1.3322676295501878e-15,
+      "J_nu_covariance_residual": 3.775038665026709e-15,
+      "mixing_unitarity_residual": 4.440892098500626e-16
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.28411865083429927,
+      "neutrino_relative_gap": 0.2841186508342873,
+      "link_covariance_residual": 4.545902364027965e-15,
+      "abs_mixing_gauge_residual": 1.9984014443252818e-15,
+      "jarlskog_gauge_residual": 6.21247844834194e-17,
+      "J_e_covariance_residual": 3.3306690738754696e-16,
+      "J_nu_covariance_residual": 5.551215774486705e-16,
+      "mixing_unitarity_residual": 1.7763568394002505e-15
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.04674876744551009,
+      "neutrino_relative_gap": 0.04674876744550965,
+      "link_covariance_residual": 1.2815744444133687e-15,
+      "abs_mixing_gauge_residual": 5.495603971894525e-15,
+      "jarlskog_gauge_residual": 9.432558900623889e-16,
+      "J_e_covariance_residual": 1.7763568394002505e-15,
+      "J_nu_covariance_residual": 4.663148119558203e-15,
+      "mixing_unitarity_residual": 1.1102230246251565e-15
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.27391317500962226,
+      "neutrino_relative_gap": 0.41065806081152134,
+      "link_covariance_residual": 2.3420180361420893e-15,
+      "abs_mixing_gauge_residual": 3.3861802251067274e-15,
+      "jarlskog_gauge_residual": 3.5388358909926865e-16,
+      "J_e_covariance_residual": 7.771561172376096e-16,
+      "J_nu_covariance_residual": 3.185488924951312e-15,
+      "mixing_unitarity_residual": 6.661338147750939e-16
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.27077874817324576,
+      "neutrino_relative_gap": 0.45591270838363507,
+      "link_covariance_residual": 1.6736404963781187e-15,
+      "abs_mixing_gauge_residual": 1.7208456881689926e-15,
+      "jarlskog_gauge_residual": 2.8449465006019636e-16,
+      "J_e_covariance_residual": 9.992007221626409e-16,
+      "J_nu_covariance_residual": 1.2214241393426579e-15,
+      "mixing_unitarity_residual": 1.5543122344752192e-15
+    },
+    {
+      "label": "primitive_plus__triple_sum_phi_PQR",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.3796611448503268,
+      "neutrino_relative_gap": 0.04516579910240349,
+      "link_covariance_residual": 1.93335067591649e-15,
+      "abs_mixing_gauge_residual": 1.8596235662471372e-15,
+      "jarlskog_gauge_residual": 9.020562075079397e-17,
+      "J_e_covariance_residual": 3.885780586188048e-16,
+      "J_nu_covariance_residual": 1.7210351278643429e-15,
+      "mixing_unitarity_residual": 6.733945391863337e-16
+    },
+    {
+      "label": "primitive_plus__four_psi_PQRS",
+      "vacuum_class": "continuous_extra_moduli",
+      "charged_lepton_relative_gap": 0.42240668972286793,
+      "neutrino_relative_gap": 0.4185314225885538,
+      "link_covariance_residual": 2.424922536124218e-15,
+      "abs_mixing_gauge_residual": 1.887379141862766e-15,
+      "jarlskog_gauge_residual": 3.469446951953614e-16,
+      "J_e_covariance_residual": 3.3306690738754696e-16,
+      "J_nu_covariance_residual": 1.943254367259351e-16,
+      "mixing_unitarity_residual": 8.402725478524888e-16
+    },
+    {
+      "label": "rademacher_07",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "charged_lepton_relative_gap": 0.00027707038988104886,
+      "neutrino_relative_gap": 0.0002770238974720189,
+      "link_covariance_residual": 5.967913326550271e-12,
+      "abs_mixing_gauge_residual": 5.236366895644551e-13,
+      "jarlskog_gauge_residual": 5.649310064514198e-17,
+      "J_e_covariance_residual": 3.552713678800501e-15,
+      "J_nu_covariance_residual": 1.8651751184664476e-14,
+      "mixing_unitarity_residual": 1.9984014443252818e-15
+    },
+    {
+      "label": "rademacher_12",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "charged_lepton_relative_gap": 0.19171288166543224,
+      "neutrino_relative_gap": 0.19171287845405108,
+      "link_covariance_residual": 1.0325671005860943e-15,
+      "abs_mixing_gauge_residual": 1.1921019726912618e-14,
+      "jarlskog_gauge_residual": 5.065392549852277e-16,
+      "J_e_covariance_residual": 8.881784197001252e-16,
+      "J_nu_covariance_residual": 1.666229693490034e-15,
+      "mixing_unitarity_residual": 6.661338147750939e-16
+    },
+    {
+      "label": "rademacher_23",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "charged_lepton_relative_gap": 0.11116991632061322,
+      "neutrino_relative_gap": 0.11116992514943058,
+      "link_covariance_residual": 1.653958484192854e-15,
+      "abs_mixing_gauge_residual": 1.1075490140716964e-14,
+      "jarlskog_gauge_residual": 2.1750564713256462e-23,
+      "J_e_covariance_residual": 5.551115123125783e-16,
+      "J_nu_covariance_residual": 1.9984014443252818e-15,
+      "mixing_unitarity_residual": 1.5543122344752192e-15
+    }
+  ],
+  "excluded": [
+    {
+      "label": "primitive_minus__single_sum_hPh",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.09426846375947273,
+      "neutrino_relative_gap": 0.11145514558492692
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPhh",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.11686458769920371,
+      "neutrino_relative_gap": 0.4270351671049866
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQ",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 0.0,
+      "neutrino_relative_gap": 7.163467714117611e-16
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQPQ",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 9.543701827344281e-15,
+      "neutrino_relative_gap": 7.901706871165534e-16
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_phi_symmetric",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 8.203199695196104e-16,
+      "neutrino_relative_gap": 6.7294774704190795e-15
+    },
+    {
+      "label": "primitive_minus__triple_sum_sym_hPQRh",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.16846149697330068,
+      "neutrino_relative_gap": 0.16864541020966667
+    },
+    {
+      "label": "primitive_minus__four_sum_sym_h_cycle_h",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.2674902031954763,
+      "neutrino_relative_gap": 0.23766171822583892
+    },
+    {
+      "label": "rademacher_02",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.12516359372503283,
+      "neutrino_relative_gap": 0.025960841700280998
+    },
+    {
+      "label": "rademacher_03",
+      "reasons": [
+        "rank_deficient_nonunique_link"
+      ],
+      "charged_lepton_relative_gap": 0.01499368347125515,
+      "neutrino_relative_gap": 0.010959308937885064
+    },
+    {
+      "label": "rademacher_04",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 1.5589690308067137e-07,
+      "neutrino_relative_gap": 1.56440249255346e-07
+    },
+    {
+      "label": "rademacher_11",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 1.1832878906822803e-16,
+      "neutrino_relative_gap": 3.549863672046842e-16
+    },
+    {
+      "label": "rademacher_16",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 1.460531075195628e-14,
+      "neutrino_relative_gap": 5.9160752412987764e-15
+    },
+    {
+      "label": "rademacher_26",
+      "reasons": [
+        "rank_deficient_nonunique_link",
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 8.46556974515517e-17,
+      "neutrino_relative_gap": 3.489702483284119e-17
+    },
+    {
+      "label": "rademacher_27",
+      "reasons": [
+        "rank_deficient_nonunique_link",
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 4.4894434775599003e-17,
+      "neutrino_relative_gap": 5.507147597134518e-17
+    },
+    {
+      "label": "rademacher_28",
+      "reasons": [
+        "charged_lepton_left_eigenspace_degenerate",
+        "neutrino_left_eigenspace_degenerate"
+      ],
+      "charged_lepton_relative_gap": 1.1276724495110126e-16,
+      "neutrino_relative_gap": 0.0
+    }
+  ],
+  "claim_boundary": "PASS means the auxiliary link defines gauge-invariant left mixing on nondegenerate full-rank cases. Degenerate cases correctly have no unique mixing observable. No PMNS agreement or backreacted link-vacuum stability is tested."
+}

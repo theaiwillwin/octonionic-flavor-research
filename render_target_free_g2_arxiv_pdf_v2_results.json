@@ -1,0 +1,72 @@
+{
+  "pdf": "D:\\Projects\\can_o_worms\\output\\pdf\\Target_Free_G2_Invariant_Vacuum_Dynamics_Connelly_2026-07-14_v2.pdf",
+  "pages": 11,
+  "renders": [
+    {
+      "page": 1,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-01.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 2,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-02.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 3,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-03.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 4,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-04.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 5,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-05.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 6,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-06.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 7,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-07.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 8,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-08.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 9,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-09.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 10,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-10.png",
+      "width": 918,
+      "height": 1188
+    },
+    {
+      "page": 11,
+      "path": "D:\\Projects\\can_o_worms\\tmp\\pdfs\\target_free_g2_arxiv_render_v2\\page-11.png",
+      "width": 918,
+      "height": 1188
+    }
+  ]
+}

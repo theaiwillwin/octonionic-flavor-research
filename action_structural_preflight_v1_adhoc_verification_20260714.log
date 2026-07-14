@@ -1,0 +1,20 @@
+AD-HOC VERIFICATION (not suite/CI green)
+Date context: 2026-07-14
+Changed file: D:/Projects/can_o_worms/action_structural_preflight_v1.py
+Temporary verifier: C:/Users/theai/AppData/Local/Temp/hermes-verify-cj2rp___.py
+Temporary verifier cleanup: completed
+Project Python: D:/Projects/toe_new/.venv/Scripts/python.exe
+Exit code: 0
+Result: PASS
+
+Checked:
+- canonical octonion/G2 identity gate and raw A=-2Phi convention
+- direct associator vs canonical tensor contraction for A_{V,H}
+- skew-symmetry of A_{V,H}
+- A^T A = 4 P_perp for orthonormal V,H
+- singular spectrum (2,2,2,2,0,0,0)
+- direct signed bilinear vs L^T A R
+- explicit S=-12 witness, Stiefel constraints, and Y^T Y=4I
+- retained JSON all_pass/check flags and canonical-source SHA-256 provenance
+
+Classification: focused ad-hoc verification only; no canonical project test suite or CI command was available/detected.

@@ -1,0 +1,26 @@
+PASS: all four changed paths exist
+PASS: verify_target_free_g2_arxiv_changed_sources_v1.py compiles as Python
+PASS: verify_target_free_g2_arxiv_changed_sources_v1.py has no hidden controls
+PASS: verify_target_free_g2_arxiv_v7_archive_v1.py compiles as Python
+PASS: verify_target_free_g2_arxiv_v7_archive_v1.py has no hidden controls
+PASS: v4 contains its four declared source corrections
+PASS: v7 contains every v4 correction
+PASS: v7 contains the final frame-gauge correction
+PASS: v7 has no malformed comma-qquad token
+PASS: both changed TeX sources have no hidden controls
+PASS: v4 PDF exists with valid header
+PASS: v7 PDF exists with valid header
+PASS: clean archive PDF exists with valid header
+PASS: v7 and clean-build TeX logs have no warning/error markers
+PASS: source archive has exactly five declared members
+PASS: source archive has no unsafe paths
+PASS: archive SHA-256 matches release receipt
+PASS: extracted source hashes match v7
+PASS: v7 and clean PDFs have eleven pages
+PASS: v7 and clean PDFs have identical normalized text
+PASS: rendered PDF retains explicit finite-class boundary
+Traceback (most recent call last):
+  File "D:\Projects\can_o_worms\publication\verify_target_free_g2_arxiv_changed_paths_v2.py", line 113, in <module>
+    expected, relative = line.split("  ", 1)
+    ^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)

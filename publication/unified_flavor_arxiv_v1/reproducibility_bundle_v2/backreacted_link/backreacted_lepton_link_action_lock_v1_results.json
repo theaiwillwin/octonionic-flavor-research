@@ -1,0 +1,27 @@
+{
+  "schema": "backreacted_lepton_link_action_lock_v1",
+  "status": "canonical_link_backreaction_locked_before_new_vacuum_solve",
+  "field_definition": "K_h=L_e^T(I-hh^T+iJ_h)L_nu",
+  "auxiliary_interaction": "V_link(Sigma)=-ReTr(Sigma^dagger K_h), Sigma in U(3)",
+  "integrated_out_minimum": "min_Sigma V_link=-nuclear_norm(K_h)",
+  "standardized_action_term": "-(nuclear_norm(K_h)-haar_mean)/haar_std",
+  "coefficient": -1.0,
+  "coefficient_rationale": "canonical unit coefficient after Haar standardization; no scan",
+  "haar_calibration": {
+    "seed": 20260720,
+    "count": 2048,
+    "mean": 2.176824290850128,
+    "std": 0.25193112933679535,
+    "min": 1.2945370580479572,
+    "max": 2.8397832127173928
+  },
+  "complex_structure_identity_residual": 0.0,
+  "maximum_frame_gauge_invariance_residual": 1.3322676295501878e-15,
+  "target_firewall": {
+    "PMNS_or_lepton_observables_read": [],
+    "flavor_values_in_action": [],
+    "coefficient_optimization": "none"
+  },
+  "post_exposure_status": "Objective is target-free, but its design follows inspection of the prior PMNS failure; later PMNS comparison is exploratory, not blind held-out evidence.",
+  "script_sha256": "2bb47c02321dd6084dfabecaed71f2108c8e8ac96f889b8f7fc1227543866bfc"
+}

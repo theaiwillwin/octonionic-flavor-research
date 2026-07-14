@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9570,
+  "call_index": 2,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_yEHVkScmuhI3vqWYakdFOVn8",
+    "call_id": "call_yEHVkScmuhI3vqWYakdFOVn8",
+    "response_item_id": "fc_071f367ba0e10612016a5530fe23b08191a87127a9c06d65ad",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"humanizer\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "humanizer"
+  }
+}

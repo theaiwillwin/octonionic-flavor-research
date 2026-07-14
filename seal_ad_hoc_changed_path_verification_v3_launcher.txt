@@ -1,0 +1,95 @@
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+import re
+import stat
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+TEMP = Path(r"C:/Users/theai/AppData/Local/Temp")
+RECEIPT = ROOT / "AD_HOC_CHANGED_PATH_VERIFICATION_LOCK_v3.json"
+TARGETS = [
+    ROOT / "ad_hoc_changed_path_verifier_v2_source.txt",
+    ROOT / "run_ad_hoc_changed_path_verifier_v2_launcher.txt",
+    ROOT / "ad_hoc_changed_path_verification_v2.log",
+    ROOT / "ad_hoc_changed_path_verifier_v3_source.txt",
+    ROOT / "run_ad_hoc_changed_path_verifier_v3_launcher.txt",
+    ROOT / "ad_hoc_changed_path_verification_v3.log",
+    ROOT / "verification_empty_temp_proxy_v3/README.txt",
+    ROOT / "seal_ad_hoc_changed_path_verification_v3_launcher.txt",
+]
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def read_only(path: Path) -> bool:
+    attributes = getattr(path.stat(), "st_file_attributes", 0)
+    return bool(attributes & getattr(stat, "FILE_ATTRIBUTE_READONLY", 1))
+
+
+def temp_paths(log: Path) -> list[Path]:
+    pattern = re.compile(r"^TEMP_VERIFIER_PATH=(.+)$", re.MULTILINE)
+    return [Path(value.strip()) for value in pattern.findall(log.read_text(encoding="utf-8"))]
+
+
+def main() -> int:
+    if RECEIPT.exists():
+        raise FileExistsError(f"Retention rule: refusing to overwrite {RECEIPT}")
+    if not all(path.is_file() for path in TARGETS):
+        raise FileNotFoundError("one or more ad-hoc verification artifacts are missing")
+
+    v2_log = ROOT / "ad_hoc_changed_path_verification_v2.log"
+    v3_log = ROOT / "ad_hoc_changed_path_verification_v3.log"
+    recorded_temp_paths = temp_paths(v2_log) + temp_paths(v3_log)
+    files = [
+        {"path": str(path), "bytes": path.stat().st_size, "sha256": digest(path)}
+        for path in TARGETS
+    ]
+    payload = {
+        "schema": "can-o-worms-ad-hoc-changed-path-lock/v3",
+        "created_utc": datetime.now(timezone.utc).isoformat(),
+        "status": "PASS",
+        "classification": "focused ad-hoc verification; not canonical suite green",
+        "v2_negative_result_preserved": "AD_HOC_VERIFICATION: FAIL" in v2_log.read_text(encoding="utf-8"),
+        "v3_positive_result_preserved": "AD_HOC_VERIFICATION: PASS" in v3_log.read_text(encoding="utf-8"),
+        "both_launchers_reported_cleanup": all(
+            "TEMP_VERIFIER_CLEANED=True" in log.read_text(encoding="utf-8")
+            for log in (v2_log, v3_log)
+        ),
+        "recorded_temp_paths_absent": all(not path.exists() for path in recorded_temp_paths),
+        "no_hermes_verify_files_remain_in_temp": not any(TEMP.glob("hermes-verify-*")),
+        "files": files,
+    }
+    if not all(
+        payload[key]
+        for key in (
+            "v2_negative_result_preserved",
+            "v3_positive_result_preserved",
+            "both_launchers_reported_cleanup",
+            "recorded_temp_paths_absent",
+            "no_hermes_verify_files_remain_in_temp",
+        )
+    ):
+        payload["status"] = "FAIL"
+    RECEIPT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+    for path in TARGETS + [RECEIPT]:
+        os.chmod(path, stat.S_IREAD | stat.S_IRGRP | stat.S_IROTH)
+    payload["all_files_read_only"] = all(read_only(path) for path in TARGETS + [RECEIPT])
+
+    os.chmod(RECEIPT, stat.S_IWRITE | stat.S_IREAD)
+    RECEIPT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    os.chmod(RECEIPT, stat.S_IREAD | stat.S_IRGRP | stat.S_IROTH)
+
+    status = "PASS" if payload["status"] == "PASS" and payload["all_files_read_only"] else "FAIL"
+    print(json.dumps({"status": status, **payload}, indent=2))
+    return 0 if status == "PASS" else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

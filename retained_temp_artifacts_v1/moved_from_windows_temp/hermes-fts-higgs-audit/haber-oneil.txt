@@ -1,0 +1,2631 @@
+arXiv:hep-ph/0504050v5  27 Nov 2005
+IPPP/03/23
+DCPT/03/46
+SCIPP-04/15
+hep-ph/0504050
+April, 2005
+Basis-independent methods for the two-Higgs-doublet model
+Sacha Davidson1, 2 and Howard E. Haber1,3
+1Institute for Particle Physics Phenomenology
+University of Durham, South Road, Durham DH1 3LE, U.K.
+2Institut de Physique Nucl´eaire de Lyon
+Universit´e Claude Bernard Lyon 1
+4, rue Enrico Fermi, F-69622 Villeurbanne, France
+3Santa Cruz Institute for Particle Physics
+University of California, Santa Cruz, CA 95064, U.S.A.
+Abstract
+In the most general two-Higgs-doublet model (2HDM), unitary transformations between the two
+Higgs ﬁelds do not change the functional form of the Lagrangian. All physical observables of the
+model must therefore be independent of such transformations (i.e., independent of the Lagrangian
+basis choice for the Higgs ﬁelds). We exhibit a set of basis-independent quantities that determine
+all tree-level Higgs couplings and masses. Some examples of the basis-independent treatment of
+2HDM discrete symmetries are presented. We also note that the ratio of the neutral Higgs ﬁeld
+vacuum expectation values, tan β, is not a meaningful parameter in general, as it is basis-dependent.
+Implications for the more specialized 2HDMs (e.g., the Higgs sector of the MSSM and the so-called
+Type-I and Type-II 2HDMs) are explored.
+1
+
+I.
+INTRODUCTION
+The Standard Model of electroweak physics, which posits a single hypercharge-one,
+SU(2)L doublet (complex) Higgs ﬁeld, provides a extremely successful description of ob-
+served electroweak phenomena. Nevertheless, there are a number of motivations to extend
+the Higgs sector of this model by adding a second complex doublet Higgs ﬁeld [1, 2, 3, 4, 5, 6].
+Perhaps the best motivated of these extended models is the minimal supersymmetric ex-
+tension of the Standard Model (MSSM) [7], which requires a second Higgs doublet (and its
+supersymmetric fermionic partners) in order to preserve the cancellation of gauge anoma-
+lies. The Higgs sector of the MSSM is a two-Higgs-doublet model (2HDM), which contains
+two Higgs supermultiplets c
+Hu and c
+Hd, that are distinguished by the sign of their hyper-
+charge [3, 4, 5]. This establishes an unambiguous “theoretical” basis for the Higgs sector of
+the Lagrangian. The structure of the MSSM Higgs sector is constrained by the supersym-
+metry, leading to numerous relations among Higgs masses and couplings. However, due to
+supersymmetry-breaking eﬀects, all such relations are modiﬁed by loop-corrections, where
+the eﬀects of supersymmetry-breaking can enter. Thus, one can describe the Higgs-sector
+of the (broken) MSSM by an eﬀective ﬁeld theory consisting of the most general two-Higgs-
+doublet model.
+In a realistic model, the Higgs-fermion couplings must be chosen with some care [8, 9]
+to avoid ﬂavor-changing-neutral-currents (FCNC). The 2HDM can be classiﬁed by how this
+issue is addressed. In type-I models [10, 11], there exists a basis choice in which only one of
+the Higgs ﬁelds couples to the Standard Model fermions. In type-II models [11, 12], there
+exists a basis choice in which one Higgs ﬁeld couples to up-type quarks, and the other Higgs
+ﬁeld couples to down-type quarks. Type-III models [13] allow both Higgs ﬁelds to couple
+to all the Standard Model fermions; such a model is phenomenologically viable only if the
+resulting FCNC-couplings are suﬃciently small.
+From a phenomenological bottom-up perspective, it is important to study the properties
+of the most general 2HDM [14] without imposing any special relations among the tree-level
+parameters. The 2HDM Lagrangian depends on two identical hypercharge-one, SU(2)L dou-
+blet Higgs ﬁelds, Φ1 and Φ2. If Φ1 and Φ2 couple identically to all other ﬁelds (fermions and
+gauge bosons), they are only distinguished by the scalar interactions contained in the scalar
+Higgs potential. Consequently, one is free to choose an arbitrary basis in the Lagrangian
+2
+
+for the two dimensional space of Higgs ﬁelds [15], corresponding to two arbitrary orthogonal
+linear combinations of Φ1 and Φ2. The couplings and mass matrix elements will depend on
+this basis choice. In particular, the important parameter of the MSSM, tan β ≡⟨H0
+u⟩/⟨H0
+d⟩,
+is not a physical parameter of the most general 2HDM since its deﬁnition refers to a speciﬁc
+basis choice for the Higgs ﬁelds. The aim of this paper is to establish a basis-independent
+formalism for analyzing the most general 2HDM. This provides a framework for expressing
+any physical observable (e.g., Higgs masses and couplings) in a form that is independent of
+the basis choice.
+It is often phenomenologically desirable to express the parameters of a ﬁeld theory as
+functions of basis-independent physical observables [16, 17, 18]. This procedure has various
+advantages: it leads to parameters that are uniquely deﬁned, gauge invariant and typi-
+cally well behaved under renormalization. One simple and straightforward alternative is to
+choose a basis and consistently calculate there. However, results expressed in terms of basis-
+dependent Lagrangian parameters are meaningless without identifying the basis, and the
+comparison with results computed in a diﬀerent basis choice is often diﬃcult. This situation
+can be avoided by constructing quantities that are invariant under arbitrary basis transfor-
+mations in the space of ﬁelds, and expressing the fundamental Lagrangian parameters in
+terms of these “invariants”. We wish to draw attention to this procedure in the 2HDM,
+where one must specify the basis for the scalar ﬁelds before deﬁning the Higgs potential
+parameters, the Higgs-fermion Yukawa couplings and tan β.
+In the 2HDM, we deﬁne “invariants” to be quantities that are scalar under arbitrary
+unitary transformations among the two Higgs ﬁelds in the Lagrangian [6, 15, 19, 20]. All
+physical observables can be expressed in terms of invariants. The parameters that appear
+in the Lagrangian with respect to a generic basis of Higgs ﬁelds are not physical. Never-
+theless, even in the most general model, certain speciﬁc basis choices are singled out, and
+the corresponding Lagrangian parameters become meaningful. Henceforth, we shall desig-
+nate such parameters as “physical parameters.” For example, in the CP-conserving 2HDM,
+the Lagrangian parameters in the basis corresponding to the neutral CP-even Higgs mass
+eigenstates are physical parameters [21]. That is, any coupling or mixing angle in the mass
+eigenstate basis can be expressed in terms of invariants. One particularly useful class of
+bases is the so-called Higgs basis [9, 15, 19, 22, 23] in which only one of the two scalar ﬁelds
+exhibits a non-zero vacuum expectation value. We shall demonstrate that the Lagrangian
+3
+
+parameters with respect to the Higgs basis are closely related to physical parameters.
+In this paper, we construct invariants in two ways. In the body of the paper, we combine
+covariant tensors constructed from the Higgs potential parameters and the vacuum expec-
+tation values to obtain scalar quantities. This elegant approach is rather abstract, so in the
+appendices we explicitly construct eigenbases corresponding to the orthonormal eigenvectors
+of various physically relevant second-ranked tensors. By contracting these eigenvectors with
+the Higgs potential parameter tensors, one can identify which combinations are invariant
+and correspond to physical parameters.
+In section II, the scalar potential is expressed in a covariant notation with respect to the
+U(2) transformations between the two Higgs ﬁelds, and we introduce a set of invariants that
+govern the model. These invariants depend on the Higgs potential parameter tensors and
+a matrix V constructed from the vacuum expectations values. The eigenvectors of V form
+an orthonormal basis that deﬁnes the Higgs basis. A review of the 2HDM in a generic basis
+and in the Higgs basis can be found in Appendix A, where we also exhibit explicit relations
+among the corresponding Higgs potential parameters. In Appendix B we explicitly combine
+eigenvectors of V with Higgs potential parameter tensors to obtain quantities that depend
+linearly on the Higgs potential parameters. We show that some of these are invariant with
+respect to U(2) transformations and hence “physical”, whereas others have undetermined
+phases. In section III, we construct invariants that vanish when the discrete symmetries
+Φ1 →Φ1, Φ2 →−Φ2 and CP-symmetry, respectively, are realized. The relation of the
+Φ1 →Φ1, Φ2 →−Φ2 discrete symmetry to the permutation symmetry Φ1 ↔Φ2 is discussed
+in Appendix C. In sections IV and V, we restrict our analysis to the CP-conserving 2HDM
+scalar potential. We ﬁrst construct the physical Higgs boson couplings to vector bosons
+and the Higgs self-couplings in terms of basis-independent parameters. We then study the
+Higgs-fermion interactions in the 2HDM, using a choice of basis motivated by the model
+to compute the physical Higgs-fermion couplings in terms of invariant couplings. In doing
+so, new tan β-like parameters arise that are directly deﬁned in terms of physical Yukawa
+couplings.
+Both CP-conserving and CP-violating Higgs-fermion interactions are treated.
+Finally, a brief summary is provided in section VI.
+4
+
+II.
+BASIS-INDEPENDENT ANALYSIS OF THE 2HDM
+The most general two-Higgs-doublet extension of the Standard Model [4, 14, 24] is a
+theory of two identical hypercharge-one complex doublet scalar ﬁelds Φ1 and Φ2. We shall
+denote the complex two-dimensional space spanned by these two ﬁelds as the Higgs ﬂavor
+space. The canonically normalized (gauge-covariant) kinetic energy terms of the scalar ﬁelds
+are invariant under arbitrary global U(2) transformations in this ﬂavor space. Thus, we are
+free to redeﬁne our two scalar ﬁelds by making an arbitrary U(2) transformation. A speciﬁc
+choice of ﬁelds will be called a choice of basis. Since physical observables are independent
+of this choice of basis, it is desirable to formulate the Higgs sector of the theory in a basis-
+independent manner.
+Nearly all discussions of Higgs physics employ a speciﬁc basis choice. In the generic basis,
+one expands the Higgs ﬁelds around their vacuum expectation values ⟨Φ0
+a⟩= va/
+√
+2 (a =
+1, 2), and the parameter tan β ≡v2/v1 plays an important role in the Higgs phenomenology.
+However, this parameter cannot be meaningful in general, as it is basis-dependent. In fact,
+this parameter disappears completely if one transforms to the Higgs basis, where the Higgs
+vacuum expectation value resides solely in one of the two Higgs doublets.1 This suggests
+that the Higgs basis is special. In this section, we shall demonstrate that the parameters
+that appear in the Higgs basis are closely related to basis-independent quantities.
+The scalar Higgs potential of the 2HDM can be written in terms of the two complex
+hypercharge-one, SU(2)L doublet scalar ﬁelds, following ref. [6], as:
+V = Ya¯bΦ†
+¯aΦb + 1
+2Za¯bc ¯d(Φ†
+¯aΦb)(Φ†
+¯cΦd) ,
+(1)
+where the indices a, ¯b, c and ¯d run over the two-dimensional Higgs ﬂavor space and
+Za¯bc ¯d = Zc ¯da¯b .
+(2)
+Hermiticity of V implies that
+Ya¯b = (Yb¯a)∗,
+(3)
+Za¯bc ¯d = (Zb¯ad¯c)∗.
+(4)
+1 The generic basis and Higgs basis are reviewed in Appendix A. In particular, eqs. (A13)–(A22) provide
+the relations between the Higgs potential parameters in the generic and Higgs bases.
+5
+
+We can match the standard 2HDM notation given in eq. (A1) by making the following
+identiﬁcations:
+Y11 = m2
+11 ,
+Y12 = −m2
+12 ,
+Y21 = −(m2
+12)∗,
+Y22 = m2
+22 ,
+(5)
+and
+Z1111 = λ1 ,
+Z2222 = λ2 ,
+Z1122 = Z2211 = λ3 ,
+Z1221 = Z2112 = λ4 ,
+Z1212 = λ5 ,
+Z2121 = λ∗
+5 ,
+Z1112 = Z1211 = λ6 ,
+Z1121 = Z2111 = λ∗
+6 ,
+Z2212 = Z1222 = λ7 ,
+Z2221 = Z2122 = λ∗
+7 .
+(6)
+We assume that the vacuum respects the electromagnetic gauge symmetry. That is, the
+vacuum expectation values of Φ1 and Φ2 are assumed to be aligned in SU(2)L space, and
+we follow the standard convention (after using the appropriate SU(2)L transformation) in
+writing:
+⟨Φa⟩= v
+√
+2
+
+
+
+0
+bva
+
+
+,
+(7)
+where bva is a vector of unit norm.
+Taking the derivative of eq. (1) with respect to Φb,
+and setting ⟨Φ0
+a⟩= va/
+√
+2, we ﬁnd the covariant form for the scalar potential minimum
+conditions:
+bv∗
+¯a [Ya¯b + 1
+2v2Za¯bc ¯d bv∗
+¯c bvd] = 0 .
+(8)
+Under the ﬂavor SU(2), the two Higgs doublets ﬁelds transform as Φa →Ua¯bΦb (and
+Φ†
+¯a = Φ†
+¯bU†
+b¯a), where U†
+b¯aUa¯c = δb¯c and det U = 1. Likewise, the tensors Y and Z transform
+covariantly: Ya¯b →Ua¯cYc ¯dU†
+d¯b and Za¯bc ¯d →Ua¯eU†
+f¯bUc¯gU†
+h ¯dZe ¯fg¯h. The use of barred indices is
+convenient for keeping track of which indices transform with U and which transform with
+U†. For example, in this notation, v∗
+¯a = (va)∗, which makes the starred superscript on v¯a
+superﬂuous (although we will maintain it for the sake of additional clarity). These SU(2)
+transformations are symmetries of the physics (not of the Lagrangian), in the sense that
+physical observables must not depend on the arbitrary basis choice made in the Lagrangian.
+6
+
+The ﬂavor-SU(2) group of transformations can be enlarged to U(2).2 In particular, the
+transformation laws noted above continue to hold where U is a U(2) matrix (and the con-
+dition det U = 1 is removed). It should be noted that U(2) ∼= SU(2)×U(1)Y, where the
+(global) hypercharge U(1)Y transformation is a symmetry of the Lagrangian, and thus has
+no eﬀect on the parameters of the Higgs potential, Ya¯b and Za¯bc ¯d. It is useful to keep track
+of the U(1)Y transformation properties of various quantities because physical observables
+must also be U(1)Y -invariant. Thus, we shall focus on U(2)-invariant scalars, keeping in
+mind the distinction that U(1)Y is a symmetry of the Lagrangian, whereas the ﬂavor-SU(2)
+transformations change the parameters of the Lagrangian,
+We shall construct various U(2)-invariants below that depend on the Higgs potential
+parameters Ya¯b and Za¯bc ¯d and the vacuum expectation values bva. In particular, any U(2)-
+invariant that depends on the vacuum expectation values must be a function of bvabv∗¯b. Thus
+we follow ref. [6] in deﬁning the hermitian matrix3
+Va¯b ≡bva bv∗¯b .
+(9)
+The matrix V transforms covariantly with respect to U(2).
+Note that V possesses two
+eigenvalues, 1 and 0, corresponding to orthonormal eigenvectors bva and
+bwa ≡−ǫabbv∗¯b ,
+(10)
+with the inverse relation bv∗
+¯a = ǫ¯a¯b wb. Here, orthogonality with respect to the complex two-
+dimensional Higgs ﬂavor space means that bv¯a bw∗
+a = 0. In deﬁning the unit vector bwa, we have
+introduced the tensors ǫab and ǫ¯a¯b, with ǫ12 = −ǫ21 = 1 and ǫ11 = ǫ22 = 0.4 The normalized
+eigenvectors are deﬁned only up to an arbitrary phase, which implies that invariant quantities
+can only depend on bv and bw via the combination Va¯b, as noted above. In particular,
+Wa¯b ≡bwa bw∗¯b = δa¯b −Va¯b
+(11)
+2 The ﬂavor-U(2) transformations were ﬁrst applied to the 2HDM in ref. [15]. A nice textbook discussion
+is given in ref. [6]. These transformations have recently been exploited by ref. [20] in a study of the
+CP-violating 2HDM.
+3 Va¯b is not an independent tensor, since it depends on Y and Z via the scalar potential minimum conditions
+[eq. (8)]. The latter can be rewritten as: (V Y )a¯b + 1
+2v2Ze¯bc ¯dVa¯eVd¯c = 0. Nevertheless, there is no simple
+closed-form formula for Va¯b in terms of Ya¯b and Za¯bc ¯d. Consequently, we shall construct invariants that
+depend explicitly on Va¯b in what follows.
+4 Note that δa¯b is a ﬂavor-U(2)-invariant tensor, whereas ǫab and ǫ¯a¯b are only ﬂavor-SU(2)-invariant tensors.
+The identity ǫabǫ¯c ¯d = δa¯cδb ¯d −δa ¯dδb¯c relates the two tensors.
+7
+
+so that Wa¯b is not an independent tensor. Eq. (11) and the following results imply that V
+and W are projection operators:
+V 2 = V ,
+W 2 = W ,
+V W = WV = 0 .
+(12)
+Since the tensors Va¯b, Ya¯b and Za¯bc ¯d exhibit tensorial properties with respect to global U(2)
+rotations in the Higgs ﬂavor space, one can easily construct invariants with respect to U(2)
+by forming U(2)-scalar quantities. Combinations of covariant tensors can be represented
+diagrammatically. The tensors Va¯b, Ya¯b and Za¯bc ¯d can be depicted by two and four-point
+“vertices”, with incoming (outgoing) lines corresponding to unbarred (barred) indices, as
+shown in Fig. 1.
+⊗
+a
+¯b
+Va¯b
+×
+a
+¯b
+Ya¯b
+•
+a
+¯b
+c
+¯d
+Za¯bc ¯
+d
+FIG. 1: Diagrammatic representation of covariant tensors. The two point vertices Va¯b and Ya¯b are
+indicated by the symbols ⊗and ×, respectively. The four-point vertex Za¯bc ¯d is depicted by four
+incoming line segments (meeting at the vertex point) where the indices appear in clockwise order.
+Unbarred (barred) indices are represented by incoming (outgoing) directed line segments.
+As noted above, δa¯b is the only U(2)-invariant tensor that can be used to contract a pair
+of indices. Hence, one can only contract an unbarred index with a barred index (or vice
+versa). For example,
+Z(1)
+a ¯d ≡δb¯cZa¯bc ¯d = Za¯bb ¯d ,
+Z(2)
+c ¯d ≡δb¯aZa¯bc ¯d = Za¯ac ¯d .
+(13)
+Using the vertex rules given in Fig. 1, the two tensors of eq. (13) can be depicted dia-
+grammatically as the one-loop bubble diagrams shown in Fig. 2. Similarly, U(2)-invariant
+quantities can be represented by “vacuum” diagrams with no external lines.
+We now turn to the task of constructing independent invariant (scalar) combinations of
+Higgs potential parameters. Such invariant quantities can be directly related to physical
+quantities which must be basis-independent. We may combine the tensors Ya¯b, Za¯bc ¯d, and
+Va¯b to create scalar quantities by summing over pairs of indices (following the rule that the
+8
+
+a
+¯c
+•
+•
+Za¯bb¯c
+b
+¯c
+Za¯ab¯c
+(a) Z(1)
+a¯c
+(b) Z(2)
+b¯c
+FIG. 2: The one-loop bubble diagrams corresponding to (a) Z(1)
+a¯c = Za¯bb¯c and (b) Z(2)
+b¯c
+= Za¯ab¯c.
+These two diagrams are distinguished, since the Z-vertex must be read in a clockwise fashion.
+summed index pairs must contain one unbarred and one barred index). It is also convenient
+to employ Wa¯b ≡δa¯b −Va¯b introduced above.
+We can exhibit thirteen invariants that
+depend on the Higgs potential parameters and the vacuum expectation value by deﬁning six
+real ﬂavor-U(2)-invariants (denoted below by Y1,2 and Z1,2,3,4) and four complex index-free
+quantities, denoted by Y3 and Z5,6,7, which are constructed from Ya¯b, Za¯bc ¯d va and wa. These
+quantities are invariant under the Higgs ﬂavor-SU(2) transformations, but are not invariant
+with respect to U(1)Y as shown in Appendix B. From these four complex SU(2)-“invariants”,
+we may extract seven ﬂavor-U(2) invariants consisting of the magnitudes and relative phases
+of these four complex quantities.
+The simplest invariants that can be constructed with Y , V and W are given by
+Y1 ≡Tr (Y V ) ,
+(14)
+Y2 ≡Tr (Y W) ,
+(15)
+|Y3|2 ≡Tr (V Y WY ) .
+(16)
+Likewise, the simplest invariants that can be constructed with Z, V and W are given by:
+Z1 ≡Za¯bc ¯d Vb¯aVd¯c ,
+(17)
+Z2 ≡Za¯bc ¯d Wb¯aWd¯c ,
+(18)
+Z3 ≡Za¯bc ¯d Vb¯aWd¯c ,
+(19)
+Z4 ≡Za¯bc ¯d Wd¯aVb¯c ,
+(20)
+|Z5|2 ≡Za¯bc ¯dZe ¯fg¯h Vf¯aWb¯eVh¯cWd¯g ,
+(21)
+|Z6|2 ≡Za¯bc ¯dZe ¯fg¯h Vf¯aVb¯eVh¯cWd¯g ,
+(22)
+|Z7|2 ≡Za¯bc ¯dZe ¯fg¯h Vf¯aWb¯eWh¯cWd¯g .
+(23)
+9
+
+The remaining three invariants correspond to three relative phases of Y3 and Z5,6,7. One
+possible choice is:
+Y 2
+3 Z∗
+5 ≡(V Y W)b¯a(V Y W)d¯cZa¯bc ¯d ,
+(24)
+Y3Z∗
+6 = (V Y W)b¯cVd¯aZa¯bc ¯d ,
+(25)
+Y3Z∗
+7 = (V Y W)b¯cWd¯aZa¯bc ¯d .
+(26)
+Using the rules of Fig. 1, each of the invariants above is easily represented by a simple
+vacuum diagram (or sum of such diagrams). Using these diagrammatic techniques, one can
+easily show that no additional independent invariants exist that are linear or quadratic in the
+Higgs potential parameters. Further higher-order invariants could be constructed containing
+additional powers of Y , V or W. However, we will argue below, and prove in Appendix B
+that any higher order invariant can be expressed in terms of those given in eqs. (14)–(26).
+The invariants given in eqs. (14)–(26) are particularly simple in the Higgs basis [see
+Appendix A], where V and W are given by:
+V =
+
+
+
+1
+0
+0
+0
+
+
+,
+W =
+
+
+
+0
+0
+0
+1
+
+
+.
+(27)
+Following Appendix A, we denote the Higgs potential parameters in the Higgs basis by M2
+ij
+(i, j = 1, 2) and Λk (k = 1, . . . , 7). After inserting the Higgs basis forms for V and W into
+eqs. (14)–(26), we obtain:
+Y1 = M2
+11 ,
+Y2 = M2
+22 ,
+Zi = Λi (i = 1, 2, 3, 4) ,
+(28)
+for the real Higgs basis parameters and
+|Y3|2 = |M2
+12| ,
+|Zi|2 = |Λi|2
+(i = 5, 6, 7) ,
+Y 2
+3 Z∗
+5 = [M2
+12]2Λ∗
+5 ,
+Y3Z∗
+i = −M2
+12Λ∗
+i
+(i = 6, 7) ,
+(29)
+for the complex Higgs basis parameters.
+The form of eq. (27) implies that V and W serve as projection operators for the Higgs
+basis ﬁeld invariants H†
+1H1 and H†
+2H2. In particular, in the diagrammatic representation
+of invariants, the insertion of V projects out H1 and the insertion of W projects out H2.
+Thus, each of the lines of the vacuum diagrams corresponding to the invariants listed in
+eqs. (14)–(26) can be identiﬁed with one of the two ﬁelds H1 and H2 of the Higgs basis. All
+10
+
+such vacuum diagrams must contain an equal number of ﬁelds and their complex conjugates
+(corresponding to ingoing and outgoing lines). Hence, there are no complex U(2)-invariants
+that are linear in the scalar potential parameters.
+The scalar minimum conditions can be rewritten in terms of the U(2)-invariants intro-
+duced above. First we multiply eq. (8) by bvb to obtain one of the minimum conditions:
+Y1 = −1
+2Z1v2 .
+(30)
+A second minimum condition can be obtained by multiplying eq. (8) by bwb. Using eqs. (B4)
+and (B8), it follows that Y3 = −1
+2Z6v2, which can be rewritten in terms of U(2)-invariant
+quantities as
+|Y3|2 = 1
+4|Z6|2v4 ,
+Y3Z∗
+6 = −1
+2|Z6|2v2 .
+(31)
+Consequently, after imposing the scalar minimum conditions, two of the thirteen invariants
+above can be eliminated via eq. (31), leaving eleven independent invariants.5 This corre-
+sponds precisely to the number of parameter degrees of freedom of the 2HDM, as discussed
+in Appendix A.
+Having enumerated the independent invariants, one can begin to relate them to physical
+observables of the theory. One consequence of the analysis relating invariants to the Higgs
+potential parameters in the Higgs basis is that the parameter tan β is redundant (as it does
+not appear in the Higgs basis description of the 2HDM). More precisely, in the general
+2HDM, tan β is a basis-dependent quantity.
+This means that physical quantities (e.g.,
+Higgs masses and physical couplings) cannot depend on the (unphysical) angle between the
+two vacuum expectation values. Physical quantities can depend on the angle between the
+vacuum expectation value bva and another direction in the Higgs ﬂavor space picked out by
+an interaction (e.g. a mass matrix eigenvector). We illustrate this explicitly in section IV.
+This suggests a procedure to provide a meaningful deﬁnition of tan β. For example, even
+in the most general 2HDM, the Higgs potential depends on tensorial quantities, which can
+be used to deﬁne various matrices. The two eigenvectors of these matrices can be used as
+basis vectors which deﬁnes a basis that generally diﬀers from the Higgs basis, and thus can
+be used to deﬁne tan β. In a CP-invariant theory, an obvious choice would be the CP-even
+mass eigenstate basis.
+5 Since we count v2 as one of the parameter degrees of freedom, the application of the scalar potential
+minimum conditions does not aﬀect the overall counting of degrees of freedom.
+11
+
+Other possible matrices, whose eigenvectors can be used to deﬁne a new basis, include:
+Ya¯b, Z(1)
+a¯b and Z(2)
+a¯b . However, in such cases there is a two-fold ambiguity in the deﬁnition
+of tan β corresponding to the interchange of the two identical scalar ﬁelds. As an example,
+consider a deﬁnition of tan β corresponding to a basis in which Y12 = 0. This is the basis
+spanned by the eigenvectors of Y . In this basis, we deﬁne |bv1| = cos β and |bv2| = sin β
+(where 0 ≤β ≤π/2). A simple computation in the Y12 = 0 basis yields:
+2 Tr (V Y ) −Tr Y = (Y11 −Y22) cos 2β ,
+(32)
+2 Tr (Y 2) −(Tr Y )2 = (Y11 −Y22)2 .
+(33)
+Thus, we arrive at one possible invariant deﬁnition of cos2 2β:
+cos2 2β = [2 Tr (V Y ) −Tr Y ]2
+2 Tr (Y 2) −(Tr Y )2 .
+(34)
+The sign of cos 2β is ambiguous, and the ambiguity corresponds to β →π/2 −β (i.e., the
+interchange of the two Higgs ﬁelds).
+III.
+BASIS-INDEPENDENT DESCRIPTION OF DISCRETE SYMMETRIES
+In section II, we assumed that the scalar Higgs potential takes on the most general
+possible form. However, in some two-Higgs doublet models, discrete symmetries are imposed
+that constrain the structure of the Higgs potential. Typically, the discrete symmetries are
+formulated with respect to a particular basis, in which case the symmetry is manifest. In
+a generic basis, the discrete symmetry is of course still present, but in most cases it is well
+disguised and not immediately evident. Hence, for a given discrete symmetry, it is desirable
+to establish a basis-independent characterization. In particular, it is especially useful to
+establish basis-independent conditions that depend only on the Y and Z tensors, i.e. they
+do not require a determination of the vacuum expectation values via the scalar potential
+minimum conditions. A number of examples will be presented in sections III B and III C,
+in which we identify invariant conditions for discrete symmetries. These conditions can be
+evaluated in the Higgs basis, and provide a connection to related results ﬁrst obtained in
+ref. [23].
+However, in some special regions of the Higgs potential parameter space many of the
+invariant conditions that we obtain are automatically satisﬁed (due to the enhanced sym-
+metry of the parameter region). This complicates the search for invariant conditions for
+12
+
+the discrete symmetries, so we ﬁrst examine the nature of these exceptional regions of the
+parameter space.
+A.
+An exceptional region of the Higgs potential parameter space
+Consider the explicit forms of Z(1) and Z(2) deﬁned in eq. (13):
+Z(1) =
+
+
+
+λ1 + λ4
+λ6 + λ7
+λ∗
+6 + λ∗
+7
+λ2 + λ4
+
+
+,
+Z(2) =
+
+
+
+λ1 + λ3
+λ6 + λ7
+λ∗
+6 + λ∗
+7
+λ2 + λ3
+
+
+.
+(35)
+Note that Z(1) and Z(2) are hermitian matrices that commute so that they can be simulta-
+neously diagonalized by a unitary matrix. It therefore follows that there exists a basis in
+which Z(1) and Z(2) are simultaneously diagonal; that is, λ7 = −λ6. This observation will
+be crucial to many of the considerations of this section.
+The existence of a basis in which λ7 = −λ6 provides another opportunity for checking
+the number of 2HDM independent parameters. Once this basis is achieved, one can always
+rephase one of the Higgs ﬁelds such that λ6 and λ7 are real. This leaves seven real param-
+eters (m2
+11, m2
+22, λ1,2,3,4,6) and two complex parameters (m2
+12 and λ5) for a total of eleven
+independent parameters.
+The region of the Higgs potential parameter space where λ1 = λ2 and λ7 = −λ6 is
+especially noteworthy. In this case, Z(1) and Z(2) are both proportional to the 2 × 2 unit
+matrix. This must be true for all basis choices. Hence if λ1 = λ2 and λ7 = −λ6 holds in one
+basis then it holds in all bases. A (basis-independent) invariant condition can be given for
+this case. Consider
+2 Tr [Z(1)]2 −(Tr Z(1))2 = (λ1 −λ2)2 + 4|λ6 + λ7|2 .
+(36)
+If this invariant quantity vanishes, then λ1 = λ2 and λ7 = −λ6.
+It is important to emphasize that the latter represents a region of Higgs parameter space.
+That is, in this region of the parameter space, any change of basis will generally modify
+the Higgs potential parameters, subject to the condition that λ1 = λ2 and λ7 = −λ6. Two
+results will prove useful in the following. First, if λ1 = λ2 and λ7 = −λ6, then one can
+always ﬁnd a basis in which all the λi are real.6 Second, if λ1 = λ2 and λ7 = −λ6, then
+6 A simple phase redeﬁnition can render λ6 and λ7 real. The nontrivial part of the proof, which is given in
+ref. [25], demonstrates that a basis always exists in which λ5, λ6 and λ7 are simultaneously real.
+13
+
+there exists a basis in which λ5 is real and λ6 = λ7 = 0. The proof of the latter result is
+simple given the former result. First, transform to a basis in which all the λi are real. Then,
+make one further U(2) transformation given by eq. (B2) with θ = π/4 and γ + ζ = π/2. It
+is easy to check that in the ﬁnal basis, λ6 = λ7 = 0. Finally, since λ5 is the only potentially
+complex parameter remaining, it can be rendered real with a phase redeﬁnition of one of
+the two Higgs ﬁelds.
+If Y11 = Y22 and Y12 = 0 then Y is proportional to the 2 × 2 unit matrix.
+Again,
+one may conclude that if Y11 = Y22 and Y12 = 0 holds in one basis then it holds in all
+bases. Combining the two special cases just considered yields an exceptional region of the
+Higgs potential parameter space in which Y11 = Y22, Y12 = 0, λ1 = λ2 and λ7 = −λ6. A
+possible discrete symmetry, which is respected by the scalar Lagrangian and characterizes
+this exceptional choice of parameters, is:
+Φ1 →eiψΦ∗
+2 ,
+Φ2 →−eiψΦ∗
+1 ,
+(37)
+where ψ is an arbitrary phase.7 It is straightforward to show that if eq. (37) is a symmetry
+in one basis, then it is a symmetry in all bases. The results above also imply that within
+the exceptional region of parameter space, a basis exists in which Ya¯b ∝δa¯b, λ1 = λ2, λ5 is
+real and λ6 = λ7 = 0.
+Alternatively, the exceptional region can be characterized by two simultaneous ordinary
+Z2 symmetries. In particular, consider a basis in which the scalar Lagrangian respects the
+two discrete symmetries: (i) Φ1 →Φ1, Φ2 →−Φ2 [to be discussed further in section III B]
+and (ii) Φ1 →Φ2, Φ2 →−Φ1. Symmetry (i) implies that Y12 = 0 and λ6 = λ7 = 0, while
+symmetry (ii) implies that Y11 = Y22, Y ∗
+12 = −Y12, λ∗
+5 = λ5, and λ6 = −λ∗
+7. If symmetries (i)
+and (ii) are simultaneously satisﬁed (in the same basis), then Ya¯b ∝δa¯b, λ1 = λ2, λ5 is real
+and λ6 = λ7 = 0, which indeed corresponds to the exceptional region of parameter space in
+a particular basis.
+7 Since eq. (37) involves the transformation of the scalar ﬁelds to their complex conjugates, it follow that
+this discrete symmetry incorporates a charge conjugation transformation.
+14
+
+B.
+The discrete symmetry Φ1 →Φ1, Φ2 →−Φ2
+We consider ﬁrst the discrete symmetry Φ1 →+Φ1, Φ2 →−Φ2, which is realized for
+some choice of basis.
+This discrete symmetry implies that m2
+12 = λ6 = λ7 = 0.
+It is
+a discrete Z2 subgroup of the Peccei-Quinn U(1) symmetry Φ1 →eiαΦ1, Φ2 →e−iαΦ2.8
+The basis-independent conditions for the Φ1 →+Φ1, Φ2 →−Φ2 discrete symmetry can
+be expressed in terms of commutators of matrices constructed from the Higgs potential
+parameter tensors Y and Z. An alternate approach in terms of invariants constructed from
+Z and the eigenvectors of Y is discussed in Appendix B, along with the explicit eigenvector
+construction.
+Our strategy for deducing the relevant commutator conditions is as follows. We ﬁrst
+transform to a basis where λ7 = −λ6 [this is always possible as discussed below eq. (35)].
+In this basis, we search for commutators that vanish when Y12 = λ6 = 0. We then conclude
+that the vanishing of such commutators implies that some basis must exist where m2
+12 =
+λ6 = λ7 = 0. We shall make use of the following two matrices:9
+Z(11)
+c ¯d
+≡Z(1)
+b¯a Za¯bc ¯d ,
+Y (1)
+c ¯d ≡Yb¯aZa¯bc ¯d .
+(38)
+Then, consider the following two commutators evaluated in a basis where λ7 = −λ6:
+[Z(1), Y ] = (λ1 −λ2)
+
+
+
+0
+Y12
+−Y ∗
+12
+0
+
+
+,
+(39)
+[Z(1), Z(11)] = (λ1 −λ2)2
+
+
+
+0
+λ6
+−λ∗
+6
+0
+
+
+,
+(40)
+First we assume that λ1̸ = λ2 in the λ7 = −λ6 basis. In this case, we ﬁnd that
+[Z(1), Y ] = [Z(1), Z(11)] = 0
+(41)
+is the basis independent condition that guarantees the existence of a basis in which m2
+12 =
+λ6 = λ7 = 0. As an example, in Appendix C, we demonstrate that if a 2HDM scalar potential
+8 If λ5 = 0 in the same basis where the discrete Z2 symmetry is realized, then the scalar Lagrangian respects
+the full Peccei-Quinn U(1) global symmetry [2].
+9 Diagrammatically, Z(11) corresponds to a bubble-on-a-bubble with two legs (i.e., a snowman) and Y (1)
+corresponds to a bubble on two legs with a cross at the top of the bubble.
+15
+
+respects a permutation symmetry Φ1 ↔Φ2 in some basis, then eq. (41) is satisﬁed. This
+result implies that in some other basis the discrete symmetry Φ1 →Φ1, Φ2 →−Φ2 must be
+manifest.
+If λ1 = λ2 and λ7 = −λ6, then Z(1)
+a¯b , Z(11)
+a¯b
+∝δa¯b, and eqs. (39) and (40) automatically
+vanish. In this case, we are free to transform to a basis in which Y is diagonal. The following
+commutator is now relevant (for λ7 = −λ6 and Y12 = 0):
+[Y (1), Y ] = (Y11 −Y22)2
+
+
+
+0
+−λ6
+λ∗
+6
+0
+
+
+.
+(42)
+Assuming that Y11̸ = Y22, we ﬁnd that:
+[Y (1), Y ] = 0
+and
+Z(1)
+a¯b ∝δa¯b
+(43)
+are basis independent conditions that guarantee the existence of a basis in which m2
+12 =
+λ6 = λ7 = 0.
+None of the above arguments apply to the exceptional region of parameter space [see
+section III A] where Y11 = Y22, Y12 = 0, λ1 = λ2 and λ7 = −λ6. In this case, all three
+commutators [eqs. (39), (40) and (42)] automatically vanish since all the matrices involved
+are proportional to the unit matrix.
+However, as noted at the end of section III A, in
+the exceptional region, there exists a basis in which the Z2 discrete symmetry Φ1 →Φ1,
+Φ2 →−Φ2 is manifest. Thus, no further invariant conditions are required.
+Finally, in the basis where the discrete symmetry is manifest (m2
+12 = λ6 = λ7 = 0),
+eq. (A7) implies that Im(λ5e2iξ) = 0. One can always choose λ5 real (and hence ξ = 0) by
+redeﬁning the phase of Φ2. We conclude that the Higgs scalar potential of this model is
+CP-conserving. Further considerations of CP invariance will be given in section III C.
+We can generalize the results of this section in two ways. First, if there exists a basis in
+which λ6 = λ7 = 0 but m2
+12̸ = 0, then the Z2 discrete symmetry is softly broken [20, 23]. A
+basis-independent characterization of the softly-broken Z2 discrete symmetry is:
+[Z(1), Z(11)] = 0
+and
+[Z(1), Y ]̸ = 0 ,
+(44)
+assuming that λ1̸ = λ2 in a basis where λ7 = −λ6. In the case of λ1 = λ2 and λ7 = −λ6,
+we proved in section III A that one can always transform to a new basis in which λ5 is real
+and λ6 = λ7 = 0. One can then check that the Z2 discrete symmetry is softly-broken if:
+[Y (1), Y ]̸ = 0 ,
+and
+Z(1)
+a¯b ∝δa¯b .
+(45)
+16
+
+Second, if λ5 = 0 in a basis where m2
+12 = λ6 = λ7 = 0, then the Higgs potential
+respects a Peccei-Quinn global U(1) symmetry. That is, H1 and H2 number are individually
+conserved. To ﬁnd invariant conditions that must be satisﬁed when this symmetry is realized,
+it is convenient to work in the eigenbasis of Y .10 We assume that its eigenvalues are non-
+degenerate so that they label H1 and H2. Z will conserve Hi number in this basis if every
+component of Z has equal number of incoming and outgoing H1 lines and H2 lines. In this
+case, Z with its incoming lines weighted by their Y eigenvalues will be equal to Z with its
+outgoing lines weighted by their Y eigenvalues. This diﬀerence corresponds to the following
+“commutator-like” fourth rank tensor:
+Xa¯bc ¯d ≡Ya¯eYc ¯fZe¯bf ¯d −Ye¯bYf ¯dZa¯ec ¯f .
+(46)
+We can see that Xa¯bc ¯d = 0 corresponds to the Peccei-Quinn symmetry as follows. Her-
+miticity properties of Y and Z imply that:
+Xa¯bc ¯d = −(Xb¯ad¯c)∗.
+(47)
+Suppose that λ1̸ = λ2 in a basis where λ7 = −λ6. If [Z(1), Y ] = 0 then Y12 = 0. If λ1 = λ2
+and λ7 = −λ6 then one can transform to a new basis in which Y12 = 0. In either case, with
+λ7 = −λ6 and Y12 = 0, we ﬁnd
+Xa¯bc ¯d ≡(Y11 −Y22)xa¯bc ¯d ,
+(48)
+where
+x1111 = 0 ,
+x2222 = 0 ,
+x1122 = x2211 = 0 ,
+x1221 = x2112 = 0 ,
+x1212 = (Y11 + Y22)λ5 ,
+x2121 = −(Y11 + Y22)λ∗
+5 ,
+x1112 = x1211 = Y11λ6 ,
+x1121 = x2111 = −Y11λ∗
+6 ,
+x2212 = x1222 = Y22λ7 ,
+x2221 = x2122 = −Y22λ∗
+7 .
+(49)
+10 If the eigenvalues of Y are degenerate, then one can work in in the eigenbasis of Z(1), assuming that
+its eigenvalues are non-degenerate. In this case, the arguments above still apply with the obvious mod-
+iﬁcations. These considerations are not applicable in the case where both Y and Z(1) have degenerate
+eigenvalues, which corresponds to the exceptional region of the Higgs potential parameter space [as deﬁned
+in section III A].
+17
+
+Thus, if Y11̸ = Y22, then the additional conditions Xa¯bc ¯d = 0 guarantee that a basis exists in
+which m2
+12 = λ5 = λ6 = λ7 = 0.
+If Ya¯b ∝δa¯b, then Xa¯bc ¯d = 0 automatically, and we consider instead:
+f
+Xa¯bc ¯d ≡Z(1)
+a¯e Z(1)
+c ¯f Ze¯bf ¯d −Z(1)
+e¯c Z(1)
+f ¯d Za¯ec ¯f .
+(50)
+The analysis is nearly identical as for X above with the replacements Y11 →λ1 + λ4 and
+Y22 →λ2 + λ4. Assuming λ1̸ = λ2 in a basis where λ7̸ = −λ6, the conditions f
+Xa¯bc ¯d = 0
+guarantee that a basis exists in which m2
+12 = λ5 = λ6 = λ7 = 0. Finally, at the exceptional
+point of parameter space where Y11 = Y22, Y12 = 0, λ1 = λ2 and λ7 = −λ6, we know it is
+possible to transform to a basis where λ6 = λ7 = 0. However, in general λ5̸ = 0, and we
+have found no additional covariant condition that requires λ5 = 0 in the same basis.
+C.
+Explicit and spontaneous CP-violation
+The full power of the U(2)-invariants emerges when one studies CP-violating theories.
+Thus, the question naturally arises:
+what are the invariant conditions that determine
+whether the theory is CP-conserving or CP-violating.
+These conditions are the analogs
+of the Jarlskog invariant conditions for CP-violation [16] in the mixing of the quark gener-
+ations. We ﬁrst consider conditions such that the Higgs potential explicitly conserves CP,
+independently of the value of the vacuum expectation value. In the generic basis, the Higgs
+potential preserves the CP symmetry if there exists a U(2) transformation such that the
+resulting transformed parameters of the Higgs scalar potential are real, i.e., Ya¯b = (Ya¯b)∗
+and Za¯bc ¯d = (Za¯bc ¯d)∗. Using eqs. (3) and (4), these conditions are equivalent to: Ya¯b = Yb¯a
+and Za¯bc ¯d = Zb¯ad¯c. However, it may be diﬃcult in general to ﬁnd the basis where all the
+Higgs potential parameters are real or prove that such a basis does not exist. An alternative
+strategy is to ﬁnd U(2)-invariant quantities constructed from Ya¯b and Za¯bc ¯d that are complex
+in a CP-violating theory. In an explicitly CP-conserving theory, the existence of the real
+basis implies that any such invariant is real. Hence, the non-vanishing of the imaginary part
+of a potentially complex invariant would provide a test for explicit CP-violation.
+We anticipate two invariants—one involving only factors of Z tensors and one involving
+Y and Z. To see this, we ﬁrst transform to a basis where λ6 = −λ7 [see section III A].
+The relative phase between Φ1 and Φ2 can be chosen such that λ6, λ7 are both real. Thus,
+18
+
+•
+•
+•
+•
+•
+•
+(a)
+(b)
+•
+•
+•
+×
+Y
+FIG. 3: Diagrams corresponding to the potentially complex invariants of eq. (51).
+assuming that λ6̸ = 0, there remain two independent phases: arg(m2
+12) and arg(λ5). We
+have discovered two potentially complex invariants:
+Za¯bc ¯dZ(2)
+b ¯f Z(2)
+d¯h Zf¯aj¯kZk¯jm¯nZn ¯mh¯c ,
+Za¯bc ¯dYd¯eZ(2)
+e¯g Zg¯cb¯a.
+(51)
+Using the diagrammatic rules introduced in section II [see Fig. 1], the invariants of eq. (51)
+are depicted in Fig. 3. Applying the CP transformation to the above diagrams changes the
+direction of the lines. Hence, an invariant can be complex if its diagram looks diﬀerent when
+the arrows are reversed. This requirement is satisﬁed for the above diagrams. As a result,
+one can easily identify manifestly real invariants, but there is no guarantee that an invariant
+corresponding to a CP-asymmetric diagram is complex.
+Although we have succeeded in ﬁnding two potentially complex invariants, it does not
+necessarily follow that the Higgs potential is CP-invariant if the two invariants of eq. (51) are
+real. The necessary and suﬃcient conditions for an explicitly CP-invariant 2HDM potential
+(in terms of U(2)-invariants) have been obtained in ref. [25], where it is shown that in the
+λ7 = −λ6 basis, both invariants of eq. (51) vanish if either λ6 = 0 or if λ1 = λ2. In each
+of these two cases, one must seek out a new invariant. In ref. [25], the two new invariants
+are found, and a proof is given showing that the reality of all four (potentially complex)
+invariants is both necessary and suﬃcient for an explicitly CP-conserving Higgs potential.
+If the Higgs potential is explicitly CP-conserving, it is still possible that the Higgs vac-
+uum does not respect the CP symmetry.
+This is the case of spontaneously broken CP
+invariance [1]. In particular, the four potentially complex invariants noted above are real,
+19
+
+and the so-called “real basis” exists in which all the Higgs potential parameters are real.
+In this basis the Higgs vacuum expectation value has a phase determined by the real Higgs
+potential parameters [see eq. (A7)]. The existence of this complex phase is not necessarily a
+signal for spontaneous CP-violation. One must prove that this phase cannot be removed by
+a further change of basis (subject to the condition that the Higgs potential parameters re-
+main real). Appendix C provides an example (ﬁrst discussed in ref. [26]) of a CP-conserving
+2HDM in which the complex phase of the vacuum expectation value appears in the “real
+basis.” In ref. [25], the explicit transformation between the two real bases that removes the
+complex phase is exhibited.
+Thus, it would be useful to ﬁnd a set of invariant conditions to establish the existence
+or non-existence of spontaneous CP-violation. Having ﬁrst proved that the Higgs potential
+explicitly conserves CP (using the invariant conditions of ref. [25]), one can prove or rule
+out the existence of spontaneous CP-violation by employing three invariants ﬁrst obtained
+in ref. [19].11 We prove below that the Higgs sector12 conserves CP if and only if I1, I2 and
+I3 are real, where
+−1
+2v2I1 ≡Tr (V Y Z(1)) ,
+(52)
+1
+4v4I2 ≡(V Y )b¯a(V Y )d¯cZa¯bc ¯d ,
+(53)
+1
+4v2I3 ≡(V Z(1))b¯aVd¯c
+h
+1
+4v2Z(1)
+c¯e Za¯be ¯d + Ya ¯dZ(1)
+c¯b
+i
+.
+(54)
+The factors of v2 have been introduced in eqs. (52)–(54) so that the Ii are dimensionless.
+Note that I1, I2 and I3 are invariants with respect to the full U(2) Higgs ﬂavor symmetry.
+We may employ the scalar potential minimum conditions [eq. (8)] to eliminate Y in the
+expressions for I1, I2 and I3:
+I1 ≡(Z(1)V )b¯aVd¯cZa¯bc ¯d ,
+(55)
+I2 ≡Va¯bVd¯cVh¯gVr¯pZb¯eg¯hZc ¯fp¯rZe¯af ¯d ,
+(56)
+I3 ≡(V Z(1))b¯aVd¯c
+h
+Z(1)
+c¯e Za¯be ¯d −2Z(1)
+c ¯d Vf ¯eZa¯be ¯f
+i
+.
+(57)
+11 We prefer to express the CP-invariants in terms of the Ya¯b, Za¯bc ¯d and va, following the work of ref. [15].
+However, only two of the three invariants were explicitly given in this reference.
+12 In this context, the Higgs sector includes the Higgs Lagrangian and its coupling to the gauge bosons via
+the covariant derivative in the Higgs kinetic energy term. If the Higgs-fermion Yukawa interactions are
+also included, then additional CP-odd invariants based on invariants that involve both Higgs potential
+parameters and the Higgs-fermion Yukawa coupling matrices must be considered [15].
+20
+
+The invariants above are most easily evaluated in the Higgs basis [eq. (27)]. Using eq. (B10),
+we end up with:
+Im I1 = Im[Z6Z∗
+7] ,
+Im I2 = Im[Z∗
+5Z2
+6] ,
+Im I3 = Im[Z∗
+5(Z6 + Z7)2] .
+(58)
+The necessary and suﬃcient conditions for a CP-invariant scalar Higgs potential and a
+CP-conserving Higgs vacuum are: Im I1 = Im I2 = Im I3 = 0. In fact, there is at most two
+independent relative phases among I1, I2 and I3. However, there are cases where two of the
+three invariants are real and only one has an imaginary part:13
+Im I1 = Im I2 = 0
+if
+Z6 = 0 ,
+(59)
+Im I1 = Im I3 = 0
+if
+Z7 = −Z6 ,
+(60)
+Im I2 = Im I3 = 0
+if
+Z5 = 0 ,
+(61)
+which shows that one must check all three invariants before determining whether the Higgs
+sector is CP-invariant.14
+If I1, I2 and I3 are real one can always perform a phase rotation H2 →eiψH2 such that the
+resulting Higgs basis couplings are all real for some choice of ψ. [Note that the Higgs basis
+squared mass parameter, M2
+12 is then automatically real by virtue of eq. (A25).] The Higgs
+sector is then manifestly CP-conserving. Conversely, if the Higgs sector is CP-conserving,
+then some basis must exist in which the Higgs potential parameters and the Higgs ﬁeld
+vacuum expectation values are simultaneously real. Thus, the invariant quantities I1, I2
+and I3 must be real.
+IV.
+CP-INVARIANT 2HDM BOSONIC COUPLINGS IN TERMS OF INVARI-
+ANT PARAMETERS
+The phenomenology of the two-Higgs doublet model depends in detail on the various
+couplings of the Higgs bosons to gauge bosons, Higgs bosons and fermions [4]. We assume
+that the Higgs sector is CP-conserving, so we can work in a basis in which the vacuum
+expectation values are both real and non-negative, and all the parameters of the scalar
+13 If Z7 = 0, then Im I1 = Im (I2 −I3) = 0.
+14 If Ya¯b = 0 then I1 = I2 = 0. More generally, if Ya¯b ∝δa¯b, then Y3 = 0. Consequently, eq. (31) implies
+that Z6 = 0, and I3 is the only potentially complex invariant.
+21
+
+potential are real. In this case, it is suﬃcient to consider SO(2) rotations among diﬀerent
+basis choices; hence, there is no need to distinguish unbarred and barred indices, and we
+drop the bars in what follows. Moreover, within this set of “real” basis choices, the Higgs
+basis is unique. Thus, eq. (B10) implies that the SO(2)-invariants, Yi and Zi, coincide with
+the Higgs potential parameters in the Higgs basis (M2
+11, M2
+22, M2
+12 and the Λi, introduced in
+Appendix A).
+Since CP is conserved by assumption, there is no mixing between the CP-even Higgs
+bosons, h and H and the CP-odd Higgs boson, A. In an arbitrary real basis, we deﬁne the
+angle α such that
+h = −(
+√
+2 Re Φ0
+1 −v1)sα + (
+√
+2 Re Φ0
+2 −v2)cα ,
+H =
+(
+√
+2 Re Φ0
+1 −v1)cα + (
+√
+2 Re Φ0
+2 −v2)sα .
+(62)
+For a basis-independent description, we deﬁne the unit vector:
+bn =
+
+
+
+cα
+sα
+
+
+.
+(63)
+Then, the two basis-independent quantities associated with the CP-even mass eigenstates
+are:
+bnabva = cos(β −α) ≡cβ−α ,
+ǫabbnabvb = sin(β −α) ≡sβ−α .
+(64)
+Thus, the angle β−α represents the direction of the CP-even Higgs mass eigenstates relative
+to the Higgs basis. That is,
+h = ϕ0
+1 sin(β −α) + ϕ0
+2 cos(β −α) ,
+(65)
+H = ϕ0
+1 cos(β −α) −ϕ0
+2 sin(β −α) ,
+(66)
+where ϕ0
+1 and ϕ0
+2 are deﬁned in eq. (A11). Henceforth, we will continue to use the notation
+sβ−α and cβ−α for the basis-independent quantities [eq. (64)] despite the fact that β and α
+are separately basis-dependent.
+In the Higgs basis, the CP-even squared mass matrix takes on a rather simple form:
+M2 =
+
+
+
+Λ1v2
+Λ6v2
+Λ6v2
+m2
+A + Λ5v2
+
+
+,
+(67)
+where
+m2
+A = m2
+H± −1
+2v2(Λ5 −Λ4) ,
+(68)
+22
+
+and m2
+H± is given by eq. (A26). After diagonalization of M2, one determines the CP-even
+Higgs squared-masses:
+m2
+H,h = 1
+2
+
+m2
+A + v2(Λ1 + Λ5) ±
+q
+[m2
+A + (Λ5 −Λ1)v2]2 + 4Λ2
+6v4
+
+,
+(69)
+and the angle β −α can be determined from the following results:
+tan [2(β −α)] =
+2Λ6v2
+m2
+A + (Λ5 −Λ1)v2 ,
+(70)
+sin [2(β −α)] =
+−2Λ6v2
+m2
+H −m2
+h
+.
+(71)
+From these expressions one can derive numerous relations among the squared-masses, in-
+variant coupling parameters Λ1, Λ5 and Λ6, and β −α [21, 24].
+The Higgs couplings to gauge bosons follow from gauge invariance. The properties of the
+three-point and four-point Higgs boson-vector boson couplings are conveniently summarized
+by listing the couplings that are proportional to either sin(β −α) or cos(β −α), and the
+couplings that are independent of β −α [4]:
+cos(β −α)
+sin(β −α)
+angle-independent
+HW +W −
+hW +W −
+—
+HZZ
+hZZ
+—
+ZAh
+ZAH
+ZH+H−, γH+H−
+W ±H∓h
+W ±H∓H
+W ±H∓A
+ZW ±H∓h
+ZW ±H∓H
+ZW ±H∓A
+γW ±H∓h
+γW ±H∓H
+γW ±H∓A
+—
+—
+V V φφ , V V AA , V V H+H−
+(72)
+where φ = h or H and V V = W +W −, ZZ, Zγ or γγ. Indeed, the Higgs boson-vector boson
+couplings are basis-independent.
+The three-point and four-point Higgs self-couplings are more complicated. Nevertheless,
+it is clear that one can express these couplings in terms of sβ−α, cβ−α and the invariant
+coupling parameters, Λi. The simplest way to obtain the Higgs self-couplings is to work in
+the Higgs basis, using eqs. (A11), (65) and (66). For example,
+ghhh = −3v[Λ1s3
+β−α + Λ345sβ−αc2
+β−α + 3Λ6cβ−αs2
+β−α + Λ7c3
+β−α] ,
+(73)
+ghhhh = −3[Λ1s4
+β−α + Λ2c4
+β−α + 2Λ345c2
+β−αs2
+β−α + 4Λ6cβ−αs3
+β−α + 4Λ7c3
+β−αsβ−α] ,
+(74)
+23
+
+where Λ345 ≡Λ3 + Λ4 + Λ5. A complete list of the trilinear and quartic Higgs couplings in
+terms of the invariant coupling parameters and β −α can be found in ref. [24].15
+One can generalize the analysis of this section by relaxing the requirement that the Higgs
+vacuum expectation values are positive. That is, we consider the set of all basis choices
+related by O(2) rotations.
+In this case, two possible Higgs bases exist, since one may
+perform the transformation H1 →H1, H2 →−H2. Under this transformation, M2
+12, Λ6, Λ7
+and β −α all change sign (whereas all other Higgs potential parameters are left unchanged).
+This is not surprising since all the SO(2)-invariants that change sign involve an odd number
+of ǫab symbols in their deﬁnitions. We shall use the term pseudo-invariant to refer to an
+SO(2)-invariant that changes sign under an O(2) transformation with determinant equal to
+−1. In addition, we note that eqs. (62) and (A10) imply that the physical Higgs ﬁelds are
+related to the Higgs basis ﬁelds by:
+h = (
+√
+2 Re H0
+1 −v) sβ−α +
+√
+2 Re H0
+2 cβ−α ,
+H = (
+√
+2 Re H0
+1 −v) cβ−α −
+√
+2 Re H0
+2 sβ−α ,
+(75)
+H± = H±
+2 and A =
+√
+2 Im H0
+2. Thus, under H1 →H1, H2 →−H2, the ﬁelds h, H± and A
+change sign and H is unchanged. One can now check that eqs. (68)–(74) are indeed invariant
+with respect to O(2) transformations, so that physical results do not depend on the choice
+of basis.
+V.
+YUKAWA COUPLINGS OF THE 2HDM IN TERMS OF INVARIANT PA-
+RAMETERS
+The Higgs couplings to fermions are model dependent. The most general structure for
+the Higgs-fermion Yukawa couplings, often referred to as the type-III model [13], is given in
+the generic basis by:
+−LY = Q
+0
+L eΦ1ηU,0
+1 U0
+R + Q
+0
+LΦ1ηD,0
+1
+D0
+R + Q
+0
+L eΦ2ηU,0
+2 U0
+R + Q
+0
+LΦ2ηD,0
+2
+D0
+R + h.c. ,
+(76)
+where Φ1,2 are the Higgs doublets, eΦi ≡iσ2Φ∗
+i , Q0
+L is the weak isospin quark doublet, and
+U0
+R, D0
+R are weak isospin quark singlets. [The right and left-handed fermion ﬁelds are deﬁned
+15 To make contact with the notation of ref. [24], we deﬁne: λ ≡Λ1, λV ≡Λ2, λT ≡Λ3 + Λ4 −Λ5,
+λF ≡Λ5 −Λ4, λA ≡Λ1 −Λ5, bλ ≡−Λ6 and λU ≡−Λ7.
+24
+
+as usual: ψR,L ≡PR,Lψ, where PR,L ≡1
+2(1 ± γ5).] Here, Q0
+L, U0
+R, D0
+R denote the interaction
+basis states, which are vectors in the quark ﬂavor space, and ηU,0
+1 , ηU,0
+2 , ηD,0
+1
+, ηD,0
+2
+are matrices
+in quark ﬂavor space. Clearly, these four matrices are basis-dependent quantities. We have
+omitted the leptonic couplings in eq. (76); these follow the same pattern as the down-type
+quark couplings.
+In some models, not all the terms in eq. (76) are present at tree-level [11]. In a type-I
+model, there exist a basis where ηU,0
+2
+= ηD,0
+2
+= 0.16 In a type-II model, ηU,0
+1
+= ηD,0
+2
+= 0.
+The vanishing of certain Higgs-fermion couplings at tree-level can be enforced by a discrete
+symmetry. For example, if Lagrangian is invariant under Φ1 →+Φ1, Φ2 →−Φ2 in some
+basis, then by demanding additional discrete symmetries of a similar type for the quark
+ﬁelds, one can preserve either the type-I or type-II Higgs-fermion couplings (depending on
+the precise choice of discrete symmetries) while eliminating the other possible terms in
+eq. (76). Another well-known example is the MSSM Higgs sector, which exhibits a type-II
+Higgs-fermion coupling pattern that is enforced by supersymmetry.
+For type-I and type-II Higgs-fermion couplings, there is a natural basis choice that is
+imposed, either by the discrete symmetry or supersymmetry. In this case, tan β becomes
+a meaningful parameter. However, in the more general type-III model, there is no distin-
+guished basis, and once again tan β is meaningless. To demonstrate this fact more explicitly,
+we now proceed to write out the type-III Higgs-quark interactions in a basis independent
+manner. Our strategy is to rewrite the Higgs-fermion interaction [eq. (76)] in the Higgs
+basis and identify the quark masses. As in section IV, we assume that the Higgs potential
+is CP-conserving so that we can work in a class of bases related by SO(2) transformations.
+Thus, the basis-independent quantities considered in this section are invariant with respect
+to SO(2).17 However, we shall allow the Higgs-fermion couplings to be complex (and hence
+16 A type-I model can also be deﬁned as a model in which ηU,0
+1
+= ηD,0
+1
+= 0 in some basis. Clearly, the two
+deﬁnitions are equivalent, since the diﬀerence in the two conditions is simply an interchange of Φ1 and
+Φ2 which can be viewed as a change of basis.
+17 As noted at the end of section IV, one can extend the class of basis transformations to O(2). In this case,
+one should distinguish between true O(2)-invariants and pseudo-invariants that change sign under an O(2)
+transformation with determinant −1. In particular, β−α and ρQ [eq. (84)] are pseudo-invariants. However
+as previously noted, the physical Higgs ﬁelds H±, A and h all change sign under the transformation
+H1 →H1, H2 →−H2 of Higgs basis ﬁelds. Therefore, the physical Higgs-fermion couplings given in
+eq. (87) are invariant with respect to the full O(2) group of basis transformations.
+25
+
+CP-violating). Using eq. (A10),
+−LY = Q
+0
+Lf
+H1κU,0U0
+R + Q
+0
+LH1κD,0D0
+R + Q
+0
+Lf
+H2ρU,0U0
+R + Q
+0
+LH2ρD,0D0
+R + h.c. ,
+(77)
+where f
+Hi ≡iσ2H∗
+i and
+κQ,0 ≡ηQ,0
+1
+cβ + ηQ,0
+2
+sβ ,
+(78)
+ρQ,0 ≡−ηQ,0
+1
+sβ + ηQ,0
+2
+cβ ,
+(79)
+for Q = U or D. It is easy to see that κQ,0 and ρQ,0 are basis-independent quantities. First,
+we introduce the vector (in Higgs ﬂavor space) of matrix quantities: ηQ,0 ≡(ηQ,0
+1
+, ηQ,0
+2
+).
+Then, eqs. (78) and (79) are equivalent to:
+κQ,0 ≡bv · ηQ,0 ,
+ρQ,0 ≡bw · ηQ,0 ,
+(80)
+where the dot products have the usual meaning: bv · ηQ,0 ≡bvaηQ,0
+a
+and bw · ηQ,0 ≡ǫabbvaηQ,0
+b
+.
+Clearly, κQ,0 and ρQ,0 are SO(2)-invariant quantities.
+The fermion mass eigenstates are related to the interaction eigenstates by biunitary trans-
+formations:
+PLU = V U
+L PLU0 ,
+PRU = V U
+R PRU0 ,
+PLD = V D
+L PLD0 ,
+PRD = V D
+R PRD0 ,
+(81)
+and the Cabibbo-Kobayashi-Maskawa matrix is deﬁned as K ≡V U
+L V D †
+L
+. It is also convenient
+to deﬁne “rotated” coupling matrices:
+ηU
+i ≡V U
+L ηU,0
+i
+V U †
+R
+,
+κU ≡V U
+L κU,0V U †
+R
+,
+ρU ≡V U
+L ρU,0V U †
+R
+,
+(82)
+ηD
+i ≡V D
+L ηD,0
+i
+V D †
+R
+,
+κD ≡V D
+L κD,0V D †
+R
+,
+ρD ≡V D
+L ρD,0V D †
+R
+.
+(83)
+Note that κQ and ρQ (Q = U, D) are also invariants, since if we deﬁne ηQ ≡(ηQ
+1 , ηQ
+2 ), then
+κQ ≡bv · ηQ ,
+ρQ ≡bw · ηQ .
+(84)
+The quark mass terms are identiﬁed by replacing the scalar ﬁelds with their vacuum
+expectation values. The unitary matrices V U
+L , V D
+L , V U
+R and V D
+R are then chosen so that κD
+and κU are diagonal with real non-negative entries. The resulting quark mass matrices are
+then diagonal:
+MD = v
+√
+2κD ,
+MU = v
+√
+2κU .
+(85)
+26
+
+In this analysis, we have assumed that the Higgs potential is CP-conserving, in which
+case we may take bv = (cos β , sin β). By construction, the κQ are real diagonal matrices.
+Eq. (84) then implies that
+Im ηQ
+1 = −tan β Im ηQ
+2 ,
+(86)
+and Im ρQ = Im ηQ
+2 / cos β. Similarly, ρQ is typically non-diagonal. Thus, in the most general
+case, ρD and ρU are independent complex non-diagonal matrices.
+Finally, from eq. (77), we obtain the Higgs-quark couplings after making use of eqs. (A11),
+(65) and (66). The end result is:
+−LY = 1
+v D
+"
+MDsβ−α + v
+√
+2(ρDPR + ρD†PL)cβ−α
+#
+Dh + i
+vDMDγ5DG0
++1
+v D
+"
+MDcβ−α −v
+√
+2(ρDPR + ρD†PL)sβ−α
+#
+DH +
+i
+√
+2D(ρDPR −ρD†PL)DA
++1
+v U
+"
+MUsβ−α + v
+√
+2(ρUPR + ρU †PL)cβ−α
+#
+Uh −i
+vUMDγ5UG0
++1
+v U
+"
+MUcβ−α −v
+√
+2(ρUPR + ρU †PL)sβ−α
+#
+UH −
+i
+√
+2U(ρUPR −ρU †PL)UA
++
+(
+U
+h
+KρDPR −ρU †KPL
+i
+DH+ +
+√
+2
+v U [KMDPR −MUKPL] DG+ + h.c.
+)
+.(87)
+Once again, we observe that the Higgs interactions are determined by basis-independent
+quantities (in this case, the quark masses, ρU, ρD and β −α). Thus, eq. (87) exhibits both
+ﬂavor-changing Higgs-mediated neutral currents and CP-violating Higgs-fermion couplings
+(even though we assumed a CP-conserving Higgs potential, or equivalently the absence of
+tree-level mixing between the CP-odd A and the CP-even h and H).18
+For simplicity, we now focus on the case of one quark/lepton generation.
+Then, the
+Higgs-quark interaction produces the following Feynman rules of the form −igφf1f2:
+ghq¯q = mq
+v sβ−α +
+1
+√
+2(Sq + iγ5Pq)cβ−α ,
+(88)
+gHq¯q = mq
+v cβ−α −
+1
+√
+2(Sq + iγ5Pq)sβ−α ,
+(89)
+18 In principle, this requires a ﬁne-tuning of tree-level parameters. If Im ρQ̸ = 0, then one-loop eﬀects will
+generate inﬁnite corrections to CP-violating parameters of the Higgs potential (which are eliminated by
+renormalization of the Higgs potential parameters). The more general treatment in the case of a tree-level
+CP-violating Higgs potential will be addressed in a separate publication.
+27
+
+gAu¯u = −1
+√
+2(iSuγ5 −Pu) ,
+(90)
+gAd ¯d =
+1
+√
+2(iSdγ5 −Pd) ,
+(91)
+gH+d¯u =
+1
+2[ρD(1 + γ5) −ρU∗(1 −γ5)] ,
+(92)
+where
+Sq ≡Re ρQ ,
+Pq ≡Im ρQ ,
+(93)
+and −igH+d¯u corresponds to the rule in which d, ¯u and H+ are pointed into the vertex. As
+noted above, if Im ρQ̸ = 0, then the Higgs-fermion couplings are CP-violating.
+The results of eqs. (87) and (88) apply to the most general type-III 2HDM. To study
+the Higgs-fermion interactions in type-I and type-II models, it is useful to have a basis-
+independent characterization of these two special patterns of Higgs couplings., This is for-
+mulated as follows:19
+|ηU|2|ηD|2 −|ηU · ηD|2 = 0 ,
+type-I ,
+(94)
+ηU · ηD = 0 ,
+type-II .
+(95)
+To verify eqs. (94) and (95), simply note that these equations corresponds to the deﬁnitions
+of the type-I and type-II Higgs-fermion couplings in the special basis (i.e., for the particular
+value of β) in which two of the four Higgs-quark couplings of eq. (76) vanish. Since eqs. (94)
+and (95) are basis-independent conditions, they must be true if they are satisﬁed in one
+particular basis. Moreover, in both type-I and type-II models, the ρQ are real. This is most
+easily proven in the special basis by using eq. (86) to show that the ηQ must be real.
+The type-I and type-II model conditions can be enforced by applying an appropriate
+discrete symmetry that distinguishes between Φ1 and Φ2 [10, 11, 12]. Consequently, tan β is
+promoted to a physical parameter, and thus can be expressed in terms of invariant quantities.
+For example, in a type-II model, β corresponds to the basis in which ηU
+1 = ηD
+2 = 0. Using
+eq. (84), one obtains two diﬀerent equations for tan β:
+tan β = −ρD
+κD = κU
+ρU .
+(96)
+19 Note that the type-I condition can be written as |ηU × ηD|2 = 0, where × corresponds to the cross-
+product. Since the Higgs ﬂavor space is only two-dimensional, only one component of the cross-product
+exists. Nevertheless, it is tempting to write the type-I condition as ηU × ηD = 0.
+28
+
+For these two deﬁnitions to be consistent, the following equation must be satisﬁed:
+κUκD + ρUρD = 0 .
+(97)
+But, eq. (97) is equivalent to the type-II condition, ηU · ηD = 0, noted above. Moreover,
+using eqs. (85) and (96), it follows that:
+ρD = −
+√
+2md
+v
+tan β ,
+ρU =
+√
+2mu
+v
+cot β .
+(98)
+Inserting this result into eq. (87) [or eq. (88)] yields the well-known Feynman rules for
+the type-II Higgs-quark interactions. In deriving these results, the following trigonometric
+identities are particularly useful:
+−sin α
+cos β = sβ−α −tan β cβ−α ,
+cos α
+sin β = sβ−α + cot β cβ−α ,
+(99)
+cos α
+cos β = cβ−α + tan β sβ−α ,
+sin α
+sin β = cβ−α −cot β sβ−α .
+(100)
+A similar analysis can be given for models of type-I.
+The analysis above makes clear that tan β is a physical parameter in models of type-I
+and type-II, but is not meaningful in models of type-III. Nevertheless, it does suggest a
+strategy in the type-III CP-conserving case.20 Namely, one can introduce three tan β-like
+parameters:
+tan βd ≡−ρD
+κD ,
+tan βu ≡κU
+ρU ,
+(101)
+and a third parameter tan βe ≡−ρE/κE corresponding to the Higgs-lepton interaction. The
+meaning of these tan β-like parameters is clear. For example, consider the case of up-type
+quark couplings to Higgs bosons of a type-III model. In the Higgs basis, both Q
+0
+Lf
+H1κU,0U0
+R
+and Q
+0
+L f
+H2ρU,0U0
+R interaction terms are allowed. But, clearly there exists some basis (i.e.,
+some rotation by angle βu from the Higgs basis) for which only one of the two up-type quark
+Yukawa couplings is non-vanishing. This deﬁnes the physical angle βu, which is given in
+eq. (101).21 The angles βu, βd and βe are physical parameters of the model, and in the
+20 The ρQ are complex if CP-violating Higgs-fermion couplings are present, in which case the tan β-like
+parameters of eq. (101) would be complex. We shall treat the more general CP-violating case elsewhere.
+21 Actually, there is a two-fold ambiguity in the deﬁnition of tan β corresponding to whether one identiﬁes
+the Higgs boson that does not couple to the up-type quark as Φ1 or Φ2. The deﬁnition given in eq. (101)
+corresponds to the former case. In the latter case, one would deﬁne tan βu ≡−ρU/κU. Said another way,
+suppose there exists some basis, corresponding to a rotation by an angle βu from the Higgs basis, for
+which one of the two up-type quark Yukawa couplings vanishes. Then a rotation from the Higgs basis by
+βu −π/2 will likewise yield one vanishing up-type quark Yukawa coupling.
+29
+
+general type-III model there would be no reason for these parameters to be equal in value.
+However, in a type-II model, one would indeed ﬁnd that tan βu = tan βd = tan βe = tan β.
+In some cases, the Higgs sector is close to type-II. For example, the MSSM Higgs sector
+exhibits type-II couplings at tree-level, but all possible Higgs-fermion couplings appear at
+one-loop due to supersymmetry-breaking eﬀects. In this case, the Higgs-fermion coupling
+is close to type-II, with diﬀerences among the three tan β-like parameters introduced above
+generated by supersymmetry-breaking eﬀects in loops corrections.
+We can illustrate the last point in a very simple model approximation. In the MSSM
+at large tan β (and supersymmetric masses signiﬁcantly larger than mZ), the eﬀective La-
+grangian that describes the coupling of the Higgs bosons to the third generation quarks is
+given by:
+−Leﬀ= hb(qLΦ1)bR + ht(qL eΦ2)tR + ∆hb (qLΦ2)bR + h.c. ,
+(102)
+where qL ≡(uL , dL).
+The term proportional to ∆hb is generated at one-loop due to
+supersymmetry-breaking eﬀects.22 The tree-level relation between mb and hb is modiﬁed [27]:
+mb = hbv
+√
+2 cos β(1 + ∆b) ,
+(103)
+where ∆b ≡(∆hb/hb) tan β. That is, ∆b is tan β-enhanced, and governs the leading one-loop
+correction to the physical Higgs couplings to third generation quarks. In typical models at
+large tan β, ∆b can be of order 0.1 or larger and of either sign.23
+In the approximation scheme above, eq. (84) yields κU ≃ht sin β, ρU ≃ht cos β, and
+κD ≃hb cos β(1 + ∆b) ,
+(104)
+ρD ≃−hb sin β
+ 
+1 −
+∆b
+tan2 β
+!
+≃−hb sin β .
+(105)
+It follows that:
+tan βd ≃
+tan β
+1 + ∆b
+,
+tan βu ≃tan β .
+(106)
+Thus, supersymmetry-breaking loop-eﬀects can yield observable diﬀerences between tan β-
+like parameters that are deﬁned in terms of basis-independent quantities.
+22 One-loop corrections to hb and ht and an eﬀective (supersymmetry-breaking) operator ∆htqLeΦ1tR yield
+subdominant eﬀects at large tan β and will therefore be neglected here.
+23 Explicit expressions for ∆b in terms of supersymmetric masses and parameters, and references to the
+original literature can be found in ref. [5].
+30
+
+Finally, we brieﬂy consider the multi-generation model. The type-III Higgs-quark inter-
+actions have already been given in eq. (87). Consider a type-II Higgs-quark interaction,
+deﬁned by the matrix equations ηU
+1 = ηD
+2 = 0. From eq. (84), it follows that the following
+two matrix equations must be satisﬁed:
+I tan β = −ρD(κD)−1 = κU(ρU)−1 ,
+(107)
+where I is the identity matrix in quark ﬂavor space. Again, we note that these equations
+are consistent because ηU · ηD = 0. Thus, using eq. (85),
+ρD = −
+√
+2
+v
+MD tan β ,
+ρU =
+√
+2
+v MU tan β ,
+(108)
+where MD and MU are the diagonal quark mass matrices (implying that ρD and ρU are
+also diagonal real matrices).
+We again conclude that tan β is a meaningful parameter.
+The analysis for type-I models proceeds in a similar manner. However, the construction of
+tan β-like parameters in the general type-III model is far more complicated. In particular,
+although the κQ are diagonal, the ρQ are complex non-diagonal matrices in the general
+case. Thus, it does not seem very useful to deﬁne tan β-like parameters by considering the
+non-diagonal matrices κU(ρU)−1 and −ρD(κD)−1. Fortunately, in most models, the third-
+generation Yukawa couplings dominate, and one may deﬁne tan β-like parameters based
+solely on the consideration of third-generation fermion couplings.
+VI.
+SUMMARY
+The scalar Lagrangian of the two-Higgs-doublet model (2HDM) retains the same func-
+tional form under 2 × 2 unitary transformations among the two Higgs doublets. It is useful
+to understand the eﬀect of these (unphysical) transformations on the Higgs potential param-
+eters that govern the theory. These U(2) transformations can be thought of as generalized
+rotations among diﬀerent bases of Higgs ﬁelds. The choice of basis is of course arbitrary.
+In practice, one often chooses a basis in terms of vectors that arise naturally in the theory.
+For example, in the Higgs basis, the vacuum expectation value va of the neutral Higgs ﬁelds
+points along the direction (in Higgs ﬂavor space) of one of the two Higgs doublets. If one
+deﬁnes Va¯b ≡vav∗
+b, then the Higgs basis corresponds to the orthonormal eigenvalues of
+Va¯b. In a CP-conserving theory, the CP-even Higgs squared-mass matrix is a 2 × 2 matrix
+31
+
+whose orthonormal eigenvalues can be used to deﬁne the physical mass basis. The matrix
+of squared-masses, Ya¯b, which appears in the Higgs Lagrangian, can also be used to deﬁne a
+basis in which the oﬀ-diagonal term Y12 = 0. When fermions are coupled to the Higgs sector,
+discrete symmetries are often imposed in order to guarantee the absence of ﬂavor-changing
+neutral currents. These discrete symmetries are deﬁned in a particular basis, which can be
+related to the structure of the Higgs-fermion interactions.
+Although certain choices of basis may be physically motivated, any underlying assumption
+(e.g., the existence of a discrete symmetry, CP-invariance, etc.) must be experimentally
+tested. Thus, it is especially useful to analyze Higgs physics of the 2HDM independently
+of the choice of basis. Starting from an arbitrary (generic) basis, one can deﬁne invariant
+quantities—combinations of the Higgs potential parameters that are scalars with respect to
+U(2) transformations in the ﬂavor space of the two Higgs doublets. Invariant descriptions of
+discrete symmetries and CP-symmetry can be used in principle to test for these symmetries.
+In addition, any physical Higgs sector observable (masses and couplings) can be expressed in
+terms of the U(2)-invariants. In this paper, the relation of these observables to invariants has
+been obtained under the assumption that the Higgs scalar potential is CP-invariant. In this
+latter case, it is suﬃcient to consider restricted O(2)-invariant quantities. In a subsequent
+publication, we will generalize the analysis given in sections IV and V in order to treat the
+Higgs couplings in a model with a CP-violating 2HDM scalar potential.
+In the most general 2HDM, the ratio of the two vacuum expectation values, tan β, is
+an unphysical basis-dependent quantity. Typically, tan β acquires meaning when the Higgs-
+fermion interaction is formulated, since discrete symmetries or supersymmetry must be
+imposed in order to avoid ﬂavor changing neutral currents in conﬂict with experiment. Nev-
+ertheless, these symmetries are typically broken symmetries, so within the eﬀective theory
+of Higgs interactions, tan β again loses its meaning. In this paper, we have advocated re-
+placing tan β with parameters that are more directly physical—invariant combinations of
+Higgs-fermion Yukawa couplings. Once again, by focusing on U(2)-invariant quantities, one
+is led to a powerful and ﬂexible formalism that is ideally suited for general phenomenological
+and theoretical studies of the two-Higgs-doublet model.
+Note Added
+After this work was completed, a paper of G.C. Branco, M.N. Rebelo and J.I. Silva-
+32
+
+Marcos [28] appeared that emphasizes the techniques of invariants and addresses some of
+the issues considered in this paper.
+Acknowledgments
+This work was supported in part by the U.S. Department of Energy and the U.K. Particle
+Physics and Astronomy Research Council. We are grateful for many illuminating discussions
+with Jack Gunion. We have also beneﬁted from conversations with Maria Krawczyk and
+Ilya Ginzburg. H.E.H. would like to express his gratitude to W.J. Stirling and the particle
+theory group in Durham for their warm hospitality during a three month sabbatical in
+January–March 2003 where this project was conceived.
+APPENDIX A: BASIS CHOICES FOR THE TWO-HIGGS DOUBLET MODEL
+In this appendix, we review the most general two-Higgs-doublet extension of the Standard
+Model [4, 14, 24]. Let Φ1 and Φ2 denote two complex Y = 1, SU(2)L doublet scalar ﬁelds.
+The most general gauge invariant scalar potential is given by
+V = m2
+11Φ†
+1Φ1 + m2
+22Φ†
+2Φ2 −[m2
+12Φ†
+1Φ2 + h.c.]
++ 1
+2λ1(Φ†
+1Φ1)2 + 1
+2λ2(Φ†
+2Φ2)2 + λ3(Φ†
+1Φ1)(Φ†
+2Φ2) + λ4(Φ†
+1Φ2)(Φ†
+2Φ1)
++
+n
+1
+2λ5(Φ†
+1Φ2)2 + [λ6(Φ†
+1Φ1) + λ7(Φ†
+2Φ2)]Φ†
+1Φ2 + h.c.
+o
+,
+(A1)
+where m2
+11, m2
+22, and λ1, · · ·, λ4 are real parameters. In general, m2
+12, λ5, λ6 and λ7 are
+complex.
+The scalar ﬁelds will develop non-zero vacuum expectation values if the mass
+matrix m2
+ij has at least one negative eigenvalue. We assume that the parameters of the
+scalar potential are chosen such that the minimum of the scalar potential respects the
+U(1)EM gauge symmetry[29]. Then, the scalar ﬁeld vacuum expectations values are of the
+form24
+⟨Φ1⟩= 1
+√
+2
+
+
+
+0
+v1
+
+
+,
+⟨Φ2⟩= 1
+√
+2
+
+
+
+0
+v2 eiξ
+
+
+,
+(A2)
+24 In writing eq. (A2), we have used a global SU(2)W rotation to put the non-zero vacuum expectation values
+in the lower component of the doublet, and a global hypercharge U(1) rotation to eliminate the phase
+of v1.
+33
+
+where v1 and v2 are real and non-negative, 0 ≤ξ < 2π and
+v2 ≡v2
+1 + v2
+2 = 4m2
+W
+g2
+= (246 GeV)2 .
+(A3)
+The corresponding potential minimum conditions are:
+m2
+11 = m2
+12 eiξ tβ −1
+2v2 h
+λ1c2
+β + (λ3 + λ4 + λ5e2iξ)s2
+β + (2λ6eiξ+λ∗
+6e−iξ)sβcβ + λ7s2
+βtβeiξi
+(A4)
+m2
+22 = (m2
+12 eiξ)∗t−1
+β −1
+2v2 h
+λ2s2
+β + (λ3 + λ4 + λ∗
+5e−2iξ)c2
+β + λ∗
+6c2
+βt−1
+β e−iξ
++(λ7eiξ + 2λ∗
+7e−iξ)sβcβ
+i
+,
+(A5)
+where
+sβ ≡sin β ≡v2
+v ,
+cβ ≡cos β ≡v1
+v ,
+and
+tβ ≡tan β ≡v2
+v1
+,
+(A6)
+and 0 ≤β ≤π/2 (since by assumption, v1, v2 ≥0). Since m2
+11 and m2
+22 are both real, the
+imaginary part of either eq. (A4) or eq. (A5) yields one independent equation:
+Im(m2
+12eiξ) = 1
+2v2 h
+Im(λ5e2iξ)sβcβ + Im(λ6eiξ)c2
+β + Im(λ7eiξ)s2
+β
+i
+.
+(A7)
+Eq. (A7) can be used to determine ξ.
+Of the original eight scalar degrees of freedom, three Goldstone bosons (G± and G0) are
+absorbed (“eaten”) by the W ± and Z. These states are easily identiﬁed:
+G± = cos β Φ±
+1 + e−iξ sin β Φ±
+2 ,
+(A8)
+G0
+=
+√
+2
+h
+cos β Im Φ0
+1 + sin β Im (e−iξ Φ0
+2)
+i
+.
+(A9)
+In writing all the expressions above, we have implicitly chosen a basis in the space of
+Φ1–Φ2. We shall refer to this basis choice as the generic basis. One particular basis choice is
+especially useful. This is the so-called Higgs basis of ref. [15] (whose signiﬁcance was also em-
+phasized in refs. [9, 19, 22, 23]) in which only the neutral component of one of the two Higgs
+doublets (e.g., Φ0
+1) possesses a vacuum expectation value. This requirement is not suﬃcient
+to uniquely deﬁne the Higgs basis. In particular, there is a set of U(1)Y×U(1) transforma-
+tions on the scalar ﬁeld that preserves the conditions: |⟨Φ′ 0
+1 ⟩| = v/
+√
+2 and ⟨Φ′ 0
+2 ⟩= 0, where
+the Φ′
+i are the scalar ﬁelds in the basis where β = 0 [6]. U(1)Y is the global hypercharge
+transformation, and is a symmetry of the Lagrangian, unlike the SU(2) transformations in
+Higgs ﬂavor space which transform the parameters of the Higgs potential. The second U(1)
+is the diagonal subgroup of the SU(2) in Higgs ﬂavor space, corresponding to Φ′
+1 →eiχΦ′
+1
+34
+
+and Φ′
+2 →e−iχΦ′
+1. Thus, there is a family of Higgs bases, parameterized by χ.25 Let us
+denote the two Higgs doublets in the Higgs basis by H1 and H2. Then, the relation between
+these scalar doublet ﬁelds and the scalar ﬁelds in the original basis is given by:
+e−iχ H1 = Φ1 cos β + e−iξ Φ2 sin β ,
+eiχ H2 = −eiξ Φ1 sin β + Φ2 cos β .
+(A10)
+One then obtains
+e−iχ H1 =
+
+
+
+G+
+1
+√
+2 (v + ϕ0
+1 + iG0)
+
+
+,
+eiχ H2 =
+
+
+
+H+
+1
+√
+2 (ϕ0
+2 + iA)
+
+
+,
+(A11)
+where ϕ0
+1, ϕ0
+2 are CP-even neutral Higgs ﬁelds, A is a CP-odd neutral Higgs ﬁeld, and H+
+is the physical charged Higgs boson. If the Higgs sector is CP-violating, then ϕ0
+1, ϕ0
+2, and A
+all mix to produce three physical neutral Higgs states of indeﬁnite CP. If CP is conserved,
+then A is the physical CP-odd Higgs scalar and ϕ0
+1 and ϕ0
+2 mix to produce two physical
+neutral CP-even Higgs states h and H. We examine the CP-conserving case in more detail
+in section IV.
+In the Higgs basis, the corresponding values of λ1, · · · , λ7 can be easily computed by
+re-expressing Φ1 and Φ2 in terms of H1 and H2 [eq. (A10)] and inserting the result into
+eq. (A1). The end result is:
+V = M2
+11H†
+1H1 + M2
+22H†
+2H2 −[M2
+12H†
+1H2 + h.c.]
++ 1
+2Λ1(H†
+1H1)2 + 1
+2Λ2(H†
+2H2)2 + Λ3(H†
+1H1)(H†
+2H2) + Λ4(H†
+1H2)(H†
+2H1)
++
+n
+1
+2Λ5(H†
+1H2)2 + [Λ6 (H†
+1H1) + Λ7(H†
+2H2)]H†
+1H2 + h.c.
+o
+,
+(A12)
+where
+M2
+11 = m2
+11c2
+β + m2
+22s2
+β −Re(m2
+12eiξ)s2β ,
+(A13)
+M2
+22 = m2
+11s2
+β + m2
+22c2
+β + Re(m2
+12eiξ)s2β ,
+(A14)
+M2
+12ei(ξ−2χ) =
+1
+2(m2
+11 −m2
+22)s2β + Re(m2
+12eiξ)c2β + i Im(m2
+12eiξ) .
+(A15)
+25 The range of χ can be taken to be 0 ≤χ ≤π, since the transformation χ →χ + π can be compensated
+by a U(1)Y rotation.
+35
+
+and
+Λ1 = λ1c4
+β + λ2s4
+β + 1
+2λ345s2
+2β + 2s2β
+h
+c2
+βRe(λ6eiξ) + s2
+βRe(λ7eiξ)
+i
+,
+(A16)
+Λ2 = λ1s4
+β + λ2c4
+β + 1
+2λ345s2
+2β −2s2β
+h
+s2
+βRe(λ6eiξ) + c2
+βRe(λ7eiξ)
+i
+,
+(A17)
+Λ3 =
+1
+4s2
+2β [λ1 + λ2 −2λ345] + λ3 −s2βc2βRe[(λ6 −λ7)eiξ] ,
+(A18)
+Λ4 =
+1
+4s2
+2β [λ1 + λ2 −2λ345] + λ4 −s2βc2βRe[(λ6 −λ7)eiξ] ,
+(A19)
+Λ5e2i(ξ−2χ) =
+1
+4s2
+2β [λ1 + λ2 −2λ345] + Re(λ5e2iξ) + ic2βIm(λ5e2iξ)
+−s2βc2βRe[(λ6 −λ7)eiξ] −is2βIm[(λ6 −λ7)eiξ)] ,
+(A20)
+Λ6ei(ξ−2χ) = −1
+2s2β
+h
+λ1c2
+β −λ2s2
+β −λ345c2β −iIm(λ5e2iξ)
+i
++cβc3βRe(λ6eiξ) + sβs3βRe(λ7eiξ) + ic2
+βIm(λ6eiξ) + is2
+βIm(λ7eiξ) , (A21)
+Λ7ei(ξ−2χ) = −1
+2s2β
+h
+λ1s2
+β −λ2c2
+β + λ345c2β + iIm(λ5e2iξ)
+i
++sβs3βRe(λ6eiξ) + cβc3βRe(λ7eiξ) + is2
+βIm(λ6eiξ) + ic2
+βIm(λ7eiξ) , (A22)
+where
+λ345 ≡λ3 + λ4 + Re(λ5e2iξ) .
+(A23)
+The inversion of eqs. (A13)–(A15) and eqs. (A16)–(A22) is simply obtained by making the
+replacements M2
+ij ↔m2
+ij, Λi ↔λi, β ↔−β and ξ ↔ξ −2χ. Note that the Higgs basis
+corresponds to the choice β = 0, independently of the value of ξ. The eﬀect of non-uniqueness
+of the Higgs basis, which is parameterized by χ, is also easily discerned. Starting from the
+Higgs basis with χ = 0, one can transform to the Higgs basis with arbitrary χ by the phase
+redeﬁnitions
+H1 →eiχH1
+and
+H2 →e−iχH2 .
+(A24)
+As a result of this transformation, the complex parameters of the scalar potential in the Higgs
+basis are transformed by a phase rotation: M2
+12, Λ6, Λ7 →e2iχ[M2
+12, Λ6, Λ7], and Λ5 →e4iχΛ5.
+Finally, the scalar potential minimum conditions in Higgs basis are independent of χ:
+M2
+11 = −1
+2Λ1v2 ,
+M2
+12 = 1
+2Λ6v2 .
+(A25)
+Note that the equation for M2
+12 is a complex equation that holds both for the real and
+imaginary parts.
+The value of M2
+22 is not constrained by the scalar potential minimum
+conditions. One can show that M2
+22 is directly related to the physical charged Higgs boson
+squared-mass:
+m2
+H± = M2
+22 + 1
+2v2Λ3 ,
+(A26)
+36
+
+where H± = −eiξ sin β Φ±
+1 +cos β Φ±
+2 is the state orthogonal to the charged Goldstone boson
+[eq. (A8)]. The requirement that m2
+H± ≥0 places a constraint on M2
+22 and Λ3 since we have
+assumed that electromagnetism is not spontaneously broken.
+We can now count the number of independent parameters that govern the most general
+2HDM. After imposing the scalar potential minimum conditions in the Higgs basis, there are
+twelve parameters: M2
+11 (which determines the value of v = 246 GeV [see eq. (A25)]), M2
+22,
+four real couplings Λ1, . . . , Λ4 and three complex couplings Λ5, Λ6 and Λ7. However, the
+non-uniqueness of the Higgs basis implies that only the relative phases of the these complex
+parameters are physical. That is, of the twelve independent parameters that characterize
+the Higgs basis, one degree of freedom can be removed by the phase redeﬁnitions given by
+eq. (A24), leaving only eleven physical degrees of freedom [23].
+To see that this result is consistent with the parameter counting in the generic basis, we
+ﬁrst note that without loss of generality, we can choose a basis in which m2
+12 = 0. In this
+case, cos2 2β becomes a physical parameter as noted at the end of section II. Moreover,
+we can make an additional phase rotation Φ2 →eiξ Φ2 such that the two neutral scalar
+vacuum expectation values are real. The minimum conditions [eqs. (A4) and (A5)] ﬁx the
+values of m2
+11 and m2
+22, leaving twelve parameters: v1, v2, the real couplings λ1, . . . , λ4 and
+the complex couplings λ5, λ6 and λ7.
+But, in the basis where m2
+12 = 0, the imaginary
+part of the minimum conditions [eq. (A7)] implies one relation among Im λ5, Im λ6 and
+Im λ7. Thus, we again end up with eleven independent parameters, as expected. We may
+also obtain the same result by employing an elegant technique advocated in refs. [30] and
+[31]. In the generic basis, the scalar Higgs potential consists of six real and four complex
+parameters. If the Higgs potential is set to zero, the scalar Lagrangian possesses a U(2)
+global symmetry corresponding to arbitrary U(2) transformations in the “ﬂavor” space of
+Higgs doublets {Φ1 , Φ2}. In particular, note that U(2) ∼= SU(2)×U(1)Y, where the SU(2) is
+a global ﬂavor symmetry not to be confused with the gauged SU(2) of the Standard Model.
+When the Higgs potential is restored, the scalar Lagrangian is no longer invariant under the
+SU(2) global ﬂavor transformations. That is, the eﬀect of the ﬂavor SU(2) transformations
+is to transform the Higgs potential parameters. However, we are always free to redeﬁne
+the scalar ﬁelds by the ﬂavor SU(2) transformation.
+A general SU(2) transformation is
+determined by three parameters. Thus, three of the fourteen Higgs potential parameters
+can be transformed away (or set to zero) by an appropriate ﬂavor SU(2) redeﬁnition of the
+37
+
+two scalar doublet ﬁelds. This leaves eleven physical degrees of freedom, again conﬁrming
+our previous counting.
+APPENDIX B: INVARIANTS BY EXPLICIT CONSTRUCTION OF EIGEN-
+VECTORS
+In this Appendix, we explicitly construct eigenvectors of the hermitian matrix Va¯b ≡bvabv∗¯b
+[where bv is the unit vector of Higgs vacuum expectation values deﬁned in eq. (7)], and
+contract them with the Higgs potential parameter tensors (Y and Z) to obtain index-free
+“objects”. By carefully considering the phase transformations on the eigenvectors, we will
+see that some of our objects are invariants with respect to U(2), and some pick up phases
+under U(2) transformations. The latter set can be combined into the invariants of section II.
+Consider the two orthonormal eigenvectors of V :
+bva ≡eiη
+
+
+
+cβ
+sβ eiξ
+
+
+,
+bwa ≡−ǫab bv∗¯b = e−iη
+
+
+
+−sβ e−iξ
+cβ
+
+
+,
+(B1)
+with the inverse relation bv∗
+¯a = ǫ¯a¯b wb. In eqs. (7) and (A2), a global U(1)Y rotation has
+been employed to eliminate the overall phase factor eiη in bv. However, it will sometimes be
+convenient to use the more general forms given in eq. (B1).
+Given a generic basis and the corresponding form for bv, we can transform to another
+basis by redeﬁning the scalar ﬁelds via Φ′
+a = Ua¯bΦb. The most general U(2) transformation
+is given by
+U = eiψ
+
+
+
+eiγ cos θ
+e−iζ sin θ
+−eiζ sin θ
+e−iγ cos θ
+
+
+,
+(B2)
+where 0 ≤θ ≤π/2, and 0 ≤γ ≤π and 0 ≤ζ , ψ < 2π.26 The subgroup of U(1)Y global
+hypercharge rotations corresponds to freezing the values of θ, γ and ζ, and the subgroup
+of the ﬂavor SU(2) transformations corresponds to freezing the value of ψ. Starting from
+the generic basis, we ﬁrst make a U(1)Y transformation to set η = 0 in eq. (B1). Then, we
+may employ the ﬂavor SU(2) transformation given by ψ = 0 , γ = χ , ζ = ξ −χ and θ = β
+26 Note that for ﬁxed θ, U does not change when ψ, γ, ζ →π + [ψ, γ, ζ]. Thus, we have chosen to restrict
+χ to lie between 0 and π (other choices are possible). If ψ = 0, then eq. (B2) provides a parameterization
+of SU(2)/Z2. In this case, the full SU(2) group manifold can be covered by extending the range of γ to
+0 ≤γ < 2π.
+38
+
+to rotate from the generic basis to the Higgs basis as speciﬁed by eq. (A10). Applying this
+form of U to bv and bw [eq. (B1) with η = 0] yields the corresponding results in the Higgs
+basis: bv = (eiχ, 0) and bw = (0, e−iχ). The parameter χ reﬂects the non-uniqueness in the
+deﬁnition of the Higgs basis, as discussed in Appendix A.
+We now turn to the task of constructing U(2)-invariant (scalar) combinations of Higgs
+potential parameters. We shall also construct objects that are invariant with respect to
+the ﬂavor SU(2) transformations, but not necessarily invariant with respect to the full U(2)
+group. These objects are useful, but they do not correspond directly to physical quantities.
+We may combine the tensors Ya¯b, Za¯bc ¯d, bva, bv∗
+¯a, bwa and bw∗
+¯a to create scalar quantities by
+summing over pairs of indices (following the rule that the summed index pairs must contain
+one unbarred and one barred index). A U(2) transformation can be written as U ≡eiψ bU
+with det
+bU = 1. With respect to the ﬂavor-SU(2), both bv and bw transform covariantly:27
+bva →bUa¯bbvb then bwa →bUa¯b bwb. With respect to U(1)Y, bv inherits the transformation law of
+Φa. Hence with respect to U(2) transformations, bva →Ua¯bbvb. In contrast,
+bwa →(det U)−1Ua¯b bwb .
+(B3)
+That is, bv and bw transform oppositely with respect to U(1)Y as expected.
+It is now straightforward to construct index-free objects that are linear in the Higgs
+potential parameters. We obtain three squared-mass invariants:
+Y1 ≡Ya¯b bv∗
+¯a bvb ,
+Y2 ≡Ya¯b bw∗
+¯a bwb ,
+Y3 ≡Ya¯b bv∗
+¯a bwb ,
+(B4)
+and seven coupling invariants:
+Z1 ≡Za¯bc ¯d bv∗
+¯a bvb bv∗
+¯c bvd ,
+Z2 ≡Za¯bc ¯d bw∗
+¯a bwb bw∗
+¯c bwd ,
+(B5)
+Z3 ≡Za¯bc ¯d bv∗
+¯a bvb bw∗
+¯c bwd ,
+Z4 ≡Za¯bc ¯d bw∗
+¯a bvb bv∗
+¯c bwd ,
+(B6)
+Z5 ≡Za¯bc ¯d bv∗
+¯a bwb bv∗
+¯c bwd ,
+(B7)
+Z6 ≡Za¯bc ¯d bv∗
+¯a bvb bv∗
+¯c bwd ,
+(B8)
+Z7 ≡Za¯bc ¯d bv∗
+¯a bwb bw∗
+¯c bwd .
+(B9)
+27 The fact that bw transforms covariantly under SU(2) transformations, bU, is a consequence of the well-
+known identity among Pauli matrices: σ2⃗σσ2 =⃗σ ∗. This identity can be used to prove the relation
+ǫab bU †
+c¯b = bUa¯bǫbc.
+39
+
+Noting the transformation law for w [eq. (B3)], it then follows that the real quantities
+Y1, Y2, Z1,2,3,4 are U(2)-invariants, whereas the complex quantities Y3 and Z5,6,7 are only
+ﬂavor-SU(2)-invariants.
+However, from the four complex ﬂavor-SU(2)-invariants, we can
+construct seven real U(2)-invariant quantities: the magnitudes |Y3| and |Z5,6,7|, and three
+relative phases: arg(Y 2
+3 Z∗
+5), arg(Y3Z∗
+6) and arg(Y3Z∗
+7). Thus, we have recovered the thirteen
+U(2)-invariant quantities given in eqs. (14)–(23). Imposing the scalar potential minimum
+conditions [eqs. (30) and (31)] reduces the number of physical degrees of freedom to eleven
+as expected.
+Let us ﬁrst evaluate eqs. (B4)–(B9) in the Higgs basis where bv = (eiχ, 0) and bw = (0, e−iχ).
+By inspection, one obtains
+Y1 = M2
+11 ,
+Y2 = M2
+22,
+Y3 = −M2
+12e−2iχ ,
+Zi = Λi
+(i = 1, . . . , 4) ,
+Z5 = Λ5e−4iχ ,
+Z6 = Λ6e−2iχ ,
+Z7 = Λ7e−2iχ .
+(B10)
+The appearance of the χ-dependent phases in the expressions for the complex invariants
+in eq. (B10) is expected. As noted below eq. (A24), if one transforms from the Higgs basis
+with χ = 0 to a Higgs basis with arbitrary χ, then M2
+12, Λ6, Λ7 →e2iχ[M2
+12, Λ6, Λ7], and
+Λ5 →e4iχΛ5. But, this is precisely what is needed to ensure that Y3 and Z5,6,7 are invariant
+with respect to the ﬂavor-SU(2) transformation UD ≡diag(eiχ, e−iχ). One can also evaluate
+eqs. (B4)–(B9) in the generic basis where bv and bw are given by eq. (B1) with η = 0. The
+result of this computation simply reproduces the results of eqs. (A13)–(A22).
+Using eqs. (2) and (4), one can show that eqs. (B4)–(B9) exhaust all possible independent
+invariants that are linear in the Higgs potential parameters.
+For example, by inserting
+bwa = −ǫabbv∗
+b into eqs. (B4)–(B6), one ﬁnds:
+Y1 + Y2 = Tr Y ,
+(B11)
+Z1 + Z3 = Z(2)
+a¯b v∗
+¯avb ,
+(B12)
+Z1 + Z4 = Z(1)
+a¯b v∗
+¯avb ,
+(B13)
+Z1 + Z2 + 2Z3 = Tr Z(2) ,
+(B14)
+Z1 + Z2 + 2Z4 = Tr Z(1) ,
+(B15)
+which demonstrates that Z(k)
+a¯b v∗
+¯avb and Tr Z(k) (k = 1, 2) are not independent invariants.
+Note that the latter two invariant quantities are independent of the vacuum expectation
+40
+
+values, and thus correspond to combinations of the Higgs self couplings that are invariant
+under an arbitrary change of basis.28 Furthermore, ǫ¯a¯c ǫbd Za¯bc ¯d = Tr [Z(2) −Z(1)] = λ3 −λ4
+is not independent from the invariants of eqs. (B14) and (B15).29
+If we restrict our considerations to a CP-conserving theory, where all scalar coupling
+parameters may be taken real and basis changes are restricted to those related by O(2)
+transformations, then the distinction between barred and unbarred indices becomes irrel-
+evant. In this case, one more independent invariant arises that is linear in the couplings:
+Zabab = λ1 + λ2 + 2λ5, with respect to any real basis choice.30
+Likewise, one can also construct additional invariants involving higher powers of the mass
+terms Y and the couplings Z. For example, 2 × 2 matrices satisfy
+det Y = 1
+2ǫbd ǫ¯a¯c Ya¯b Yc ¯d = 1
+2
+h
+(Tr Y )2 −Tr Y 2i
+.
+(B16)
+This yields the (invariant) determinant. One can also construct invariants that depend on
+inverse powers of Y [since Y −1 transforms the same way as Y under U(2)]. However, accord-
+ing to the Cayley-Hamilton theorem, all matrices satisfy their characteristic equations [32].
+Consequently, (det Y )[Y −1]a¯b = (Tr Y )δa¯b −Ya¯b. Thus, it is suﬃcient to consider invariants
+constructed out of positive powers of Y . One can deﬁne a number of diﬀerent inverses for
+Z depending on how one sums over the repeated indices. Nevertheless, a similar conclusion
+holds and one can restrict considerations to invariants involving positive powers of Z.
+As a ﬁnal application of these techniques, we brieﬂy discuss the Z2 discrete symmetry
+Φ1 →+Φ1, Φ2 →−Φ2, which implies that m2
+12 = λ6 = λ7 = 0 in some basis. In section III B,
+we have exhibited U(2)-invariant (basis-independent) conditions in terms of commutators
+of Higgs potential coupling second-rank tensors that imply the existence of a basis where
+the Z2 discrete symmetry is manifest. Here, we provide another method for constructing
+U(2)-invariant conditions. In this method, we introduce the two orthonormal eigenvectors of
+Yab, which we shall denote by by and bz. It is convenient to deﬁne bza ≡−ǫaby∗¯b, since bza by∗
+¯a = 0.
+28 That is, Tr Z(2) ≡Za¯ab¯b = λ1 + λ2 + 2λ3 and Tr Z(1) ≡Za¯bb¯a = λ1 + λ2 + 2λ4, with respect to any basis
+choice.
+29 Once can also deﬁne Xab ≡ǫcdZa¯cb ¯d. However, employing this tensor does not lead to any genuinely
+new invariants. One can easily verify that Xab = (λ3 −λ4) ǫab, which we recognize as an SU(2)-invariant
+tensor.
+30 Note that eqs. (A16)–(A20) yield the relation Λ1 + Λ2 + 2 Re(Λ5e2i(ξ−2χ)) = λ1 + λ2 + 2 Re(λ5e2iξ).
+However, one cannot extract from this result a quantity that is invariant under the most general ﬂavor
+SU(2) and U(2) transformations.
+41
+
+It then follows that:
+Ya¯b by∗
+¯a bzb = 0 .
+(B17)
+That is, m2
+12 = 0 in any basis where by = (eiχy, 0).
+The freedom to vary 0 ≤χy ≤π
+corresponds to the simple fact that if m2
+12 = 0 in some basis Φa, then m2
+12 = 0 is also zero
+in the rotated basis (UD)a¯bΦb, where UD = diag(eiχy, e−iχy). Eq. (B17) also implies that by
+and bz transform covariantly with respect to the ﬂavor-SU(2). To derive this result, we write
+U = eiψ bU as before, where det bU = 1. Using the U(2) transformation law satisﬁed by Ya¯b,
+it follows that by and bz transform as by →bU by and bz →bU bz. The behavior of bya and bza under
+U(1)Y transformations is arbitrary.31 Independently of the behavior of by and bz under U(1)Y,
+eq. (B17) is a U(2)-invariant equation since any overall phase of by∗
+¯a bzb simply drops out of
+the equation.
+Eq. (B17) can be used to derive the value of cos2 2β, where bv = (cβ , sβeiξ) in the eigenbasis
+of Y (i.e., the basis where Y is diagonal). In this basis, we may take by = (1, 0) and bz = (0, 1).
+Transforming to the Higgs basis [eq. (A10)], one ﬁnds that by = (eiχcβ , −ei(ξ−χ)sβ) , bz =
+(e−i(ξ−χ)sβ , e−iχcβ) and bv = (eiχ , 0). Thus, evaluating eq. (B17) in the Higgs basis, we
+obtain:
+(Y22 −Y11)sβcβ = Y12ei(ξ−2χ)c2
+β −Y ∗
+12e−i(ξ−2χ)s2
+β .
+(B18)
+However, eq. (A15) implies that Y12ei(ξ−2χ) is real. Thus, we may write Y12ei(ξ−2χ) = ±|Y12|,
+where the choice of sign reﬂects two possible transformations from the eigenbasis of Y to
+the Higgs basis (which diﬀer by the interchange of Φ1 and Φ2 in the eigenbasis of Y ).
+Consequently, eq. (B18) implies that
+c2
+2β
+s2
+2β
+= (Y11 −Y22)2
+4|Y12|2
+,
+(B19)
+which is equivalent to the result previously given for cos2 2β [see eq. (34)] evaluated in the
+Higgs basis.
+The basis-independent conditions for the Φ1 →+Φ1, Φ2 →−Φ2 discrete symmetry are
+given by:
+Za¯bc ¯d by∗
+¯a byb by∗
+¯c bzd = 0 ,
+(B20)
+Za¯bc ¯d bz∗
+¯a bzb bz∗
+¯c byd = 0 .
+(B21)
+31 Since Ya¯b is invariant with respect to U(1)Y, the eigenvalue equations that deﬁnes by and bz are unchanged.
+The orthonormal eigenvectors are always deﬁned only up to an arbitrary phase.
+42
+
+As above, any overall phase redeﬁnitions of by and bz have no eﬀect on eqs. (B20) and (B21),
+which ensures that these are U(2)-invariant conditions.
+One can use these results to obtain conditions that depend only on invariant combinations
+of Higgs potential parameters. As above, our strategy is to evaluate eqs. (B20) and (B21)
+in the Higgs basis. The outcome of this computation is two independent relations among
+invariant combinations of Higgs basis parameters. The details are not very illuminating,
+so we omit them here. One can check that evaluating the commutator conditions given in
+section III B in the Higgs basis produces equivalent results.
+Suppose that in the basis where the discrete symmetry Φ1 →+Φ1, Φ2 →−Φ2 is manifest,
+one also has λ5 = 0. Then, the discrete symmetry is promoted to a global U(1) Peccei-Quinn
+symmetry corresponding to Φ1 →eiαΦ1, Φ2 →e−iαΦ2. This symmetry is spontaneously
+broken by the scalar ﬁeld vacuum expectation values. Consequently, the (tree-level) mass
+of the CP-odd Higgs scalar (which is to be identiﬁed with the axion [33]) must vanish. The
+basis-independent conditions for the existence of the Peccei-Quinn symmetry are given by
+eqs. (B17)–(B21) supplemented by a fourth condition:
+Za¯bc ¯d by∗
+¯a bzb by∗
+¯c bzd = 0 .
+(B22)
+Again, we may evaluate eq. (B22) in the Higgs basis. Combining this result with the corre-
+sponding relations obtained from eqs. (B17)–(B21), it is possible to prove [using eqs. (A26)
+and (68)] that m2
+A = 0, which identiﬁes A as the axion.
+APPENDIX C: DISCOVERING A DISCRETE SYMMETRY
+In ref. [26], a 2HDM is presented that possesses a permutation symmetry in which the
+scalar Lagrangian is invariant under the interchange of Φ1 and Φ2 in the generic basis. As
+a result of the permutation symmetry, it follows that32
+m2
+11 = m2
+22 , λ1 = λ2 , and λ7 = λ∗
+6 , with m2
+12 and λ5 real .
+(C1)
+In this model, we shall verify that the commutator conditions [eqs. (39) and (40)] of sec-
+tion III B are satisﬁed, thereby “discovering” that this model respects the discrete symmetry
+32 The authors of ref. [26] assume in addition that λ6 is real, although this is not required by the permutation
+symmetry.
+43
+
+Φ′
+1 →Φ′
+1 and Φ′
+2 →−Φ′
+2 in some new basis Φ′. Inserting eq. (C1) into the deﬁnitions of Y ,
+Z(1) and Z(11), one can check that the two diagonal elements of each of the three matrices
+are equal. Similarly, the two oﬀ-diagonal elements of each of the three matrices are equal.
+All 2 × 2 matrices with these properties commute. Thus, eqs. (39) and (40) are veriﬁed.
+Although the invariant conditions provide a powerful method for analysis, this particular
+model is simple enough for pedestrian methods. In particular, starting from from the Φ-basis
+that respects the Φ1 ↔Φ2 permutation symmetry, one may employ eq. (B2) to transform
+to a new Φ′-basis. Then, the new basis respects the Φ′
+1 →Φ′
+1, Φ′
+2 →−Φ′
+2 discrete symmetry
+if θ = π/4 and ζ + γ = 0. One can now check that for ξ = 0, the Φ′-basis corresponds to
+the Higgs basis, while for ξ̸ = 0 and λ6 real, the Φ′-basis is related to the Higgs basis by a
+rotation of β = ξ/2 or β = (π −ξ)/2.
+Having identiﬁed the Z2 discrete symmetry, it follows that the model is CP-conserving.
+This conclusion is less transparent in the original basis [where eq. (C1) is satisﬁed]. Consider
+that one solution to the scalar potential minimum conditions [eqs. (A4) and (A5)] is β = π/4.
+By subtracting the two minimum conditions, one ﬁnds that
+h
+m2
+12 −1
+2v2(λ5 cos ξ + λ6)
+i
+sin ξ = 0 .
+(C2)
+Two cases can be examined. If Im λ6̸ = 0, then the only solution to eq. (C2) is ξ = 0 (mod π).
+If λ6 is real, then a second solution for ξ exists, cos ξ = (2m2
+12 −λ6v2)/(λ5v2), which implies
+that the vacuum expectation value has a non-trivial complex phase. In this case, one might
+naively assume that CP is spontaneously broken, but ref. [26] shows that this is a false
+conclusion.
+It is noteworthy that in ﬁrst case above, λ6 was complex in a basis where all other scalar
+potential parameters and the vacuum expectation value are real, and in the second case
+above, the vacuum expectation values exhibited a relative phase in a basis where all Higgs
+potential parameters are real.
+Nevertheless, it is straightforward to check that in both
+cases, the three CP-odd invariants I1, I2 and I3 [eq. (58)] are real. Indeed a 2HDM model
+that respects a permutation symmetry Φ1 ↔Φ2 is explicitly CP-conserving, and CP is not
+spontaneously broken by the vacuum.
+[1] T.D. Lee, Phys. Rev. D8 1226 (1973); Phys. Rep. 9, 143 (1974).
+44
+
+[2] R.D. Peccei and H.R. Quinn, Phys. Rev. Lett. 38, 1440 (1977).
+[3] P. Fayet, Nucl. Phys. B78, 14 (1974); B90, 104 (1975); K. Inoue, A. Kakuto, H. Komatsu
+and S. Takeshita, Prog. Theor. Phys. 67, 1889 (1982); R.A. Flores and M. Sher, Annals Phys.
+(NY) 148, 95 (1983); J.F. Gunion and H.E. Haber, Nucl. Phys. B272, 1 (1986) [Erratum:
+B402, 567 (1993)].
+[4] J.F. Gunion, H.E. Haber, G. Kane and S. Dawson, The Higgs Hunter’s Guide (Perseus Pub-
+lishing, Cambridge, MA, 1990).
+[5] M. Carena and H.E. Haber, Prog. Part. Nucl. Phys. 50, 63 (2003) [arXiv:hep-ph/0208209].
+[6] G.C. Branco, L. Lavoura and J.P. Silva, CP Violation (Oxford University Press, Oxford,
+England, 1999), chapters 22 and 23.
+[7] P. Fayet and S. Ferrara, Phys. Rept. 32, 249 (1977); H.P. Nilles, Phys. Rep. 110, 1 (1984);
+H.E. Haber and G. L. Kane, Phys. Rep. 117, 75 (1985).
+[8] S.L. Glashow and S. Weinberg, Phys. Rev. D15, 1958 (1977).
+[9] H. Georgi and D.V. Nanopoulos, Phys. Lett. 82B, 95 (1979).
+[10] H.E. Haber, G.L. Kane and T. Sterling, Nucl. Phys. B161, 493 (1979).
+[11] L.J. Hall and M.B. Wise, Nucl. Phys. B187, 397 (1981).
+[12] J.F. Donoghue and L.F. Li, Phys. Rev. D19, 945 (1979).
+[13] W.S. Hou, Phys. Lett. B296, 179 (1992); D. Chang, W.S. Hou and W.Y. Keung, Phys. Rev.
+D48, 217 (1993); D. Atwood, L. Reina and A. Soni, Phys. Rev. D55, 3156 (1997).
+[14] For a comprehensive review of the two-Higgs-doublet model, see R.A. Diaz Sanchez, Ph. D.
+Thesis, Universidad Nacional de Colombia, 2002, arXiv:hep-ph/0212237.
+[15] F.J. Botella and J.P. Silva, Phys. Rev. D51, 3870 (1995).
+[16] C. Jarlskog, Phys. Rev. Lett. 55, 1039 (1985); Z. Phys. C29, 491 (1985); I. Dunietz,
+O. W. Greenberg and D.D. Wu, Phys. Rev. Lett. 55, 2935 (1985).
+[17] J. Bernabeu, G.C. Branco and M. Gronau, Phys. Lett. B169 (1986) 243; J.D. Bjorken and
+I. Dunietz, Phys. Rev. D36, 2109 (1987); C. Jarlskog, Phys. Rev. D35, 1685 (1987); D36,
+2128 (1987); C. Jarlskog and A. Kleppe, Nucl. Phys. B286, 245 (1987). For a nice review of
+these techniques, see ref. [6], chapters 14 and 22.
+[18] M. Gronau, A. Kﬁr and R. Loewy, Phys. Rev. Lett. 56, 1538 (1986); S. Davidson and J.R. El-
+lis, Phys. Lett. B390, 210 (1997) [arXiv:hep-ph/9609451]; Phys. Rev. D56, 4182 (1997)
+[arXiv:hep-ph/9702247]; S. Davidson, Phys. Lett. B439, 63 (1998) [arXiv:hep-ph/9808425];
+45
+
+J. Ferrandis, Phys. Rev. D60, 095012 (1999) [arXiv:hep-ph/9810371]; Y. Grossman and
+H.E. Haber, Phys. Rev. D63, 075011 (2001) [arXiv:hep-ph/0005276]; S. Davidson and
+M. Losada, Phys. Rev. D65, 075025 (2002) [arXiv:hep-ph/0010325]; F.J. Botella, M. Nebot
+and O. Vives, CERN-PH-TH/2004-138 [arXiv:hep-ph/0407349].
+[19] L. Lavoura and J.P. Silva, Phys. Rev. D50, 4619 (1994);
+[20] I.F. Ginzburg and M. Krawczyk, arXiv:hep-ph/0408011.
+[21] F. Boudjema and A. Semenov, Phys. Rev. D66, 095007 (2002) [arXiv:hep-ph/0201219].
+[22] J.F. Donoghue and L.F. Li, Phys. Rev. D19, 945 (1979).
+[23] L. Lavoura, Phys. Rev. D50, 7089 (1994) [arXiv:hep-ph/9405307].
+[24] J.F. Gunion and H.E. Haber, Phys. Rev. D67, 075019 (2003) [arXiv:hep-ph/0207010].
+[25] J.F. Gunion and H.E. Haber, Phys. Rev. D72, 095002 (2005) [arXiv:hep-ph/0506227].
+[26] G.C. Branco and M. N. Rebelo, Phys. Lett. B160, 117 (1985).
+[27] R. Hempﬂing, Phys. Rev. D49, 6168 (1994); L.J. Hall, R. Rattazzi and U. Sarid, Phys.
+Rev. D50, 7048 (1994) [arXiv:hep-ph/9306309]; M. Carena, M. Olechowski, S. Pokorski
+and C.E.M. Wagner, Nucl. Phys. B426, 269 (1994) [arXiv:hep-ph/9402253]; J.A. Coarasa,
+R. A. Jimenez and J. Sola,
+Phys. Lett. B389,
+312 (1996) [arXiv:hep-ph/9511402];
+D.M. Pierce, J.A. Bagger, K.T. Matchev and R.J. Zhang, Nucl. Phys. B491, 3 (1997)
+[arXiv:hep-ph/9606211].
+[28] G.C.
+Branco,
+M.N.
+Rebelo
+and
+J.I.
+Silva-Marcos,
+Phys.
+Lett.
+B614,
+187
+(2005)
+[arXiv:hep-ph/0502118].
+[29] P.M.
+Ferreira,
+R.
+Santos
+and
+A.
+Barroso,
+Phys.
+Lett.
+B603,
+219
+(2004)
+[arXiv:hep-ph/0406231].
+[30] A. Santamaria, Phys. Lett. B305, 90 (1993) [arXiv:hep-ph/9302301].
+[31] S. Dimopoulos and D.W.Sutter, Nucl. Phys. B452, 496 (1995) [arXiv:hep-ph/9504415];
+D.W. Sutter, arXiv:hep-ph/9704390.
+[32] See, e.g., R.A. Horn and C.R. Johnson, Matrix Analysis (Cambridge University Press, Cam-
+bridge, UK, 1985) pp. 86–87.
+[33] S. Weinberg, Phys. Rev. Lett. 40, 223 (1978); F. Wilczek, Phys. Rev. Lett. 40, 279 (1978).
+46

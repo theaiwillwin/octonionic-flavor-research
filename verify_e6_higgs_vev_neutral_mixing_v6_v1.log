@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\Projects\can_o_worms\verify_e6_higgs_vev_neutral_mixing_v6_v1.py", line 191, in <module>
+    main()
+  File "D:\Projects\can_o_worms\verify_e6_higgs_vev_neutral_mixing_v6_v1.py", line 72, in main
+    gate.check(token in source_text, f"source token: {label}", token)
+  File "D:\Projects\can_o_worms\verify_e6_higgs_vev_neutral_mixing_v6_v1.py", line 46, in check
+    raise AssertionError(f"{label}: {detail}")
+AssertionError: source token: full neutral matrix: \mathcal{M}_{\textrm{neutral}}

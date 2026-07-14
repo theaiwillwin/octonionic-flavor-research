@@ -1,0 +1,107 @@
+{
+  "schema": "verify_shared_lepton_link_bundle_v1",
+  "status": "PASS",
+  "manifest": "D:\\Projects\\can_o_worms\\SHARED_LEPTON_LINK_ARTIFACT_MANIFEST_v1.sha256",
+  "checks": {
+    "all_manifest_hashes_match": true,
+    "complex_structure_exact": true,
+    "degeneracy_aware_structural_verification_passes": true,
+    "qualified_count_is_21": true,
+    "isolated_qualified_count_is_3": true,
+    "held_out_pmns_verdict_is_failure": true,
+    "no_isolated_pmns_angle_pass": true,
+    "no_qualified_pmns_angle_pass": true
+  },
+  "hash_checks": [
+    {
+      "file": "shared_lepton_link_structural_gate_v1.py",
+      "expected": "6c909bfdf67f2a9b7be4566e3b3c46b8f91e72c78c38cba7a44064fa32642562",
+      "actual": "6c909bfdf67f2a9b7be4566e3b3c46b8f91e72c78c38cba7a44064fa32642562",
+      "pass": true
+    },
+    {
+      "file": "shared_lepton_link_structural_gate_v1_results.json",
+      "expected": "df9deba87012cb87a5d26c41b7942322cb9a5c369fec56f2da800a81a921cfdf",
+      "actual": "df9deba87012cb87a5d26c41b7942322cb9a5c369fec56f2da800a81a921cfdf",
+      "pass": true
+    },
+    {
+      "file": "shared_lepton_link_structural_gate_v1_run.log",
+      "expected": "3ddc2961d940861c57311bf8fe336089098b4e403a63c2b550b10a7d23d7eb7b",
+      "actual": "3ddc2961d940861c57311bf8fe336089098b4e403a63c2b550b10a7d23d7eb7b",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v1.py",
+      "expected": "36a65fe926836b5f53a1d7eb1b3cd393466fc40fb485ac50f32f70eea5d03e10",
+      "actual": "36a65fe926836b5f53a1d7eb1b3cd393466fc40fb485ac50f32f70eea5d03e10",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v1_results.json",
+      "expected": "0405f5b5e3b752ba9d4de9bbff62cd1b908abf974165892e861650443ca3e733",
+      "actual": "0405f5b5e3b752ba9d4de9bbff62cd1b908abf974165892e861650443ca3e733",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v1_run.log",
+      "expected": "f57b7ccde1152fb4f1271d27c8b886d1b607f3c6b6571affbc0ba97365bd51a4",
+      "actual": "f57b7ccde1152fb4f1271d27c8b886d1b607f3c6b6571affbc0ba97365bd51a4",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v2.py",
+      "expected": "47bc69b04e2111e7cd31229616e0ab8b9963f33cc59ba2c93ca858e45e298de7",
+      "actual": "47bc69b04e2111e7cd31229616e0ab8b9963f33cc59ba2c93ca858e45e298de7",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v2_results.json",
+      "expected": "9c6e2f4ca6f28695afe9db00e50cb4cdcf011cd93592f992cd00f68e1c7c457c",
+      "actual": "9c6e2f4ca6f28695afe9db00e50cb4cdcf011cd93592f992cd00f68e1c7c457c",
+      "pass": true
+    },
+    {
+      "file": "verify_shared_lepton_link_structural_gate_v2_run.log",
+      "expected": "d3257f58299d7fae571cf275490b8158b035552123e47fd5f8d27555a0542bf6",
+      "actual": "d3257f58299d7fae571cf275490b8158b035552123e47fd5f8d27555a0542bf6",
+      "pass": true
+    },
+    {
+      "file": "pmns_held_out_benchmark_nufit60_v1.json",
+      "expected": "75e58355f0a38d0b7463d54e0b715b0e9941e02283a1b5949ad625d9acb2ebd8",
+      "actual": "75e58355f0a38d0b7463d54e0b715b0e9941e02283a1b5949ad625d9acb2ebd8",
+      "pass": true
+    },
+    {
+      "file": "score_shared_lepton_link_pmns_held_out_v1.py",
+      "expected": "f181e649ba37d5fe2be37cb138654a33e8ea9c3924ff8280ba27e7abf5973a0e",
+      "actual": "f181e649ba37d5fe2be37cb138654a33e8ea9c3924ff8280ba27e7abf5973a0e",
+      "pass": true
+    },
+    {
+      "file": "score_shared_lepton_link_pmns_held_out_v1_results.json",
+      "expected": "bf1a51547c3ae824c8462bb340ca17c6d14d2d83af790926d662c2cc17c44f18",
+      "actual": "bf1a51547c3ae824c8462bb340ca17c6d14d2d83af790926d662c2cc17c44f18",
+      "pass": true
+    },
+    {
+      "file": "score_shared_lepton_link_pmns_held_out_v1_run.log",
+      "expected": "7bf531a1206c7b8b6f5d530616853cc04c0aea87537b46544dc5b4f5055c5405",
+      "actual": "7bf531a1206c7b8b6f5d530616853cc04c0aea87537b46544dc5b4f5055c5405",
+      "pass": true
+    },
+    {
+      "file": "SHARED_LEPTON_LINK_DERIVATION_REPORT_v1.md",
+      "expected": "a88dd867f0964f998179b30bd03cedc7ea282ba9e8235b28be63040edea1c161",
+      "actual": "a88dd867f0964f998179b30bd03cedc7ea282ba9e8235b28be63040edea1c161",
+      "pass": true
+    }
+  ],
+  "claim_summary": {
+    "structural_link_and_shared_J_embedding": "PASS on the declared nondegenerate full-rank domain",
+    "held_out_PMNS_angles": "FAIL in the tested target-free ensemble",
+    "full_E6_or_generic_Albert_embedding": "NOT_DERIVED",
+    "link_backreaction_on_vacuum": "NOT_RUN"
+  }
+}

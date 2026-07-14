@@ -1,0 +1,19 @@
+Requirement already satisfied: pip in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (24.0)
+Collecting pip
+  Using cached pip-26.1.2-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: pytest in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (9.1.1)
+Requirement already satisfied: colorama>=0.4 in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (from pytest) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (from pytest) (2.3.0)
+Requirement already satisfied: packaging>=22 in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (from pytest) (26.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (from pytest) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages (from pytest) (2.19.2)
+Using cached pip-26.1.2-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Not uninstalling pip at c:\users\theai\appdata\local\hermes\hermes-agent\venv\lib\site-packages, outside environment D:\wavefano_hdf\.venv
+    Can't uninstall 'pip'. No files were found to uninstall.
+Successfully installed pip-24.0
+
+[notice] A new release of pip is available: 24.0 -> 26.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip

@@ -1,0 +1,120 @@
+{
+  "schema": "canonical_orientation_selector_bifurcation_gate_v1",
+  "status": "PASS_MINIMAL_ONE_INVARIANT_NO_GO",
+  "action_lock": {
+    "CP_even": "extremize ReTr(A U B U^dagger) for nondegenerate Hermitian A,B",
+    "CP_odd": "extremize signed ImTr([A,U B U^dagger]^3), equivalent up to spectral discriminants to signed J_CP",
+    "coefficients": "one invariant at a time; no tunable ratio"
+  },
+  "analytic": {
+    "CP_even_extrema": "von Neumann trace inequality: permutation matrices",
+    "CP_odd_extrema": "|J_CP| <= 1/(6 sqrt(3)); equality at complex Hadamard matrices",
+    "J_CP_max": 0.09622504486493763,
+    "complex_hadamard_abs": [
+      [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896257
+      ],
+      [
+        0.5773502691896258,
+        0.5773502691896257,
+        0.5773502691896258
+      ]
+    ]
+  },
+  "checks": {
+    "fourier_unitarity_residual": 2.220446049250313e-16,
+    "fourier_J_abs": 0.09622504486493769,
+    "fourier_J_max_residual": 5.551115123125783e-17,
+    "haar_cases": 20000,
+    "haar_max_abs_J": 0.09526416757744216,
+    "haar_p999_abs_J": 0.09303105464954282,
+    "permutation_overlaps": [
+      {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "overlap": 43.0
+      },
+      {
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "overlap": 31.0
+      },
+      {
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "overlap": 41.0
+      },
+      {
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "overlap": 23.0
+      },
+      {
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "overlap": 25.0
+      },
+      {
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "overlap": 19.0
+      }
+    ],
+    "identity_overlap": 43.0
+  },
+  "observed_PMNS": {
+    "abs": [
+      [
+        0.82287806833464,
+        0.5483765523988509,
+        0.1488450248849522
+      ],
+      [
+        0.3345926964036857,
+        0.6543098450784016,
+        0.6781787036960015
+      ],
+      [
+        0.45925963481146764,
+        0.5207319688790275,
+        0.719665758821558
+      ]
+    ],
+    "J_CP": -0.01776492150585119,
+    "abs_J_over_algebraic_max": 0.1846184798436436,
+    "distance_abs_to_identity": 1.267396013695325,
+    "distance_abs_to_complex_hadamard": 0.5976330294857002
+  },
+  "verdict": {
+    "single_CP_even_selector": "predicts permutation/trivial mixing, not observed PMNS",
+    "single_CP_odd_selector": "predicts maximally CP-violating complex-Hadamard mixing, not observed PMNS",
+    "minimal_requirement": "at least two competing orientation invariants with independently fixed ratio, or a third derived family tensor",
+    "free_ratio_warning": "choosing the ratio from PMNS is a fit, not a prediction"
+  },
+  "claim_boundary": "The CP-even statement assumes a single trace overlap with nondegenerate spectra. The CP-odd statement uses the universal 3x3 Jarlskog bound. This does not exclude multi-invariant or third-tensor actions."
+}

@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9704,
+  "call_index": 3,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_Y89QRfstPE6PIsDdl8YmVsg2",
+    "call_id": "call_Y89QRfstPE6PIsDdl8YmVsg2",
+    "response_item_id": "fc_071f367ba0e10612016a55336b73bc8191a0438e81b3a0c632",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"file_path\":\"references/jordan-cabibbo-numerology-boundary.md\",\"name\":\"verified-algebra-workflow\"}"
+    }
+  },
+  "parsed_arguments": {
+    "file_path": "references/jordan-cabibbo-numerology-boundary.md",
+    "name": "verified-algebra-workflow"
+  }
+}

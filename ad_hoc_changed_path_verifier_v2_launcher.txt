@@ -1,0 +1,52 @@
+"""Launch the retained verifier source from an OS-safe random temp path."""
+
+from __future__ import annotations
+
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+SOURCE = ROOT / "ad_hoc_changed_path_verifier_v2_source.txt"
+TEMP_DIR = Path(r"C:/Users/theai/AppData/Local/Temp")
+
+
+def main() -> int:
+    TEMP_DIR.mkdir(parents=True, exist_ok=True)
+    temp_path: Path | None = None
+    completed: subprocess.CompletedProcess[str] | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            prefix="hermes-verify-",
+            suffix=".py",
+            dir=TEMP_DIR,
+            delete=False,
+        ) as handle:
+            handle.write(SOURCE.read_text(encoding="utf-8"))
+            temp_path = Path(handle.name)
+        print(f"TEMP_VERIFIER_PATH: {temp_path}")
+        completed = subprocess.run(
+            [sys.executable, str(temp_path)],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.stdout:
+            print(completed.stdout, end="")
+        if completed.stderr:
+            print(completed.stderr, end="", file=sys.stderr)
+        print(f"TEMP_VERIFIER_EXIT_CODE: {completed.returncode}")
+    finally:
+        if temp_path is not None and temp_path.exists():
+            temp_path.unlink()
+        print(f"TEMP_VERIFIER_CLEANED: {temp_path is not None and not temp_path.exists()}")
+    return completed.returncode if completed is not None else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

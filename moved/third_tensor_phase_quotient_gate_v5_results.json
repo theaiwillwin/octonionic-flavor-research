@@ -1,0 +1,100 @@
+{
+  "schema": "third_tensor_phase_quotient_gate_v5",
+  "status": "PREDICTIVE_STRUCTURAL_ISOLATION_GATE_PASSED_NO_FLAVOR_EVALUATED",
+  "exact_symmetry": "independent X_a -> exp(theta_a J_h) X_a rephasings; closed K loops cancel all relative phases",
+  "target_firewall": {
+    "flavor_observables_read": [],
+    "mass_or_mixing_functions_called": []
+  },
+  "passing_candidates": [
+    "democratic_quadratic_norm",
+    "multiplicative_all_channel_norm"
+  ],
+  "results": [
+    {
+      "label": "democratic_quadratic_norm",
+      "stationary": true,
+      "negative_mode_count": 0,
+      "hessian_zero_mode_count": 11,
+      "su3_orbit_rank": 8,
+      "independent_frame_phase_rank": 4,
+      "combined_su3_plus_phase_orbit_rank": 11,
+      "zero_modes_beyond_full_exact_orbit": 0,
+      "maximum_finite_phase_action_residual": 9.947598300641403e-14,
+      "isolated_modulo_exact_action_symmetry": true,
+      "su3_singular_values": [
+        1.891388450104745,
+        1.8913884501047435,
+        1.556486341350407,
+        1.556486341350406,
+        1.5086889589691437,
+        1.414213562373096,
+        1.414213562373095,
+        0.624919428207565
+      ],
+      "phase_singular_values": [
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0
+      ],
+      "combined_singular_values": [
+        1.8913884501047442,
+        1.8913884501047427,
+        1.703091514346428,
+        1.567618291471602,
+        1.567618291471599,
+        1.5564863413504066,
+        1.556486341350406,
+        1.0,
+        0.8752976410500937,
+        0.7365954739500262,
+        0.7365954739500243,
+        8.579540948037082e-16
+      ]
+    },
+    {
+      "label": "multiplicative_all_channel_norm",
+      "stationary": true,
+      "negative_mode_count": 0,
+      "hessian_zero_mode_count": 11,
+      "su3_orbit_rank": 8,
+      "independent_frame_phase_rank": 4,
+      "combined_su3_plus_phase_orbit_rank": 11,
+      "zero_modes_beyond_full_exact_orbit": 0,
+      "maximum_finite_phase_action_residual": 4.3655745685100555e-11,
+      "isolated_modulo_exact_action_symmetry": true,
+      "su3_singular_values": [
+        1.8913884501047447,
+        1.8913884501047442,
+        1.5564863413504078,
+        1.5564863413504064,
+        1.5086889589691441,
+        1.4142135623730954,
+        1.414213562373095,
+        0.6249194282075652
+      ],
+      "phase_singular_values": [
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0,
+        0.9999999999999998
+      ],
+      "combined_singular_values": [
+        1.8913884501047449,
+        1.8913884501047442,
+        1.7030915143464282,
+        1.5676182914716015,
+        1.5676182914716001,
+        1.556486341350407,
+        1.5564863413504062,
+        1.0,
+        0.8752976410500934,
+        0.7365954739500251,
+        0.7365954739500248,
+        7.293517609608814e-16
+      ]
+    }
+  ],
+  "claim_boundary": "Isolation is modulo SU(3) and exact frame rephasings. Flavor prediction is permitted only if the eventual masses and mixing invariants are unchanged under these rephasings."
+}

@@ -1,0 +1,33 @@
+PASS: both changed LaTeX paths exist
+PASS: v4 preserves G2 PDF bookmark correction
+PASS: v4 preserves first qquad correction
+PASS: v4 preserves stabilizer qquad correction
+PASS: v4 preserves table-placement correction
+PASS: v4 retained as compiled superseded revision
+PASS: v7 contains every v4 correction
+PASS: v7 fixes final frame-gauge qquad
+PASS: v7 has no malformed comma-qquad token
+PASS: v7 source has no hidden control characters
+PASS: v7 bibliography has no hidden control characters
+PASS: v7 source has no placeholders or flagged overclaims
+PASS: every cited key exists in references.bib
+PASS: every source reference key has a label
+PASS: selection_funnel.png is a nonempty PNG
+PASS: isolated_full_rank_spectra.png is a nonempty PNG
+PASS: v7 TeX log has no warning/error markers
+PASS: v7 build completed and wrote PDF
+PASS: v7 PDF has a valid header and substantial size
+PASS: v7 PDF text extraction succeeded
+PASS: v7 PDF renders the title
+PASS: v7 PDF renders the finite-class boundary
+PASS: v7 PDF renders the negative hierarchy conclusion
+PASS: v7 PDF renders the non-no-go boundary
+PASS: locked action-to-flavor pipeline verifier passed
+PASS: v7 source retains audited count: 21 numerically independent
+PASS: v7 source retains audited count: 74 predeclared
+PASS: v7 source retains audited count: Sixty-eight actions
+PASS: v7 source retains audited count: 29 selected vacua
+PASS: v7 source retains audited count: six give full-rank
+CHECKS=30
+AD_HOC_VERIFICATION: PASS
+RESULT=D:\Projects\can_o_worms\publication\verify_target_free_g2_arxiv_changed_sources_v1_results.json

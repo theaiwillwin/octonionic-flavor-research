@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9453,
+  "call_index": 1,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_PrfBVzgY5Laka83vYnjV1e1Z",
+    "call_id": "call_PrfBVzgY5Laka83vYnjV1e1Z",
+    "response_item_id": "fc_08b2fa3ea771ea86016a551e0c4ac8819194d0a2a53e8b5c1f",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"fts-faithful-mixing-extraction\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "fts-faithful-mixing-extraction"
+  }
+}

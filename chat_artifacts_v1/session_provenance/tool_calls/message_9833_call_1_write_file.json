@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9833,
+  "call_index": 1,
+  "tool_name": "write_file",
+  "call": {
+    "id": "call_L2eQQ1XGzINs1gz7Tt4nlcAr",
+    "call_id": "call_L2eQQ1XGzINs1gz7Tt4nlcAr",
+    "response_item_id": "fc_071f367ba0e10612016a553732c5c48191bbbd8bf865a9c54a",
+    "type": "function",
+    "function": {
+      "name": "write_file",
+      "arguments": "{\"content\":\"# Artifact Retention and Output Rules\\n\\nThese rules apply to all work in this project and all future work unless Matthew explicitly overrides them.\\n\\n1. Write every agent-created output only under `D:/Projects/can_o_worms/`.\\n2. Preserve every script, result, temporary artifact, verification program, log, numerical working, draft, and intermediate file.\\n3. Never delete, clean up, overwrite, or discard an artifact. When revising a file, save a new version rather than replacing the previous version.\\n4. Inputs may be read from other locations, but no agent-controlled output may be written back to those locations.\\n5. Do not revert to `D:/Projects/ToE_21st_June_NEWEST/` or any other prior output folder.\\n\",\"path\":\"D:/Projects/can_o_worms/AGENTS.md\"}"
+    }
+  },
+  "parsed_arguments": {
+    "content": "# Artifact Retention and Output Rules\n\nThese rules apply to all work in this project and all future work unless Matthew explicitly overrides them.\n\n1. Write every agent-created output only under `D:/Projects/can_o_worms/`.\n2. Preserve every script, result, temporary artifact, verification program, log, numerical working, draft, and intermediate file.\n3. Never delete, clean up, overwrite, or discard an artifact. When revising a file, save a new version rather than replacing the previous version.\n4. Inputs may be read from other locations, but no agent-controlled output may be written back to those locations.\n5. Do not revert to `D:/Projects/ToE_21st_June_NEWEST/` or any other prior output folder.\n",
+    "path": "D:/Projects/can_o_worms/AGENTS.md"
+  }
+}

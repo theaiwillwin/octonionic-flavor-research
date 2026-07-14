@@ -1,0 +1,4 @@
+SOURCE_ARCHIVE_EXTRACTION_V2: PASS
+FILES=5
+HASH_COMPARISONS=5/5
+DIRECTORY=target_free_g2_arxiv_v7_source_v2_verification

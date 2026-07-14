@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9603,
+  "call_index": 1,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_PITSxmiUBqU9SY3ErKSGYYFv",
+    "call_id": "call_PITSxmiUBqU9SY3ErKSGYYFv",
+    "response_item_id": "fc_071f367ba0e10612016a5532450c508191b706234936213aba",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":50,\"path\":\"D:/Projects\",\"pattern\":\"connelly_fts_ckm_arxiv_2026.tex\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 50,
+    "path": "D:/Projects",
+    "pattern": "connelly_fts_ckm_arxiv_2026.tex",
+    "target": "files"
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "schema": "can-o-worms-temp-artifact-move/v1",
+  "created_utc": "2026-07-14T02:01:22.232409+00:00",
+  "scope": {
+    "included": [
+      "top-level hermes-* research/download artifacts",
+      "paper1-* and wavefano_* build/test logs",
+      "arxiv_check.log",
+      "hermes-fts-higgs-audit tree",
+      "tmp.nxKlaQQIuN derivation/publication tree",
+      "pytest-of-theai generated test outputs",
+      "Claude scratchpad trees"
+    ],
+    "excluded": [
+      "Hermes runtime/session SQLite files",
+      "Hermes execute_code sandbox internals",
+      "application installers, caches, updater logs, and WebView state",
+      "Claude bundled skills and cache state"
+    ]
+  },
+  "moved_file_count": 92,
+  "moved_bytes": 9987724,
+  "all_moves_verified": true,
+  "files": [
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\arxiv_check.log",
+      "source_relative": "arxiv_check.log",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\arxiv_check.log",
+      "bytes": 358,
+      "source_mtime_ns": 1783803196159307000,
+      "sha256_before_move": "2b6a23a5957f8e77f8be09e1cd95435cf54851a1165d50c716af0ebc3f616f34",
+      "sha256_after_move": "2b6a23a5957f8e77f8be09e1cd95435cf54851a1165d50c716af0ebc3f616f34",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-01072026-heart-validation\\937b16d5-29eb-407f-9f8c-ffcaa797985e\\scratchpad\\test_task5.py",
+      "source_relative": "claude/D--Projects-01072026-heart-validation/937b16d5-29eb-407f-9f8c-ffcaa797985e/scratchpad/test_task5.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-01072026-heart-validation\\937b16d5-29eb-407f-9f8c-ffcaa797985e\\scratchpad\\test_task5.py",
+      "bytes": 647,
+      "source_mtime_ns": 1783318447864105700,
+      "sha256_before_move": "6275ffe54c8e782d7f8ebfbf700ba951aa5a43c6f1f690d95421c0c7a4de7c42",
+      "sha256_after_move": "6275ffe54c8e782d7f8ebfbf700ba951aa5a43c6f1f690d95421c0c7a4de7c42",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-01072026-heart-validation\\937b16d5-29eb-407f-9f8c-ffcaa797985e\\scratchpad\\verify.py",
+      "source_relative": "claude/D--Projects-01072026-heart-validation/937b16d5-29eb-407f-9f8c-ffcaa797985e/scratchpad/verify.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-01072026-heart-validation\\937b16d5-29eb-407f-9f8c-ffcaa797985e\\scratchpad\\verify.py",
+      "bytes": 8388,
+      "source_mtime_ns": 1783321798741018700,
+      "sha256_before_move": "27a6af2375228e4a4cbbb4ac403aabb112730bddf55e66e12bdf53af971586bb",
+      "sha256_after_move": "27a6af2375228e4a4cbbb4ac403aabb112730bddf55e66e12bdf53af971586bb",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-non-associative-ai-claude\\ba6adfb0-93f0-4f44-8be4-0ee4e63e5bb5\\scratchpad\\session_extract.txt",
+      "source_relative": "claude/D--Projects-non-associative-ai-claude/ba6adfb0-93f0-4f44-8be4-0ee4e63e5bb5/scratchpad/session_extract.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-non-associative-ai-claude\\ba6adfb0-93f0-4f44-8be4-0ee4e63e5bb5\\scratchpad\\session_extract.txt",
+      "bytes": 9735,
+      "source_mtime_ns": 1783530251258103500,
+      "sha256_before_move": "5e52f4729b106672638091f04bfc682b4e04c6b363169aeb92e090031be336aa",
+      "sha256_after_move": "5e52f4729b106672638091f04bfc682b4e04c6b363169aeb92e090031be336aa",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\fake_real_attempts.csv",
+      "source_relative": "claude/D--Projects-pinch-me-50k/b6656b83-3df8-4c3b-aa3e-56812b11705b/scratchpad/fake_real_attempts.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\fake_real_attempts.csv",
+      "bytes": 100431,
+      "source_mtime_ns": 1783321651652280000,
+      "sha256_before_move": "2e5ef6107ecffc58e8791c1a0307be3c7b3b7638ee57f69d27f940071dac7bd6",
+      "sha256_after_move": "2e5ef6107ecffc58e8791c1a0307be3c7b3b7638ee57f69d27f940071dac7bd6",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\fake_real_events.csv",
+      "source_relative": "claude/D--Projects-pinch-me-50k/b6656b83-3df8-4c3b-aa3e-56812b11705b/scratchpad/fake_real_events.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\fake_real_events.csv",
+      "bytes": 2090737,
+      "source_mtime_ns": 1783321651642286300,
+      "sha256_before_move": "c5d266a9362337efc41937eb84299b7d0f91927a557d8dbb4a3f4f6e6b99be0a",
+      "sha256_after_move": "c5d266a9362337efc41937eb84299b7d0f91927a557d8dbb4a3f4f6e6b99be0a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\leak_diag.py",
+      "source_relative": "claude/D--Projects-pinch-me-50k/b6656b83-3df8-4c3b-aa3e-56812b11705b/scratchpad/leak_diag.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\leak_diag.py",
+      "bytes": 1344,
+      "source_mtime_ns": 1783204792132093400,
+      "sha256_before_move": "bc8a0a1c84842179777c148e8bd3ca412d83a0e98da105606d7582d5d50490ad",
+      "sha256_after_move": "bc8a0a1c84842179777c148e8bd3ca412d83a0e98da105606d7582d5d50490ad",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\make_fake_export.py",
+      "source_relative": "claude/D--Projects-pinch-me-50k/b6656b83-3df8-4c3b-aa3e-56812b11705b/scratchpad/make_fake_export.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-pinch-me-50k\\b6656b83-3df8-4c3b-aa3e-56812b11705b\\scratchpad\\make_fake_export.py",
+      "bytes": 878,
+      "source_mtime_ns": 1783321641194964900,
+      "sha256_before_move": "9e95eb28a2622d955cf2894bed9568264efa1a7aee45172f1f289eb62670cb5f",
+      "sha256_after_move": "9e95eb28a2622d955cf2894bed9568264efa1a7aee45172f1f289eb62670cb5f",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_code_pdf.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/build_code_pdf.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_code_pdf.py",
+      "bytes": 3344,
+      "source_mtime_ns": 1783145861893725800,
+      "sha256_before_move": "c6993b7b3230daa38ca73a658bb55ec66b79442b5bac85bad5db6ce7c4f50058",
+      "sha256_after_move": "c6993b7b3230daa38ca73a658bb55ec66b79442b5bac85bad5db6ce7c4f50058",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_report_pdf.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/build_report_pdf.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_report_pdf.py",
+      "bytes": 14581,
+      "source_mtime_ns": 1783145169146527600,
+      "sha256_before_move": "4b658898fe004eef5c12ff76bab5ef1b4a1c00b99506ca2ea167396bbe8872d1",
+      "sha256_after_move": "4b658898fe004eef5c12ff76bab5ef1b4a1c00b99506ca2ea167396bbe8872d1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_report_v2.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/build_report_v2.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_report_v2.py",
+      "bytes": 18516,
+      "source_mtime_ns": 1783147789738817100,
+      "sha256_before_move": "bd35c8ab7be013c6f4d3f831948b73cc531ee614a425cdf5039b90063a0fd4d9",
+      "sha256_after_move": "bd35c8ab7be013c6f4d3f831948b73cc531ee614a425cdf5039b90063a0fd4d9",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_xlsx.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/build_xlsx.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\build_xlsx.py",
+      "bytes": 3850,
+      "source_mtime_ns": 1783147854990889800,
+      "sha256_before_move": "177017e90519e9eecd459cba696ead54d413eaf998cd453b8b85d6e7213d11ee",
+      "sha256_after_move": "177017e90519e9eecd459cba696ead54d413eaf998cd453b8b85d6e7213d11ee",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\measure_512.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/measure_512.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\measure_512.py",
+      "bytes": 1881,
+      "source_mtime_ns": 1783145332713218700,
+      "sha256_before_move": "5cdf5fecd6b004a70bd77218487d721fd1f989cc4686139ca716721885da145b",
+      "sha256_after_move": "5cdf5fecd6b004a70bd77218487d721fd1f989cc4686139ca716721885da145b",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\rank_sufficiency_256.py",
+      "source_relative": "claude/D--Projects-quantum-challenge-airbus-claude/b13ce2c2-7f44-4980-a41c-549ff9b73b2b/scratchpad/rank_sufficiency_256.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\claude\\D--Projects-quantum-challenge-airbus-claude\\b13ce2c2-7f44-4980-a41c-549ff9b73b2b\\scratchpad\\rank_sufficiency_256.py",
+      "bytes": 1099,
+      "source_mtime_ns": 1783140160410684400,
+      "sha256_before_move": "91d33abe1f2bd005bf2345f713bf50e1ae516dbf7feb5dab519199287d6272a6",
+      "sha256_after_move": "91d33abe1f2bd005bf2345f713bf50e1ae516dbf7feb5dab519199287d6272a6",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-connelly.txt",
+      "source_relative": "hermes-connelly.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-connelly.txt",
+      "bytes": 25966,
+      "source_mtime_ns": 1783882637582561200,
+      "sha256_before_move": "6d187a8f2e4da711c0281e09f454b021054df38ff5769aefb583325d0b41b9b3",
+      "sha256_after_move": "6d187a8f2e4da711c0281e09f454b021054df38ff5769aefb583325d0b41b9b3",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-ddg-ckmfitter.html",
+      "source_relative": "hermes-ddg-ckmfitter.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-ddg-ckmfitter.html",
+      "bytes": 14254,
+      "source_mtime_ns": 1783953565912378500,
+      "sha256_before_move": "62327dfe459954e7dd998694e9b0b0c61e5bfa8e64e9d37bf46e8a1ff94e9f74",
+      "sha256_after_move": "62327dfe459954e7dd998694e9b0b0c61e5bfa8e64e9d37bf46e8a1ff94e9f74",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-ddg-logvinovich.html",
+      "source_relative": "hermes-ddg-logvinovich.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-ddg-logvinovich.html",
+      "bytes": 12634,
+      "source_mtime_ns": 1783953462795064900,
+      "sha256_before_move": "1979737ff411c28d9884f0aa74803228ed3a85b5070b07b9d52719ddc2a1f48b",
+      "sha256_after_move": "1979737ff411c28d9884f0aa74803228ed3a85b5070b07b9d52719ddc2a1f48b",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-ddg-pdg-ckm.html",
+      "source_relative": "hermes-ddg-pdg-ckm.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-ddg-pdg-ckm.html",
+      "bytes": 35107,
+      "source_mtime_ns": 1783953563922818700,
+      "sha256_before_move": "f1d89663cd082c507753cee3022ca480f9d91a3bf90d9e5f72ec0b55ae65b5a7",
+      "sha256_after_move": "f1d89663cd082c507753cee3022ca480f9d91a3bf90d9e5f72ec0b55ae65b5a7",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fb-uoa.html",
+      "source_relative": "hermes-fb-uoa.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fb-uoa.html",
+      "bytes": 329589,
+      "source_mtime_ns": 1783953455183906100,
+      "sha256_before_move": "e7d9220c2daa68a4a76167926b578d0248625a077bf366f6aa1aa0222ddae1e1",
+      "sha256_after_move": "e7d9220c2daa68a4a76167926b578d0248625a077bf366f6aa1aa0222ddae1e1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit$2.pdf",
+      "source_relative": "hermes-fts-higgs-audit$2.pdf",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit$2.pdf",
+      "bytes": 82794,
+      "source_mtime_ns": 1783952008987380400,
+      "sha256_before_move": "75355ed251e697b0805a114f9d2c8df8f629cce291a67fdddf14ed87e574e98f",
+      "sha256_after_move": "75355ed251e697b0805a114f9d2c8df8f629cce291a67fdddf14ed87e574e98f",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\2hdm-review.pdf",
+      "source_relative": "hermes-fts-higgs-audit/2hdm-review.pdf",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\2hdm-review.pdf",
+      "bytes": 4358104,
+      "source_mtime_ns": 1783952026246742500,
+      "sha256_before_move": "cb93d354ae26d76db89fa49e89f133ede9b3d5a2dca7295579810d1000071a0c",
+      "sha256_after_move": "cb93d354ae26d76db89fa49e89f133ede9b3d5a2dca7295579810d1000071a0c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\2hdm-review.txt",
+      "source_relative": "hermes-fts-higgs-audit/2hdm-review.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\2hdm-review.txt",
+      "bytes": 440284,
+      "source_mtime_ns": 1783952027423607000,
+      "sha256_before_move": "0e2140ec18a7d3100241a1c33b4532a215fb52a2f8f65f30a1645533b164d7e7",
+      "sha256_after_move": "0e2140ec18a7d3100241a1c33b4532a215fb52a2f8f65f30a1645533b164d7e7",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\e6-model.pdf",
+      "source_relative": "hermes-fts-higgs-audit/e6-model.pdf",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\e6-model.pdf",
+      "bytes": 82794,
+      "source_mtime_ns": 1783952026819190900,
+      "sha256_before_move": "75355ed251e697b0805a114f9d2c8df8f629cce291a67fdddf14ed87e574e98f",
+      "sha256_after_move": "75355ed251e697b0805a114f9d2c8df8f629cce291a67fdddf14ed87e574e98f",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\e6-model.txt",
+      "source_relative": "hermes-fts-higgs-audit/e6-model.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\e6-model.txt",
+      "bytes": 25873,
+      "source_mtime_ns": 1783952027473320700,
+      "sha256_before_move": "bcf0e1f20c561452a52be5e3a80d2f1986da7e8d6d1fc73677cd58f05799cedb",
+      "sha256_after_move": "bcf0e1f20c561452a52be5e3a80d2f1986da7e8d6d1fc73677cd58f05799cedb",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\haber-oneil.pdf",
+      "source_relative": "hermes-fts-higgs-audit/haber-oneil.pdf",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\haber-oneil.pdf",
+      "bytes": 470529,
+      "source_mtime_ns": 1783952026617503200,
+      "sha256_before_move": "28197bf045e29d5f1daa24be5f279fec0191d135ef85e8f2809405b41403bc57",
+      "sha256_after_move": "28197bf045e29d5f1daa24be5f279fec0191d135ef85e8f2809405b41403bc57",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\haber-oneil.txt",
+      "source_relative": "hermes-fts-higgs-audit/haber-oneil.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\haber-oneil.txt",
+      "bytes": 105117,
+      "source_mtime_ns": 1783952027643426200,
+      "sha256_before_move": "91110985cd64850177a7e932bbeaf98139e76c3669475524afca2290372e1f97",
+      "sha256_after_move": "91110985cd64850177a7e932bbeaf98139e76c3669475524afca2290372e1f97",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\write-test",
+      "source_relative": "hermes-fts-higgs-audit/write-test",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\write-test",
+      "bytes": 4,
+      "source_mtime_ns": 1783951972200597700,
+      "sha256_before_move": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "sha256_after_move": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-fts-higgs-audit\\x",
+      "source_relative": "hermes-fts-higgs-audit/x",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-fts-higgs-audit\\x",
+      "bytes": 1,
+      "source_mtime_ns": 1783951995296890700,
+      "sha256_before_move": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "sha256_after_move": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-google-ckm-formula.html",
+      "source_relative": "hermes-google-ckm-formula.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-google-ckm-formula.html",
+      "bytes": 91122,
+      "source_mtime_ns": 1783953464778766000,
+      "sha256_before_move": "379795880232a82fb9337e905e0e58134be8694da88a6d2e620d5eb653230031",
+      "sha256_after_move": "379795880232a82fb9337e905e0e58134be8694da88a6d2e620d5eb653230031",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-paper.txt",
+      "source_relative": "hermes-paper.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-paper.txt",
+      "bytes": 21418,
+      "source_mtime_ns": 1783882637194731000,
+      "sha256_before_move": "4ddab1bb0e4dc2b3a289951cb68bb3cbafe03c296cf1fb6943a2b5dc438188f8",
+      "sha256_after_move": "4ddab1bb0e4dc2b3a289951cb68bb3cbafe03c296cf1fb6943a2b5dc438188f8",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-pdg2026-ckm.pdf",
+      "source_relative": "hermes-pdg2026-ckm.pdf",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-pdg2026-ckm.pdf",
+      "bytes": 512111,
+      "source_mtime_ns": 1783953588222044100,
+      "sha256_before_move": "c6b23ae8572345c3ab739e233ea47a25e879f8534c9021a10e9ca1bd3bb8d433",
+      "sha256_after_move": "c6b23ae8572345c3ab739e233ea47a25e879f8534c9021a10e9ca1bd3bb8d433",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-pdg2026-ckm.txt",
+      "source_relative": "hermes-pdg2026-ckm.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-pdg2026-ckm.txt",
+      "bytes": 74363,
+      "source_mtime_ns": 1783953588768377800,
+      "sha256_before_move": "db57ce5fc3d6477a50ad163d6c34b69b7f1a40f0e0358d7bfcf944287c47622a",
+      "sha256_after_move": "db57ce5fc3d6477a50ad163d6c34b69b7f1a40f0e0358d7bfcf944287c47622a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-provenance-hunt.py",
+      "source_relative": "hermes-provenance-hunt.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-provenance-hunt.py",
+      "bytes": 1559,
+      "source_mtime_ns": 1783866431544628100,
+      "sha256_before_move": "5dc31441ad48577a9e8ec476ee2c22382694005342a918cb5a27be04668d4a30",
+      "sha256_after_move": "5dc31441ad48577a9e8ec476ee2c22382694005342a918cb5a27be04668d4a30",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-theorem.txt",
+      "source_relative": "hermes-theorem.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-theorem.txt",
+      "bytes": 18486,
+      "source_mtime_ns": 1783946945538627700,
+      "sha256_before_move": "f33375f744fc3c0dbcb74251d4f5cf50aa1e4a8f452d134eefe0f09f38af6304",
+      "sha256_after_move": "f33375f744fc3c0dbcb74251d4f5cf50aa1e4a8f452d134eefe0f09f38af6304",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-theroym.txt",
+      "source_relative": "hermes-theroym.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-theroym.txt",
+      "bytes": 18486,
+      "source_mtime_ns": 1783882636389230000,
+      "sha256_before_move": "f33375f744fc3c0dbcb74251d4f5cf50aa1e4a8f452d134eefe0f09f38af6304",
+      "sha256_after_move": "f33375f744fc3c0dbcb74251d4f5cf50aa1e4a8f452d134eefe0f09f38af6304",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-toee.txt",
+      "source_relative": "hermes-toee.txt",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-toee.txt",
+      "bytes": 21412,
+      "source_mtime_ns": 1783882636809515600,
+      "sha256_before_move": "c13a2bfc1e40c89c302c28ef3d7378165a93da8420c16942d9915ea1ad8b1349",
+      "sha256_after_move": "c13a2bfc1e40c89c302c28ef3d7378165a93da8420c16942d9915ea1ad8b1349",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\hermes-zenodo-20133874.html",
+      "source_relative": "hermes-zenodo-20133874.html",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\hermes-zenodo-20133874.html",
+      "bytes": 763,
+      "source_mtime_ns": 1783953488515880700,
+      "sha256_before_move": "010e90ba9754f308497de4b8a664f023330c1bed3bcc628bd3354c01c7d67dbb",
+      "sha256_after_move": "010e90ba9754f308497de4b8a664f023330c1bed3bcc628bd3354c01c7d67dbb",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\paper1-clean-build.log",
+      "source_relative": "paper1-clean-build.log",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\paper1-clean-build.log",
+      "bytes": 61,
+      "source_mtime_ns": 1783884490573610300,
+      "sha256_before_move": "a77cc9c0260489253ebbb46caa7946c0922801262d668142535e306e69fbbc02",
+      "sha256_after_move": "a77cc9c0260489253ebbb46caa7946c0922801262d668142535e306e69fbbc02",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\paper1-moved-build.log",
+      "source_relative": "paper1-moved-build.log",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\paper1-moved-build.log",
+      "bytes": 251,
+      "source_mtime_ns": 1783887423043598100,
+      "sha256_before_move": "6634116b59263e1188b13bc92f22bcd22de1e8b131e81ac3be5642c86f0c69aa",
+      "sha256_after_move": "6634116b59263e1188b13bc92f22bcd22de1e8b131e81ac3be5642c86f0c69aa",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_load_bearing_sweep_checkp0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_load_bearing_sweep_checkp0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_load_bearing_sweep_checkp0\\raw.csv",
+      "bytes": 145,
+      "source_mtime_ns": 1783548295517435100,
+      "sha256_before_move": "9c429ac8d46942d2e75b6b6dc5254200811ba274ccddc3dbe2340fc1575216de",
+      "sha256_after_move": "9c429ac8d46942d2e75b6b6dc5254200811ba274ccddc3dbe2340fc1575216de",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_load_bearing_sweep_checkp0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_load_bearing_sweep_checkp0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_load_bearing_sweep_checkp0\\summary.csv",
+      "bytes": 170,
+      "source_mtime_ns": 1783548295544434400,
+      "sha256_before_move": "6690d71811810a979b9fab9610a8c4a7b30fa221d3925abddfde3f336a2fefe9",
+      "sha256_after_move": "6690d71811810a979b9fab9610a8c4a7b30fa221d3925abddfde3f336a2fefe9",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\plot.png",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_load_bearing_sweep_w0/plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\plot.png",
+      "bytes": 36620,
+      "source_mtime_ns": 1783548295423922900,
+      "sha256_before_move": "3a79f41bb693e06c6ac1840c5f8396daf65e9f3ea59ceef8296d75a479b031aa",
+      "sha256_after_move": "3a79f41bb693e06c6ac1840c5f8396daf65e9f3ea59ceef8296d75a479b031aa",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_load_bearing_sweep_w0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\raw.csv",
+      "bytes": 449,
+      "source_mtime_ns": 1783548295065345900,
+      "sha256_before_move": "ea0b9debefef9ee5543b0218d97fcad347b0b6db0aa1d5cd148f61b6ffa8a299",
+      "sha256_after_move": "ea0b9debefef9ee5543b0218d97fcad347b0b6db0aa1d5cd148f61b6ffa8a299",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_load_bearing_sweep_w0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_load_bearing_sweep_w0\\summary.csv",
+      "bytes": 327,
+      "source_mtime_ns": 1783548295066346900,
+      "sha256_before_move": "f464d5f3be4e8c6e837566c50a4f769b09bf4c4477cba960a34aeaf60b2cffb0",
+      "sha256_after_move": "f464d5f3be4e8c6e837566c50a4f769b09bf4c4477cba960a34aeaf60b2cffb0",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\heatmap.png",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_repeated_sweep_write0/heatmap.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\heatmap.png",
+      "bytes": 32246,
+      "source_mtime_ns": 1783548293522969400,
+      "sha256_before_move": "189da9797b1a3a9a6bec2ac00ae2c52713cb5f22d31b8875c7dd49120f35280a",
+      "sha256_after_move": "189da9797b1a3a9a6bec2ac00ae2c52713cb5f22d31b8875c7dd49120f35280a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_repeated_sweep_write0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\raw.csv",
+      "bytes": 763,
+      "source_mtime_ns": 1783548293218578600,
+      "sha256_before_move": "85e73599cf6add2f1b41a5c7ffff38e47c6073c4cbae2cb0e8b742db1a8dcef2",
+      "sha256_after_move": "85e73599cf6add2f1b41a5c7ffff38e47c6073c4cbae2cb0e8b742db1a8dcef2",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_repeated_sweep_write0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_repeated_sweep_write0\\summary.csv",
+      "bytes": 629,
+      "source_mtime_ns": 1783548293220577300,
+      "sha256_before_move": "4193111790b1747ca09c580a429fc0870379b5df986aec3859535c614def9bbb",
+      "sha256_after_move": "4193111790b1747ca09c580a429fc0870379b5df986aec3859535c614def9bbb",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_sweep_writes_csv_and0\\tiny_plot.png",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_sweep_writes_csv_and0/tiny_plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_sweep_writes_csv_and0\\tiny_plot.png",
+      "bytes": 53260,
+      "source_mtime_ns": 1783548292896357100,
+      "sha256_before_move": "e0e418c5839f3cf882ddfb9e514336c409c846662e6650502c3ccfff5088e2f4",
+      "sha256_after_move": "e0e418c5839f3cf882ddfb9e514336c409c846662e6650502c3ccfff5088e2f4",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_tiny_sweep_writes_csv_and0\\tiny_results.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_tiny_sweep_writes_csv_and0/tiny_results.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_tiny_sweep_writes_csv_and0\\tiny_results.csv",
+      "bytes": 219,
+      "source_mtime_ns": 1783548292386834400,
+      "sha256_before_move": "4054e2965639c246402d3fb453f5c2523bee3ddac8c55032580b95b5c4a5b4ba",
+      "sha256_after_move": "4054e2965639c246402d3fb453f5c2523bee3ddac8c55032580b95b5c4a5b4ba",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\condition.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/condition.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\condition.csv",
+      "bytes": 511,
+      "source_mtime_ns": 1783548293578060900,
+      "sha256_before_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "sha256_after_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\heatmap.png",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/heatmap.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\heatmap.png",
+      "bytes": 126619,
+      "source_mtime_ns": 1783548294489289300,
+      "sha256_before_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "sha256_after_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\manifest.json",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/manifest.json",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\manifest.json",
+      "bytes": 2965,
+      "source_mtime_ns": 1783548294560806400,
+      "sha256_before_move": "8682f00716eff671238863c68bac6db0af72dc6daca5a7eb3768ca3e53e829ee",
+      "sha256_after_move": "8682f00716eff671238863c68bac6db0af72dc6daca5a7eb3768ca3e53e829ee",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/pairwise.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "bytes": 898,
+      "source_mtime_ns": 1783548293577059900,
+      "sha256_before_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "sha256_after_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\raw.csv",
+      "bytes": 1131,
+      "source_mtime_ns": 1783548293556036700,
+      "sha256_before_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "sha256_after_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\report.md",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/report.md",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\report.md",
+      "bytes": 3599,
+      "source_mtime_ns": 1783548294518294300,
+      "sha256_before_move": "3652ab30d86fa2f26cdba631c2f5bd242f9fd88d2fe459dc41b653438d79802a",
+      "sha256_after_move": "3652ab30d86fa2f26cdba631c2f5bd242f9fd88d2fe459dc41b653438d79802a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\teacher.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_aud0/teacher.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_aud0\\teacher.csv",
+      "bytes": 476,
+      "source_mtime_ns": 1783548293579061200,
+      "sha256_before_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "sha256_after_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\pair.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_csv0/pair.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\pair.csv",
+      "bytes": 488,
+      "source_mtime_ns": 1783548289287996700,
+      "sha256_before_move": "31e33cdedc2c2d725482134f6456a8e9735e057091389e5f0836992c2fcd9e8c",
+      "sha256_after_move": "31e33cdedc2c2d725482134f6456a8e9735e057091389e5f0836992c2fcd9e8c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\plot.png",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_csv0/plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\plot.png",
+      "bytes": 102857,
+      "source_mtime_ns": 1783548290304868200,
+      "sha256_before_move": "9d098cf4ae965d10f29bd1457f7005091028513c14c960c3f253bbb885235a0c",
+      "sha256_after_move": "9d098cf4ae965d10f29bd1457f7005091028513c14c960c3f253bbb885235a0c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-271/test_write_outputs_creates_csv0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-271\\test_write_outputs_creates_csv0\\summary.csv",
+      "bytes": 291,
+      "source_mtime_ns": 1783548289289996100,
+      "sha256_before_move": "dc1ebebb6ef45fb1930f7c60cf06905eaaabad809d7e3bf937b3060b1bf5ffd7",
+      "sha256_after_move": "dc1ebebb6ef45fb1930f7c60cf06905eaaabad809d7e3bf937b3060b1bf5ffd7",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\condition.csv",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/condition.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\condition.csv",
+      "bytes": 511,
+      "source_mtime_ns": 1783548353026427700,
+      "sha256_before_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "sha256_after_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\heatmap.png",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/heatmap.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\heatmap.png",
+      "bytes": 126619,
+      "source_mtime_ns": 1783548354004711100,
+      "sha256_before_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "sha256_after_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\manifest.json",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/manifest.json",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\manifest.json",
+      "bytes": 2965,
+      "source_mtime_ns": 1783548354072717200,
+      "sha256_before_move": "c05f9b63d4a034ca8f24c4e663adbb24db6cdf73a0023238d78c5536167c3393",
+      "sha256_after_move": "c05f9b63d4a034ca8f24c4e663adbb24db6cdf73a0023238d78c5536167c3393",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/pairwise.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "bytes": 898,
+      "source_mtime_ns": 1783548353025368400,
+      "sha256_before_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "sha256_after_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\raw.csv",
+      "bytes": 1131,
+      "source_mtime_ns": 1783548353000979600,
+      "sha256_before_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "sha256_after_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\report.md",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/report.md",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\report.md",
+      "bytes": 3567,
+      "source_mtime_ns": 1783548354034713400,
+      "sha256_before_move": "ae560bb07965fe08e9b53c1eac3371727cfa806c93008f88afe2009dcde9eb0e",
+      "sha256_after_move": "ae560bb07965fe08e9b53c1eac3371727cfa806c93008f88afe2009dcde9eb0e",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\teacher.csv",
+      "source_relative": "pytest-of-theai/pytest-272/test_write_outputs_creates_aud0/teacher.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-272\\test_write_outputs_creates_aud0\\teacher.csv",
+      "bytes": 476,
+      "source_mtime_ns": 1783548353026939900,
+      "sha256_before_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "sha256_after_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_load_bearing_sweep_checkp0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_load_bearing_sweep_checkp0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_load_bearing_sweep_checkp0\\raw.csv",
+      "bytes": 145,
+      "source_mtime_ns": 1783548397768822800,
+      "sha256_before_move": "9c429ac8d46942d2e75b6b6dc5254200811ba274ccddc3dbe2340fc1575216de",
+      "sha256_after_move": "9c429ac8d46942d2e75b6b6dc5254200811ba274ccddc3dbe2340fc1575216de",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_load_bearing_sweep_checkp0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_load_bearing_sweep_checkp0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_load_bearing_sweep_checkp0\\summary.csv",
+      "bytes": 170,
+      "source_mtime_ns": 1783548397797827000,
+      "sha256_before_move": "6690d71811810a979b9fab9610a8c4a7b30fa221d3925abddfde3f336a2fefe9",
+      "sha256_after_move": "6690d71811810a979b9fab9610a8c4a7b30fa221d3925abddfde3f336a2fefe9",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\plot.png",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_load_bearing_sweep_w0/plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\plot.png",
+      "bytes": 36620,
+      "source_mtime_ns": 1783548397681619300,
+      "sha256_before_move": "3a79f41bb693e06c6ac1840c5f8396daf65e9f3ea59ceef8296d75a479b031aa",
+      "sha256_after_move": "3a79f41bb693e06c6ac1840c5f8396daf65e9f3ea59ceef8296d75a479b031aa",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_load_bearing_sweep_w0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\raw.csv",
+      "bytes": 449,
+      "source_mtime_ns": 1783548397351504900,
+      "sha256_before_move": "ea0b9debefef9ee5543b0218d97fcad347b0b6db0aa1d5cd148f61b6ffa8a299",
+      "sha256_after_move": "ea0b9debefef9ee5543b0218d97fcad347b0b6db0aa1d5cd148f61b6ffa8a299",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_load_bearing_sweep_w0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_load_bearing_sweep_w0\\summary.csv",
+      "bytes": 327,
+      "source_mtime_ns": 1783548397352683600,
+      "sha256_before_move": "f464d5f3be4e8c6e837566c50a4f769b09bf4c4477cba960a34aeaf60b2cffb0",
+      "sha256_after_move": "f464d5f3be4e8c6e837566c50a4f769b09bf4c4477cba960a34aeaf60b2cffb0",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\heatmap.png",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_repeated_sweep_write0/heatmap.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\heatmap.png",
+      "bytes": 32246,
+      "source_mtime_ns": 1783548395603889500,
+      "sha256_before_move": "189da9797b1a3a9a6bec2ac00ae2c52713cb5f22d31b8875c7dd49120f35280a",
+      "sha256_after_move": "189da9797b1a3a9a6bec2ac00ae2c52713cb5f22d31b8875c7dd49120f35280a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_repeated_sweep_write0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\raw.csv",
+      "bytes": 763,
+      "source_mtime_ns": 1783548395187159000,
+      "sha256_before_move": "85e73599cf6add2f1b41a5c7ffff38e47c6073c4cbae2cb0e8b742db1a8dcef2",
+      "sha256_after_move": "85e73599cf6add2f1b41a5c7ffff38e47c6073c4cbae2cb0e8b742db1a8dcef2",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_repeated_sweep_write0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_repeated_sweep_write0\\summary.csv",
+      "bytes": 629,
+      "source_mtime_ns": 1783548395189160500,
+      "sha256_before_move": "4193111790b1747ca09c580a429fc0870379b5df986aec3859535c614def9bbb",
+      "sha256_after_move": "4193111790b1747ca09c580a429fc0870379b5df986aec3859535c614def9bbb",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_sweep_writes_csv_and0\\tiny_plot.png",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_sweep_writes_csv_and0/tiny_plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_sweep_writes_csv_and0\\tiny_plot.png",
+      "bytes": 53260,
+      "source_mtime_ns": 1783548394836642800,
+      "sha256_before_move": "e0e418c5839f3cf882ddfb9e514336c409c846662e6650502c3ccfff5088e2f4",
+      "sha256_after_move": "e0e418c5839f3cf882ddfb9e514336c409c846662e6650502c3ccfff5088e2f4",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_tiny_sweep_writes_csv_and0\\tiny_results.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_tiny_sweep_writes_csv_and0/tiny_results.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_tiny_sweep_writes_csv_and0\\tiny_results.csv",
+      "bytes": 219,
+      "source_mtime_ns": 1783548394337589200,
+      "sha256_before_move": "4054e2965639c246402d3fb453f5c2523bee3ddac8c55032580b95b5c4a5b4ba",
+      "sha256_after_move": "4054e2965639c246402d3fb453f5c2523bee3ddac8c55032580b95b5c4a5b4ba",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\condition.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/condition.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\condition.csv",
+      "bytes": 511,
+      "source_mtime_ns": 1783548395669203600,
+      "sha256_before_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "sha256_after_move": "6c0093e894692e619ef18e29e1597da3e3b97b5ef63281ab300a4a96a87bd238",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\heatmap.png",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/heatmap.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\heatmap.png",
+      "bytes": 126619,
+      "source_mtime_ns": 1783548396717355500,
+      "sha256_before_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "sha256_after_move": "06b624916e69cd099201b27815065807effcdc3f9f7d6a1696f72cb5a83cd620",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\manifest.json",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/manifest.json",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\manifest.json",
+      "bytes": 2965,
+      "source_mtime_ns": 1783548396786489200,
+      "sha256_before_move": "693e4b16aa01b8b71707ef365aea455c517874541a6b55bd82ed642b13176ec8",
+      "sha256_after_move": "693e4b16aa01b8b71707ef365aea455c517874541a6b55bd82ed642b13176ec8",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/pairwise.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\pairwise.csv",
+      "bytes": 898,
+      "source_mtime_ns": 1783548395668203200,
+      "sha256_before_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "sha256_after_move": "e9951906a072be760f9847bce5356771b59fa3a4885785d739c9b4bbdf0d4e8c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\raw.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/raw.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\raw.csv",
+      "bytes": 1131,
+      "source_mtime_ns": 1783548395643204200,
+      "sha256_before_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "sha256_after_move": "68edfd167a985256901dedbf64062e8cfef9c41b880d2c8339af467a33ac1cc1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\report.md",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/report.md",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\report.md",
+      "bytes": 3567,
+      "source_mtime_ns": 1783548396748355600,
+      "sha256_before_move": "908c34cb252dfa327d9af9c979d40351d7b0b7751fa5833b56259342c43fca8a",
+      "sha256_after_move": "908c34cb252dfa327d9af9c979d40351d7b0b7751fa5833b56259342c43fca8a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\teacher.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_aud0/teacher.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_aud0\\teacher.csv",
+      "bytes": 476,
+      "source_mtime_ns": 1783548395670727300,
+      "sha256_before_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "sha256_after_move": "7773d19f97f39c99adcdcd49329a18d17edf1baa6217056dfdb11e0bdd48da0a",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\pair.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_csv0/pair.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\pair.csv",
+      "bytes": 488,
+      "source_mtime_ns": 1783548391592853300,
+      "sha256_before_move": "31e33cdedc2c2d725482134f6456a8e9735e057091389e5f0836992c2fcd9e8c",
+      "sha256_after_move": "31e33cdedc2c2d725482134f6456a8e9735e057091389e5f0836992c2fcd9e8c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\plot.png",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_csv0/plot.png",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\plot.png",
+      "bytes": 102857,
+      "source_mtime_ns": 1783548392425689500,
+      "sha256_before_move": "9d098cf4ae965d10f29bd1457f7005091028513c14c960c3f253bbb885235a0c",
+      "sha256_after_move": "9d098cf4ae965d10f29bd1457f7005091028513c14c960c3f253bbb885235a0c",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\summary.csv",
+      "source_relative": "pytest-of-theai/pytest-273/test_write_outputs_creates_csv0/summary.csv",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\pytest-of-theai\\pytest-273\\test_write_outputs_creates_csv0\\summary.csv",
+      "bytes": 291,
+      "source_mtime_ns": 1783548391593852900,
+      "sha256_before_move": "dc1ebebb6ef45fb1930f7c60cf06905eaaabad809d7e3bf937b3060b1bf5ffd7",
+      "sha256_after_move": "dc1ebebb6ef45fb1930f7c60cf06905eaaabad809d7e3bf937b3060b1bf5ffd7",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\tmp.nxKlaQQIuN\\README.md",
+      "source_relative": "tmp.nxKlaQQIuN/README.md",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\tmp.nxKlaQQIuN\\README.md",
+      "bytes": 1110,
+      "source_mtime_ns": 1783883785000000000,
+      "sha256_before_move": "2a70d22e9ed96f80027af0fc07ac2197538c3bc8235bff56283df4625f285807",
+      "sha256_after_move": "2a70d22e9ed96f80027af0fc07ac2197538c3bc8235bff56283df4625f285807",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\tmp.nxKlaQQIuN\\fn_ladder_rigidity_results.json",
+      "source_relative": "tmp.nxKlaQQIuN/fn_ladder_rigidity_results.json",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\tmp.nxKlaQQIuN\\fn_ladder_rigidity_results.json",
+      "bytes": 86163,
+      "source_mtime_ns": 1783883809000000000,
+      "sha256_before_move": "fa942f4bc2d01b8fd218c37acc053e0e53a356a467672475bae17c647e708fd1",
+      "sha256_after_move": "fa942f4bc2d01b8fd218c37acc053e0e53a356a467672475bae17c647e708fd1",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\tmp.nxKlaQQIuN\\paper.tex",
+      "source_relative": "tmp.nxKlaQQIuN/paper.tex",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\tmp.nxKlaQQIuN\\paper.tex",
+      "bytes": 22878,
+      "source_mtime_ns": 1783884328000000000,
+      "sha256_before_move": "4a46f6334a25117ae1e6ed9d025eeb5b29b8ed3bb32b3b5b8925a1dac13c9f99",
+      "sha256_after_move": "4a46f6334a25117ae1e6ed9d025eeb5b29b8ed3bb32b3b5b8925a1dac13c9f99",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\tmp.nxKlaQQIuN\\verify_results.py",
+      "source_relative": "tmp.nxKlaQQIuN/verify_results.py",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\tmp.nxKlaQQIuN\\verify_results.py",
+      "bytes": 6358,
+      "source_mtime_ns": 1783883785000000000,
+      "sha256_before_move": "c2e251d7fa8edd8c2c34f3db2055863af176e49690e1097ba0e3f2a19be5b70f",
+      "sha256_after_move": "c2e251d7fa8edd8c2c34f3db2055863af176e49690e1097ba0e3f2a19be5b70f",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\wavefano_ablation_smoke.log",
+      "source_relative": "wavefano_ablation_smoke.log",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\wavefano_ablation_smoke.log",
+      "bytes": 5318,
+      "source_mtime_ns": 1783916643897364900,
+      "sha256_before_move": "7856b6b6bb3cb05a94204577623f894e1a4269a41766b9e3aa43a2ca81a670be",
+      "sha256_after_move": "7856b6b6bb3cb05a94204577623f894e1a4269a41766b9e3aa43a2ca81a670be",
+      "verified": true
+    },
+    {
+      "source": "C:\\Users\\theai\\AppData\\Local\\Temp\\wavefano_pip1.log",
+      "source_relative": "wavefano_pip1.log",
+      "destination": "D:\\Projects\\can_o_worms\\retained_temp_artifacts_v1\\moved_from_windows_temp\\wavefano_pip1.log",
+      "bytes": 1565,
+      "source_mtime_ns": 1783623709185744000,
+      "sha256_before_move": "0dfa2f76da7ea993c232b56de38da96050ce68dd1536dae49ef4716f866797ff",
+      "sha256_after_move": "0dfa2f76da7ea993c232b56de38da96050ce68dd1536dae49ef4716f866797ff",
+      "verified": true
+    }
+  ]
+}

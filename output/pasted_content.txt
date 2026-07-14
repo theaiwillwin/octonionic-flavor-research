@@ -1,0 +1,81 @@
+a/D:\Projects\can_o_worms\verify_target_free_bifundamental_gate_v2.py → b/D:\Projects\can_o_worms\verify_target_free_bifundamental_gate_v2.py
+@@ -0,0 +1,145 @@
++"""Fresh independent rerun of the target-free minimal bifundamental gate.
++
++Preserved v2 verification: recomputes the canonical tangent Hessian, exact
++projector/sum-of-squares identities, and O(2)/O(3) invariances without changing
++the retained v1 artifacts.
++"""
++from __future__ import annotations
++
++import json
++from pathlib import Path
++
++import numpy as np
++import torch
++
++import target_free_bifundamental_no_go_gate_v1 as gate
++
++ROOT = Path(__file__).resolve().parent
++SOURCE_RESULT = ROOT / "target_free_bifundamental_no_go_gate_v1_results.json"
++OUT = ROOT / "verify_target_free_bifundamental_gate_v2_results.json"
++SEED = 2026071417
++SAMPLES = 512
++DTYPE = torch.float64
++EIG_TOL = 1.0e-8
++
++
++def frame(rng: np.random.Generator, p: int) -> torch.Tensor:
++    q, r = np.linalg.qr(rng.normal(size=(7, p)))
++    signs = np.sign(np.diag(r))
++    signs[signs == 0.0] = 1.0
++    return torch.tensor(q * signs[np.newaxis, :], dtype=DTYPE)
++
++
++def orthogonal(rng: np.random.Generator, p: int) -> torch.Tensor:
++    q, r = np.linalg.qr(rng.normal(size=(p, p)))
++    signs = np.sign(np.diag(r))
++    signs[signs == 0.0] = 1.0
++    return torch.tensor(q * signs[np.newaxis, :], dtype=DTYPE)
++
++
++def main() -> int:
++    if OUT.exists():
++        raise FileExistsError(f"Retention rule: refusing to overwrite {OUT}")
++    source = json.loads(SOURCE_RESULT.read_text(encoding="utf-8"))
++    algebra = gate.run_all_checks(verbose=False)
++    A = gate.tensor_A()
++    rng = np.random.default_rng(SEED)
++
++    identity_max = 0.0
++    certificate_max = 0.0
++    o2_max = 0.0
++    o3_max = 0.0
++    for _ in range(SAMPLES):
++        vh = frame(rng, 2)
++        l, ru, rd = frame(rng, 3), frame(rng, 3), frame(rng, 3)
++        v, h = vh[:, 0], vh[:, 1]
++        w = gate.cross_product(v, h)
++        p_a = v[:, None] @ v[None, :] + h[:, None] @ h[None, :] + w[:, None] @ w[None, :]
++        p_c = torch.eye(7, dtype=DTYPE) - p_a
++        t = gate.associator_map(A, v, h)
++        identity_max = max(
++            identity_max,
++            float(torch.max(torch.abs(t.T @ t - 4.0 * p_c))),
++            float(torch.max(torch.abs(t @ t.T - 4.0 * p_c))),
++        )
++
++        strength = float(gate.strength(A, vh, l, ru, rd))
++        rhs = 8.0 * float(torch.sum((p_a @ l) ** 2))
++        eye = torch.eye(7, dtype=DTYPE)
++        for r_sector in (ru, rd):
++            p_r = r_sector @ r_sector.T
++            rhs += float(torch.sum(((eye - p_r) @ t.T @ l) ** 2))
++        certificate_max = max(certificate_max, abs((24.0 - strength) - rhs))
++
++        o2 = orthogonal(rng, 2)
++        o2_max = max(o2_max, abs(float(gate.strength(A, vh @ o2, l, ru, rd)) - strength))
++        o_l, o_u, o_d = orthogonal(rng, 3), orthogonal(rng, 3), orthogonal(rng, 3)
++        o3_max = max(
++            o3_max,
+… omitted 67 diff line(s) across 1 additional file(s)/section(s)

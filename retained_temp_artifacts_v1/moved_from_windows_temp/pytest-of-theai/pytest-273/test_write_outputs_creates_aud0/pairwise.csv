@@ -1,0 +1,10 @@
+teacher_type,noise,n_train,repeat_seed,AssociatorEnergy,StiefelEnergy,delta_stiefel_minus_assoc,relative_delta,assoc_better,winner
+golden,0.0,16,0,0.1,0.2,0.1,0.5,True,AssociatorEnergy
+golden,0.0,16,1,0.2,0.3,0.09999999999999998,0.33333333333333326,True,AssociatorEnergy
+golden,0.0,16,2,0.3,0.4,0.10000000000000003,0.25000000000000006,True,AssociatorEnergy
+random_associator,0.0,16,0,0.11,0.21,0.09999999999999999,0.47619047619047616,True,AssociatorEnergy
+random_associator,0.0,16,1,0.12,0.22,0.1,0.4545454545454546,True,AssociatorEnergy
+random_associator,0.0,16,2,0.13,0.23,0.1,0.43478260869565216,True,AssociatorEnergy
+stiefel_non_octonion,0.0,16,0,0.3,0.1,-0.19999999999999998,-1.9999999999999998,False,StiefelEnergy
+stiefel_non_octonion,0.0,16,1,0.2,0.3,0.09999999999999998,0.33333333333333326,True,AssociatorEnergy
+stiefel_non_octonion,0.0,16,2,0.4,0.2,-0.2,-1.0,False,StiefelEnergy

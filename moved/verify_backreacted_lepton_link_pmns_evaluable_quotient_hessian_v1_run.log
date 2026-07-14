@@ -1,0 +1,17 @@
+primitive_plus__pair_lr_sum_psi_PPQQ qmin=-4.802e-12 diff=7.463e-07
+primitive_plus__single_sum_phi_PPP qmin=-6.670e-15 diff=6.821e-07
+primitive_plus__pair_diagonal_sum_psi_PPQQ qmin=-1.536e-14 diff=9.436e-07
+primitive_plus__triple_sum_phi_PQR qmin=-9.885e-15 diff=1.505e-06
+primitive_plus__pair_lr_sum_phi_symmetric qmin=-3.362e-15 diff=1.216e-06
+primitive_plus__pair_diagonal_sum_phi_symmetric qmin=-2.343e-15 diff=1.277e-06
+primitive_minus__triple_sum_phi_PQR qmin=4.377e-01 diff=1.071e-06
+primitive_plus__triple_sum_sym_hPQRh qmin=-1.344e-15 diff=5.135e-07
+rademacher_29 qmin=6.056e-02 diff=1.376e-06
+primitive_minus__pair_sector_sum_trPQPQ qmin=-1.987e-14 diff=2.196e-06
+primitive_minus__pair_sector_sum_trPQ qmin=-8.205e-15 diff=8.330e-07
+{
+  "status": "PASS",
+  "direct_hessian_count": 11,
+  "maximum_sorted_spectrum_difference": 2.19596318018489e-06,
+  "output": "D:\\Projects\\can_o_worms\\verify_backreacted_lepton_link_pmns_evaluable_quotient_hessian_v1_results.json"
+}

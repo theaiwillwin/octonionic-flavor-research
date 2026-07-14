@@ -1,0 +1,1 @@
+sqlite3 'C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/state.db' '.schema messages' && printf '\nROWS\n' && sqlite3 -header -column 'C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/state.db' "select id,session_id,role,tool_name,length(content) as content_len,length(tool_calls) as tool_calls_len from messages where id in (4051,4058,4060);"

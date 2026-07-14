@@ -1,0 +1,22 @@
+{
+  "schema": "can-o-worms-artifact-lock-receipt/v1",
+  "status": "PASS",
+  "archive": {
+    "path": "D:\\Projects\\can_o_worms\\locked_artifact_snapshot_v1.zip",
+    "bytes": 139192519,
+    "sha256": "b9f1238baeb56a7abd15699b5eea2c008d2d6d43ec029619f9fedbaf8ec9482d"
+  },
+  "manifest": {
+    "path": "D:\\Projects\\can_o_worms\\ARTIFACT_LOCK_MANIFEST_v1.json",
+    "bytes": 309572,
+    "sha256": "087e1ca195ca98ec57dadacec4a14b6acbebfabf7128e6342c56ed8be6aef37f"
+  },
+  "manifest_markdown_sha256": "94632e6ee20ea9c1425bda242de8059cabcb520d44223af55e672a6965668022",
+  "member_count": 1448,
+  "total_uncompressed_bytes": 163761196,
+  "archive_member_set_exact": true,
+  "archive_member_hashes_match": true,
+  "zip_crc_test_passed": true,
+  "read_only_target_count": 107,
+  "all_lock_targets_read_only": true
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9513,
+  "call_index": 1,
+  "tool_name": "memory",
+  "call": {
+    "id": "call_kfyzYP8F2P4W7F47C378kB5K",
+    "call_id": "call_kfyzYP8F2P4W7F47C378kB5K",
+    "response_item_id": "fc_071f367ba0e10612016a552c4f3c4481918b6c8d3a31ee7c9f",
+    "type": "function",
+    "function": {
+      "name": "memory",
+      "arguments": "{\"action\":\"replace\",\"content\":\"Historical FTS CKM fit restored in D:/Projects/ToE_21st_June_NEWEST: lock JSON has Q_star/Ju/Jd/r/s; recovered script reruns Frobenius 6.128e-6. Diagnostic NOT derivation because Q0 and r,s use CKM targets.\",\"old_text\":\"Citing the 1e-5 CKM fit is blocked until exact sources/scripts are restored.\",\"target\":\"memory\"}"
+    }
+  },
+  "parsed_arguments": {
+    "action": "replace",
+    "content": "Historical FTS CKM fit restored in D:/Projects/ToE_21st_June_NEWEST: lock JSON has Q_star/Ju/Jd/r/s; recovered script reruns Frobenius 6.128e-6. Diagnostic NOT derivation because Q0 and r,s use CKM targets.",
+    "old_text": "Citing the 1e-5 CKM fit is blocked until exact sources/scripts are restored.",
+    "target": "memory"
+  }
+}

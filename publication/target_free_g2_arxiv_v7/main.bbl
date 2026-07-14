@@ -1,0 +1,67 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Froggatt and Nielsen(1979)]{FroggattNielsen1979}
+C.~D. Froggatt and H.~B. Nielsen.
+\newblock Hierarchy of quark masses, cabibbo angles and cp violation.
+\newblock \emph{Nuclear Physics B}, 147:\penalty0 277--298, 1979.
+\newblock \doi{10.1016/0550-3213(79)90316-X}.
+
+\bibitem[Baez(2002)]{Baez2002}
+John~C. Baez.
+\newblock The octonions.
+\newblock \emph{Bulletin of the American Mathematical Society}, 39\penalty0
+  (2):\penalty0 145--205, 2002.
+\newblock \doi{10.1090/S0273-0979-01-00934-X}.
+
+\bibitem[Bryant(1987)]{Bryant1987}
+Robert~L. Bryant.
+\newblock Metrics with exceptional holonomy.
+\newblock \emph{Annals of Mathematics}, 126\penalty0 (3):\penalty0 525--576,
+  1987.
+\newblock \doi{10.2307/1971360}.
+
+\bibitem[Connelly(2026{\natexlab{a}})]{ConnellyObstruction2026}
+Matthew Connelly.
+\newblock An exact spectral obstruction to froggatt--nielsen ladders from the
+  octonion associator.
+\newblock Unpublished manuscript, 11 July 2026, 2026{\natexlab{a}}.
+
+\bibitem[Connelly(2026{\natexlab{b}})]{ConnellyWeighted2026}
+Matthew Connelly.
+\newblock Weighted conditional negativity and exact spectral obstructions for
+  octonionic associator energy matrices.
+\newblock Unpublished manuscript, July 2026, 2026{\natexlab{b}}.
+
+\bibitem[Connelly(2026{\natexlab{c}})]{ConnellyGeometry2026}
+Matthew Connelly.
+\newblock Octonionic flavor geometry: Spectral rigidity, the $n=7$ boundary,
+  and a ckm-localizing exceptional eft.
+\newblock Unpublished manuscript, 13 July 2026, 2026{\natexlab{c}}.
+
+\bibitem[Absil et~al.(2008)Absil, Mahony, and
+  Sepulchre]{AbsilMahonySepulchre2008}
+P.-A. Absil, Robert Mahony, and Rodolphe Sepulchre.
+\newblock \emph{Optimization Algorithms on Matrix Manifolds}.
+\newblock Princeton University Press, Princeton, NJ, 2008.
+\newblock ISBN 978-0-691-13298-3.
+
+\bibitem[Kobayashi and Maskawa(1973)]{KobayashiMaskawa1973}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock Cp-violation in the renormalizable theory of weak interaction.
+\newblock \emph{Progress of Theoretical Physics}, 49\penalty0 (2):\penalty0
+  652--657, 1973.
+\newblock \doi{10.1143/PTP.49.652}.
+
+\bibitem[Jarlskog(1985)]{Jarlskog1985}
+Cecilia Jarlskog.
+\newblock Commutator of the quark mass matrices in the standard electroweak
+  model and a measure of maximal cp nonconservation.
+\newblock \emph{Physical Review Letters}, 55:\penalty0 1039--1042, 1985.
+\newblock \doi{10.1103/PhysRevLett.55.1039}.
+
+\end{thebibliography}

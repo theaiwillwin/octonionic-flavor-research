@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9642,
+  "call_index": 1,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_R6YhGbSvDPGMwj1DIALhmlgK",
+    "call_id": "call_R6YhGbSvDPGMwj1DIALhmlgK",
+    "response_item_id": "fc_071f367ba0e10612016a5530fe239c81919d35cd98c16b5a70",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"latex-arxiv-preparation\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "latex-arxiv-preparation"
+  }
+}

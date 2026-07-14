@@ -1,0 +1,28 @@
+RECONSTRUCTED_VERIFIER_SHA256=0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5
+REPRESENTATIVE=D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py
+DUPLICATE_VERSIONS=2
+EXIT_CODE=0
+--- STDOUT ---
+PASS: located canonical Stage-H multiplication functions
+PASS: project kernel multiplication matches canonical Stage-H source on all basis pairs
+PASS: project associator tensor matches canonical Stage-H source
+PASS: generated structural gate is PASS
+PASS: all generated sub-gates pass
+PASS: result carries honesty status
+PASS: original operator obeys singular sum
+PASS: modified operator breaks old singular sum
+PASS: modified operator is full rank
+PASS: modified operator is non-hollow
+PASS: report contains: The sum rule does **not** force every three-generation spectrum to use t
+PASS: report contains: It is also incorrect to identify the Wolfenstein/Cabibbo parameter direc
+PASS: report contains: s_1 = O(1)
+PASS: report contains: s_3 = O(epsilon^2)
+PASS: report contains: STRUCTURAL_CAPACITY_ONLY_NOT_HIERARCHY_DERIVATION
+PASS: report contains: STANDARD MODEL MASS HIERARCHY:
+  not derived
+PASS: report contains: G2-COVARIANT LEFT-RIGHT OPERATOR
+PASS: Markdown code fences are balanced
+PASS: report has no hidden control characters
+REPORT_LINES= 407
+FORMAL_RESEARCH_PROPOSAL_VERIFICATION: PASS
+--- STDERR ---

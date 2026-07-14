@@ -1,0 +1,7 @@
+{
+  "action": "patch",
+  "file_path": "references/flavor-higgs-wedge-locked-results.md",
+  "name": "verified-algebra-workflow",
+  "new_string": "A CKM-independent derivation/selector, formal `n=7` emptiness, global boundedness/stability of the complete potential, RG flow, FCNC safety, scalar spectra, collider predictions, PMNS transfer, or a U...[truncated]",
+  "old_string": "A reproduced CKM anchor, formal `n=7` emptiness, global boundedness/stability of the complete potential, RG flow, FCNC safety, scalar spectra, collider predictions, PMNS transfer, or a UV completion."
+}

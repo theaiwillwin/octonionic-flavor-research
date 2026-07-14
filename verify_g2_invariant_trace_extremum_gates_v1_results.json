@@ -1,0 +1,87 @@
+{
+  "schema": "verify_g2_invariant_trace_extremum_gates_v1",
+  "inputs": {
+    "source": "D:\\Projects\\FINALFUCKINGTIME\\fn_joint_ckm_results.json",
+    "source_sha256": "a9a4e352fd174835be088fe053fc0191b5d31f648033e2ca94975c80324e66d7",
+    "absolute_results": "D:\\Projects\\can_o_worms\\g2_invariant_trace_extremum_gate_v2_results.json",
+    "relative_results": "D:\\Projects\\can_o_worms\\g2_invariant_relative_energy_extremum_gate_v1_results.json"
+  },
+  "checks": {
+    "source_hash_matches_absolute_result": true,
+    "source_hash_matches_relative_result": true,
+    "raw_single_invariants_reproduced": true,
+    "raw_pair_invariants_reproduced": true,
+    "absolute_candidate_values_reproduced": true,
+    "relative_balance_values_reproduced": true,
+    "absolute_gradient_norms_reproduced_with_qr_retraction": true,
+    "relative_gradient_norms_reproduced_with_qr_retraction": true,
+    "all_absolute_gradients_nonzero": true,
+    "all_relative_gradients_nonzero": true,
+    "archived_mass_operators_reconstructed": true,
+    "archived_singular_ratios_reconstructed": true,
+    "frame_basis_gauge_invariance": true,
+    "g2_lie_algebra_dimension_is_14": true,
+    "finite_g2_matrix_preserves_phi": true,
+    "finite_g2_matrix_is_orthogonal": true,
+    "finite_g2_covariance_of_all_raw_invariants": true,
+    "reported_absolute_conclusion_is_negative": true,
+    "reported_relative_conclusion_is_negative": true,
+    "reported_recognizable_lists_are_empty": true
+  },
+  "residuals": {
+    "raw_single_max_abs_error": 1.7763568394002505e-15,
+    "raw_pair_max_abs_error": 3.552713678800501e-15,
+    "absolute_value_max_abs_error": 4.440892098500626e-16,
+    "relative_value_max_abs_error": 6.938893903907228e-17,
+    "absolute_gradient_norm_max_abs_error": 9.89340520618498e-09,
+    "relative_gradient_norm_max_abs_error": 2.943352228612639e-10,
+    "minimum_absolute_gradient_norm": 0.19608119932334608,
+    "minimum_relative_gradient_norm": 0.008204050044147903,
+    "mass_operator_reconstruction": {
+      "down": {
+        "matrix_normalized_max_abs_error": 0.0,
+        "singular_ratio_max_abs_error": 0.0
+      },
+      "up": {
+        "matrix_normalized_max_abs_error": 0.0,
+        "singular_ratio_max_abs_error": 8.673617379884035e-19
+      }
+    },
+    "frame_basis_gauge_raw_max_abs_error": 1.4210854715202004e-14,
+    "g2_constraint_rank": 7,
+    "g2_constraint_singular_values": [
+      8.485281374238573,
+      8.485281374238571,
+      8.485281374238571,
+      8.485281374238571,
+      8.485281374238571,
+      8.48528137423857,
+      8.48528137423857,
+      9.219792230557904e-16,
+      9.219792230557839e-16,
+      9.219792230557837e-16,
+      9.205354310457874e-16,
+      9.205354310457872e-16,
+      9.190893709943343e-16,
+      7.790647434887184e-16,
+      6.507164882282349e-31,
+      2.033228106618519e-31,
+      7.225200599883465e-32,
+      1.75436138016381e-32,
+      1.7454863318834183e-32,
+      1.5903200778111972e-32,
+      0.0
+    ],
+    "g2_exponential_imaginary_residual": 6.088309658075705e-16,
+    "g2_matrix_orthogonality_max_abs_error": 1.5543122344752192e-15,
+    "g2_matrix_determinant": 0.9999999999999997,
+    "g2_phi_transform_max_abs_error": 1.1102230246251565e-15,
+    "g2_raw_invariant_max_abs_error": 2.842170943040401e-14,
+    "posthoc_combo_random_sample_mean": -1.9906345186730954,
+    "posthoc_combo_random_sample_std": 1.2767263239741027e-10,
+    "posthoc_combo_random_sample_range": 8.429303921531073e-10
+  },
+  "posthoc_combo_interpretation": "global_algebraic_redundancy_if_random_sample_std_is_near_zero; not evidence for a vacuum extremum",
+  "all_pass": true,
+  "verdict": "PASS_INDEPENDENT_REPRODUCTION_OF_NEGATIVE_EXTREMUM_GATE"
+}

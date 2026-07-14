@@ -1,0 +1,628 @@
+  Freudenthal Moment-Map Localization of CKM Mixing
+
+Diagnostic Fits and Attractor No-Go Gates in an Exceptional Jordan Framework
+
+                                        Matthew Connelly
+                                            11 July 2026
+
+                                                             Abstract
+
+            We study a numerical and algebraic route for obtaining quark mixing from the com-
+        pact moment map of a Freudenthal triple system over the exceptional Jordan algebra
+        J3(O). Starting from two octonionic Jordan elements Ju, Jd constructed from a shared
+        seven-dimensional frame, we define sector states in the Freudenthal space
+
+                                                  = (, , X, Y )  F(J3(O))
+
+        and project their compact generation moment maps onto a Hermitian 3 × 3 observable. We
+        verify that the scalar slots ,  are inert for the generation u(3) moment map, so scalar
+        vacuum amplitudes alone cannot generate Cabibbo-Kobayashi-Maskawa (CKM) mixing.
+        We then show that a tau-real complex Jordan-slot ansatz,
+
+                          Xu = Ju + rJd, Yu = Xu, Xd = sJu + Jd, Yd = Xd,
+
+        can reproduce the observed CKM magnitudes and Jarlskog invariant to numerical precision
+        for
+
+                                             r  0.3887831255 + 0.2822870282 i,
+                                             s  0.2372949892 - 0.5117538711 i.
+
+        This is a four-real-parameter diagnostic localization, not a derivation. To test whether the
+        fitted coefficients are selected by invariant dynamics, we implement the full Freudenthal
+        quartic-gradient/attractor map T () = -1d() and examine self-attractor, coupled-
+        plane, primitive fixed-charge, and primitive scalar-matched charge closures. All direct at-
+        tractor closures tested fail to select the CKM-fitting coefficients. Thus the present work
+        localizes the missing structure to complex two-Higgs-like Jordan-slot mixing, while estab-
+        lishing that generic E7/F4 orbit kinematics plus direct Freudenthal attractor closure is
+        insufficient for a zero-parameter CKM derivation.
+
+Keywords: exceptional Jordan algebra; Freudenthal triple system; CKM matrix; octonions;
+moment map; Jarlskog invariant; E7; attractor equation.
+
+Contents
+
+1 Introduction                                                                2
+
+1.1 Summary of contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+
+1.2 Honesty boundary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+2 Exceptional Jordan and Freudenthal preliminaries                            3
+
+3 Shared-frame Jordan data                                                    4
+
+4 Compact Freudenthal moment map                                              4
+
+5 Scalar-slot inertness                                                       5
+
+                                  1
+6 Diagnostic complex Jordan-slot mixing                5
+
+6.1 Comparison with insufficient ansaetze . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+7 Two-Higgs interpretation of the fitted coefficients  6
+
+8 Failed invariant state-selection actions             7
+
+9 Full Freudenthal attractor gate                      7
+
+9.1 Closure tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+9.2 Attractor verdict . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+10 Interpretation                                      9
+
+11 Conclusion                                          9
+
+A Numerical checkpoint table                           9
+
+B Reproducibility note                                 9
+
+1 Introduction
+
+The observed quark mixing matrix is usually represented by the Cabibbo-Kobayashi-Maskawa
+matrix VCKM, whose small but nonzero complex phase is measured by the Jarlskog invariant
+JCP [1, 2, 3, 4]. A long-standing theoretical question is whether the CKM hierarchy and CP
+phase can be derived from a deeper algebraic or geometric structure rather than fitted as free
+Standard Model parameters.
+
+    Exceptional Jordan and Freudenthal structures are natural candidates for such a program
+because J3(O), the Albert algebra of 3 × 3 Hermitian octonionic matrices, carries cubic norm,
+adjoint, and exceptional symmetry data related to F4, E6, E7, and E8 constructions [5, 6, 7, 10].
+The Freudenthal triple system F(J3(O)) built over J3(O) carries a symplectic form and quartic
+invariant whose automorphism group is of type E7.
+
+    This paper reports a targeted verification program around the following question:
+
+       Can a compact Freudenthal moment map, applied to octonionic Jordan data from
+       a shared frame, reproduce or derive CKM mixing?
+
+    The answer is mixed. The moment-map observable is rigid enough to localize a highly
+specific complex mixing mechanism. However, the direct invariant state-selection and attractor
+equations tested here do not derive the necessary complex coefficients.
+
+    The central result is therefore deliberately modest:
+
+       The CKM matrix can be reproduced, to numerical precision, by complex tau-real
+       mixing of two exceptional Jordan slots inside a Freudenthal state. But the tested
+       invariant Freudenthal attractor closures do not select the required coefficients. The
+       result is structural localization, not a zero-parameter CKM proof.
+
+1.1 Summary of contributions
+
+We make four concrete contributions.
+
+  (i) We formulate the compact generation moment map for Freudenthal states  = (, , X, Y )
+       and reconstruct a Hermitian 3 × 3 generation observable H.
+
+                                   2
+  (ii) We prove and numerically verify that the scalar slots ,  are inert for the u(3)gen pro-
+       jection. Hence scalar vacuum amplitudes alone cannot change CKM eigenvectors in this
+       observable.
+
+ (iii) We identify a complex tau-real Jordan-slot ansatz that reproduces CKM magnitudes and
+       the Jarlskog invariant at the level of a diagnostic fit.
+
+ (iv) We implement the full Freudenthal quartic-gradient/attractor map and show that the
+       natural direct attractor closures fail to select the CKM-fitting coefficients.
+
+1.2 Honesty boundary
+
+The numerical fit reported below has four real fitting parameters:
+                                        Re(r), Im(r), Re(s), Im(s).
+
+It is not a prediction unless an independent invariant principle selects r, s without CKM data
+in the objective. Sections 8 and 9 are included precisely to document which natural completion
+attempts fail.
+
+2 Exceptional Jordan and Freudenthal preliminaries
+
+Let the real octonion algebra be denoted by O, and let
+
+                                    J3(O) = J3(O)
+
+be the exceptional Jordan algebra of 3 × 3 Hermitian octonionic matrices with Jordan product
+
+We use the trace pairing                        1
+                                    X  Y = 2 (XY + Y X).
+
+                                      X, Y  = Tr(X  Y ).
+
+The Jordan adjoint X# is defined by the usual cubic identity
+
+                                    X  X# = N (X)I,
+
+where N (X) is the determinant/cubic norm. Equivalently,
+
+                       X# = X2 - (Tr X)X + 1 (Tr X)2 - Tr(X2) I.  (1)
+                                    2
+
+The polarization of the adjoint is
+
+                          X × Y = (X + Y )# - X# - Y #.           (2)
+
+The Freudenthal triple system over J3(O) is
+
+                          F(J3(O)) = R  R  J3(O)  J3(O),          (3)
+
+with elements written
+
+                                     = (, , X, Y ).               (4)
+
+The symplectic form is taken as
+
+ (, , X, Y ), (, , Z, W ) =  -  + X, W  - Y, Z .                  (5)
+
+The quartic invariant is
+
+() = A2 - 4 N (X) + N (Y ) - X#, Y # , A =  - X, Y  .             (6)
+
+For complexified states we use the real structure
+
+                                  (, , X, Y ) = , , Y , X .       (7)
+
+A tau-real state satisfies   = .
+
+                                    3
+3 Shared-frame Jordan data
+
+The numerical gates use a shared orthonormal frame in R7, written
+
+                      Q = (g1, g2, g3, hu, k1, hd, k2)  SO(7).           (8)
+
+The first three vectors are interpreted as generation directions, while hu, hd are two sector vacua.
+For a vacuum h, define octonionic associator edge vectors
+
+          z(h) = [g1, g2, h], x(h) = [g2, g3, h], y(h) = [g3, g1, h].    (9)
+
+From these, construct a Hermitian exceptional Jordan element
+
+                           y2 + z2 z                                   
+                                                              y
+                      J(h) =  z                                        
+                                        z2 + x2               x .        (10)
+
+                                     y           x    y2 + x2
+
+We write
+
+                           Ju = J (hu), Jd = J (hd).                     (11)
+
+The frame used in the verification was obtained from the previously studied stationary action
+
+                                                                    1
+                      S(Q) = (1, Ju, Jd, 1) - 2N (Jd) - 2 Pchiral(Q), (12)
+
+where hats denote norm-normalized Jordan elements. The numerical stationary checkpoint was
+
+                                        S  -0.4736913740,
+
+                            - 2Nd  -0.3521997982,
+
+                                          -0.1080838760,
+
+                                        Nd  0.1220579611,
+
+                                     Pchiral  0.2429831518.              (13)
+
+The frame construction is not claimed to be a final CKM derivation. It supplies the shared
+octonionic arena in which the moment-map and attractor gates below are tested.
+
+4 Compact Freudenthal moment map
+
+Let T  u(3)gen act on the generation indices of the Jordan slots. For compact probes we use
+T = iA, where A = A is a Hermitian 3 × 3 test matrix. The compact moment map is
+
+                                                            i
+                                               µ(T ) = 2 ( , T ). (14)
+
+The Hermitian generation observable H is reconstructed by the condition
+
+                                     Tr3(HA) = µ(iA)                     (15)
+
+for all Hermitian A.
+
+For two sector states u, d, diagonalizing Hu, Hd gives unitary eigenbasis matrices Uu, Ud,
+
+and the observable mixing matrix is
+
+                                        V = UuUd.                        (16)
+
+The absolute matrix |V | and Jarlskog invariant
+
+                           JCP = Im V11V22V 12V 21                       (17)
+
+are compared to CKM data.
+
+                                        4
+5 Scalar-slot inertness
+
+A first possibility is that the missing CKM degrees of freedom live in the scalar slots ,  of the
+Freudenthal state. This is false for the compact generation projection.
+
+Proposition 1 (Scalar slots are inert for u(3)gen). Assume T  u(3)gen acts only on the Jor-
+dan/generation slots, so that
+
+                                                T  = 0, T  = 0.
+
+Then changing ,  cannot affect the reconstructed generation observable H defined by (14)-
+(15).
+
+Proof. The scalar part of the symplectic form is
+
+                                                         - .
+
+For T  = (0, 0, T X, T Y ), the scalar contribution to ( , T ) is therefore zero. Thus µ(T )
+depends only on the Jordan slots X, Y and their response to T .
+
+The numerical check over random scalar slots gave
+
+      max H(,,X,Y ) - H(1,1,X,Y ) = 0                                 (18)
+
+       ,
+
+within exact floating-point equality for the implemented probe. Consequently, scalar amplitudes
+may matter for a larger state-selection problem, but not for the compact generation eigenvectors.
+
+6 Diagnostic complex Jordan-slot mixing
+
+The successful diagnostic ansatz is tau-real and mixes the two sector Jordan elements inside
+the Jordan slots:
+
+      u = (1, 1, Xu, Xu),                             Xu = Ju + rJd,  (19)
+      d = (1, 1, Xd, Xd),
+                                                      Xd = sJu + Jd.  (20)
+
+A four-real-parameter search over r, s  C gives
+
+      r  0.3887831255168539 + 0.28228702817500606 i,                  (21)
+
+      s  0.23729498924317205 - 0.5117538711322562 i.                  (22)
+
+At this point the moment-map reconstruction yields
+                                                             
+        0.97435246 0.22499704 0.00369001
+                                                             
+      |V |  0.22486405 0.97349226 0.04182082 ,                        (23)
+
+        0.00856999 0.04109930 0.99911831
+
+with
+
+      |V | - |VCKM|F  6.13 × 10-6,                                    (24)
+
+                                  JCP  3.0765591558 × 10-5,           (25)
+
+        JCP/JCP target  1.0000000018. (26)
+
+The extracted mixing angles were
+
+                                  s12  0.2249985724,
+
+                                  s23  0.0418211054,
+
+                                  s13  0.0036900121.                  (27)
+
+Remark 1. Equations (21)-(26) are a diagnostic fit. They show where the missing structure
+must live if this framework is correct. They do not, by themselves, prove that CKM has been
+derived.
+
+                                  5
+6.1 Comparison with insufficient ansaetze
+
+Several nearby ansaetze fail. A raw state
+
+                                   = (, , Ju, Jd)
+
+produces a single real moment-map observable, not two sector observables. Slot-separated real
+
+sector observables give
+
+                                  0.99562284 0.09034180 0.02394843
+
+                                                                  
+                         |V |  0.08918675 0.99497214 0.04556501 ,            (28)
+
+                                  0.02794445 0.04322968 0.99867427
+
+with Frobenius error  0.195598 and JCP = 0.
+    A non-real independent-slot ansatz
+
+                                u = (Ju, rJd), d = (sJu, Jd)
+
+can improve magnitudes but still gives no CP violation. A representative best search had
+magnitude error  0.010071 but
+
+                                             JCP/JCP target  5.8 × 10-18.
+
+Complex interference inside the same Jordan slot is therefore essential.
+
+7 Two-Higgs interpretation of the fitted coefficients
+
+The coefficients in (21)-(22) naturally form a two-Higgs-like mixing matrix
+
+                                  C = 1 r . (29)
+                                          s1
+
+The fitted point has                                               
+              |r|  0.48045633,    arg(r)  0.6280146853  5 - 0.0003038454, (30)
+              |s|  0.56409302,
+                                  arg(s)  -1.1366165592.                     (31)
+
+The rephasing-invariant phase is
+
+                                arg C11C22C12C21  0.5086018738.              (32)
+
+Furthermore,
+
+                                det C  0.7632822330 + 0.1319759722 i,        (33)
+
+                         | det C|  0.7746079166,                             (34)
+
+                         arg det C  0.1712130354.                            (35)
+
+The singular values of C are approximately
+
+                         (C)  (1.51216322, 0.51225153), 1  2.95199358. (36)
+                                                                            2
+
+    This supports a concrete physical interpretation: the CKM phase is not attached to scalar
+Freudenthal amplitudes, but to the complex relative orientation of two Jordan/Yukawa struc-
+tures. In model-building language, the ansatz resembles a two-Higgs or GUT mixing matrix for
+primitive Yukawa sectors. The problem is then to derive (29), not to tune it.
+
+                                             6
+8 Failed invariant state-selection actions
+
+The first completion attempt was to extend the frame action to a direct action for r, s. Write
+
+X = Ju + rJd , Y = sJu + Jd . (37)
+Ju + rJd                                              sJu + Jd
+
+The most direct analogue of the frame action is
+
+                                                1
+Sr,s = Re [(1, 1, X, Y ) - 2N (Y )] - 2 Pmoment. (38)
+
+At the CKM-fitting point, the numerical gradient was
+
+Sr,s  (-0.3276, 1.4626, -0.4019, -0.9533), Sr,s  1.82.                               (39)
+
+Thus the fitted point is not stationary.
+    Table 1 summarizes the direct action and closure failures.
+
+Candidate                                        Result
+Re[(1, 1, X, Y ) - 2N (Y )] - 21 Pmoment
+Re[(1, 1, X, Y ) - 2N (Y )]                      CKM point not stationary; gradient
+(u) + (d) - 21 Pmoment                           norm  1.82
+Jordan-adjoint plane closure                     CKM point not stationary;
+                                                 minimization goes to boundary
+Mutual sharp/dual closure                        selects almost-real coefficients;
+                                                 JCP  0
+                                                 best closure point real and
+                                                 identity-like
+                                                 best point almost real; no CP
+
+Table 1: Direct invariant action and closure tests for deriving r, s. Each test excludes CKM
+from the objective. None selects the diagnostic coefficients (21)-(22).
+
+These failures motivate the full attractor test of the next section.
+
+9 Full Freudenthal attractor gate
+
+The Freudenthal quartic-gradient map T () is defined by
+
+(T (), ) = d().                                                                      (40)
+
+For  = (, , X, Y ) and A =  - X, Y , the implemented components are
+
+T = 2A - 4N (Y ),                                                                    (41)
+
+T = -2A + 4N (X),                                                                    (42)
+
+TX = -2AX - 4 Y # - Y × X# ,                                                         (43)
+
+TY = 2AY + 4 X# - X × Y # .                                                          (44)
+
+We tested general tau-real sector states with scalar slots,
+
+u = (au, au, Ju + rJd, Ju + rJd),                                                    (45)
+
+d = (ad, ad, sJu + Jd, sJu + Jd).                                                    (46)
+
+                                          7
+The diagnostic CKM point still gives
+
+                                        |V | - |VCKM|F  1.0362 × 10-5,
+                                               JCP/JCP target  0.999973, (47)
+
+under the moment-map observable. We then tested whether it is selected by direct attractor
+closures.
+
+9.1 Closure tests
+
+The residual for a closure condition is defined as the normalized squared distance of T () from
+the proposed target span. Four closures were tested.
+
+Self-attractor closure.
+
+                          T (u)  span{u}, T (d)  span{d}.                         (48)
+
+At the CKM point,
+
+                                  Rself  2.0018259094.                            (49)
+
+Optimizing the residual selected
+
+                          r  0.9669745469 + 0.0531135081i,
+
+                          s  0.3274287194 - 0.3362472833i,                        (50)
+
+with CKM error  0.1391 and JCP/JCP target  0.0634.
+
+Coupled-plane attractor closure.
+
+                          T (u), T (d)  span{u, d}.                               (51)
+
+At the CKM point,
+
+                                  Rplane  6.9566846713.                           (52)
+
+The best search collapsed near identity mixing, with CKM error  0.3250 and essentially zero
+CP.
+
+Primitive fixed-charge closure. Let
+
+                          u = (1, 1, Ju, J u), d = (1, 1, Jd, J d).               (53)
+
+The closure condition is
+
+                                  T (u), T (d)  span{u, d}.                       (54)
+
+At the CKM point,
+
+                                  Rprim  2.6022987358.                            (55)
+
+The best search was almost real/no-CP, with CKM error  0.2191.
+
+Primitive scalar-matched charge closure.              Here the primitive charges share the scalar
+slots:
+                                                      d(ad) = (ad, ad, Jd, J d).  (56)
+                          u(au) = (au, au, Ju, J u),
+
+At the CKM point the residual is again
+
+                                  R  2.6022987358.                                (57)
+
+The best search reduced the CKM magnitude error to  0.0817 but over-produced CP:
+
+                                  JCP/JCP target  8.82.                           (58)
+
+                                     8
+9.2 Attractor verdict
+
+The full direct attractor gate is negative:
+
+       The generic Freudenthal attractor closure, even with complex scalar slots and prim-
+       itive charge spans, does not select the CKM-fitting r, s. A genuine derivation would
+       require an additional physically justified boundary charge or potential.
+
+10 Interpretation
+
+The tested structure separates cleanly into three layers.
+
+  (1) Orbit geometry. The E7/F4 orbit supplies kinematics and admissible state geometry.
+       It is too large by itself to select r, s: dim(E7) - dim(F4) = 133 - 52 = 81.
+
+  (2) Two-Higgs/GUT boundary data. The fitted coefficients behave as a two-sector Higgs-
+       basis matrix C with nontrivial rephasing-invariant phase and singular-value ratio. This is
+       where the CKM phase is localized.
+
+  (3) Attractor dynamics. The direct Freudenthal attractor map is the natural dynamical
+       selector, but the closures tested here do not choose the fitted matrix C.
+
+    In physical terms, the result resembles the following situation. The exceptional moment-map
+observable identifies the correct kind of complex "instrument tuning": the up-type and down-
+type Jordan/Yukawa structures must be mixed inside the same FTS Jordan slots. However, the
+instrument is not yet tuned by the generic attractor equations. A further boundary principle,
+possibly from a larger GUT/Higgs potential or a constrained charge orbit, would be needed.
+
+11 Conclusion
+
+We have tested a concrete exceptional-algebraic path toward CKM mixing. The compact
+
+Freudenthal moment map over J3(O) is a viable observable map, and complex tau-real Jordan-
+slot mixing reproduces CKM to numerical precision. The diagnostic coefficients are
+
+               r  0.3887831255 + 0.2822870282 i,
+               s  0.2372949892 - 0.5117538711 i.
+
+But scalar slots are inert for the generation projection, direct invariant actions do not make the
+fitted point stationary, and full Freudenthal attractor closures do not select it.
+
+    The present status is therefore:
+
+structural localization, not zero-parameter CKM derivation.                                  (59)
+
+The next mathematically meaningful step would be to propose a physically justified boundary
+charge or Higgs/GUT potential whose invariant stationary equations select the matrix C in (29)
+without CKM data in the objective.
+
+A Numerical checkpoint table
+
+B Reproducibility note
+
+All numerical results quoted here were obtained from deterministic targeted verification scripts
+using double-precision linear algebra. The reported gates are designed as pass/fail checks: either
+the CKM-fitting point is stationary/closed under the tested invariant condition, or it is not. The
+negative attractor conclusions are insensitive to the final 10-5-level variation in the diagnostic
+CKM fit.
+
+               9
+Gate                             Quantity        Value
+
+Moment-map diagnostic            |V | - |VCKM|F  6.13 × 10-6
+Moment-map diagnostic            JCP/JCP target  1.0000000018
+Attractor rerun                  |V | - |VCKM|F  1.0362 × 10-5
+Attractor rerun                  JCP/JCP target  0.999973
+Self-attractor closure at fit    residual        2.0018259094
+Coupled-plane closure at fit     residual        6.9566846713
+Primitive-charge closure at fit  residual        2.6022987358
+
+Table 2: Principal numerical checkpoints. The small difference between the diagnostic and
+attractor rerun CKM errors comes from a slightly different shared-frame optimization tolerance.
+
+References
+
+ [1] N. Cabibbo, "Unitary Symmetry and Leptonic Decays," Physical Review Letters 10 (1963),
+      531-533.
+
+ [2] M. Kobayashi and T. Maskawa, "CP-Violation in the Renormalizable Theory of Weak
+      Interaction," Progress of Theoretical Physics 49 (1973), 652-657.
+
+ [3] C. Jarlskog, "Commutator of the Quark Mass Matrices in the Standard Electroweak Model
+      and a Measure of Maximal CP Nonconservation," Physical Review Letters 55 (1985), 1039-
+      1042.
+
+ [4] S. Navas et al. (Particle Data Group), "Review of Particle Physics," Physical Review D
+      110 (2024), 030001.
+
+ [5] T. A. Springer and F. D. Veldkamp, Octonions, Jordan Algebras and Exceptional Groups,
+      Springer Monographs in Mathematics, Springer, 2000.
+
+ [6] K. McCrimmon, A Taste of Jordan Algebras, Universitext, Springer, 2004.
+
+ [7] S. Krutelevich, "Jordan algebras, exceptional groups, and higher composition laws," Jour-
+      nal of Algebra 314 (2007), 924-977.
+
+ [8] R. B. Brown, "Groups of type E7," Journal für die reine und angewandte Mathematik 236
+      (1969), 79-102.
+
+ [9] H. Freudenthal, "Beziehungen der E7 und E8 zur Oktavenebene," Indagationes Mathemat-
+      icae 16 (1954), 218-230.
+
+[10] L. Borsten, M. J. Duff, S. Ferrara, A. Marrani, and W. Rubens, "Small Orbits," Physical
+      Review D 85 (2012), 086002.
+
+                                 10
+

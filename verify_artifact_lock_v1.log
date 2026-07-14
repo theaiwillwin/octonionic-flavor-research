@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "verification_kind": "independent artifact retention and hash-lock verification",
+  "snapshot_members": 1448,
+  "moved_temp_files": 92,
+  "checks": {
+    "lock_builder_reported_pass": true,
+    "archive_hash_matches_receipt": true,
+    "manifest_hash_matches_receipt": true,
+    "archive_member_set_exact": true,
+    "all_archive_member_hashes_match": true,
+    "zip_crc_test_passes": true,
+    "all_recorded_temp_moves_verified": true,
+    "all_moved_destinations_exist": true,
+    "all_moved_sources_absent": true,
+    "moved_destination_hashes_match": true,
+    "no_scoped_top_level_temp_files_remain": true,
+    "no_scoped_temp_trees_remain": true,
+    "no_claude_scratchpads_remain": true,
+    "all_preservation_files_are_read_only": true,
+    "deleted_temp_verifiers_reconstructed": true,
+    "successful_ad_hoc_receipt_preserved": true
+  }
+}

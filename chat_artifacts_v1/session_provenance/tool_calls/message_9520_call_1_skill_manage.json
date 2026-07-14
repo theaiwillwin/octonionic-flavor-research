@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9520,
+  "call_index": 1,
+  "tool_name": "skill_manage",
+  "call": {
+    "id": "call_CdCtKQvj4PoGDZVkHelMkDVT",
+    "call_id": "call_CdCtKQvj4PoGDZVkHelMkDVT",
+    "response_item_id": "fc_071f367ba0e10612016a552cb8572c8191a12f23b10d722229",
+    "type": "function",
+    "function": {
+      "name": "skill_manage",
+      "arguments": "{\"action\":\"patch\",\"name\":\"verified-algebra-workflow\",\"new_string\":\"  3. **Headline number reproducible from a recoverable artifact.** A manuscript number is verified only when generating code and inputs are recoverable. **Updated 2026-07-14:** the historical `6.13e-6` quark fit now meets that reproducibility condition through `locked_historical_fts_diagnostic_fit.json`, `historical_hermes_general_fts_state_recovered.py`, and `verify_locked_historical_fts_fit.py`; fresh end-to-end execution gives Frobenius `6.1281124074e-6`. This upgrades the number from `UNVERIFIED_BY_REPRODUCIBLE_ARTIFACT` to **REPRODUCED_HISTORICAL_DIAGNOSTIC_FIT_NOT_DERIVATION**. It does not remove target leakage or establish prediction.\",\"old_string\":\"  3. **Headline number reproducible from a recoverable artifact** — a number asserted in an arXiv manuscript is NOT verified unless the generating code AND inputs (e.g. the shared-frame `Q`) are recoverable. This session `connelly_fts_ckm_arxiv_2026.tex` asserts the 6.13e-6 CKM fit, but ALL `hermes-verify-*.py` generators were deleted from Temp and the frame `Q` was never published → **UNVERIFIED_BY_REPRODUCIBLE_ARTIFACT**. Record the gap; do not certify.\"}"
+    }
+  },
+  "parsed_arguments": {
+    "action": "patch",
+    "name": "verified-algebra-workflow",
+    "new_string": "  3. **Headline number reproducible from a recoverable artifact.** A manuscript number is verified only when generating code and inputs are recoverable. **Updated 2026-07-14:** the historical `6.13e-6` quark fit now meets that reproducibility condition through `locked_historical_fts_diagnostic_fit.json`, `historical_hermes_general_fts_state_recovered.py`, and `verify_locked_historical_fts_fit.py`; fresh end-to-end execution gives Frobenius `6.1281124074e-6`. This upgrades the number from `UNVERIFIED_BY_REPRODUCIBLE_ARTIFACT` to **REPRODUCED_HISTORICAL_DIAGNOSTIC_FIT_NOT_DERIVATION**. It does not remove target leakage or establish prediction.",
+    "old_string": "  3. **Headline number reproducible from a recoverable artifact** — a number asserted in an arXiv manuscript is NOT verified unless the generating code AND inputs (e.g. the shared-frame `Q`) are recoverable. This session `connelly_fts_ckm_arxiv_2026.tex` asserts the 6.13e-6 CKM fit, but ALL `hermes-verify-*.py` generators were deleted from Temp and the frame `Q` was never published → **UNVERIFIED_BY_REPRODUCIBLE_ARTIFACT**. Record the gap; do not certify."
+  }
+}

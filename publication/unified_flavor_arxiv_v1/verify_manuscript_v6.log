@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\Projects\can_o_worms\publication\unified_flavor_arxiv_v1\verify_manuscript_v6.py", line 230, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\Projects\can_o_worms\publication\unified_flavor_arxiv_v1\verify_manuscript_v6.py", line 112, in main
+    "appendix": next(
+                ^^^^^
+StopIteration

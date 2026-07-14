@@ -1,0 +1,8 @@
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+note: downloading caption.sty
+note: downloading caption3.sty
+note: downloading subcaption.sty
+error: hpdftex.def:207: Undefined control sequence
+note: Writing `build_v1\main_v1.log` (14.3466796875 KiB)
+error: halted on potentially-recoverable error as specified

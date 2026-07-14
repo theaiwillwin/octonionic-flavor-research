@@ -1,0 +1,27 @@
+{
+  "schema": "pmns-polar-link-reachability-sha-lock/v1",
+  "status": "PASS",
+  "manifest_file": "PMNS_POLAR_LINK_REACHABILITY_ARTIFACT_MANIFEST_v1.sha256",
+  "manifest_sha256": "ea6f5867c2491ab14e1d0e4e97fbb62c961a7f8aa45449577dd98f2b6987fba3",
+  "artifact_count": 3,
+  "checks": [
+    {
+      "file": "test_pmns_polar_link_reachability_v1.py",
+      "expected_sha256": "3c3f36291c879cfc9de1f9a8a1473982cb9fa587c72e4c7b7b471f241a8798ab",
+      "actual_sha256": "3c3f36291c879cfc9de1f9a8a1473982cb9fa587c72e4c7b7b471f241a8798ab",
+      "match": true
+    },
+    {
+      "file": "test_pmns_polar_link_reachability_v1_results.json",
+      "expected_sha256": "8b42e6c5b3aae8355bf7b9fd1dd9334770617c98778fac3d8215efb1c5a9bf99",
+      "actual_sha256": "8b42e6c5b3aae8355bf7b9fd1dd9334770617c98778fac3d8215efb1c5a9bf99",
+      "match": true
+    },
+    {
+      "file": "PMNS_POLAR_LINK_REACHABILITY_REPORT_v1.md",
+      "expected_sha256": "7039c6172fa03bc43cdb979fba8282d19450d4b9d915ad02ea29997c354806ca",
+      "actual_sha256": "7039c6172fa03bc43cdb979fba8282d19450d4b9d915ad02ea29997c354806ca",
+      "match": true
+    }
+  ]
+}

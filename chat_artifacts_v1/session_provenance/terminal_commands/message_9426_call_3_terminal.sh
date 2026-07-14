@@ -1,0 +1,1 @@
+sha256sum LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md verify_locked_historical_fts_fit.py historical_hermes_general_fts_state_recovered.py locked_historical_fts_diagnostic_fit.json && env -u PYTHONPATH /d/Projects/toe_new/.venv/Scripts/python.exe -m py_compile verify_locked_historical_fts_fit.py historical_hermes_general_fts_state_recovered.py

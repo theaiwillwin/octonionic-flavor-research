@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RJGI2b4oU6YzLISmiEglaWiVpnY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.05380&amp;start=0&amp;max_results=10</title>
+  <updated>2026-07-14T00:52:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2410.05380" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.05380v2</id>
+    <title>NuFit-6.0: Updated global analysis of three-flavor neutrino oscillations</title>
+    <updated>2025-10-28T13:33:51Z</updated>
+    <link href="https://arxiv.org/abs/2410.05380v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.05380v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an updated global analysis of neutrino oscillation data as of September 2024. The parameters $θ_{12}$, $θ_{13}$, $Δm^2_{21}$, and $|Δm^2_{3\ell}|$ ($\ell = 1,2$) are well-determined with relative precision at $3σ$ of about 13\%, 8\%, 15\%, and 6\%, respectively. The third mixing angle $θ_{23}$ still suffers from the octant ambiguity, with no clear indication of whether it is larger or smaller than $45^\circ$. The determination of the leptonic CP phase $δ_{CP}$ depends on the neutrino mass ordering: for normal ordering the global fit is consistent with CP conservation within $1σ$, whereas for inverted ordering CP-violating values of $δ_{CP}$ around $270^\circ$ are favored against CP conservation at more than $3.6σ$. While the present data has in principle $2.5$--$3σ$ sensitivity to the neutrino mass ordering, there are different tendencies in the global data that reduce the discrimination power: T2K and NOvA appearance data individually favor normal ordering, but they are more consistent with each other for inverted ordering. Conversely, the joint determination of $|Δm^2_{3\ell}|$ from global disappearance data prefers normal ordering. Altogether, the global fit including long-baseline, reactor and IceCube atmospheric data results into an almost equally good fit for both orderings. Only when the $χ^2$ table for atmospheric neutrino data from Super-Kamiokande is added to our $χ^2$, the global fit prefers normal ordering with $Δχ^2 = 6.1$. We provide also updated ranges and correlations for the effective parameters sensitive to the absolute neutrino mass from $β$-decay, neutrinoless double-beta decay, and cosmology.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-07T18:00:02Z</published>
+    <arxiv:comment>34 pages, 13 figures, 3 tables. Published version, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 12 (2024) 216</arxiv:journal_ref>
+    <author>
+      <name>Ivan Esteban</name>
+    </author>
+    <author>
+      <name>M. C. Gonzalez-Garcia</name>
+    </author>
+    <author>
+      <name>Michele Maltoni</name>
+    </author>
+    <author>
+      <name>Ivan Martinez-Soler</name>
+    </author>
+    <author>
+      <name>João Paulo Pinheiro</name>
+    </author>
+    <author>
+      <name>Thomas Schwetz</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP12(2024)216</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP12(2024)216" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,157 @@
+{
+  "schema": "complete_linked_pmns_matrix_v1",
+  "status": "complete_complex_matrix_produced",
+  "selected_model_case": "rademacher_12",
+  "selection_rule": "least angle-L1-residual among the three isolated, nondegenerate, full-rank-link cases; diagnostic only",
+  "raw_matrix_complex_pairs": [
+    [
+      [
+        -0.4705275375362263,
+        0.8696274737062538
+      ],
+      [
+        0.046528256631051174,
+        0.10508820642092796
+      ],
+      [
+        0.09439120070739593,
+        -0.015290023888085834
+      ]
+    ],
+    [
+      [
+        0.046528254826915395,
+        0.10508821579052884
+      ],
+      [
+        -0.3495803483722575,
+        0.20669712104741672
+      ],
+      [
+        -0.7009080173804203,
+        0.5749690598277561
+      ]
+    ],
+    [
+      [
+        -0.09439119103947016,
+        0.01529002466478485
+      ],
+      [
+        0.700908015746128,
+        -0.5749690633865214
+      ],
+      [
+        -0.26599278252431124,
+        0.3134372145360647
+      ]
+    ]
+  ],
+  "display_rephased_matrix_complex_pairs": [
+    [
+      [
+        0.9887608945567306,
+        5.551115123125783e-17
+      ],
+      [
+        0.11492784603346798,
+        1.3877787807814457e-17
+      ],
+      [
+        0.09439120070739593,
+        -0.015290023888085834
+      ]
+    ],
+    [
+      [
+        -0.1120114070437529,
+        0.025726567733645178
+      ],
+      [
+        0.21909980688051284,
+        -0.34194355446810426
+      ],
+      [
+        0.9065657552474423,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.019984374034510435,
+        -0.09350992778602851
+      ],
+      [
+        -0.5095636533940331,
+        0.7498042101298672
+      ],
+      [
+        0.4110900726253951,
+        2.7755575615628914e-17
+      ]
+    ]
+  ],
+  "absolute_value_matrix": [
+    [
+      0.9887608945567306,
+      0.11492784603346799,
+      0.09562156452120064
+    ],
+    [
+      0.11492785387048315,
+      0.4061158945638047,
+      0.9065657552474423
+    ],
+    [
+      0.09562155510186748,
+      0.9065657562409624,
+      0.4110900726253951
+    ]
+  ],
+  "row_phase_factors_complex_pairs": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      -0.7731463639822919,
+      -0.6342276404107294
+    ],
+    [
+      -0.6470425832119195,
+      -0.7624538645127626
+    ]
+  ],
+  "column_phase_factors_complex_pairs": [
+    [
+      -0.47587595760162776,
+      -0.8795124063802249
+    ],
+    [
+      0.4048475477170411,
+      -0.914384198850515
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "mixing_angles_deg": {
+    "theta13_deg": 5.487095704191807,
+    "theta12_deg": 6.629978876987016,
+    "theta23_deg": 65.60767367326375
+  },
+  "jarlskog": 0.0037119129620208913,
+  "determinant_raw_complex_pair": [
+    0.7724096085167198,
+    0.6351247095421876
+  ],
+  "checks": {
+    "raw_unitarity_residual": 6.661338147750939e-16,
+    "rephased_unitarity_residual": 6.661338147750939e-16,
+    "absolute_value_invariance_residual": 1.1102230246251565e-16,
+    "jarlskog_invariance_residual": 4.336808689942018e-19
+  },
+  "held_out_verdict": "FAIL_HELD_OUT_PMNS_ANGLES_IN_TESTED_TARGET_FREE_ENSEMBLE",
+  "claim_boundary": "This is a complete unitary model-output matrix from the best isolated diagnostic case. It failed the held-out NuFIT angle gate and is not a successful physical PMNS prediction."
+}

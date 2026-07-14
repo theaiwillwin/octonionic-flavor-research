@@ -1,0 +1,7 @@
+{
+  "action": "patch",
+  "file_path": "references/state4-db-mine-2026-07-13.md",
+  "name": "verified-algebra-workflow",
+  "new_string": "# state-4.db mine — outcome & on-disk artifact map (2026-07-13)\n\n> **SUPERSEDED 2026-07-14:** This first-pass audit searched message `content` but did not extract complete assistant `tool_calls`. The live profile `state.db` message 4051 contains the full deleted source; messages 4057–4058 preserve its patch; the recovered lock contains `Q_star,J_u,J_d,r,s` and reruns Frobenius `6.1281124e-6`. Do not use this file's “irrecoverable/closed” conclusion as current status. See `locked-historical-fts-fit-recovery-2026-07-14.md`. Its findings about the separate degenerate `extract_mixing` and constructed `locked_jordan_data.json` path remain historical evidence for that path.\n",
+  "old_string": "# state-4.db mine — outcome & on-disk artifact map (2026-07-13)\n"
+}

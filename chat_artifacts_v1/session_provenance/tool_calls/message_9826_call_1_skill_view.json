@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9826,
+  "call_index": 1,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_VkHlq7tdK22bTpXh56h8FoqO",
+    "call_id": "call_VkHlq7tdK22bTpXh56h8FoqO",
+    "response_item_id": "fc_071f367ba0e10612016a55371069388191b798bb07d11f747f",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"hermes-agent\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "hermes-agent"
+  }
+}

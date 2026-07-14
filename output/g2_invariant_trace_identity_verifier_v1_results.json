@@ -1,0 +1,22 @@
+{
+  "seed": 20260714,
+  "n_samples": 1024,
+  "vacuum_direction": "e7 (index 6)",
+  "identity_1": {
+    "formula": "A_XXh + 8*Tr(P_X hh^T) + 4*phi_XXh = 12",
+    "max_residual_h_e7": 1.4210854715202004e-14,
+    "max_residual_random_h": 1.0658141036401503e-14,
+    "aggregate_target": 48,
+    "aggregate_max_residual": 2.842170943040401e-14
+  },
+  "identity_2": {
+    "formula": "A_XXY + 8*Tr(P_X P_Y) + 4*phi_XXY = 36",
+    "max_residual": 4.973799150320701e-14,
+    "aggregate_target": 144,
+    "aggregate_max_residual": 1.1368683772161603e-13
+  },
+  "overall_max_residual": 1.1368683772161603e-13,
+  "tolerance": 1.5e-13,
+  "verdict": "IDENTITIES VERIFIED",
+  "interpretation": "These combinations have zero gradient everywhere and therefore select nothing. They are constant algebraic identities, not hidden vacuum extrema."
+}

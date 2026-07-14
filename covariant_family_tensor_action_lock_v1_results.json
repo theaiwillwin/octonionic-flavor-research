@@ -1,0 +1,59 @@
+{
+  "schema": "covariant_family_tensor_action_lock_v1",
+  "status": "DERIVED_AND_FROZEN_BEFORE_VACUUM_SEARCH",
+  "fields": {
+    "T_L": "positive Hermitian 3x3, Tr(T_L)=1, transforming as O_e^T T_L O_e",
+    "frames": "(L_e,R_e,L_nu,R_nu) in St(3,7)",
+    "A_h": "P_h+iJ_h"
+  },
+  "covariant_objects": {
+    "K_ab": "X_a^T A_h X_b",
+    "Sigma": "polar(K_LeLnu)",
+    "T_nu": "Sigma^dagger T_L Sigma",
+    "Y_e": "T_L K_LeRe",
+    "Y_nu": "T_nu K_LnuRnu",
+    "J_e": "Y_e Y_e^dagger",
+    "J_nu_shared": "Sigma Y_nu Y_nu^dagger Sigma^dagger"
+  },
+  "dimensionless_factors": {
+    "selector": "Disc(T_L)*det(T_L)^2",
+    "rank": "d(K)=|det K|^2/[Tr(K^dagger K)/3]^3 for K_LeLnu,K_LeRe,K_LnuRnu",
+    "noncommutation": "c(T,J)=||[T,J]||_F^2/[Tr(T^2)Tr(J^2)] for e and nu",
+    "chiral": "p=ImTr([T,J_e][T,J_nu][J_e,J_nu])/(product of commutator norms)"
+  },
+  "locked_action": {
+    "formula": "V_*=-s_T d(K_LeLnu)d(K_LeRe)d(K_LnuRnu)c(T,J_e)c(T,J_nu)p^2",
+    "free_continuous_coefficients": 0,
+    "CP": "even; nonzero chiral branches occur in conjugate pairs"
+  },
+  "logical_implications": {
+    "nonzero_score_implies_nondegenerate_full_rank_T": true,
+    "nonzero_score_implies_full_rank_three_links": true,
+    "nonzero_score_implies_rank_three_Ye_Ynu": true,
+    "isolation": "not implied; must be tested by generic starts and quotient Hessian"
+  },
+  "selector_self_orbit": {
+    "trace_one_positive_eigenvalues": [
+      0.0779851813528214,
+      0.27545060964470097,
+      0.6465642090024776
+    ],
+    "minimum_gap": 0.19746542829187957,
+    "determinant": 0.01388888828316635,
+    "score": 3.348979766803824e-07
+  },
+  "verification": {
+    "trials": 128,
+    "seed": 20260801,
+    "nonzero_generic_scores": 128,
+    "maximum_gauge_covariance_residual": 4.0931711144555684e-15,
+    "maximum_CP_even_residual": 0.0
+  },
+  "target_firewall": {
+    "observed_flavor_values_read": [],
+    "PMNS_or_mass_targets_in_action": false
+  },
+  "next_step": "generic-start joint optimization over frames and T_L, followed by the four simultaneous gates",
+  "claim_boundary": "This derives a coefficient-free covariant candidate and proves its nonzero-score rank implications. It does not prove a nonzero stationary vacuum exists or is isolated.",
+  "script_sha256": "fbe42a468f7ddea570f9feb3269faebd4e8c6e9e76680c5849e377802ec9657b"
+}

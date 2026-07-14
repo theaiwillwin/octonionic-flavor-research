@@ -1,0 +1,28 @@
+Process a (La)TeX document
+
+Usage: tectonic.exe [OPTIONS] <INPUT>
+
+Arguments:
+  <INPUT>  The file to process, or "-" to process the standard input stream
+
+Options:
+  -X                                Use experimental V2 interface (see `tectonic -X --help`)
+  -c, --chatter <CHATTER_LEVEL>     How much chatter to print when running [default: default]
+      --color <CLI_COLOR>           Enable/disable colorful log output [default: auto] [possible values: always, auto, never]
+  -f, --format <path>               The name of the "format" file used to initialize the TeX engine [default: latex]
+  -b, --bundle <BUNDLE>             Use this URL or path to find resource files instead of the default
+  -C, --only-cached                 Use only resource files cached locally
+      --outfmt <format>             The kind of output to generate [default: pdf]
+      --makefile-rules <dest_path>  Write Makefile-format rules expressing the dependencies of this run to <dest_path>
+      --pass <PASS>                 Which engines to run [default: default]
+  -r, --reruns <count>              Rerun the TeX engine exactly this many times after the first
+  -k, --keep-intermediates          Keep the intermediate files generated during processing
+      --keep-logs                   Keep the log files generated during processing
+      --synctex                     Generate SyncTeX data
+      --hide <hide_path>            Tell the engine that no file at <hide_path> exists, if it tries to read it
+  -p, --print                       Print the engine's chatter during processing
+  -o, --outdir <outdir>             The directory in which to place output files [default: the directory containing <input>]
+      --untrusted                   Input is untrusted -- disable all known-insecure features
+  -Z <option>                       Unstable options. Pass -Zhelp to show a list
+  -h, --help                        Print help
+  -V, --version                     Print version

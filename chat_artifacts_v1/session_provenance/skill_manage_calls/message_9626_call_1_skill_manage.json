@@ -1,0 +1,7 @@
+{
+  "action": "patch",
+  "file_path": "references/flavor-higgs-wedge-locked-results.md",
+  "name": "verified-algebra-workflow",
+  "new_string": "Use this reference when writing or reviewing Matthew's octonion/Jordan/FTS flavor manuscript. These are the safe claim boundaries updated through 2026-07-14; do not upgrade a reproduced diagnostic fit...[truncated]",
+  "old_string": "Use this reference when writing or reviewing Matthew's octonion/Jordan/FTS flavor manuscript. These are the safe claim boundaries as of 2026-07-13; do not upgrade them without a proof or a rerunnable ...[truncated]"
+}

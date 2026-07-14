@@ -1,0 +1,101 @@
+{
+  "schema": "third_tensor_flavor_orbit_invariance_gate_v1",
+  "status": "FAIL_FLAVOR_MAP_VARIES_ON_EXACT_ACTION_ORBIT",
+  "action_lock": "D:\\Projects\\can_o_worms\\third_tensor_isolated_action_lock_v6_results.json",
+  "target_firewall": {
+    "observed_flavor_values_read": [],
+    "comparison_to_PMNS_or_masses": "not_performed"
+  },
+  "phase_trials": {
+    "count": 96,
+    "seed": 20260728,
+    "tolerance": 1e-08
+  },
+  "baseline": {
+    "composite_v_gap": 8.881784197001252e-16,
+    "charged_lepton_singular_values_ascending": [
+      3.254627456958904e-17,
+      1.318557441186183e-16,
+      0.9504980912929955
+    ],
+    "neutrino_singular_values_ascending": [
+      1.962291935727139e-17,
+      8.28914893055022e-17,
+      0.41134508776306733
+    ],
+    "mixing_complex_pairs": [
+      [
+        [
+          -0.7589515683987849,
+          0.13517663113306785
+        ],
+        [
+          -0.6270923884764471,
+          0.11169123302857982
+        ],
+        [
+          1.280286996478199e-15,
+          1.264912051009764e-16
+        ]
+      ],
+      [
+        [
+          -0.6270923884764465,
+          0.11169123302858043
+        ],
+        [
+          0.7589515683987847,
+          -0.13517663113306772
+        ],
+        [
+          1.5961031479106574e-16,
+          -2.390113391231678e-17
+        ]
+      ],
+      [
+        [
+          9.617158066584778e-16,
+          5.553603262349263e-16
+        ],
+        [
+          4.834887322875456e-16,
+          2.1957285663514622e-16
+        ],
+        [
+          0.8161788739045985,
+          0.5777993127304853
+        ]
+      ]
+    ],
+    "mixing_abs": [
+      [
+        0.7708957158912358,
+        0.636961376553194,
+        1.2865204305875073e-15
+      ],
+      [
+        0.6369613765531935,
+        0.7708957158912357,
+        1.6138995256829837e-16
+      ],
+      [
+        1.1105504872505935e-15,
+        5.310118582667777e-16,
+        1.0
+      ]
+    ],
+    "jarlskog": 6.245004513516506e-17
+  },
+  "maximum_orbit_residuals": {
+    "charged_lepton_spectrum": 0.9460740320568621,
+    "neutrino_spectrum": 0.7433492500402765,
+    "mixing_absolute_entries": 0.7706165099687087,
+    "jarlskog": 2.8449465006019636e-16
+  },
+  "composite_v_gap_min_max": [
+    0.0,
+    3.552713678800501e-15
+  ],
+  "prediction_isolated": false,
+  "claim_boundary": "Observed flavor was not consulted. If this gate fails, the action is structurally isolated only after quotienting a symmetry that the proposed flavor map does not respect, so its PMNS output is not a prediction."
+}

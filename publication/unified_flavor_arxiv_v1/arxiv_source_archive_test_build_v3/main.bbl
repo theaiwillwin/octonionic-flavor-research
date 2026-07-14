@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Baez2002}
+John~C. Baez.
+\newblock The octonions.
+\newblock {\em Bulletin of the American Mathematical Society}, 39(2):145--205,
+  2002.
+
+\bibitem{Bryant1987}
+Robert~L. Bryant.
+\newblock Metrics with exceptional holonomy.
+\newblock {\em Annals of Mathematics}, 126(3):525--576, 1987.
+
+\bibitem{AbsilMahonySepulchre2008}
+P.-A. Absil, Robert Mahony, and Rodolphe Sepulchre.
+\newblock {\em Optimization Algorithms on Matrix Manifolds}.
+\newblock Princeton University Press, Princeton, NJ, 2008.
+
+\bibitem{KobayashiMaskawa1973}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP}-violation in the renormalizable theory of weak interaction.
+\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
+
+\bibitem{Jarlskog1985}
+Cecilia Jarlskog.
+\newblock Commutator of the quark mass matrices in the standard electroweak
+  model and a measure of maximal {CP} nonconservation.
+\newblock {\em Physical Review Letters}, 55:1039--1042, 1985.
+
+\bibitem{Esteban2024}
+Ivan Esteban, M.~C. Gonzalez-Garcia, Michele Maltoni, Ivan Martinez-Soler,
+  Jo{\~a}o~Paulo Pinheiro, and Thomas Schwetz.
+\newblock {NuFit-6.0}: Updated global analysis of three-flavor neutrino
+  oscillations.
+\newblock {\em Journal of High Energy Physics}, 12:216, 2024.
+
+\end{thebibliography}

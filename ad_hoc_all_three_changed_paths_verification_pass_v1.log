@@ -1,0 +1,12 @@
+AD_HOC_VERIFICATION: PASS
+VERIFICATION_KIND: OS-temp focused probe; NOT canonical suite green
+SCOPE: all three changed Python paths imported and exercised end-to-end
+TEMP_VERIFIER_PATH: C:/Users/theai/AppData/Local/Temp/hermes-verify-6tqiafow.py
+TEMP_VERIFIER_CLEANED: True
+EXIT_CODE: 0
+INNER_CHANGED_VERIFIER_EXIT: 0
+INNER_GATE_EXIT: 0
+INNER_CERTIFICATE_EXIT: 0
+HESSIAN_COUNTS_NEG_ZERO_POS: 0/23/33
+
+Non-fatal note: PyTorch repeated the known scalar-conversion warning at target_free_bifundamental_no_go_gate_v1.py:199 after gradient/Hessian calculation. All assertions passed.

@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9772,
+  "call_index": 1,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_cfiwj3gOoj11C8iKwobncnTn",
+    "call_id": "call_cfiwj3gOoj11C8iKwobncnTn",
+    "response_item_id": "fc_071f367ba0e10612016a55336b739481918631ad4dd63b0e80",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"file_path\":\"references/su3-associator-lorentzian-gram.md\",\"name\":\"verified-algebra-workflow\"}"
+    }
+  },
+  "parsed_arguments": {
+    "file_path": "references/su3-associator-lorentzian-gram.md",
+    "name": "verified-algebra-workflow"
+  }
+}

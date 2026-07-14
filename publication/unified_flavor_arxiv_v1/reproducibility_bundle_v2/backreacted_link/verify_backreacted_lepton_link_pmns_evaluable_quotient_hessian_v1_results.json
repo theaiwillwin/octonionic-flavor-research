@@ -1,0 +1,108 @@
+{
+  "schema": "verify-backreacted-lepton-link-pmns-evaluable-quotient-hessian/v1",
+  "status": "PASS",
+  "verification_kind": "direct second-order autograd through true SVD on all full-rank nonunitary branches, plus independently verified unitary germ",
+  "assertions": {
+    "saturated_verifier_passed": true,
+    "eleven_nonunitary_full_rank_hessians_recomputed": true,
+    "five_unitary_rows_covered_by_saturated_verifier": true,
+    "five_rank_deficient_rows_confirmed_nonsmooth": true,
+    "spectra_agree": true,
+    "smooth_stable_count_reproduced": true,
+    "smooth_isolated_count_reproduced": true,
+    "no_pmns_compatible_stable_orbit": true
+  },
+  "maximum_sorted_spectrum_difference": 2.19596318018489e-06,
+  "checks": [
+    {
+      "label": "primitive_plus__pair_lr_sum_psi_PPQQ",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -4.801587087990775e-12,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 13,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 7.462564699523e-07
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPP",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -6.66957314673122e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 23,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 6.821405325041496e-07
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_psi_PPQQ",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -1.535878340362846e-14,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 13,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 9.436061105816407e-07
+    },
+    {
+      "label": "primitive_plus__triple_sum_phi_PQR",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -9.885470423554406e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 6,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 1.5048380959115093e-06
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_phi_symmetric",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -3.362051955840423e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 7,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 1.2155225554977278e-06
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_phi_symmetric",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -2.3431996966159602e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 7,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 1.2774641220403282e-06
+    },
+    {
+      "label": "primitive_minus__triple_sum_phi_PQR",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": 0.4376767411422352,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 0,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 1.071239868366547e-06
+    },
+    {
+      "label": "primitive_plus__triple_sum_sym_hPQRh",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -1.3437650007629498e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 9,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 5.134932727912656e-07
+    },
+    {
+      "label": "rademacher_29",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": 0.06056439946798451,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 0,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 1.3755701075979232e-06
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQPQ",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -1.987426539710291e-14,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 13,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 2.19596318018489e-06
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQ",
+      "orbit_rank": 8,
+      "direct_autograd_minimum": -8.205190138605154e-15,
+      "direct_autograd_negative_mode_count": 0,
+      "direct_autograd_zero_mode_count": 13,
+      "maximum_sorted_spectrum_difference_from_finite_difference": 8.329528569106515e-07
+    }
+  ],
+  "scientific_gate_reproduced": "FAIL_NO_PMNS_COMPATIBLE_STABLE_ORBIT_IN_PMNS_EVALUABLE_BRANCHES",
+  "honesty_boundary": "Verification covers all 16 smooth PMNS-evaluable branches and confirms five additional branches are nonsmooth. It does not certify global completeness of the underlying four-start search."
+}

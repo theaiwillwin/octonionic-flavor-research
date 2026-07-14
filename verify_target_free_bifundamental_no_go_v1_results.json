@@ -1,0 +1,21 @@
+{
+  "status": "INDEPENDENT_CERTIFICATE_VERIFICATION",
+  "source_result": "target_free_bifundamental_no_go_gate_v1_results.json",
+  "source_gate_verdict": "FAIL_STABLE_HIERARCHY_MINIMAL_ACTION_SELECTS_EXACT_DEGENERACY",
+  "samples": 256,
+  "random_pair_projector_identity_max_abs": 5.329070518200751e-15,
+  "global_bound_sum_of_squares_certificate_max_abs": 3.552713678800501e-14,
+  "O2_vacuum_pair_invariance_max_abs": 8.881784197001252e-15,
+  "O3_flavor_basis_invariance_max_abs": 7.105427357601002e-15,
+  "exact_vacuum_potential": -24.0,
+  "certificate_formula": "24-F = 8||P_A L||_F^2 + sum_f ||(I-P_Rf) T^T L||_F^2",
+  "checks": {
+    "source_result_reports_verified_negative_gate": true,
+    "projector_identity_all_random_pairs": true,
+    "sum_of_squares_certificate_all_random_fields": true,
+    "O2_pair_symmetry": true,
+    "O3_basis_symmetry": true,
+    "global_bound_saturated": true
+  },
+  "all_pass": true
+}

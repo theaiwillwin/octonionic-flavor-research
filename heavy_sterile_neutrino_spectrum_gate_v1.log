@@ -1,0 +1,9 @@
+WROTE D:\Projects\can_o_worms\heavy_sterile_neutrino_spectrum_results_v1.json
+OUTPUT_SHA256 dde9c2937272d98a3c6b3314362c14afbb605fd705efdaf5e5292cb992b883cb
+point_1
+  nu_c physical masses [GeV] [149556000000.0, 152852000000.0]
+  s physical masses [GeV] [6679200000000000.0, 6826400000000000.0]
+point_2
+  nu_c physical masses [GeV] [1584239999999.9998, 4046160000000.0]
+  s physical masses [GeV] [3960599999999999.5, 1.01154e+16]
+LOCAL_26_BRANCHING_DIMENSION_CHECK False

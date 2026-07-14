@@ -1,0 +1,3 @@
+teacher_type,noise,n_train,model,test_mse_mean,test_mse_std,train_mse_mean,params,repeats,wins,win_rate
+random_associator,0.0,16,AssociatorEnergy,0.16133000701665878,0.13131698858895316,0.15321043692529202,31,2,2,1.0
+random_associator,0.0,16,StiefelEnergy,0.7864439487457275,0.16018955018408346,0.544941172003746,31,2,0,0.0

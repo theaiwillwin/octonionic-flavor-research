@@ -1,0 +1,34 @@
+PASS: copy receipt policy is copy-only
+PASS: copy receipt records no deletion
+PASS: copy receipt records no overwrite
+PASS: copy receipt has no hash failures
+PASS: all ordinary copied files have source/destination hash equality
+PASS: every recorded destination exists
+PASS: all hash-comparable destinations still match their recorded SHA-256
+PASS: octonionic bundle contains octonionic_nonhollow_operator_gate_results.json
+PASS: octonionic bundle contains OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md
+PASS: octonionic bundle contains octonionic_nonhollow_operator_gate.py
+PASS: octonionic bundle contains octonion_g2_kernel.py
+PASS: hierarchy result retains structural-only status
+PASS: hierarchy machine gates passed
+PASS: original operator is hollow
+PASS: original operator is symmetric
+PASS: original singular sum holds
+PASS: modified operator is non-hollow
+PASS: modified operator has rank three
+PASS: modified operator violates old singular sum
+PASS: stored singular values independently reproduce
+PASS: report contains non-derivation firewall
+PASS: report code fences are balanced
+PASS: report has no hidden control characters
+PASS: historical FTS five-file bundle is complete
+PASS: historical lock rejects derivation claim
+PASS: historical report hash is canonical
+PASS: workflow snapshot contains seven modified files
+PASS: all twelve fixed-name verifier payloads were reconstructed
+PASS: both dynamic verifier sources were reconstructed
+PASS: recovered verifier runner covered seven unique contents
+PASS: four final/read-only verifier variants pass
+PASS: three earlier failed variants are preserved
+CHECKS=32
+CHAT_ARCHIVE_VERIFICATION: PASS

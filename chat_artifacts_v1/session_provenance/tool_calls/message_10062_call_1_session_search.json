@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10062,
+  "call_index": 1,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_XrGXdq70ugew6JDmwpGxBU6J",
+    "call_id": "call_XrGXdq70ugew6JDmwpGxBU6J",
+    "response_item_id": "fc_071f367ba0e10612016a55379d62f881918625b3976875d262",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"query\":\"OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY OR LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT\",\"limit\":10,\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "query": "OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY OR LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT",
+    "limit": 10,
+    "sort": "newest"
+  }
+}

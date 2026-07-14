@@ -1,0 +1,31 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9648,
+  "call_index": 1,
+  "tool_name": "todo",
+  "call": {
+    "id": "call_WUb4hNWoKOGZwrgTPhnAVwYH",
+    "call_id": "call_WUb4hNWoKOGZwrgTPhnAVwYH",
+    "response_item_id": "fc_071f367ba0e10612016a55317893a081919cb939243e36bc66",
+    "type": "function",
+    "function": {
+      "name": "todo",
+      "arguments": "{\"merge\":true,\"todos\":[{\"content\":\"Draft the verified historical FTS recovery write-up in the canonical lock document\",\"id\":\"draft\",\"status\":\"completed\"},{\"content\":\"Check numerical claims, paths, and fit-versus-derivation language against verified receipts\",\"id\":\"check\",\"status\":\"in_progress\"}]}"
+    }
+  },
+  "parsed_arguments": {
+    "merge": true,
+    "todos": [
+      {
+        "content": "Draft the verified historical FTS recovery write-up in the canonical lock document",
+        "id": "draft",
+        "status": "completed"
+      },
+      {
+        "content": "Check numerical claims, paths, and fit-versus-derivation language against verified receipts",
+        "id": "check",
+        "status": "in_progress"
+      }
+    ]
+  }
+}

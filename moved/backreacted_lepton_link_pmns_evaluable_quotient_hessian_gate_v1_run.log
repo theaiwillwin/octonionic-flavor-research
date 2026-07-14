@@ -1,0 +1,33 @@
+primitive_plus__single_sum_hPh UNITARY_GERM qmin=-3.844e-15 qzero=22
+primitive_plus__pair_lr_sum_psi_PPQQ TRUE_SVD_FD grad=1.189e-12 qmin=-1.361e-07 qneg=0 qzero=13
+primitive_plus__single_sum_phi_PPP TRUE_SVD_FD grad=3.705e-15 qmin=-1.198e-07 qneg=0 qzero=23
+primitive_plus__pair_diagonal_sum_psi_PPQQ TRUE_SVD_FD grad=4.464e-15 qmin=-2.325e-07 qneg=0 qzero=13
+primitive_minus__single_sum_phi_PPP UNITARY_GERM qmin=-7.214e-15 qzero=18
+primitive_plus__pair_sector_sum_psi_PPQQ UNITARY_GERM qmin=-6.013e-15 qzero=18
+primitive_minus__single_sum_phi_PPhh NONSMOOTH smin=1.216e-17
+primitive_plus__triple_sum_phi_PQR TRUE_SVD_FD grad=1.909e-14 qmin=-4.411e-07 qneg=0 qzero=6
+primitive_minus__triple_sum_sym_hPQRh NONSMOOTH smin=6.914e-17
+primitive_plus__pair_lr_sum_phi_symmetric TRUE_SVD_FD grad=1.104e-14 qmin=-2.964e-07 qneg=0 qzero=7
+primitive_minus__four_sum_sym_h_cycle_h NONSMOOTH smin=5.527e-17
+primitive_plus__pair_diagonal_sum_phi_symmetric TRUE_SVD_FD grad=7.265e-15 qmin=-2.653e-07 qneg=0 qzero=7
+primitive_plus__single_sum_phi_PPhh UNITARY_GERM qmin=-4.495e-15 qzero=22
+primitive_minus__triple_sum_phi_PQR TRUE_SVD_FD grad=1.454e-14 qmin=4.377e-01 qneg=0 qzero=0
+primitive_plus__pair_sector_sum_phi_symmetric NONSMOOTH smin=0.000e+00
+primitive_plus__triple_sum_sym_hPQRh TRUE_SVD_FD grad=4.599e-15 qmin=-6.075e-08 qneg=0 qzero=9
+rademacher_29 TRUE_SVD_FD grad=1.639e-06 qmin=6.056e-02 qneg=0 qzero=0
+primitive_minus__single_sum_hPh NONSMOOTH smin=1.210e-15
+primitive_minus__pair_sector_sum_phi_symmetric UNITARY_GERM qmin=-5.635e-15 qzero=5
+primitive_minus__pair_sector_sum_trPQPQ TRUE_SVD_FD grad=1.349e-14 qmin=-5.980e-07 qneg=0 qzero=13
+primitive_minus__pair_sector_sum_trPQ TRUE_SVD_FD grad=6.258e-15 qmin=-2.423e-07 qneg=0 qzero=13
+{
+  "scientific_gate": "FAIL_NO_PMNS_COMPATIBLE_STABLE_ORBIT_IN_PMNS_EVALUABLE_BRANCHES",
+  "evaluable": 21,
+  "smooth": 16,
+  "nonsmooth": 5,
+  "stable": 16,
+  "isolated": 2,
+  "pmns_compatible_stable": 0,
+  "best_label": "primitive_plus__single_sum_hPh",
+  "best_L1_residual_deg": 22.62202212599025,
+  "output": "D:\\Projects\\can_o_worms\\backreacted_lepton_link_pmns_evaluable_quotient_hessian_gate_v1_results.json"
+}

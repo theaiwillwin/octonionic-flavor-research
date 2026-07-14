@@ -1,0 +1,54 @@
+{
+  "schema": "can-o-worms-ad-hoc-changed-path-lock/v3",
+  "created_utc": "2026-07-14T02:19:54.892551+00:00",
+  "status": "PASS",
+  "classification": "focused ad-hoc verification; not canonical suite green",
+  "v2_negative_result_preserved": true,
+  "v3_positive_result_preserved": true,
+  "both_launchers_reported_cleanup": true,
+  "recorded_temp_paths_absent": true,
+  "no_hermes_verify_files_remain_in_temp": true,
+  "files": [
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verifier_v2_source.txt",
+      "bytes": 5289,
+      "sha256": "8d65a76e47596e832d94a7d4b5dc70dd68903f95136c7599e37fe77e3c88ceca"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\run_ad_hoc_changed_path_verifier_v2_launcher.txt",
+      "bytes": 1497,
+      "sha256": "49e799acc2bc2c360c234dcc9acdb3be646e1b7bda47e0bfa3987d3a24953238"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verification_v2.log",
+      "bytes": 1187,
+      "sha256": "377873a77cc915b659605c7a542d1316a354444491d6a828204c5935439076d2"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verifier_v3_source.txt",
+      "bytes": 5618,
+      "sha256": "0bf368d0d5de75d13c438ed2c835f8a6a04c5deea2c123e4c6cc5e6d615fade3"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\run_ad_hoc_changed_path_verifier_v3_launcher.txt",
+      "bytes": 1487,
+      "sha256": "e03cc80b5d3881307b63cab30f47cb31f60be2becb235f78e1ec29b9cea81c2e"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\ad_hoc_changed_path_verification_v3.log",
+      "bytes": 1264,
+      "sha256": "e5b669254140072a5ac66c6c84a6abe297693e02679a3e557ff4adc0d245a81b"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\verification_empty_temp_proxy_v3\\README.txt",
+      "bytes": 309,
+      "sha256": "b87a613801d9816759e0ef83235374e7d05321448af52ae88aed78d2c0cab534"
+    },
+    {
+      "path": "D:\\Projects\\can_o_worms\\seal_ad_hoc_changed_path_verification_v3_launcher.txt",
+      "bytes": 3788,
+      "sha256": "7d408b2b936f172159662ac6731e205c629ae6a0e1fe8a5e95b8d2747d15721e"
+    }
+  ],
+  "all_files_read_only": true
+}

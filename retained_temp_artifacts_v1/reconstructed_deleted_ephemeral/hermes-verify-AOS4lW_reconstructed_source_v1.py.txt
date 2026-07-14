@@ -1,0 +1,176 @@
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+import subprocess
+import tarfile
+import tempfile
+import zipfile
+from pathlib import Path, PurePosixPath
+
+import fitz
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+PUB = ROOT / "publication" / "unified_flavor_arxiv_v1"
+TAR = PUB / "reachability_not_selection_arxiv_source_v2.tar.gz"
+ZIP = PUB / "reachability_not_selection_reproducibility_v2.zip"
+MANIFEST = PUB / "source_manifest_v2.json"
+PACKAGE_CHECK = PUB / "package_verification_v1.json"
+FINAL_PDF = PUB / "build_v5" / "main_v5.pdf"
+TECTONIC = Path(r"C:/Users/theai/.local/bin/tectonic.exe")
+
+
+def digest_bytes(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def digest(path: Path) -> str:
+    return digest_bytes(path.read_bytes())
+
+
+def safe(name: str) -> bool:
+    value = PurePosixPath(name)
+    return not value.is_absolute() and ".." not in value.parts and "\\" not in name
+
+
+def inspect_pdf(path: Path) -> tuple[int, str, dict, bool]:
+    doc = fitz.open(path)
+    text = "\n".join(page.get_text("text") for page in doc)
+    fonts_embedded = True
+    seen: set[int] = set()
+    for page in range(doc.page_count):
+        for font in doc.get_page_fonts(page, full=True):
+            xref = int(font[0])
+            if xref > 0 and xref not in seen:
+                seen.add(xref)
+                fonts_embedded = fonts_embedded and bool(doc.extract_font(xref)[3])
+    return doc.page_count, text, doc.metadata, fonts_embedded
+
+
+def main() -> int:
+    checks: dict[str, bool] = {}
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    prior = json.loads(PACKAGE_CHECK.read_text(encoding="utf-8"))
+
+    changed_python = [
+        PUB / "build_claim_ledger_v2.py",
+        PUB / "package_publication_v2.py",
+        PUB / "verify_manuscript_v6.py",
+        PUB / "verify_manuscript_v7.py",
+        PUB / "verify_manuscript_v8.py",
+        PUB / "verify_packages_v1.py",
+    ]
+    parse_ok = True
+    for path in changed_python:
+        try:
+            compile(path.read_text(encoding="utf-8"), str(path), "exec")
+        except SyntaxError:
+            parse_ok = False
+    checks["changed_python_sources_parse"] = parse_ok
+    checks["arxiv_archive_hash_matches_manifest"] = (
+        digest(TAR) == manifest["arxiv_source"]["archive"]["sha256"]
+    )
+    checks["repro_archive_hash_matches_manifest"] = (
+        digest(ZIP) == manifest["reproducibility_bundle"]["archive"]["sha256"]
+    )
+    checks["retained_package_verification_is_pass"] = prior.get("status") == "PASS"
+
+    tar_records = {item["path"]: item for item in manifest["arxiv_source"]["files"]}
+    zip_records = {item["path"]: item for item in manifest["reproducibility_bundle"]["files"]}
+
+    with tarfile.open(TAR, "r:gz") as archive:
+        members = [member for member in archive.getmembers() if member.isfile()]
+        checks["tar_paths_safe"] = all(safe(member.name) for member in members)
+        checks["tar_member_set_exact"] = {member.name for member in members} == set(tar_records)
+        hashes_ok = True
+        for member in members:
+            stream = archive.extractfile(member)
+            data = stream.read() if stream else b""
+            expected = tar_records[member.name]
+            hashes_ok &= len(data) == expected["bytes"] and digest_bytes(data) == expected["sha256"]
+        checks["tar_member_hashes_match"] = hashes_ok
+
+    with zipfile.ZipFile(ZIP, "r") as archive:
+        names = archive.namelist()
+        checks["zip_paths_safe"] = all(safe(name) for name in names)
+        checks["zip_member_set_exact"] = set(names) == set(zip_records)
+        hashes_ok = True
+        for name in names:
+            data = archive.read(name)
+            expected = zip_records[name]
+            hashes_ok &= len(data) == expected["bytes"] and digest_bytes(data) == expected["sha256"]
+        checks["zip_member_hashes_match"] = hashes_ok
+
+    temp_root = Path(os.environ["LOCALAPPDATA"]) / "Temp"
+    with tempfile.TemporaryDirectory(prefix="hermes-verify-", dir=temp_root) as directory:
+        work = Path(directory)
+        source = work / "source"
+        build = work / "build"
+        source.mkdir()
+        build.mkdir()
+        with tarfile.open(TAR, "r:gz") as archive:
+            archive.extractall(source)
+
+        result = subprocess.run(
+            [str(TECTONIC), "main.tex", "--outdir", str(build), "--keep-logs", "--keep-intermediates"],
+            cwd=source,
+            capture_output=True,
+            text=True,
+            timeout=300,
+            check=False,
+        )
+        checks["clean_archive_compile_exit_zero"] = result.returncode == 0
+        clean_pdf = build / "main.pdf"
+        clean_log = build / "main.log"
+        checks["clean_archive_pdf_and_log_created"] = clean_pdf.is_file() and clean_log.is_file()
+
+        warning_patterns = [
+            "LaTeX Warning:",
+            "Package hyperref Warning:",
+            "Overfull \\hbox",
+            "Underfull \\hbox",
+            "Undefined control sequence",
+            "Citation `",
+            "Reference `",
+        ]
+        log_text = clean_log.read_text(encoding="utf-8", errors="replace") if clean_log.exists() else ""
+        checks["clean_archive_log_has_no_document_warnings"] = all(
+            marker not in log_text for marker in warning_patterns
+        )
+        bbl_text = (build / "main.bbl").read_text(encoding="utf-8", errors="replace")
+        checks["clean_archive_has_six_bibliography_entries"] = bbl_text.count("\\bibitem") == 6
+
+        final_pages, final_text, _, final_fonts = inspect_pdf(FINAL_PDF)
+        clean_pages, clean_text, clean_metadata, clean_fonts = inspect_pdf(clean_pdf)
+        checks["clean_and_final_pdfs_have_eleven_pages"] = final_pages == clean_pages == 11
+        checks["clean_and_final_pdf_texts_identical"] = final_text == clean_text
+        checks["clean_pdf_metadata_title_correct"] = "Reachability Is Not Selection" in clean_metadata.get("title", "")
+        checks["clean_and_final_pdf_fonts_embedded"] = clean_fonts and final_fonts
+
+        main_text = (source / "main.tex").read_text(encoding="utf-8")
+        checks["correct_link_calibration_present"] = "2.1768243" in main_text and "0.2519311" in main_text
+        checks["stale_link_calibration_absent"] = "0.3520919" not in main_text and "0.3704670" not in main_text
+        checks["e6_benchmark_appendix_absent"] = all(
+            marker not in main_text
+            for marker in ("External E6 neutral-fermion benchmark", "BabuBajcSusic2015", "1.49556")
+        )
+        checks["reachability_result_present"] = (
+            "surjective onto $U(3)$" in main_text and "1.34\\times10^{-15}" in main_text
+        )
+
+    ledger = json.loads((PUB / "claim_ledger_v2.json").read_text(encoding="utf-8"))
+    checks["claim_ledger_source_hashes_current"] = all(
+        digest(ROOT / relative) == expected for relative, expected in ledger["source_hashes"].items()
+    )
+    checks["claim_ledger_excludes_e6_claims"] = all(
+        "E6 benchmark" not in claim["claim"] for claim in ledger["claims"]
+    )
+
+    status = "PASS" if all(checks.values()) else "FAIL"
+    print(json.dumps({"status": status, "kind": "ad-hoc verification", "checks": checks}, indent=2))
+    return 0 if status == "PASS" else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

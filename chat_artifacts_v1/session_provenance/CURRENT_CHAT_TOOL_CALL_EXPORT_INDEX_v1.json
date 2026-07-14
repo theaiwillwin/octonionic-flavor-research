@@ -1,0 +1,2186 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "database": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/state.db",
+  "database_access": "read-only SQLite URI",
+  "message_count": 556,
+  "transcript": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/transcript/20260714_031854_c2a49e_messages_v1.json",
+  "tool_call_count": 342,
+  "tool_calls": [
+    {
+      "message_id": 9374,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9374_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9374,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9374_call_2_session_search.json"
+    },
+    {
+      "message_id": 9374,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9374_call_3_session_search.json"
+    },
+    {
+      "message_id": 9374,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9374_call_4_session_search.json"
+    },
+    {
+      "message_id": 9379,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9379_call_1_session_search.json"
+    },
+    {
+      "message_id": 9379,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9379_call_2_session_search.json"
+    },
+    {
+      "message_id": 9379,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9379_call_3_session_search.json"
+    },
+    {
+      "message_id": 9379,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9379_call_4_session_search.json"
+    },
+    {
+      "message_id": 9384,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9384_call_1_session_search.json"
+    },
+    {
+      "message_id": 9386,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9386_call_1_session_search.json"
+    },
+    {
+      "message_id": 9388,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9388_call_1_session_search.json"
+    },
+    {
+      "message_id": 9388,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9388_call_2_session_search.json"
+    },
+    {
+      "message_id": 9388,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9388_call_3_session_search.json"
+    },
+    {
+      "message_id": 9388,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9388_call_4_session_search.json"
+    },
+    {
+      "message_id": 9393,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9393_call_1_search_files.json"
+    },
+    {
+      "message_id": 9393,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9393_call_2_search_files.json"
+    },
+    {
+      "message_id": 9393,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9393_call_3_search_files.json"
+    },
+    {
+      "message_id": 9393,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9393_call_4_search_files.json"
+    },
+    {
+      "message_id": 9398,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9398_call_1_read_file.json"
+    },
+    {
+      "message_id": 9398,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9398_call_2_read_file.json"
+    },
+    {
+      "message_id": 9398,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9398_call_3_read_file.json"
+    },
+    {
+      "message_id": 9398,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9398_call_4_read_file.json"
+    },
+    {
+      "message_id": 9403,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9403_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9403_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9403,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9403_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9403_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9406,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9406_call_1_search_files.json"
+    },
+    {
+      "message_id": 9408,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9408_call_1_read_file.json"
+    },
+    {
+      "message_id": 9410,
+      "call_index": 1,
+      "tool_name": "execute_code",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9410_call_1_execute_code.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/execute_code_programs/message_9410_call_1_execute_code.py"
+    },
+    {
+      "message_id": 9414,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9414_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9414,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9414_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9414,
+      "call_index": 3,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9414_call_3_todo.json"
+    },
+    {
+      "message_id": 9418,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9418_call_1_read_file.json"
+    },
+    {
+      "message_id": 9418,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9418_call_2_read_file.json"
+    },
+    {
+      "message_id": 9418,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9418_call_3_read_file.json"
+    },
+    {
+      "message_id": 9418,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9418_call_4_read_file.json"
+    },
+    {
+      "message_id": 9418,
+      "call_index": 5,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9418_call_5_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9418_call_5_terminal.sh"
+    },
+    {
+      "message_id": 9424,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9424_call_1_todo.json"
+    },
+    {
+      "message_id": 9426,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9426_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9426_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9426,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9426_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9426_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9426,
+      "call_index": 3,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9426_call_3_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9426_call_3_terminal.sh"
+    },
+    {
+      "message_id": 9426,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9426_call_4_session_search.json"
+    },
+    {
+      "message_id": 9426,
+      "call_index": 5,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9426_call_5_session_search.json"
+    },
+    {
+      "message_id": 9432,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9432_call_1_search_files.json"
+    },
+    {
+      "message_id": 9432,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9432_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9432_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9432,
+      "call_index": 3,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9432_call_3_process.json"
+    },
+    {
+      "message_id": 9436,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9436_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9436_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9438,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9438_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9438_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9440,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9440_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9440_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9442,
+      "call_index": 1,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9442_call_1_process.json"
+    },
+    {
+      "message_id": 9444,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9444_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9444_call_1_write_file__hermes-verify-locked-fts-direct.py"
+    },
+    {
+      "message_id": 9446,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9446_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9446_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9448,
+      "call_index": 1,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9448_call_1_process.json"
+    },
+    {
+      "message_id": 9450,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9450_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py"
+    },
+    {
+      "message_id": 9453,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9453_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9453,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9453_call_2_session_search.json"
+    },
+    {
+      "message_id": 9453,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9453_call_3_session_search.json"
+    },
+    {
+      "message_id": 9453,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9453_call_4_session_search.json"
+    },
+    {
+      "message_id": 9459,
+      "call_index": 1,
+      "tool_name": "execute_code",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9459_call_1_execute_code.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/execute_code_programs/message_9459_call_1_execute_code.py"
+    },
+    {
+      "message_id": 9463,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9463_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9463,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9463_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9463,
+      "call_index": 3,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9463_call_3_todo.json"
+    },
+    {
+      "message_id": 9467,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9467_call_1_read_file.json"
+    },
+    {
+      "message_id": 9467,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9467_call_2_read_file.json"
+    },
+    {
+      "message_id": 9467,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9467_call_3_read_file.json"
+    },
+    {
+      "message_id": 9467,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9467_call_4_read_file.json"
+    },
+    {
+      "message_id": 9467,
+      "call_index": 5,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9467_call_5_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9467_call_5_terminal.sh"
+    },
+    {
+      "message_id": 9473,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9473_call_1_todo.json"
+    },
+    {
+      "message_id": 9475,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9475_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9475_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9475,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9475_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9475_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9475,
+      "call_index": 3,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9475_call_3_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9475_call_3_terminal.sh"
+    },
+    {
+      "message_id": 9475,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9475_call_4_session_search.json"
+    },
+    {
+      "message_id": 9475,
+      "call_index": 5,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9475_call_5_session_search.json"
+    },
+    {
+      "message_id": 9481,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9481_call_1_search_files.json"
+    },
+    {
+      "message_id": 9481,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9481_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9481_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9481,
+      "call_index": 3,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9481_call_3_process.json"
+    },
+    {
+      "message_id": 9485,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9485_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9485_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9487,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9487_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9487_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9489,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9489_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9489_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9491,
+      "call_index": 1,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9491_call_1_process.json"
+    },
+    {
+      "message_id": 9493,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9493_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9493_call_1_write_file__hermes-verify-locked-fts-direct.py"
+    },
+    {
+      "message_id": 9495,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9495_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9495_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9497,
+      "call_index": 1,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9497_call_1_process.json"
+    },
+    {
+      "message_id": 9499,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9499_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9499_call_1_write_file__hermes-verify-locked-fts-direct.py"
+    },
+    {
+      "message_id": 9502,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9502_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9502_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9504,
+      "call_index": 1,
+      "tool_name": "process",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9504_call_1_process.json"
+    },
+    {
+      "message_id": 9506,
+      "call_index": 1,
+      "tool_name": "close_terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9506_call_1_close_terminal.json"
+    },
+    {
+      "message_id": 9506,
+      "call_index": 2,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9506_call_2_todo.json"
+    },
+    {
+      "message_id": 9506,
+      "call_index": 3,
+      "tool_name": "memory",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9506_call_3_memory.json"
+    },
+    {
+      "message_id": 9506,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9506_call_4_search_files.json"
+    },
+    {
+      "message_id": 9511,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9511_call_1_read_file.json"
+    },
+    {
+      "message_id": 9513,
+      "call_index": 1,
+      "tool_name": "memory",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9513_call_1_memory.json"
+    },
+    {
+      "message_id": 9513,
+      "call_index": 2,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9513_call_2_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9513_call_2_skill_manage.json"
+    },
+    {
+      "message_id": 9516,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9516_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9516_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9518,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9518_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9518_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9520,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9520_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9520_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9522,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9522_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9522_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9524,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9524_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9524_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9526,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9526_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9526_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9528,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9528_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9528_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9530,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9530_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9530_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9532,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9532_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9532_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9534,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9534_call_1_read_file.json"
+    },
+    {
+      "message_id": 9536,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9536_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9536_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9538,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9538_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9538_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9540,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9540_call_1_read_file.json"
+    },
+    {
+      "message_id": 9542,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9542_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9542_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9544,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9544_call_1_search_files.json"
+    },
+    {
+      "message_id": 9544,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9544_call_2_read_file.json"
+    },
+    {
+      "message_id": 9544,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9544_call_3_read_file.json"
+    },
+    {
+      "message_id": 9548,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9548_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9548_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9550,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9550_call_1_read_file.json"
+    },
+    {
+      "message_id": 9550,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9550_call_2_read_file.json"
+    },
+    {
+      "message_id": 9550,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9550_call_3_read_file.json"
+    },
+    {
+      "message_id": 9554,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9554_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9554_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9556,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9556_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9556_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9558,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9558_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9558_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9560,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9560_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9560_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9562,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9562_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9562_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9564,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9564_call_1_todo.json"
+    },
+    {
+      "message_id": 9570,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9570_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9570,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9570_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9570,
+      "call_index": 3,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9570_call_3_todo.json"
+    },
+    {
+      "message_id": 9574,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9574_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9574_call_1_patch.patch"
+    },
+    {
+      "message_id": 9576,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9576_call_1_todo.json"
+    },
+    {
+      "message_id": 9578,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9578_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9578_call_1_write_file__hermes-verify-fts-writeup.py"
+    },
+    {
+      "message_id": 9580,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9580_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9580_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9580,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9580_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9580_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9580,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9580_call_3_search_files.json"
+    },
+    {
+      "message_id": 9580,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9580_call_4_read_file.json"
+    },
+    {
+      "message_id": 9585,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9585_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9585_call_1_patch.patch"
+    },
+    {
+      "message_id": 9587,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9587_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py"
+    },
+    {
+      "message_id": 9589,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9589_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9589_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9589,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9589_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9589_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9589,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9589_call_3_read_file.json"
+    },
+    {
+      "message_id": 9589,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9589_call_4_read_file.json"
+    },
+    {
+      "message_id": 9594,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9594_call_1_todo.json"
+    },
+    {
+      "message_id": 9598,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9598_call_1_search_files.json"
+    },
+    {
+      "message_id": 9598,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9598_call_2_search_files.json"
+    },
+    {
+      "message_id": 9598,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9598_call_3_search_files.json"
+    },
+    {
+      "message_id": 9598,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9598_call_4_search_files.json"
+    },
+    {
+      "message_id": 9603,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9603_call_1_search_files.json"
+    },
+    {
+      "message_id": 9603,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9603_call_2_search_files.json"
+    },
+    {
+      "message_id": 9603,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9603_call_3_session_search.json"
+    },
+    {
+      "message_id": 9603,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9603_call_4_session_search.json"
+    },
+    {
+      "message_id": 9608,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9608_call_1_session_search.json"
+    },
+    {
+      "message_id": 9610,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9610_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9610_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9612,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9612_call_1_read_file.json"
+    },
+    {
+      "message_id": 9614,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9614_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9614_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9616,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9616_call_1_search_files.json"
+    },
+    {
+      "message_id": 9616,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9616_call_2_read_file.json"
+    },
+    {
+      "message_id": 9616,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9616_call_3_read_file.json"
+    },
+    {
+      "message_id": 9620,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9620_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9620_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9622,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9622_call_1_read_file.json"
+    },
+    {
+      "message_id": 9622,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9622_call_2_read_file.json"
+    },
+    {
+      "message_id": 9622,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9622_call_3_read_file.json"
+    },
+    {
+      "message_id": 9626,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9626_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9626_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9628,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9628_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9628_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9630,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9630_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9630_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9632,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9632_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9632_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9634,
+      "call_index": 1,
+      "tool_name": "skill_manage",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9634_call_1_skill_manage.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/skill_manage_calls/message_9634_call_1_skill_manage.json"
+    },
+    {
+      "message_id": 9636,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9636_call_1_todo.json"
+    },
+    {
+      "message_id": 9642,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9642_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9642,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9642_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9642,
+      "call_index": 3,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9642_call_3_todo.json"
+    },
+    {
+      "message_id": 9646,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9646_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9646_call_1_patch.patch"
+    },
+    {
+      "message_id": 9648,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9648_call_1_todo.json"
+    },
+    {
+      "message_id": 9650,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9650_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9650_call_1_write_file__hermes-verify-fts-writeup.py"
+    },
+    {
+      "message_id": 9652,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9652_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9652_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9652,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9652_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9652_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9652,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9652_call_3_search_files.json"
+    },
+    {
+      "message_id": 9652,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9652_call_4_read_file.json"
+    },
+    {
+      "message_id": 9657,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9657_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9657_call_1_patch.patch"
+    },
+    {
+      "message_id": 9659,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9659_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9659_call_1_write_file__hermes-verify-fts-writeup.py"
+    },
+    {
+      "message_id": 9661,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9661_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9661_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9661,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9661_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9661_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9661,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9661_call_3_read_file.json"
+    },
+    {
+      "message_id": 9661,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9661_call_4_read_file.json"
+    },
+    {
+      "message_id": 9666,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9666_call_1_todo.json"
+    },
+    {
+      "message_id": 9670,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9670_call_1_search_files.json"
+    },
+    {
+      "message_id": 9670,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9670_call_2_search_files.json"
+    },
+    {
+      "message_id": 9670,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9670_call_3_search_files.json"
+    },
+    {
+      "message_id": 9670,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9670_call_4_search_files.json"
+    },
+    {
+      "message_id": 9675,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9675_call_1_search_files.json"
+    },
+    {
+      "message_id": 9675,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9675_call_2_search_files.json"
+    },
+    {
+      "message_id": 9675,
+      "call_index": 3,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9675_call_3_session_search.json"
+    },
+    {
+      "message_id": 9675,
+      "call_index": 4,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9675_call_4_session_search.json"
+    },
+    {
+      "message_id": 9680,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9680_call_1_session_search.json"
+    },
+    {
+      "message_id": 9682,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9682_call_1_search_files.json"
+    },
+    {
+      "message_id": 9682,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9682_call_2_search_files.json"
+    },
+    {
+      "message_id": 9682,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9682_call_3_read_file.json"
+    },
+    {
+      "message_id": 9682,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9682_call_4_search_files.json"
+    },
+    {
+      "message_id": 9687,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9687_call_1_read_file.json"
+    },
+    {
+      "message_id": 9687,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9687_call_2_read_file.json"
+    },
+    {
+      "message_id": 9687,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9687_call_3_read_file.json"
+    },
+    {
+      "message_id": 9687,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9687_call_4_read_file.json"
+    },
+    {
+      "message_id": 9692,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9692_call_1_search_files.json"
+    },
+    {
+      "message_id": 9692,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9692_call_2_search_files.json"
+    },
+    {
+      "message_id": 9692,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9692_call_3_search_files.json"
+    },
+    {
+      "message_id": 9696,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9696_call_1_read_file.json"
+    },
+    {
+      "message_id": 9700,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9700_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9700,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9700_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9700,
+      "call_index": 3,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9700_call_3_skill_view.json"
+    },
+    {
+      "message_id": 9704,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9704_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9704,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9704_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9704,
+      "call_index": 3,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9704_call_3_skill_view.json"
+    },
+    {
+      "message_id": 9708,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9708_call_1_search_files.json"
+    },
+    {
+      "message_id": 9708,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9708_call_2_read_file.json"
+    },
+    {
+      "message_id": 9708,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9708_call_3_search_files.json"
+    },
+    {
+      "message_id": 9708,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9708_call_4_search_files.json"
+    },
+    {
+      "message_id": 9713,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9713_call_1_read_file.json"
+    },
+    {
+      "message_id": 9713,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9713_call_2_search_files.json"
+    },
+    {
+      "message_id": 9713,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9713_call_3_read_file.json"
+    },
+    {
+      "message_id": 9717,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9717_call_1_read_file.json"
+    },
+    {
+      "message_id": 9719,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9719_call_1_todo.json"
+    },
+    {
+      "message_id": 9721,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9721_call_1_write_file.json",
+      "original_path": "D:/Projects/ToE_21st_June_NEWEST/octonionic_nonhollow_operator_gate.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9721_call_1_write_file__octonionic_nonhollow_operator_gate.py"
+    },
+    {
+      "message_id": 9723,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9723_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9723_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9725,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9725_call_1_todo.json"
+    },
+    {
+      "message_id": 9727,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9727_call_1_write_file.json",
+      "original_path": "D:/Projects/ToE_21st_June_NEWEST/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9727_call_1_write_file__OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md"
+    },
+    {
+      "message_id": 9729,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9729_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9729_call_1_patch.patch"
+    },
+    {
+      "message_id": 9731,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9731_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-proposal.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py"
+    },
+    {
+      "message_id": 9733,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9733_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9733_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9735,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9735_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9735_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9737,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9737_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9737_call_1_patch.patch"
+    },
+    {
+      "message_id": 9739,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9739_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py"
+    },
+    {
+      "message_id": 9741,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9741_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9741_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9741,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9741_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9741_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9741,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9741_call_3_read_file.json"
+    },
+    {
+      "message_id": 9741,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9741_call_4_read_file.json"
+    },
+    {
+      "message_id": 9746,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9746_call_1_todo.json"
+    },
+    {
+      "message_id": 9748,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9748_call_1_session_search.json"
+    },
+    {
+      "message_id": 9750,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9750_call_1_search_files.json"
+    },
+    {
+      "message_id": 9750,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9750_call_2_search_files.json"
+    },
+    {
+      "message_id": 9750,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9750_call_3_read_file.json"
+    },
+    {
+      "message_id": 9750,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9750_call_4_search_files.json"
+    },
+    {
+      "message_id": 9755,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9755_call_1_read_file.json"
+    },
+    {
+      "message_id": 9755,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9755_call_2_read_file.json"
+    },
+    {
+      "message_id": 9755,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9755_call_3_read_file.json"
+    },
+    {
+      "message_id": 9755,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9755_call_4_read_file.json"
+    },
+    {
+      "message_id": 9760,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9760_call_1_search_files.json"
+    },
+    {
+      "message_id": 9760,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9760_call_2_search_files.json"
+    },
+    {
+      "message_id": 9760,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9760_call_3_search_files.json"
+    },
+    {
+      "message_id": 9764,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9764_call_1_read_file.json"
+    },
+    {
+      "message_id": 9768,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9768_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9768,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9768_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9768,
+      "call_index": 3,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9768_call_3_skill_view.json"
+    },
+    {
+      "message_id": 9772,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9772_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9772,
+      "call_index": 2,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9772_call_2_skill_view.json"
+    },
+    {
+      "message_id": 9772,
+      "call_index": 3,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9772_call_3_skill_view.json"
+    },
+    {
+      "message_id": 9776,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9776_call_1_search_files.json"
+    },
+    {
+      "message_id": 9776,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9776_call_2_read_file.json"
+    },
+    {
+      "message_id": 9776,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9776_call_3_search_files.json"
+    },
+    {
+      "message_id": 9776,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9776_call_4_search_files.json"
+    },
+    {
+      "message_id": 9781,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9781_call_1_read_file.json"
+    },
+    {
+      "message_id": 9781,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9781_call_2_search_files.json"
+    },
+    {
+      "message_id": 9781,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9781_call_3_read_file.json"
+    },
+    {
+      "message_id": 9785,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9785_call_1_read_file.json"
+    },
+    {
+      "message_id": 9787,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9787_call_1_todo.json"
+    },
+    {
+      "message_id": 9789,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9789_call_1_write_file.json",
+      "original_path": "D:/Projects/ToE_21st_June_NEWEST/octonionic_nonhollow_operator_gate.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9789_call_1_write_file__octonionic_nonhollow_operator_gate.py"
+    },
+    {
+      "message_id": 9791,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9791_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9791_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9793,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9793_call_1_todo.json"
+    },
+    {
+      "message_id": 9795,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9795_call_1_write_file.json",
+      "original_path": "D:/Projects/ToE_21st_June_NEWEST/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9795_call_1_write_file__OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md"
+    },
+    {
+      "message_id": 9797,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9797_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9797_call_1_patch.patch"
+    },
+    {
+      "message_id": 9799,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9799_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-proposal.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9799_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py"
+    },
+    {
+      "message_id": 9801,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9801_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9801_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9803,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9803_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9803_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9805,
+      "call_index": 1,
+      "tool_name": "patch",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9805_call_1_patch.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/patches/message_9805_call_1_patch.patch"
+    },
+    {
+      "message_id": 9807,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9807_call_1_write_file.json",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9807_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py"
+    },
+    {
+      "message_id": 9809,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9809_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9809_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9809,
+      "call_index": 2,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9809_call_2_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9809_call_2_terminal.sh"
+    },
+    {
+      "message_id": 9809,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9809_call_3_read_file.json"
+    },
+    {
+      "message_id": 9809,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9809_call_4_read_file.json"
+    },
+    {
+      "message_id": 9814,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9814_call_1_todo.json"
+    },
+    {
+      "message_id": 9818,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9818_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9820,
+      "call_index": 1,
+      "tool_name": "execute_code",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9820_call_1_execute_code.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/execute_code_programs/message_9820_call_1_execute_code.py"
+    },
+    {
+      "message_id": 9822,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9822_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9822_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9826,
+      "call_index": 1,
+      "tool_name": "skill_view",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9826_call_1_skill_view.json"
+    },
+    {
+      "message_id": 9826,
+      "call_index": 2,
+      "tool_name": "project_list",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9826_call_2_project_list.json"
+    },
+    {
+      "message_id": 9826,
+      "call_index": 3,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9826_call_3_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9826_call_3_terminal.sh"
+    },
+    {
+      "message_id": 9826,
+      "call_index": 4,
+      "tool_name": "memory",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9826_call_4_memory.json"
+    },
+    {
+      "message_id": 9831,
+      "call_index": 1,
+      "tool_name": "project_create",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9831_call_1_project_create.json"
+    },
+    {
+      "message_id": 9833,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9833_call_1_write_file.json",
+      "original_path": "D:/Projects/can_o_worms/AGENTS.md",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9833_call_1_write_file__AGENTS.md"
+    },
+    {
+      "message_id": 9835,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9835_call_1_search_files.json"
+    },
+    {
+      "message_id": 9835,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9835_call_2_search_files.json"
+    },
+    {
+      "message_id": 9835,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9835_call_3_read_file.json"
+    },
+    {
+      "message_id": 9835,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9835_call_4_read_file.json"
+    },
+    {
+      "message_id": 9835,
+      "call_index": 5,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9835_call_5_read_file.json"
+    },
+    {
+      "message_id": 9841,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9841_call_1_read_file.json"
+    },
+    {
+      "message_id": 9843,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9843_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9843_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9847,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9847_call_1_todo.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_1_session_search.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_2_search_files.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_3_search_files.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_4_search_files.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 5,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_5_search_files.json"
+    },
+    {
+      "message_id": 9849,
+      "call_index": 6,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9849_call_6_search_files.json"
+    },
+    {
+      "message_id": 9856,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9856_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_9856_call_1_terminal.sh"
+    },
+    {
+      "message_id": 9977,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9977_call_1_session_search.json"
+    },
+    {
+      "message_id": 9977,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9977_call_2_search_files.json"
+    },
+    {
+      "message_id": 9977,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9977_call_3_search_files.json"
+    },
+    {
+      "message_id": 9977,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9977_call_4_search_files.json"
+    },
+    {
+      "message_id": 9983,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9983_call_1_session_search.json"
+    },
+    {
+      "message_id": 9983,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9983_call_2_session_search.json"
+    },
+    {
+      "message_id": 9995,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9995_call_1_search_files.json"
+    },
+    {
+      "message_id": 9995,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9995_call_2_search_files.json"
+    },
+    {
+      "message_id": 9995,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9995_call_3_search_files.json"
+    },
+    {
+      "message_id": 9995,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9995_call_4_search_files.json"
+    },
+    {
+      "message_id": 9995,
+      "call_index": 5,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_9995_call_5_search_files.json"
+    },
+    {
+      "message_id": 10009,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10009_call_1_read_file.json"
+    },
+    {
+      "message_id": 10009,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10009_call_2_read_file.json"
+    },
+    {
+      "message_id": 10009,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10009_call_3_read_file.json"
+    },
+    {
+      "message_id": 10009,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10009_call_4_read_file.json"
+    },
+    {
+      "message_id": 10009,
+      "call_index": 5,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10009_call_5_read_file.json"
+    },
+    {
+      "message_id": 10021,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10021_call_1_session_search.json"
+    },
+    {
+      "message_id": 10056,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10056_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_10056_call_1_terminal.sh"
+    },
+    {
+      "message_id": 10060,
+      "call_index": 1,
+      "tool_name": "todo",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10060_call_1_todo.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_1_session_search.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_2_search_files.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_3_search_files.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_4_search_files.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 5,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_5_search_files.json"
+    },
+    {
+      "message_id": 10062,
+      "call_index": 6,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10062_call_6_search_files.json"
+    },
+    {
+      "message_id": 10069,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10069_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_10069_call_1_terminal.sh"
+    },
+    {
+      "message_id": 10073,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10073_call_1_session_search.json"
+    },
+    {
+      "message_id": 10073,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10073_call_2_search_files.json"
+    },
+    {
+      "message_id": 10073,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10073_call_3_search_files.json"
+    },
+    {
+      "message_id": 10073,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10073_call_4_search_files.json"
+    },
+    {
+      "message_id": 10078,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10078_call_1_session_search.json"
+    },
+    {
+      "message_id": 10078,
+      "call_index": 2,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10078_call_2_session_search.json"
+    },
+    {
+      "message_id": 10081,
+      "call_index": 1,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10081_call_1_search_files.json"
+    },
+    {
+      "message_id": 10081,
+      "call_index": 2,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10081_call_2_search_files.json"
+    },
+    {
+      "message_id": 10081,
+      "call_index": 3,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10081_call_3_search_files.json"
+    },
+    {
+      "message_id": 10081,
+      "call_index": 4,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10081_call_4_search_files.json"
+    },
+    {
+      "message_id": 10081,
+      "call_index": 5,
+      "tool_name": "search_files",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10081_call_5_search_files.json"
+    },
+    {
+      "message_id": 10087,
+      "call_index": 1,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10087_call_1_read_file.json"
+    },
+    {
+      "message_id": 10087,
+      "call_index": 2,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10087_call_2_read_file.json"
+    },
+    {
+      "message_id": 10087,
+      "call_index": 3,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10087_call_3_read_file.json"
+    },
+    {
+      "message_id": 10087,
+      "call_index": 4,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10087_call_4_read_file.json"
+    },
+    {
+      "message_id": 10087,
+      "call_index": 5,
+      "tool_name": "read_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10087_call_5_read_file.json"
+    },
+    {
+      "message_id": 10093,
+      "call_index": 1,
+      "tool_name": "session_search",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10093_call_1_session_search.json"
+    },
+    {
+      "message_id": 10122,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10122_call_1_write_file.json",
+      "original_path": "D:/Projects/can_o_worms/chat_artifacts_v1/tools/extract_current_chat_from_hermes_db_v1.py",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_10122_call_1_write_file__extract_current_chat_from_hermes_db_v1.py"
+    },
+    {
+      "message_id": 10133,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10133_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_10133_call_1_terminal.sh"
+    },
+    {
+      "message_id": 10140,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10140_call_1_write_file.json",
+      "original_path": "D:/Projects/can_o_worms/chat_artifacts_v1/logs/session_export_run_v1_failure.log",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_10140_call_1_write_file__session_export_run_v1_failure.log"
+    },
+    {
+      "message_id": 10146,
+      "call_index": 1,
+      "tool_name": "terminal",
+      "raw_record": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/tool_calls/message_10146_call_1_terminal.json",
+      "payload": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/terminal_commands/message_10146_call_1_terminal.sh"
+    }
+  ],
+  "retention": "No source modified; no output overwritten or deleted."
+}

@@ -1,0 +1,957 @@
+arXiv:1310.4422v1  [hep-ph]  16 Oct 2013
+A realistic renormalizable supersymmetric E6 model
+1
+Borut Bajc∗,† and Vasja Susiˇc∗
+∗J. Stefan Institute, 1000 Ljubljana, Slovenia
+†Faculty of Mathematics and Physics, University of Ljubljana, 1000 Ljubljana, Slovenia
+Abstract. A complete realistic model based on the supersymmetric version of E6 is presented. It consists of three copies of
+matter 27, and a Higgs sector made of 2 × (27 + 27) + 351′ + 351′ representations. An analytic solution to the equations of
+motion is found which spontaneously breaks the gauge group into the Standard Model. The light fermion mass matrices are
+written down explicitly as non-linear functions of three Yukawa matrices. This contribution is based on Ref. [1].
+Keywords: Uniﬁed theories and models of strong and electroweak interactions, Uniﬁcation of couplings; mass relations
+PACS: 12.10.Dm, 12.10.Kt
+INTRODUCTION
+Among the different relevant grand unifying theories (GUT) [2] the one based on the E6 group [3] is probably the least
+studied. In particular, a complete treatment of the Higgs sector with explicit vacuum solutions is still missing. We ﬁll
+this gap by presenting the ﬁrst complete realistic model based on the supersymmetric version of E6. This choice is
+motivated by the theoretical successes of supersymmetry on one side and by simplicity on the other (the Higgs sector
+is simpler in supersymmetry).
+Let’s ﬁrst try to see which representations are necessary to break E6 into the Standard Model (SM) gauge group
+SU(3)×SU(2×U(1). Among the irreducible representations of E6 the smallest one is the 27-dimensional. This seems
+the ideal candidate for matter, however having only SU(5) singlets obviously cannot serve the purpose of breaking the
+gauge group all the way to the SM. A special place is then reserved for 351′. In fact it contains 5 singlets under the
+Standard Model gauge group, as well as the two crucial SO(10) Higgses in the 10 and 126 dimensional representations
+[4, 5]. It is thus a good starting point to consider a theory with the 351′ + 351′ Higgses. We will see that these
+two ﬁelds can break the most general renormalizable E6-symmetric superpotential only to the Pati-Salam subgroup
+SU(4)C×SU(2)L×SU(2)R. It will be shown explicitly that the choice of 351′ + 351
+′ + 27 + 27 is just enough for the
+goal: the vacuum solution keeps 12 gauge bosons massless.
+The next issue for a realistic model is to identify the minimal supersymmetric standard model (MSSM) Higgses.
+In doing that one should ﬁnd a light weak doublet pair and at the same time get rid of all color triplets. This is the
+infamous doublet-triplet splitting problem, unfortunately present in most grand uniﬁed theories, which is solved in
+all known minimal models by a simple ﬁne-tuning of the potential parameters. Although the previous Higgs choice
+includes a large number of ﬁelds with the quantum numbers of the MSSM Higgs doublets, we will show that no
+ﬁne-tuning among the parameters is possible without having at the same time also massless color triplet states, which
+would mediate phenomenologically unacceptable fast proton decay. A plausible reason for that can be identiﬁed with
+the inability for the same parameters to describe both symmetry breaking and doublet-triplet splitting ﬁne-tuning. This
+is evaded by introducing an extra f
+27 + f
+27: the new parameters allow for the doublet-triplet ﬁne-tuning, so that the
+MSSM Higgses live in these tilde ﬁelds.
+The last step is to study the form of the Yukawa matrices. Since the MSSM Higgses do not live in 351
+′ and 27, it
+seems at ﬁrst sight that only one Yukawa matrix is available, which would imply no mixing as well as the equality of the
+down quark and charged lepton masses. A more careful investigation however shows the presence of vector-like matter
+in the three generations of matter 27F of E6. In practice the matter ¯5 of SU(5) can live both in 16 and 10 of SO(10), so
+the orthogonal component is heavy: once these three extra ¯5’s are integrated out, they correct the naive one-Yukawa
+picture we mentioned before. We work out in detail the form of the Yukawa matrices. A parameter counting shows
+1 Talk given by Borut Bajc.
+
+that there are enough parameters to describe all the masses and mixings of the Standard Model, neutrino included.
+ELEMENTS OF E6 GROUP THEORY
+Similarly to the SU(N) groups, the E6 group has two type of tensor indices: the upper or fundamental indices and the
+lower or antifundamental indices. Both types of indices go from 1 to 27, which is the dimensionality of the fundamental
+and antifundamental representations. Higher dimensional irreducible representations can then be constructed as tensors
+with these indices, satisfying extra constraints like simmetricity or antisymmetricity. Finally, similarly to the case of the
+completely antisymmetric SU(N) invariant Levi-Civita tensor εα1...αN or εα1...αN, we have in E6 a 3-index completely
+symmetric invariant tensor dµνλ (and the numerically equivalent dµνλ) with µ,ν,λ = 1...27.
+The representations used in our model are the following:
+27µ
+...
+fundamental,
+(1)
+27µ
+...
+anti−fundamental,
+(2)
+351′µν = +351′νµ
+...
+two indices symmetric (dλ µν351′µν = 0),
+(3)
+351′µν = +351′νµ
+...
+two indices symmetric (dλ µν351′µν = 0).
+(4)
+Using the normalization
+dµλρdλρν
+=
+10δµν,
+(5)
+the d-tensor contains only values 0, −1 or 1. Another important property of this tensor is the fact that it gives zero, as
+soon as two of its indices take the same value. This property is shared also with the ε invariant tensors of the SU(N)
+groups, even though d is symmetric, while the ε’s are antisymmetric under the exchanges of indices.
+THE MODEL
+The general setup
+Our model is a renormalizable supersymmetric model, in which we spontaneously break E6 to the SM gauge group.
+We shall not consider the orthogonal problem of SUSY breaking, so we will in fact end up with the MSSM.
+Note ﬁrst the decompositions of the E6 representations into their SO(10) irreducible parts (with the 351′ and 351′
+exchanged compared to [7]):
+27
+=
+16 + 10 + 1,
+(6)
+351′
+=
+1 + 10 + 16 +54+126+144,
+(7)
+and analogously for their conjugate representations 27 and 351′.
+We will use the fundamental representation 27 to contain the Standard Model fermions: each generation will be
+present in the 16 of SO(10), where the right-handed neutrino νc is also located. The remaining exotics are a vector-
+like pair of leptons and d-quarks in the 10 (which is 5+5 under SU(5)), and a Standard Model singlet s in 1 of SO(10),
+which is the analogue of a right-handed neutrino. We use the following intuitive notation for the vector-like exotics:
+d′, d′c, L′ = (ν′,e′) and L′c = (ν′c,e′c). This simple picture is in reality complicated by mixing: the chiral SM fermions
+live in linear combination of primed and unprimed ﬁelds.
+The model thus consists of 3 copies of matter 27i
+F (i = 1,2,3), and the Higgs sector, which consists of
+27 + 27+ 351′ + 351′ + f
+27+ f
+27.
+(8)
+The non-tilde ﬁelds will acquire vacuum expectation values (VEV) at the GUT scale and will break E6 directly to
+the Standard Model (no intermediate steps). It turns out that the tilde ﬁelds are needed in order to contain the MSSM
+Higgses, so they acquire VEVs at the electro-weak (EW) scale.
+In contrast to the SO(10) group with large representations, where R-parity is automatically conserved, we need to
+impose in our model a global Z2 symmetry, under which 27i
+F are odd. This enables us to prevent the fermionic 27’s
+
+to acquire VEVs at the GUT scale. Also, we take the tilde ﬁelds to couple to the non-tilde ﬁelds in the Higgs sector
+only in pairs, so that the tilde ﬁelds also do not acquire large VEVs, which simpliﬁes the analysis of the equations of
+motion. Therefore, we have
+0
+=
+⟨27i
+F⟩GUT = ⟨f
+27⟩GUT = ⟨f
+27⟩GUT.
+(9)
+The Higgs sector
+The F-terms
+The ﬁelds relevant for the breaking at the GUT scale are the non-tilde ﬁelds 27, 27, 351′ and 351′. These ﬁelds
+respectively contain 2, 2, 5 and 5 Standard Model singlets, which can acquire GUT-scale VEVs. The deﬁnition of our
+labels for these singlets can be found in Table 1. The singlet VEVs have the standard Kähler normalization
+⟨27µ 27∗
+µ⟩
+=
+|c1|2 + |c2|2,
+(10)
+⟨27µ 27∗µ⟩
+=
+|d1|2 + |d2|2,
+(11)
+⟨351′µν 351′∗
+µν⟩
+=
+|e1|2 + |e2|2 + |e3|2 + |e4|2 + |e5|2,
+(12)
+⟨351′µν 351′∗µν⟩
+=
+|f1|2 + |f2|2 + |f3|2 + |f4|2 + |f5|2.
+(13)
+TABLE 1.
+The labels of Standard Model singlet VEVs in our model and their location in the
+embedding chain SM ⊂SU(5) ⊂SO(10) ⊂E6.
+VEV label
+⊂SU(5)
+⊂SO(10)
+⊂E6
+VEV label
+⊂SU(5)
+⊂SO(10)
+⊂E6
+c1
+1
+1
+27
+d1
+1
+1
+27
+c2
+1
+16
+27
+d2
+1
+16
+27
+e1
+1
+126
+351′
+f1
+1
+126
+351′
+e2
+1
+16
+351′
+f2
+1
+16
+351′
+e3
+1
+1
+351′
+f3
+1
+1
+351′
+e4
+24
+54
+351′
+f4
+24
+54
+351′
+e5
+24
+144
+351′
+f5
+24
+144
+351′
+The most general renormalizable superpotential of the Higgs sector containing the non-tilde ﬁelds is
+W
+=
+m351′ I351′×351′ + m27 I27×27 + λ1 I351′3 + λ2 I351′3 + λ3 I272×351′ + λ4 I272×351′ + λ5 I273 + λ6 I273. (14)
+The above invariants are explicitly computed to be
+I351′×351′
+=
+351′µν 351µν = e1 f1 + e2 f2 + e3 f3 + e4 f4 + e5 f5,
+(15)
+I27×27
+=
+27µ 27µ = c1d1 + c2d2,
+(16)
+I351′3
+=
+351′µα 351′νβ 351′λγ dαβγdµνλ = 3
+
+e3e2
+4 + e1e2
+5 −
+√
+2e2e4e5
+
+,
+(17)
+I351′3
+=
+351′µα 351′νβ 351′λγ dαβγ dµνλ = 3
+
+f3 f 2
+4 + f1 f 2
+5 −
+√
+2 f2 f4 f5
+
+,
+(18)
+I272×351′
+=
+351′µν 27µ 27ν = c2
+2 f1 +
+√
+2c1c2 f2 + c2
+1 f3,
+(19)
+I272×351′
+=
+351′µν 27µ 27ν = d2
+2e1 +
+√
+2d1d2e2 + d2
+1e3,
+(20)
+I273
+=
+27µ 27ν 27λ dµνλ = 0,
+(21)
+I273
+=
+27µ 27ν 27λ dµνλ = 0.
+(22)
+The zero of the invariants 273 and 273 can be understood from the property of the d-tensor: the 27 and 27 contain
+SM singlets only at two locations, so the singlet terms in the cubic invariant get d-tensor coefﬁcients with at least two
+indices taking the same value, therefore these coefﬁcients are zero.
+Taking derivatives of the superpotential W over all the different VEVs yields the F-terms.
+
+The D-terms
+In our model, the D-terms take the form
+DA
+=
+(27†)µ (ˆtA 27)µ + (27†)µ (ˆtA 27)µ + (351′†)µν (ˆtA 351′)µν + (351′†)µν (ˆtA 351′)µν,
+(23)
+where ˆtA is the action of the A-th generator of the E6 algebra, and A = 1,...,78. Explicit computation shows that there
+are only 4 independent non-zero real D-terms. They are
+DI
+=
+|c1|2 −|d1|2 + |e2|2 −|f2|2 + 2|e3|2 −2|f3|2 −|e4|2 + |f4|2,
+(24)
+DII
+=
+|c2|2 −|d2|2 + |e2|2 −|f2|2 + 2|e1|2 −2|f1|2 −|e5|2 + |f5|2,
+(25)
+DIII
+=
+c1c2∗−d1∗d2 +
+√
+2e1∗e2 −
+√
+2 f1 f2∗+
+√
+2e2∗e3 −
+√
+2f2 f3∗+ e4∗e5 −f4 f5∗,
+(26)
+where the last one is complex. They respectively correspond to the following generators of the SU(3)C × SU(3)L ×
+SU(3)R subgroup of E6:
+√
+3t8
+L + 2t3
+R, −2t3
+R and t6
+R + it7
+R.
+Conjugation symmetry and the general solving strategy
+Our model is conjugate symmetric in the sense that our Higgs sector consists of pairs R+R of representations. The
+exchange of the representations with their conjugates, e.g. 27 ↔27 and 351′ ↔351′, which can be more speciﬁcally
+written as ci ↔di and ej ↔f j, with i = 1,2 and j = 1,...,5, will yield equivalent D-terms. But the F-terms change
+under this exchange, because the superpotential itself is not conjugation invariant. The reason for this are the coupling
+constants λi; only if we also exchange λ1 ↔λ2, λ3 ↔λ4 and λ5 ↔λ6 will the superpotential remain invariant.
+The above fact that we have different parameters in front of invariants and their conjugate invariants, will have
+implications on our solving strategy for the equations of motion. One would perhaps be tempted to use the ansatz
+⟨27⟩= ⟨27⟩and ⟨351′⟩= ⟨351′⟩to ﬁrst get rid of the D-terms in a trivial manner, and then proceed to the F-terms. But
+the conjugate symmetric ansatz leads to a consistent set of F-terms only if we assume an exact ﬁne-tuning λ1 = λ2
+and λ3 = λ4.
+In the general case, assuming no relations among the superpotential parameters, it turns out the best strategy involves
+ﬁrst solving the F-terms, and only then proceeding to solve the D-terms in a nontrivial manner.
+Solutions of the equations of motion
+There are many possible solutions to the equations of motion, the simplest of course being the trivial one with all
+VEVs zero. Assuming c1,d1̸ = 0 and e5, f5̸ = 0, the F-terms are solved by the ansatz
+d1
+=
+m351′m27 −2λ3λ4c2d2
+2λ3λ4c1
+,
+(27)
+e1
+=
+−
+λ3c22 +
+m2
+351′(m351′m27−2λ3λ4c2d2)2
+108m2
+27λ 2
+1 λ2e52
+m351′
+,
+(28)
+f1
+=
+−λ4d22 + 3λ1e52
+m351′
+,
+(29)
+e2
+=
+λ3c1
+ m27λ4d2m3
+351′ −2λ3λ 2
+4 c2d22m2
+351′ −54m2
+27λ 2
+1 λ2c2e52
+27
+√
+2m351′m2
+27λ 2
+1 λ2e52
+,
+(30)
+f2
+=
+2λ3c2
+ λ4d22 + 3λ1e52
+−m351′m27d2
+√
+2m351′λ3c1
+,
+(31)
+e3
+=
+λ3c12
+
+−
+m2
+351′λ3λ 2
+4 d22
+m2
+27λ 2
+1 λ2e52 −27
+
+27m351′
+,
+(32)
+
+f3
+=
+−m2
+351′m2
+27 −4m351′λ3λ4c2d2m27 + 4λ 2
+3λ4c22  λ4d22 + 3λ1e52
+4m351′λ 2
+3 λ4c12
+,
+(33)
+e4
+=
+c2e5
+c1
+,
+(34)
+f4
+=
+m351′λ3λ4c1d2
+9m27λ1λ2e5
+,
+(35)
+f5
+=
+m351′(m351′m27 −2λ3λ4c2d2)
+18m27λ1λ2e5
+.
+(36)
+The remaining VEVs c1, e5, c2 and d2 are then determined by the 4 D-terms. One possible solution is to take
+c2
+=
+d2 = 0,
+(37)
+e5
+=
+m351′
+3
+√
+2λ 2/3
+1
+λ 1/3
+2
+,
+(38)
+which then gives the following polynomial condition for c1:
+0
+=
+|m351′|4|m27|4 + 2|m351′|4|m27|2|λ3|2|c1|2 −8|m351′|2|λ3|4|λ4|2|c1|6 −16|λ3|6|λ4|2|c1|8.
+(39)
+Note that the form of the polynomial ensures that there always exists a solution c1 > 0.
+This solution breaks E6 to the Standard Model, which we determined by the computation of gauge boson masses,
+12 of which remain zero. The only alternative ansatz for the F-terms, which also breaks to the Standard Model, is an
+analogue of equations (27)-(36), where we exchange c1 ↔d1, c2 ↔d2, e1 ↔e3, f1 ↔f3, e4 ↔e5 and f4 ↔f5. This
+ansatz assumes c2,d2̸ = 0 and e4, f4̸ = 0.
+All other solutions of the equations of motion do not break to the Standard Model group. In fact, all but one of
+the other solutions leave SU(5) unbroken. The exception involves taking the ansazt ⟨27⟩= ⟨27⟩= 0 and solving the
+F-terms; by computing which gauge bosons remain massless, we ﬁnd that this scenario breaks to a Pati-Salam group,
+which is embedded into E6 in a non-canonical way. Note that the scenario ⟨27⟩= ⟨27⟩= 0 corresponds to having a
+model with the Higgs sector 351′ + 351′. This shows why we add the extra 27 + 27 pair to the breaking sector.
+The Yukawa sector
+The Yukawa sector in our model is composed from the following terms:
+LYukawa−E6
+=
+1
+2 27i
+F 27 j
+F (Y ij
+27 27 +Yij
+351′ 351′ + eY ij
+27 f
+27).
+(40)
+The model contains three Yukawa mixing matrices: Y27, Y351′ and eY27.
+Compare this with the Yukawa terms in the renormalizable SUSY SO(10) model:
+LYukawa−SO(10)
+=
+1
+216i
+F 16 j
+F (Y ij
+10 10 +Yij
+126 126).
+(41)
+The analogy between the two models is not accidental. The fermionic 27i
+F in E6 are analogous to the fermionic 16i
+F
+in SO(10), while 27 and 351′ of E6 function as analogues of 10 and 126, respectively. This is not surprising, since the
+27 contains both the 16 and 10 of SO(10), while 351′ contains the 126 of SO(10), so the Yukawa terms of the SO(10)
+model will be automatically included also in our model. But the E6 Yukawa terms contain also terms involving the
+exotics, such as 16i
+F10 j
+F(Y ij
+27 16 +Yij
+351′ 144) in SO(10) language.
+The mechanism of ﬂavor mixing differs in the two models signiﬁcantly.
+In the SO(10) model, we need two (symmetric) Yukawa matrices for ﬂavor mixing, since a single one can always
+be diagonalized with a redeﬁnition of generations. The SM Higgs boson is located in both the 10 and the 126, its EW
+scale mass ensured by a ﬁne tuning of parameters, such that one weak Higgs doublet mode is (almost) massless, while
+all color triplets remain heavy.
+In the E6 model, the ﬁelds 27 and 351′ acquire ﬁrst GUT scale VEVs, which causes vector-like pairs of quarks and
+leptons to acquire heavy masses. In SU(5) language, the heavy 5 is a linear combination of the 5’s in the 16 and 10
+
+contained in 27i
+F. One would then hope to make a combination of the doublets in the representations 27, 351′ and
+possibly 351′ and 27 massless, while keeping the color triplets heavy.
+There are 3 doublet/antidoublet pairs and 3 triplet/antitriplet pairs in the 27 + 27 pair, while 351′ + 351′ have 8
+doublet/antidoubletpairs and 9 triplet/antitriplet pairs. The doublet and triplet mass matrices therefore have dimensions
+11×11 and 12×12, respectively. Both matrices automatically have a massless mode, which correspond to the would-
+be Nambu-Goldstone bosons of the E6 breaking. Doublet-triplet splitting in this case therefore means a ﬁne-tuning of
+parameters, such that the doublets get an extra massless mode, while the triplets don’t. The explicit conditions for the
+extra massless mode of doublets and triplets, after using any of the solutions of the equations of motion, which break
+to the Standard Model, give
+Conddoublets
+=
+m9
+351′m27λ3λ4
+72λ1λ2
+,
+(42)
+Condtriplets
+=
+4m10
+351′m27λ3λ4
+243λ1λ2
+.
+(43)
+It is not possible to ﬁne-tune the parameters (m’s and λ’s) so that a doublet mode gets massless, but a triplet doesn’t.
+The inability to perform doublet-triplet splitting in the non-tilde sector is the reason for adding the tilde ﬁelds
+f
+27 + f
+27. We assume that they combine with the non-tilde ﬁelds only in pairs, so they needn’t acquire GUT scale
+VEVs, but only EW VEVs. We now have new parameters from terms with ﬁelds, which are not involved in the
+symmetry breaking, and we denote them by κ. The terms with the tilde ﬁelds in the superpotential are
+mf
+27 f
+27 f
+27+ κ1 f
+27 f
+27 351′ + κ2 f
+27 f
+27 351′ + κ3 f
+27 f
+27 27 + κ4 f
+27 f
+27 27.
+(44)
+The above terms enable ﬁne-tuning in the tilde sector, so that doublets in the f
+27 and f
+27 acquire an EW VEV. We label
+the VEVs in the f
+27 by u1, v1 and v2 (more details can be found in Table 2). Notice that u1 and (|v1|2 +|v2|2)1/2 are not
+the MSSM Higgs VEVs yet: parts of them lie also in f
+27. In the following, we will assume that these VEVs can all be
+non-zero; this indeed turns out to be the case, which is shown in the section on doublet-triplet splitting.
+An explicit calculation of the the Yukawa terms in equation (40) then gives
+uT(−u1)eY27uc + (dcT
+d′cT )
+ 
+v1eY27
+c2Y27 +
+f5
+√
+15Y351′
+−v2eY27
+−c1Y27 +
+f4
+√
+15Y351′
+!
+d
+d′
+
++ (eT
+e′T )
+ 
+−v1eY27
+c2Y27 −3
+2
+f5
+√
+15Y351′
+v2eY27
+−c1Y27 −3
+2
+f4
+√
+15Y351′
+!
+ec
+e′c
+
++(νT
+ν′T )
+ 
+u1eY27
+0
+c2Y27 −3
+2
+f5
+√
+15Y351′
+0
+−u1eY27
+−c1Y27 −3
+2
+f4
+√
+15Y351′
+! νc
+s
+ν′c
+!
++ (νcT
+sT
+ν′cT )
+
+
+
+f1Y351′
+f2
+√
+2Y351′
+−v2eY27
+f2
+√
+2Y351′
+f3Y351′
+v1eY27
+−v2eY27
+v1eY27
+0
+
+
+
+ νc
+s
+ν′c
+!
+. (45)
+Using the standard techniques for integrating out the heavy vector-like families (see for example [8] and references
+therein) one arrives in the case (37), (38), at the following expressions for the Yukawa matrices:
+MT
+D
+=
+ 1 + (4/9)XX†−1/2 (v1 −(2/3)v2X)eY27,
+(46)
+ME
+=
+−
+ 1 + XX†−1/2(v1 + v2X)eY27,
+(47)
+MU
+=
+−u1eY27,
+(48)
+MN
+=
+ 1 + XX†−1/2 u2
+1
+f1
+eY27Y −1
+351′eY27 + u2
+1
+f3
+XeY27Y −1
+351′eY27XT
+ 1 + X∗XT−1/2 ,
+(49)
+where the matrix X is deﬁned as
+X ≡
+r
+3
+20
+f5
+c1
+Y351′Y −1
+27 .
+(50)
+and where only the type I seesaw contribution has been taken into account for simplicity.
+The number of parameters involved seems to easily accommodate the light fermion masses. In fact two symmetric
+matrices are typically able to describe the charged fermion sector (see for example the SO(10) case with 10 and 126
+Higgses), while a third matrix should easily take care of the neutrino sector.
+
+Details on doublet-triplet splitting
+Doublet triplet splitting is possible only in the tilde sector. The relevant doublet/antidoublet and triplet/antitriplet
+mass matrices in this sector are
+e
+Mdoublets
+=
+
+
+
+mf
+27
+−2κ3c1 −3κ1
+f4
+√
+15
+2κ3c2 −3κ1
+f5
+√
+15
+−2κ4d1 −3κ2
+e4
+√
+15
+mf
+27
+0
+2κ4d2 −3κ2
+e5
+√
+15
+0
+mf
+27
+
+
+,
+(51)
+e
+Mtriplets
+=
+
+
+
+mf
+27
+−2κ3c1 + 2κ1
+f4
+√
+15
+2κ3c2 + 2κ1
+f5
+√
+15
+−2κ4d1 + 2κ2
+e4
+√
+15
+mf
+27
+0
+2κ4d2 + 2κ2
+e5
+√
+15
+0
+mf
+27
+
+
+,
+(52)
+with the mass terms being
+(DT
+1
+DT
+2
+DT
+3 ) e
+Mdoublets
+ D1
+D2
+D3
+!
++
+(T T
+1
+T T
+2
+T T
+3 ) e
+Mtriplets
+ T 1
+T 2
+T 3
+!
+.
+(53)
+The labels D, T generically denote doublets (1,2, 1
+2) and triplets (3,1,−1
+3) in 5’s of SU(5), while D and T denote the
+antidoublets (1,2,−1
+2) and antitriplets (3,1, 1
+3) in 5’s of SU(5). More details on the doublets and triplets are shown in
+Table 2. Note that the EW VEVs u1, v1 and v2 correspond to the ﬁelds D1, D2 and D3, respectively. While D2, D3 and
+D1 also acquire VEVs, we will not label them.
+TABLE 2.
+Labels of the doublets and triplets along with their
+locations in f
+27 and f
+27.
+doublet,triplet
+⊂SU(5)
+⊂SO(10)
+⊂E6
+doublet VEV
+D1,T1
+5
+10
+f
+27
+u1
+D2,T2
+5
+10
+f
+27
+D3,T3
+5
+16
+f
+27
+D1,T 1
+5
+10
+f
+27
+D2,T 2
+5
+10
+f
+27
+v1
+D3,T 3
+5
+16
+f
+27
+v2
+Plugging the vacuum solution into the mass matrices for doublets and triplets, we get the following conditions for
+doublet triplet spliting:
+0
+=
+m3
+f
+27 −1
+30 mf
+27m2
+351′ κ1κ2
+λ1λ2
+−2mf
+27m351′m27
+κ3κ4
+λ3λ4
+,
+(54)
+0̸
+=
+m3
+f
+27 −2
+135 mf
+27m2
+351′ κ1κ2
+λ1λ2
+−2mf
+27m351′m27
+κ3κ4
+λ3λ4
+.
+(55)
+Both conditions are satisﬁed by a ﬁne-tuning
+κ1
+≈
+30(m2
+f
+27λ3λ4 −2m351′m27κ3κ4)
+λ1λ2
+m2
+351′λ3λ4κ2
+.
+(56)
+This ﬁne-tuning gives the following modes of doublets and antidoublets to be massless:
+Dm=0
+∝
+p
+1/30 mf
+27m351′λ −2/3
+1
+λ −1/3
+2
+λ3λ4κ2
+m2
+f
+27λ3λ4 −2m351′m27κ3κ4
+D1 +
+p
+2/15 m351′c1λ −2/3
+1
+λ −1/3
+2
+λ3λ4κ2κ3
+m2
+f
+27λ3λ4 −2m351′m27κ3κ4
+D2 + D3,
+(57)
+Dm=0
+∝
+√
+30 mf
+27λ 2/3
+1
+λ 1/3
+2
+m351′κ2
+D1 +
+√
+30 m27λ 2/3
+1
+λ 1/3
+2
+κ4
+c1λ3λ4κ2
+D2 + D3.
+(58)
+
+Notice that he massless modes have components of all doublets and antidoublets (in particular, D1, D2 and D3 in f
+27).
+Since only the massless modes can acquire a large EW VEV (after SUSY breaking), the above fact ensures non-zero
+u1, v1 and v2, which was assumed in the analysis of the Yukawa sector.
+CONCLUSION
+There is always a clash in physical models between being realistic and being predictive. Most of the times theories are
+either realistic but knot predictive or predictive but wrong. In E6 grand uniﬁed theories we are not yet at a stage of being
+both realistic and predictive. We presented here an example of a realistic E6 theory: a renormalizable supersymmetric
+case with 3×27F +2×(27+27)+351′ +351′. This is important as an existence proof, the next step would be to try
+to ﬁnd out more minimal models, especially with regard to the number of Yukawa matrices. Our goal is to bring the
+E6 GUTs at the level of the well studied SU(5) and SO(10) cases.
+ACKNOWLEDGMENTS
+We would like to thank Kaladi Babu, Ilia Gogoladze, Stéphane Lavignac and Zurab Tavartkiladze for discussion and
+correspondence. This work has been supported in part by the Slovenian Research Agency. BB would like to thank the
+organizers of the theory workshop on "Neutrino Physics and Astrophysics", July 15-26, 2013, Lead, South Dakota
+and CETUP* (Center for Theoretical Underground Physics and Related Areas), supported by the US Department of
+Energy under Grant No. DE-SC0010137 and by the US National Science Foundation under Grant No. PHY-1342611,
+for its hospitality and partial support during the 2013 Summer Program.
+REFERENCES
+1.
+B. Bajc and V. Susiˇc, to appear.
+2.
+H. Georgi and S. L. Glashow, “Unity of All Elementary Particle Forces,” Phys. Rev. Lett. 32 (1974) 438.
+3.
+F. Gursey, P. Ramond and P. Sikivie, “A Universal Gauge Theory Model Based on E6,” Phys. Lett. B 60 (1976) 177.
+4.
+K. S. Babu and R. N. Mohapatra, “Predictive Neutrino Spectrum in Minimal SO(10) Grand Uniﬁcation,” Phys. Rev. Lett. 70
+(1993) 2845 [hep-ph/9209215].
+5.
+C. S. Aulakh, B. Bajc, A. Melfo, G. Senjanovic and F. Vissani, “The Minimal Supersymmetric Grand Uniﬁed Theory,” Phys.
+Lett. B 588 (2004) 196 [hep-ph/0306242].
+6.
+T. W. Kephart and M. T. Vaughn, “Tensor Methods for the Exceptional Group E6,” Annals Phys. 145 (1983) 162.
+7.
+R. Slansky, “Group Theory for Uniﬁed Model Building,” Phys. Rept. 79 (1981) 1.
+8.
+K. S. Babu, B. Bajc and Z. Tavartkiladze, “Realistic Fermion Masses and Nucleon Decay Rates in SUSY SU(5) with
+Vector-Like Matter,” Phys. Rev. D 86 (2012) 075005 [arXiv:1207.6388 [hep-ph]].

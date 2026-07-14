@@ -1,0 +1,992 @@
+{
+  "schema": "target_free_g2_flavor_shape_verifier_v1",
+  "source": "D:\\Projects\\can_o_worms\\target_free_g2_post_stability_flavor_diagnostic_v1_results.json",
+  "thresholds": {
+    "full_rank_relative_smallest_singular_value_min": 1e-10,
+    "each_adjacent_gap_decades_min": 1.0
+  },
+  "audit_note": "The earlier endpoint-span count is not sufficient for a three-rung hierarchy; both adjacent gaps must be tested.",
+  "mass_evaluated_count": 36,
+  "full_rank_both_sectors_count": 23,
+  "isolated_modulo_symmetry_count": 11,
+  "isolated_full_rank_both_sectors_count": 6,
+  "isolated_genuine_two_gap_hierarchy_count": 0,
+  "maximum_mass_singular_value_change_under_gauge_trials": 2.4424906541753444e-15,
+  "mixing_verdict": "not_gauge_defined; independent left-frame O(3) rotations change the mixing proxy while preserving mass singular values",
+  "results": [
+    {
+      "label": "primitive_minus__single_sum_hPh",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.09426846375947279,
+        5.870032405637861e-17
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.11145514558492702,
+        9.363481113475232e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_plus__single_sum_hPh",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.45185604643500965,
+        0.14491376576159704
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.4568970784742744,
+        0.2827349228131321
+      ],
+      "down_adjacent_gap_decades": [
+        0.3449999019065074,
+        0.49389045582218244
+      ],
+      "up_adjacent_gap_decades": [
+        0.3401816189339161,
+        0.2084389261375377
+      ],
+      "minimum_adjacent_gap_decades": 0.2084389261375377,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9311335803154841,
+        0.02574046994182419
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.35065547764354416,
+        0.18545893742025935
+      ],
+      "down_adjacent_gap_decades": [
+        0.03098801071315404,
+        1.558395517764399
+      ],
+      "up_adjacent_gap_decades": [
+        0.45511937253082163,
+        0.27663286028837847
+      ],
+      "minimum_adjacent_gap_decades": 0.03098801071315404,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.37911540484921213,
+        0.19410245285747055
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.18686017406712319,
+        0.006992227193577973
+      ],
+      "down_adjacent_gap_decades": [
+        0.42122856823755633,
+        0.290740408194104
+      ],
+      "up_adjacent_gap_decades": [
+        0.7284832509269008,
+        1.4269012179887677
+      ],
+      "minimum_adjacent_gap_decades": 0.290740408194104,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPhh",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.2632790033812319,
+        0.14641441568202818
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.5372917966366941,
+        0.1102566295317075
+      ],
+      "down_adjacent_gap_decades": [
+        0.5795837746929093,
+        0.25483238667937774
+      ],
+      "up_adjacent_gap_decades": [
+        0.26978979018249544,
+        0.6878054975508544
+      ],
+      "minimum_adjacent_gap_decades": 0.25483238667937774,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPhh",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.4317275238398661,
+        0.05584296374525822
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.1837520835422388,
+        0.11464192747765631
+      ],
+      "down_adjacent_gap_decades": [
+        0.36479026297047895,
+        0.8882412775567022
+      ],
+      "up_adjacent_gap_decades": [
+        0.7357677278042192,
+        0.20488879294088685
+      ],
+      "minimum_adjacent_gap_decades": 0.20488879294088685,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        1.0,
+        2.2974963129451345e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999999999999993,
+        3.389564986741184e-16
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9999999999999905,
+        6.814257242570458e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999999999999992,
+        9.447594291559963e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_minus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9999999999999992,
+        2.916765738252401e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999999999999932,
+        3.913805991561217e-15
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.564650739957818,
+        0.10204064122714804
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.5371611727079886,
+        0.01724303829784986
+      ],
+      "down_adjacent_gap_decades": [
+        0.24822009839318585,
+        0.7430067225379657
+      ],
+      "up_adjacent_gap_decades": [
+        0.2698953867108488,
+        1.4934908204935238
+      ],
+      "minimum_adjacent_gap_decades": 0.24822009839318585,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.21994909857289377,
+        0.0021986184226101546
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.7176736684903202,
+        0.021413634875529677
+      ],
+      "down_adjacent_gap_decades": [
+        0.6576778135717297,
+        2.0001723237497697
+      ],
+      "up_adjacent_gap_decades": [
+        0.14407298777790922,
+        1.5252366189866704
+      ],
+      "minimum_adjacent_gap_decades": 0.14407298777790922,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.49667383339239857,
+        0.020228258148279044
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.49667383339239873,
+        0.020228258148279145
+      ],
+      "down_adjacent_gap_decades": [
+        0.30392871963561063,
+        1.390112793004351
+      ],
+      "up_adjacent_gap_decades": [
+        0.30392871963561047,
+        1.390112793004349
+      ],
+      "minimum_adjacent_gap_decades": 0.30392871963561047,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.46153817575345785,
+        0.0015699382343541343
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.4615381757534578,
+        0.0015699382343540194
+      ],
+      "down_adjacent_gap_decades": [
+        0.335792370838785,
+        2.4683250627435975
+      ],
+      "up_adjacent_gap_decades": [
+        0.335792370838785,
+        2.4683250627436295
+      ],
+      "minimum_adjacent_gap_decades": 0.335792370838785,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.792126833098478,
+        0.05452655308184044
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.7921268330984781,
+        0.054526553081840755
+      ],
+      "down_adjacent_gap_decades": [
+        0.10120527484397067,
+        1.1621866807032313
+      ],
+      "up_adjacent_gap_decades": [
+        0.10120527484397059,
+        1.1621866807032288
+      ],
+      "minimum_adjacent_gap_decades": 0.10120527484397059,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.4269306213255811,
+        0.05687858773935575
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.3201631634003817,
+        0.016287644136857658
+      ],
+      "down_adjacent_gap_decades": [
+        0.3696426945851429,
+        0.875408500826395
+      ],
+      "up_adjacent_gap_decades": [
+        0.49462863760172127,
+        1.293513090388923
+      ],
+      "minimum_adjacent_gap_decades": 0.3696426945851429,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.7364121906306985,
+        0.011831118004236842
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.18745881016063673,
+        0.08937192379795539
+      ],
+      "down_adjacent_gap_decades": [
+        0.13287903076033455,
+        1.794095183180719
+      ],
+      "up_adjacent_gap_decades": [
+        0.7270941438568017,
+        0.32170474959213413
+      ],
+      "minimum_adjacent_gap_decades": 0.13287903076033455,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.572674047099722,
+        0.0029212785493127574
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.5726740470997218,
+        0.002921278549312486
+      ],
+      "down_adjacent_gap_decades": [
+        0.24209249814522657,
+        2.2923345321246975
+      ],
+      "up_adjacent_gap_decades": [
+        0.24209249814522674,
+        2.292334532124738
+      ],
+      "minimum_adjacent_gap_decades": 0.24209249814522657,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.2876071880661759,
+        0.0034885372318766506
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.28760718806619534,
+        0.003488537231908081
+      ],
+      "down_adjacent_gap_decades": [
+        0.5412002639829478,
+        1.916156373611652
+      ],
+      "up_adjacent_gap_decades": [
+        0.5412002639829184,
+        1.9161563736077685
+      ],
+      "minimum_adjacent_gap_decades": 0.5412002639829184,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.95325123255449,
+        0.030823012788741447
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9532512325544904,
+        0.030823012788741246
+      ],
+      "down_adjacent_gap_decades": [
+        0.020792624510869204,
+        1.4903322890114352
+      ],
+      "up_adjacent_gap_decades": [
+        0.02079262451086902,
+        1.4903322890114383
+      ],
+      "minimum_adjacent_gap_decades": 0.02079262451086902,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.7260868249903778,
+        0.10740810279538733
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.41353613158575353,
+        0.002878070774232213
+      ],
+      "down_adjacent_gap_decades": [
+        0.13901144354288628,
+        0.8299515109726654
+      ],
+      "up_adjacent_gap_decades": [
+        0.3834865391639534,
+        2.1574119914298366
+      ],
+      "minimum_adjacent_gap_decades": 0.13901144354288628,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.41342299646978703,
+        0.1426442482965413
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.4904500572013187,
+        0.03453734881768365
+      ],
+      "down_adjacent_gap_decades": [
+        0.383605369599977,
+        0.462140365682314
+      ],
+      "up_adjacent_gap_decades": [
+        0.30940521047809366,
+        1.1523057926553033
+      ],
+      "minimum_adjacent_gap_decades": 0.30940521047809366,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "primitive_plus__triple_sum_phi_PQR",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.37966114485032737,
+        5.476704375974151e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.045165799102403606,
+        1.1839104565860126e-16
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_minus__triple_sum_sym_hPQRh",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.16846149697330076,
+        6.495016156600081e-17
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.16864541020966667,
+        1.0713958914414633e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_plus__four_psi_PQRS",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.577593310277132,
+        2.452230410187477e-13
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.41853142258931103,
+        7.57232007695742e-13
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "primitive_minus__four_sum_sym_h_cycle_h",
+      "vacuum_class": "continuous_extra_moduli",
+      "isolated_modulo_symmetry": false,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.26749020319547634,
+        1.0269697859455568e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.23766171822583895,
+        2.1837202974654746e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_02",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.8748364062749672,
+        5.73825565645481e-08
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.974039158299719,
+        1.2956625049528178e-08
+      ],
+      "down_adjacent_gap_decades": [
+        0.05807315211435896,
+        7.1831469544263085
+      ],
+      "up_adjacent_gap_decades": [
+        0.011423583273702784,
+        7.8760845257817085
+      ],
+      "minimum_adjacent_gap_decades": 0.011423583273702784,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_03",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9850063165287448,
+        0.00016640687519280337
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9890406910621149,
+        2.558951809105343e-05
+      ],
+      "down_adjacent_gap_decades": [
+        0.00656098450260867,
+        3.7722677500534165
+      ],
+      "up_adjacent_gap_decades": [
+        0.0047858403136335345,
+        4.5871520524770615
+      ],
+      "minimum_adjacent_gap_decades": 0.0047858403136335345,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_04",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.999999844103097,
+        1.5787507533003658e-07
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999998435597507,
+        1.3830823388148585e-07
+      ],
+      "down_adjacent_gap_decades": [
+        6.770517002381733e-08,
+        6.801686361507934
+      ],
+      "up_adjacent_gap_decades": [
+        6.794114236452264e-08,
+        6.859151896397492
+      ],
+      "minimum_adjacent_gap_decades": 6.770517002381733e-08,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_07",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.00044777189049199575,
+        0.00017070150061094687
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.00044777005194960033,
+        0.0001707461544775815
+      ],
+      "down_adjacent_gap_decades": [
+        3.3489431733460644,
+        0.41881948770563904
+      ],
+      "up_adjacent_gap_decades": [
+        3.348944956554152,
+        0.4187041121052972
+      ],
+      "minimum_adjacent_gap_decades": 0.4187041121052972,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_11",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9999999999999999,
+        2.5021604172998905e-16
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999999999999997,
+        4.493793123483614e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_12",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.8082871183345678,
+        0.4824912844957127
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.808287121545949,
+        0.48249128691489357
+      ],
+      "down_adjacent_gap_decades": [
+        0.09243434249403096,
+        0.22407618465435433
+      ],
+      "up_adjacent_gap_decades": [
+        0.09243434076854865,
+        0.2240761842023115
+      ],
+      "minimum_adjacent_gap_decades": 0.09243434076854865,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "rademacher_16",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9999999999999853,
+        1.2807545494474143e-14
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.9999999999999941,
+        6.472405609805627e-16
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_23",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": true,
+      "down_normalized_singular_values": [
+        1.0,
+        0.34221506866515444,
+        0.23104515234454123
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        0.34221508284300417,
+        0.23104515769357362
+      ],
+      "down_adjacent_gap_decades": [
+        0.4657008712004014,
+        0.1706022679643596
+      ],
+      "up_adjacent_gap_decades": [
+        0.4657008532077344,
+        0.1706022759024758
+      ],
+      "minimum_adjacent_gap_decades": 0.1706022679643596,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": false
+    },
+    {
+      "label": "rademacher_26",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        1.074227445759236e-16,
+        2.27670471243719e-17
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        4.852518803876065e-17,
+        1.3628163205919454e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_27",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        9.413167672081792e-17,
+        4.923724194521891e-17
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        6.18796138786415e-17,
+        6.8081379072963204e-18
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    },
+    {
+      "label": "rademacher_28",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "isolated_modulo_symmetry": true,
+      "full_rank_both_sectors": false,
+      "down_normalized_singular_values": [
+        1.0,
+        0.9999999999999999,
+        -0.0
+      ],
+      "up_normalized_singular_values": [
+        1.0,
+        1.0,
+        1.8138181618067742e-17
+      ],
+      "down_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "up_adjacent_gap_decades": [
+        Infinity,
+        Infinity
+      ],
+      "minimum_adjacent_gap_decades": Infinity,
+      "genuine_two_gap_hierarchy": false,
+      "endpoint_three_decades_from_v1": true
+    }
+  ],
+  "verdict": "no_isolated_full_rank_two_gap_hierarchy_in_tested_target_free_ensemble",
+  "claim_boundary": "This verdict applies to the 74 locked coefficient choices, four starts each, the stable-vacuum gates, and the declared composite-V signed Yukawa operator. It is not a no-go theorem for the full invariant ring."
+}

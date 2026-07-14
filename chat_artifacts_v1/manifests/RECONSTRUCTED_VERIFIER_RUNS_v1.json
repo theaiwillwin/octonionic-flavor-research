@@ -1,0 +1,90 @@
+{
+  "runner": "D:/Projects/can_o_worms/chat_artifacts_v1/tools/run_reconstructed_readonly_verifiers_v1.py",
+  "policy": {
+    "source_files_modified": false,
+    "files_deleted": false,
+    "outputs_overwritten": false,
+    "PYTHONPATH": "unset",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "dynamic_overwriting_verifiers": "preserved but deliberately not executed"
+  },
+  "recovered_file_count": 12,
+  "unique_content_count": 7,
+  "runs": [
+    {
+      "sha256": "079e99895ed4a35661121b22254704d55604450d98bfff03ba6023e81805a04b",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9578_call_1_write_file__hermes-verify-fts-writeup.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9578_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "FAIL_PRESERVED",
+      "exit_code": 1,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9578_call_1_write_file__hermes-verify-fts-writeup__079e99895ed4.log"
+    },
+    {
+      "sha256": "0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9799_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal__0afff0c968a7.log"
+    },
+    {
+      "sha256": "46dd17071da779c5fd9268833f0f7351c5e13ecdde6c1df05965721414ac1015",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9807_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch__46dd17071da7.log"
+    },
+    {
+      "sha256": "51a0dfacea53727de7bdaf335adfee6bd2f8f106b756888935c6b23b1964fd5c",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9650_call_1_write_file__hermes-verify-fts-writeup.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9650_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "FAIL_PRESERVED",
+      "exit_code": 1,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9650_call_1_write_file__hermes-verify-fts-writeup__51a0dfacea53.log"
+    },
+    {
+      "sha256": "7051b9e762d16372a410ec6e33a75b6ec58cdc54d3f758ff28ad3ad30b049d7f",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9444_call_1_write_file__hermes-verify-locked-fts-direct.py",
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9493_call_1_write_file__hermes-verify-locked-fts-direct.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9444_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "FAIL_PRESERVED",
+      "exit_code": 1,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9444_call_1_write_file__hermes-verify-locked-fts-direct__7051b9e762d1.log"
+    },
+    {
+      "sha256": "9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py",
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9499_call_1_write_file__hermes-verify-locked-fts-direct.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9450_call_1_write_file__hermes-verify-locked-fts-direct__9ec4b42545a3.log"
+    },
+    {
+      "sha256": "b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337",
+      "versions": [
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py",
+        "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9659_call_1_write_file__hermes-verify-fts-writeup.py"
+      ],
+      "representative": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "D:/Projects/can_o_worms/chat_artifacts_v1/verification_receipts/reconstructed_verifiers/message_9587_call_1_write_file__hermes-verify-fts-writeup__b1c3597a97e5.log"
+    }
+  ]
+}

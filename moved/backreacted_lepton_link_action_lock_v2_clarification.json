@@ -1,0 +1,11 @@
+{
+  "schema": "backreacted-lepton-link-action-lock-clarification/v2",
+  "status": "EXECUTED_SIGN_AND_COUPLING_STATUS_CLARIFIED",
+  "auxiliary_interaction": "V_link(Sigma)=-ReTr(Sigma^dagger K_h)",
+  "integrated_out_interaction": "min_Sigma V_link=-||K_h||_*",
+  "executed_action": "S_c-(||K_h||_*-haar_mean)/haar_std",
+  "effective_standardized_link_coefficient": -1.0,
+  "sign_rule": "The minus sign appears exactly once. Do not multiply the old negative displayed term by the old coefficient field a second time.",
+  "coupling_status": "A conventional unit coefficient after empirical Haar standardization; target-free but not physically derived.",
+  "scientific_boundary": "The executed sign is unambiguous in backreacted_lepton_link_vacuum_solver_v1.py. This clarification changes no retained numerical result."
+}

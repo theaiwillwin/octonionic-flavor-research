@@ -1,0 +1,7 @@
+{
+  "action": "patch",
+  "file_path": "references/flavor-higgs-wedge-locked-results.md",
+  "name": "verified-algebra-workflow",
+  "new_string": "7. **CKM-localizing `r,s` — reproduced historical four-real-parameter diagnostic fit, not a derivation.** The locked values are `r=0.3887831255168539+0.28228702817500606i` and `s=0.23729498924317205-0...[truncated]",
+  "old_string": "7. **CKM-localizing `r,s` — historical four-real-parameter diagnostic fit, currently unreproducible from canonical inputs.** The recorded values are `r=0.3887831255168539+0.28228702817500606i` and `s=...[truncated]"
+}

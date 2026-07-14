@@ -1,0 +1,296 @@
+{
+  "schema": "phenomenological_pmns_jordan_embedding_v1",
+  "status": "complete_data_conditioned_embedding_constructed",
+  "source_model_case_for_spectra": "rademacher_12",
+  "external_orientation_source": {
+    "schema": "pmns_held_out_benchmark_nufit60_v1",
+    "status": "external_benchmark_frozen_after_shared_link_structural_gate",
+    "ordering": "normal",
+    "analysis_variant": "NuFIT 6.0 IC24 including Super-Kamiokande and IceCube atmospheric tabulated chi-square data",
+    "best_fit": {
+      "theta12_deg": 33.68,
+      "theta23_deg": 43.3,
+      "theta13_deg": 8.56,
+      "delta_cp_deg": 212.0
+    },
+    "three_sigma_ranges_deg": {
+      "theta12": [
+        31.63,
+        35.95
+      ],
+      "theta23": [
+        41.3,
+        49.9
+      ],
+      "theta13": [
+        8.19,
+        8.89
+      ],
+      "delta_cp": [
+        124.0,
+        364.0
+      ]
+    },
+    "source": {
+      "parameter_table": "https://www.nu-fit.org/sites/default/files/v60.tbl-parameters.pdf",
+      "release_page": "https://www.nu-fit.org/?q=node/294",
+      "paper": "https://arxiv.org/abs/2410.05380",
+      "citation": "I. Esteban et al., NuFit-6.0: updated global analysis of three-flavor neutrino oscillations, JHEP 12 (2024) 216"
+    },
+    "claim_boundary": "This benchmark was created only after shared_lepton_link_structural_gate_v1_results.json and its degeneracy-aware verification existed. It was not read by any vacuum, link, Jordan, or Yukawa construction."
+  },
+  "derivation_chain": "NuFIT angles and delta -> PDG U_PMNS -> J_e=diag(s_e^2), J_nu=U_PMNS diag(s_nu^2) U_PMNS^dagger -> canonical Y_f=sqrt(J_f)",
+  "U_pmns_complex_pairs": [
+    [
+      [
+        0.82287806833464,
+        0.0
+      ],
+      [
+        0.5483765523988509,
+        0.0
+      ],
+      [
+        -0.12622773997603956,
+        0.07887584607180692
+      ]
+    ],
+    [
+      [
+        -0.33155083559716514,
+        0.045014618753362164
+      ],
+      [
+        0.6536218126949744,
+        0.029998322217379556
+      ],
+      [
+        0.6781787036960015,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.45676864670429446,
+        0.04776835307073137
+      ],
+      [
+        -0.5197580351582295,
+        0.03183344626466091
+      ],
+      [
+        0.719665758821558,
+        0.0
+      ]
+    ]
+  ],
+  "U_pmns_abs": [
+    [
+      0.82287806833464,
+      0.5483765523988509,
+      0.1488450248849522
+    ],
+    [
+      0.3345926964036857,
+      0.6543098450784016,
+      0.6781787036960015
+    ],
+    [
+      0.45925963481146764,
+      0.5207319688790275,
+      0.719665758821558
+    ]
+  ],
+  "angles_roundtrip_deg": {
+    "theta13_deg": 8.56,
+    "theta12_deg": 33.68,
+    "theta23_deg": 43.3
+  },
+  "jarlskog": -0.01776492150585119,
+  "J_e_complex_pairs": [
+    [
+      [
+        0.2775281036052972,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.7788598871736931,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.192142092319582,
+        0.0
+      ]
+    ]
+  ],
+  "J_nu_complex_pairs": [
+    [
+      [
+        0.4485501446410984,
+        0.0
+      ],
+      [
+        0.1013972929217183,
+        0.04067736045717689
+      ],
+      [
+        -0.2259763133645248,
+        0.04316576636914651
+      ]
+    ],
+    [
+      [
+        0.10139729292171831,
+        -0.04067736045717689
+      ],
+      [
+        0.9128140315460852,
+        -1.734723475976807e-18
+      ],
+      [
+        0.27655203278250473,
+        -0.018247927438976182
+      ]
+    ],
+    [
+      [
+        -0.2259763133645248,
+        -0.04316576636914651
+      ],
+      [
+        0.27655203278250473,
+        0.018247927438976186
+      ],
+      [
+        0.887165906042489,
+        -8.673617379884035e-19
+      ]
+    ]
+  ],
+  "Y_e_canonical_complex_pairs": [
+    [
+      [
+        0.5268093617289819,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.8825303888103192,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0918525964248023,
+        0.0
+      ]
+    ]
+  ],
+  "Y_nu_canonical_complex_pairs": [
+    [
+      [
+        0.6462991107563296,
+        0.0
+      ],
+      [
+        0.07913089342132199,
+        0.024373501926762825
+      ],
+      [
+        -0.15271825094962468,
+        0.025864531964314274
+      ]
+    ],
+    [
+      [
+        0.07913089342132199,
+        -0.024373501926762815
+      ],
+      [
+        0.9389794109894518,
+        -2.7755575615628914e-17
+      ],
+      [
+        0.15526842703158492,
+        -0.012947855470850922
+      ]
+    ],
+    [
+      [
+        -0.15271825094962466,
+        -0.025864531964314274
+      ],
+      [
+        0.15526842703158497,
+        0.012947855470850922
+      ],
+      [
+        0.9159138258927457,
+        0.0
+      ]
+    ]
+  ],
+  "checks": {
+    "pmns_unitarity_residual": 5.532279034312146e-17,
+    "J_e_hermiticity_residual": 0.0,
+    "J_nu_hermiticity_residual": 1.3877787807814457e-17,
+    "Y_e_square_root_residual": 0.0,
+    "Y_nu_square_root_residual": 8.300030970468207e-16,
+    "eigendecomposition_pmns_roundtrip_residual_up_to_column_phases": 4.491959626717147e-16,
+    "offdiagonal_eigenbasis_overlap_residual": 7.093503887874267e-16
+  },
+  "claim_boundary": "This proves the existing shared-link/Jordan machinery can faithfully accommodate a complete physical PMNS matrix. The PMNS orientation is supplied by NuFIT and is therefore not predicted or derived target-free from G2 dynamics."
+}

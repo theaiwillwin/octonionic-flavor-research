@@ -1,0 +1,19 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9768,
+  "call_index": 1,
+  "tool_name": "skill_view",
+  "call": {
+    "id": "call_7Q4C73X8CpghQr4XVUIxd7xt",
+    "call_id": "call_7Q4C73X8CpghQr4XVUIxd7xt",
+    "response_item_id": "fc_071f367ba0e10612016a55336280a481919edd61578dd80e85",
+    "type": "function",
+    "function": {
+      "name": "skill_view",
+      "arguments": "{\"name\":\"verified-algebra-workflow\"}"
+    }
+  },
+  "parsed_arguments": {
+    "name": "verified-algebra-workflow"
+  }
+}

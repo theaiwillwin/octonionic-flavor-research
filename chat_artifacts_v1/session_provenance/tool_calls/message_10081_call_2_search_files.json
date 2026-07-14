@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10081,
+  "call_index": 2,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_TkMbSw8mcNLFWI2A3SrikLBL",
+    "call_id": "call_TkMbSw8mcNLFWI2A3SrikLBL",
+    "response_item_id": "fc_071f367ba0e10612016a55399eb0f48191bae5f7ee2155651b",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":100,\"path\":\"C:/Users/theai/AppData/Local/Temp\",\"pattern\":\"hermes-verify-*.py\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 100,
+    "path": "C:/Users/theai/AppData/Local/Temp",
+    "pattern": "hermes-verify-*.py",
+    "target": "files"
+  }
+}

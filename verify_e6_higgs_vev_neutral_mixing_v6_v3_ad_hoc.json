@@ -1,0 +1,587 @@
+{
+  "schema": "verify-e6-higgs-vev-neutral-mixing-v6/v2",
+  "status": "PASS",
+  "verification_scope": "focused independent ad-hoc verification; no canonical project test suite exists",
+  "source_sha256": "8b58e924f3210ad71766fe38f5d0fd59017a8d82cc5c505c6b45fb57e6ec630b",
+  "checks_passed": 82,
+  "checks_total": 82,
+  "checks": [
+    {
+      "label": "primary source SHA-256",
+      "passed": true,
+      "detail": "8b58e924f3210ad71766fe38f5d0fd59017a8d82cc5c505c6b45fb57e6ec630b"
+    },
+    {
+      "label": "source token: D row mass convention",
+      "passed": true,
+      "detail": "\\begin{pmatrix}D_0&\\cdots& D_{11}"
+    },
+    {
+      "label": "source token: doublet matrix",
+      "passed": true,
+      "detail": "\\mathcal{M}_{\\textrm{doublets}}"
+    },
+    {
+      "label": "source token: full neutral mass terms",
+      "passed": true,
+      "detail": "\\nu^{cT} & s^T & \\nu'^{cT}"
+    },
+    {
+      "label": "source token: Eq84 projection",
+      "passed": true,
+      "detail": "\\left(1+X^\\ast X^T\\right)^{-1/2}"
+    },
+    {
+      "label": "source token: Table2 point2 Y27_11",
+      "passed": true,
+      "detail": "$(Y_{27})_{11}$&$ -0.723 $&$ 1.93 $"
+    },
+    {
+      "label": "source token: Table3 point2 Y27_11",
+      "passed": true,
+      "detail": "$(Y_{27})_{11}$&$ -7.23\\times 10^{-1} $&$ 1.87 $"
+    },
+    {
+      "label": "unambiguous Eq. 83 implementation",
+      "passed": true,
+      "detail": "clarified matrix-product line present"
+    },
+    {
+      "label": "ambiguous Eq. 83 spelling absent from final helper",
+      "passed": true,
+      "detail": "mixed * and @ form absent"
+    },
+    {
+      "label": "EW norm",
+      "passed": true,
+      "detail": {
+        "v_total_GeV": 246.0,
+        "tan_beta": 10.0,
+        "v_u_GeV": 244.77914879165735,
+        "v_d_GeV": 24.477914879165734
+      }
+    },
+    {
+      "label": "tan beta",
+      "passed": true,
+      "detail": {
+        "v_total_GeV": 246.0,
+        "tan_beta": 10.0,
+        "v_u_GeV": 244.77914879165735,
+        "v_d_GeV": 24.477914879165734
+      }
+    },
+    {
+      "label": "point_1 H_u unit norm",
+      "passed": true,
+      "detail": 1.0
+    },
+    {
+      "label": "point_1 H_d unit norm",
+      "passed": true,
+      "detail": 1.0
+    },
+    {
+      "label": "point_1 v_i mapping",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_1 bar_v_i mapping",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_1 H_u null residual",
+      "passed": true,
+      "detail": 2.298327676843868e-16
+    },
+    {
+      "label": "point_1 H_d null residual",
+      "passed": true,
+      "detail": 2.090974253459561e-16
+    },
+    {
+      "label": "point_1 H_u Goldstone orthogonality",
+      "passed": true,
+      "detail": -2.42861286636753e-17
+    },
+    {
+      "label": "point_1 H_d Goldstone orthogonality",
+      "passed": true,
+      "detail": -3.354462229363843e-18
+    },
+    {
+      "label": "point_1 exactly two doublet zero modes",
+      "passed": true,
+      "detail": [
+        0.22940462382773105,
+        0.04719079468236896,
+        3.3584336338837747e-16,
+        7.360906870581981e-18
+      ]
+    },
+    {
+      "label": "point_1 triplet fine-tuning gate nonzero",
+      "passed": true,
+      "detail": 4.8816296792600784e-08
+    },
+    {
+      "label": "point_1 lambda6 reproduces rounded Table 3",
+      "passed": true,
+      "detail": {
+        "solved": -0.007517405923138841,
+        "table3_rounded": -0.00759,
+        "relative_difference": 0.009564437004105324,
+        "affine_determinant_linearity_residual": 0.0
+      }
+    },
+    {
+      "label": "point_1 neutral matrix symmetric",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_1 independent 100-dps eigenspectrum",
+      "passed": true,
+      "detail": "3.107539716e-30"
+    },
+    {
+      "label": "point_1 state 0 fractions sum",
+      "passed": true,
+      "detail": "1.000000000000000000000001"
+    },
+    {
+      "label": "point_1 state 1 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_1 state 2 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_1 state 3 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999996"
+    },
+    {
+      "label": "point_1 state 4 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999998"
+    },
+    {
+      "label": "point_1 state 5 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999998"
+    },
+    {
+      "label": "point_1 state 6 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_1 state 7 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_1 state 8 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999999"
+    },
+    {
+      "label": "point_1 state 9 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999999"
+    },
+    {
+      "label": "point_1 PMNS orthogonality",
+      "passed": true,
+      "detail": 6.280639967333128e-16
+    },
+    {
+      "label": "point_1 PMNS angle extraction",
+      "passed": true,
+      "detail": [
+        0.34692601153023367,
+        0.34692601153023367
+      ]
+    },
+    {
+      "label": "point_1 rounded PMNS reproduction",
+      "passed": true,
+      "detail": 0.011446097755783211
+    },
+    {
+      "label": "point_1 full matrix matches Eq. 84",
+      "passed": true,
+      "detail": [
+        7.794347591195426e-15,
+        2.9328519828429667e-15
+      ]
+    },
+    {
+      "label": "point_1 rounded light-mass reproduction",
+      "passed": true,
+      "detail": [
+        0.02496766362340983,
+        0.01858122857643332
+      ]
+    },
+    {
+      "label": "point_1 two nu_c-like states",
+      "passed": true,
+      "detail": [
+        149556000000.0,
+        152852000000.0
+      ]
+    },
+    {
+      "label": "point_1 two s-like states",
+      "passed": true,
+      "detail": [
+        6679200000000000.0,
+        6826400000000000.0
+      ]
+    },
+    {
+      "label": "point_1 nu_c masses equal |f1*y|",
+      "passed": true,
+      "detail": [
+        [
+          149556000000.0,
+          152852000000.0
+        ],
+        [
+          149556000000.0,
+          152852000000.0
+        ]
+      ]
+    },
+    {
+      "label": "point_1 s masses equal |f3*y|",
+      "passed": true,
+      "detail": [
+        [
+          6679200000000000.0,
+          6826400000000000.0
+        ],
+        [
+          6679200000000000.0,
+          6826400000000000.0
+        ]
+      ]
+    },
+    {
+      "label": "point_1 light 0 sterile amplitude squared",
+      "passed": true,
+      "detail": [
+        9.102751883977549e-21,
+        9.102751883977549e-21
+      ]
+    },
+    {
+      "label": "point_1 light 1 sterile amplitude squared",
+      "passed": true,
+      "detail": [
+        1.207322365317778e-20,
+        1.2073223653177781e-20
+      ]
+    },
+    {
+      "label": "point_2 H_u unit norm",
+      "passed": true,
+      "detail": 0.9999999999999999
+    },
+    {
+      "label": "point_2 H_d unit norm",
+      "passed": true,
+      "detail": 1.0000000000000002
+    },
+    {
+      "label": "point_2 v_i mapping",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_2 bar_v_i mapping",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_2 H_u null residual",
+      "passed": true,
+      "detail": 1.2401001812414758e-16
+    },
+    {
+      "label": "point_2 H_d null residual",
+      "passed": true,
+      "detail": 1.532337267496628e-16
+    },
+    {
+      "label": "point_2 H_u Goldstone orthogonality",
+      "passed": true,
+      "detail": -5.898059818321144e-17
+    },
+    {
+      "label": "point_2 H_d Goldstone orthogonality",
+      "passed": true,
+      "detail": -1.5720931501039814e-17
+    },
+    {
+      "label": "point_2 exactly two doublet zero modes",
+      "passed": true,
+      "detail": [
+        0.4527350335125565,
+        0.38546368340734627,
+        7.156306507134562e-17,
+        1.5868529832525818e-17
+      ]
+    },
+    {
+      "label": "point_2 triplet fine-tuning gate nonzero",
+      "passed": true,
+      "detail": -1.800370721407449e-07
+    },
+    {
+      "label": "point_2 lambda6 reproduces rounded Table 3",
+      "passed": true,
+      "detail": {
+        "solved": 0.030198349097539726,
+        "table3_rounded": 0.0306,
+        "relative_difference": 0.01312584648562984,
+        "affine_determinant_linearity_residual": 1.5612511283791264e-17
+      }
+    },
+    {
+      "label": "point_2 neutral matrix symmetric",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "label": "point_2 independent 100-dps eigenspectrum",
+      "passed": true,
+      "detail": "3.613811775e-30"
+    },
+    {
+      "label": "point_2 state 0 fractions sum",
+      "passed": true,
+      "detail": "1.000000000000000000000001"
+    },
+    {
+      "label": "point_2 state 1 fractions sum",
+      "passed": true,
+      "detail": "1.000000000000000000000001"
+    },
+    {
+      "label": "point_2 state 2 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999996"
+    },
+    {
+      "label": "point_2 state 3 fractions sum",
+      "passed": true,
+      "detail": "0.9999999999999999999999996"
+    },
+    {
+      "label": "point_2 state 4 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 state 5 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 state 6 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 state 7 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 state 8 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 state 9 fractions sum",
+      "passed": true,
+      "detail": "1.0"
+    },
+    {
+      "label": "point_2 PMNS orthogonality",
+      "passed": true,
+      "detail": 2.50855526038307e-16
+    },
+    {
+      "label": "point_2 PMNS angle extraction",
+      "passed": true,
+      "detail": [
+        0.3149533390497558,
+        0.3149533390497558
+      ]
+    },
+    {
+      "label": "point_2 rounded PMNS reproduction",
+      "passed": true,
+      "detail": 0.03683994174386607
+    },
+    {
+      "label": "point_2 full matrix matches Eq. 84",
+      "passed": true,
+      "detail": [
+        2.0685332290833365e-16,
+        1.1941550302976538e-15
+      ]
+    },
+    {
+      "label": "point_2 rounded light-mass reproduction",
+      "passed": true,
+      "detail": [
+        0.018057543836826274,
+        0.012742688568192268
+      ]
+    },
+    {
+      "label": "point_2 two nu_c-like states",
+      "passed": true,
+      "detail": [
+        1584239999999.9998,
+        4046160000000.0
+      ]
+    },
+    {
+      "label": "point_2 two s-like states",
+      "passed": true,
+      "detail": [
+        3960599999999999.0,
+        1.0115399999999998e+16
+      ]
+    },
+    {
+      "label": "point_2 nu_c masses equal |f1*y|",
+      "passed": true,
+      "detail": [
+        [
+          1584239999999.9998,
+          4046160000000.0
+        ],
+        [
+          1584239999999.9998,
+          4046160000000.0
+        ]
+      ]
+    },
+    {
+      "label": "point_2 s masses equal |f3*y|",
+      "passed": true,
+      "detail": [
+        [
+          3960599999999999.0,
+          1.0115399999999998e+16
+        ],
+        [
+          3960599999999999.5,
+          1.01154e+16
+        ]
+      ]
+    },
+    {
+      "label": "point_2 light 0 sterile amplitude squared",
+      "passed": true,
+      "detail": [
+        4.154239701495631e-23,
+        4.1542397014956316e-23
+      ]
+    },
+    {
+      "label": "point_2 light 1 sterile amplitude squared",
+      "passed": true,
+      "detail": [
+        5.766333536341932e-23,
+        5.766333536341931e-23
+      ]
+    },
+    {
+      "label": "recovered Temp E6 source retained",
+      "passed": true,
+      "detail": "D:\\Projects\\can_o_worms\\recovered_recent_temp_e6_audit_v1\\e6-model_recovered_v1.txt"
+    },
+    {
+      "label": "recovered Temp source is not target benchmark source",
+      "passed": true,
+      "detail": "1504.00904 absent"
+    },
+    {
+      "label": "recent inventory count retained",
+      "passed": true,
+      "detail": {
+        "scan_cutoff_utc": "2026-07-08T22:23:22.604147+00:00",
+        "roots": [
+          "D:\\Projects",
+          "C:\\Users\\theai\\stage_h_test",
+          "C:\\Users\\theai\\Desktop",
+          "C:\\Users\\theai\\Documents",
+          "C:\\Users\\theai\\Downloads",
+          "C:\\Users\\theai\\AppData\\Local\\Temp",
+          "C:\\Users\\theai\\AppData\\Local\\hermes\\profiles\\d-drive-profile\\personal"
+        ],
+        "files_examined": 2182,
+        "relevant_files": 174,
+        "finding": "No recent local file contained the missing numerical Higgs null vectors or v_i/bar_v_i. The recovered Temp E6 document is the older arXiv:1310.4422 model, not the 1504.00904 benchmark. Two Temp PNG candidates were unrelated screenshots.",
+        "inventory": "recent_e6_neutrino_artifact_inventory_v1.json",
+        "recovered_temp_source": "recovered_recent_temp_e6_audit_v1/e6-model_recovered_v1.txt",
+        "temp_candidate_hashes": "recovered_temp_candidate_hashes_v1.txt"
+      }
+    }
+  ],
+  "point_summary": {
+    "point_1": {
+      "light_masses_eV": [
+        0.12285407438345036,
+        0.1324915341421815
+      ],
+      "sin2_theta23": 0.34692601153023367,
+      "light_sterile_amplitudes": [
+        9.540834284263378e-11,
+        1.0987822192399083e-10
+      ],
+      "nu_c_masses_GeV": [
+        149556000000.0,
+        152852000000.0
+      ],
+      "s_masses_GeV": [
+        6679200000000000.0,
+        6826400000000000.0
+      ],
+      "max_eigenspectrum_relative_residual": "3.107539716e-30"
+    },
+    "point_2": {
+      "light_masses_eV": [
+        0.06708999213884685,
+        0.08135000246198096
+      ],
+      "sin2_theta23": 0.3149533390497558,
+      "light_sterile_amplitudes": [
+        6.445339169892948e-12,
+        7.593637821454176e-12
+      ],
+      "nu_c_masses_GeV": [
+        1584239999999.9998,
+        4046160000000.0
+      ],
+      "s_masses_GeV": [
+        3960599999999999.0,
+        1.0115399999999998e+16
+      ],
+      "max_eigenspectrum_relative_residual": "3.613811775e-30"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9448,
+  "call_index": 1,
+  "tool_name": "process",
+  "call": {
+    "id": "call_gHNIFdnk803Z3fYfqKbGSii2",
+    "call_id": "call_gHNIFdnk803Z3fYfqKbGSii2",
+    "response_item_id": "fc_071f367ba0e10612016a552b489eec81919129e7e8b980f079",
+    "type": "function",
+    "function": {
+      "name": "process",
+      "arguments": "{\"action\":\"poll\",\"session_id\":\"proc_1a5a78e83baa\"}"
+    }
+  },
+  "parsed_arguments": {
+    "action": "poll",
+    "session_id": "proc_1a5a78e83baa"
+  }
+}

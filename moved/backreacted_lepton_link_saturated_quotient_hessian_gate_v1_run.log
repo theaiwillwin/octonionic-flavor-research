@@ -1,0 +1,30 @@
+primitive_plus__single_sum_hPh grad=3.354e-15 qmin=-3.844e-15 qneg=0 qzero=22 pmns=False
+primitive_minus__single_sum_phi_PPP grad=8.253e-15 qmin=-7.214e-15 qneg=0 qzero=18 pmns=False
+primitive_plus__single_sum_phi_PPhh grad=4.749e-15 qmin=-4.495e-15 qneg=0 qzero=22 pmns=False
+primitive_minus__pair_lr_sum_phi_symmetric grad=1.032e-14 qmin=-2.973e-15 qneg=0 qzero=2 pmns=False
+primitive_plus__pair_sector_sum_trPQ grad=5.119e-15 qmin=-4.674e-15 qneg=0 qzero=13 pmns=False
+primitive_minus__pair_sector_sum_phi_symmetric grad=1.098e-14 qmin=-5.635e-15 qneg=0 qzero=5 pmns=False
+primitive_minus__pair_sector_sum_psi_PPQQ grad=8.283e-15 qmin=-3.973e-15 qneg=0 qzero=10 pmns=False
+primitive_plus__pair_sector_sum_psi_PPQQ grad=5.661e-15 qmin=-6.013e-15 qneg=0 qzero=18 pmns=False
+primitive_minus__pair_diagonal_sum_phi_symmetric grad=6.055e-15 qmin=1.221e-15 qneg=0 qzero=2 pmns=False
+primitive_minus__pair_diagonal_sum_psi_PPQQ grad=2.225e-12 qmin=-1.195e-13 qneg=0 qzero=6 pmns=False
+primitive_minus__four_psi_PQRS grad=1.378e-14 qmin=1.614e+00 qneg=0 qzero=0 pmns=False
+rademacher_00 grad=1.384e-14 qmin=1.852e+00 qneg=0 qzero=0 pmns=False
+rademacher_01 grad=1.117e-14 qmin=1.404e+00 qneg=0 qzero=0 pmns=False
+rademacher_06 grad=2.935e-13 qmin=2.097e-01 qneg=0 qzero=0 pmns=False
+rademacher_09 grad=1.425e-14 qmin=3.318e+00 qneg=0 qzero=0 pmns=False
+rademacher_14 grad=1.332e-14 qmin=3.536e-01 qneg=0 qzero=0 pmns=False
+rademacher_16 grad=7.266e-14 qmin=5.051e-01 qneg=0 qzero=0 pmns=False
+rademacher_20 grad=1.072e-14 qmin=1.547e+00 qneg=0 qzero=0 pmns=False
+rademacher_21 grad=2.446e-10 qmin=1.328e-01 qneg=0 qzero=0 pmns=False
+rademacher_25 grad=1.129e-14 qmin=1.932e+00 qneg=0 qzero=0 pmns=False
+rademacher_30 grad=9.484e-15 qmin=1.241e+00 qneg=0 qzero=0 pmns=False
+{
+  "scientific_gate": "FAIL_NO_PMNS_COMPATIBLE_STABLE_ORBIT_IN_TESTED_SATURATED_BRANCHES",
+  "unitary_saturated_branch_count": 21,
+  "saturated_quotient_stable_count": 21,
+  "saturated_quotient_isolated_count": 11,
+  "pmns_compatible_stable_count": 0,
+  "output_json": "D:\\Projects\\can_o_worms\\backreacted_lepton_link_saturated_quotient_hessian_gate_v1_results.json",
+  "output_report": "D:\\Projects\\can_o_worms\\BACKREACTED_LEPTON_LINK_SATURATED_QUOTIENT_HESSIAN_GATE_v1.md"
+}

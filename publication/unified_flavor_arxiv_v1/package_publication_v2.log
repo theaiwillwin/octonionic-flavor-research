@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "arxiv_files": 8,
+  "reproducibility_files": 69,
+  "arxiv_archive": "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\reachability_not_selection_arxiv_source_v2.tar.gz",
+  "reproducibility_archive": "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\reachability_not_selection_reproducibility_v2.zip",
+  "manifest": "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\source_manifest_v2.json"
+}

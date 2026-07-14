@@ -1,0 +1,49 @@
+{
+  "schema": "verify_target_free_g2_arxiv_changed_paths_v3",
+  "status": "PASS",
+  "verification_kind": "fresh focused permanent project-local ad-hoc verification; not canonical suite green",
+  "os_temp_used": false,
+  "os_temp_blocker": "AGENTS.md and Matthew's standing rule require every verifier/intermediate artifact under D:/Projects/can_o_worms and forbid OS-temp output.",
+  "changed_paths": [
+    "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v4\\main.tex",
+    "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v7\\main.tex",
+    "D:\\Projects\\can_o_worms\\publication\\verify_target_free_g2_arxiv_changed_sources_v1.py",
+    "D:\\Projects\\can_o_worms\\publication\\verify_target_free_g2_arxiv_v7_archive_v1.py"
+  ],
+  "checks": {
+    "all four changed paths exist": true,
+    "verify_target_free_g2_arxiv_changed_sources_v1.py compiles as Python": true,
+    "verify_target_free_g2_arxiv_changed_sources_v1.py has no hidden controls": true,
+    "verify_target_free_g2_arxiv_v7_archive_v1.py compiles as Python": true,
+    "verify_target_free_g2_arxiv_v7_archive_v1.py has no hidden controls": true,
+    "v4 contains its four declared source corrections": true,
+    "v7 contains every v4 correction": true,
+    "v7 contains the final frame-gauge correction": true,
+    "v7 has no malformed comma-qquad token": true,
+    "both changed TeX sources have no hidden controls": true,
+    "v4 PDF exists with valid header": true,
+    "v7 PDF exists with valid header": true,
+    "clean archive PDF exists with valid header": true,
+    "v7 and clean-build TeX logs have no warning/error markers": true,
+    "source archive has exactly five declared members": true,
+    "source archive has no unsafe paths": true,
+    "archive SHA-256 matches release receipt": true,
+    "extracted source hashes match v7": true,
+    "v7 and clean PDFs have eleven pages": true,
+    "v7 and clean PDFs have identical normalized text": true,
+    "rendered PDF retains explicit finite-class boundary": true,
+    "release manifest verifies every recorded artifact": true,
+    "prior receipt remains PASS: verify_target_free_g2_arxiv_changed_sources_v1_results.json": true,
+    "prior receipt remains PASS: verify_target_free_g2_arxiv_v7_archive_v1_results.json": true
+  },
+  "notes": {
+    "archive_members": [
+      "main.tex",
+      "references.bib",
+      "selection_funnel.png",
+      "isolated_full_rank_spectra.png",
+      "README.md"
+    ],
+    "manifest_entries": 21
+  }
+}

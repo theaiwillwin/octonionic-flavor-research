@@ -1,0 +1,69 @@
+{
+  "schema": "verify_target_free_g2_arxiv_changed_sources_v1",
+  "status": "PASS",
+  "verification_kind": "focused permanent project-local ad-hoc verification; not canonical suite green",
+  "os_temp_used": false,
+  "changed_paths": [
+    "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v4\\main.tex",
+    "D:\\Projects\\can_o_worms\\publication\\target_free_g2_arxiv_v7\\main.tex"
+  ],
+  "checks": {
+    "both changed LaTeX paths exist": true,
+    "v4 preserves G2 PDF bookmark correction": true,
+    "v4 preserves first qquad correction": true,
+    "v4 preserves stabilizer qquad correction": true,
+    "v4 preserves table-placement correction": true,
+    "v4 retained as compiled superseded revision": true,
+    "v7 contains every v4 correction": true,
+    "v7 fixes final frame-gauge qquad": true,
+    "v7 has no malformed comma-qquad token": true,
+    "v7 source has no hidden control characters": true,
+    "v7 bibliography has no hidden control characters": true,
+    "v7 source has no placeholders or flagged overclaims": true,
+    "every cited key exists in references.bib": true,
+    "every source reference key has a label": true,
+    "selection_funnel.png is a nonempty PNG": true,
+    "isolated_full_rank_spectra.png is a nonempty PNG": true,
+    "v7 TeX log has no warning/error markers": true,
+    "v7 build completed and wrote PDF": true,
+    "v7 PDF has a valid header and substantial size": true,
+    "v7 PDF text extraction succeeded": true,
+    "v7 PDF renders the title": true,
+    "v7 PDF renders the finite-class boundary": true,
+    "v7 PDF renders the negative hierarchy conclusion": true,
+    "v7 PDF renders the non-no-go boundary": true,
+    "locked action-to-flavor pipeline verifier passed": true,
+    "v7 source retains audited count: 21 numerically independent": true,
+    "v7 source retains audited count: 74 predeclared": true,
+    "v7 source retains audited count: Sixty-eight actions": true,
+    "v7 source retains audited count: 29 selected vacua": true,
+    "v7 source retains audited count: six give full-rank": true
+  },
+  "notes": {
+    "citation_keys": [
+      "AbsilMahonySepulchre2008",
+      "Baez2002",
+      "Bryant1987",
+      "ConnellyGeometry2026",
+      "ConnellyObstruction2026",
+      "ConnellyWeighted2026",
+      "FroggattNielsen1979",
+      "Jarlskog1985",
+      "KobayashiMaskawa1973"
+    ],
+    "bibliography_keys": [
+      "AbsilMahonySepulchre2008",
+      "Baez2002",
+      "Bryant1987",
+      "ConnellyGeometry2026",
+      "ConnellyObstruction2026",
+      "ConnellyWeighted2026",
+      "FroggattNielsen1979",
+      "Jarlskog1985",
+      "KobayashiMaskawa1973"
+    ],
+    "unresolved_source_reference_keys": [],
+    "pdf_pages": 11,
+    "pdf_extraction_error": null
+  }
+}

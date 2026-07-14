@@ -1,0 +1,64 @@
+Unified Origin of CKM and PMNS: The
+Quaternionic Kernel Theorem
+
+The "Quaternionic Kernel Theorem" (QKT) provides the single geometric principle that
+unifies the origin of CKM and PMNS mixing. This theorem demonstrates that the structural
+differences between quark and lepton mixing are not phenomenological data but rigid
+consequences of how flavor states are embedded within the octonionic algebra O.
+
+1. The Geometric Principle: Quaternionic Kernel Theorem
+(QKT)
+
+The QKT states that for a given vacuum idempotent s = 2 1(1 + iu) in the complexified
+octonions C  O, the vacuum eigenspace V + uniquely selects a quaternionic subalgebra
+HL (associated with a specific Fano line L).
+
+Structural Selection Rules
+
+· Leptons (The Identity Class): Lepton states are associated with the identity line C  1
+  and the selected flavor plane. Their mixing is governed by the G2 automorphisms that
+  preserve the vacuum, leading to large mixing angles (the PMNS matrix).
+
+· Quarks (The Colored Class): Quark states are associated with the colored rungs. Their
+  transport is restricted to "ladder-type" flips, which are naturally small compared to the
+  full G2 rotations, leading to small mixing angles (the CKM matrix).
+
+2. The Mechanism: Algebraic "Leakage"
+
+The magnitude differences between CKM and PMNS are explained by a discrete leakage
+pattern across algebraic blocks:
+
+Sector          Mechanism                         Magnitude Prediction
+CKM (Quarks)    Restricted to a single
+PMNS (Leptons)  quaternionic line L. Mixing is a        1                                                                      0.224  (Wolfenstein
+                "leakage" between the             )
+                selected line and the remaining                                                                            
+                octonionic space.
+                Spans the full octonionic             2 5
+                projective plane. Mixing is a
+                "surjective" rotation across the  Large angles (e.g., 23  45,
+                entire V + eigenspace.            12  33)
+3. Unified Predictions
+
+The QKT predicts that the flavor moduli space has a real dimension of at most 4, implying
+four functional relations between the eight observed flavor parameters (mass ratios and
+mixing angles).
+
+Key Geometric Estimates
+
+Under the QKT coupling ansatz:
+1. Wolfenstein :   0.224 (Experimental: 0.225)
+2. Wolfenstein A: A  2/3  0.817 (Experimental: 0.826)
+3. Generation Decoupling: One generation (the 3rd) naturally decouples at leading order
+
+  due to the rank-2 nature of the Y (7) Yukawa matrix, explaining the extreme hierarchy of
+  the top quark and tau lepton.
+
+4. Conclusion: From Geometry to Dynamics
+
+The CKM/PMNS dichotomy is the result of symmetry breaking within the octonionic
+projective plane. The "leakage" of the quark states into the lepton-dominated flavor plane
+generates the small CKM angles, while the leptons' freedom to rotate within the full
+quaternionic kernel generates the large PMNS angles. This unified principle replaces 22
+Standard Model parameters with a single geometric selection rule.
+

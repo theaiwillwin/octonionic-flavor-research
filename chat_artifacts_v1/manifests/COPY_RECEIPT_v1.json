@@ -1,0 +1,604 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "policy": {
+    "operation": "copy only",
+    "source_modification": false,
+    "deletion": false,
+    "overwrite": false,
+    "hash_algorithm": "SHA-256"
+  },
+  "copy_records": [
+    {
+      "category": "historical_fts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/historical_fts/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md",
+      "status": "new_copy",
+      "bytes": 12242,
+      "source_sha256": "76f7d3fdcf9d94cc7518e0cfba2900bcf0eec4a0a9f0cb0d19a6d02297cafa7e",
+      "destination_sha256": "76f7d3fdcf9d94cc7518e0cfba2900bcf0eec4a0a9f0cb0d19a6d02297cafa7e",
+      "hash_match": true
+    },
+    {
+      "category": "historical_fts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.sha256",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/historical_fts/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.sha256",
+      "status": "new_copy",
+      "bytes": 431,
+      "source_sha256": "141c67ada257f7c3d3b158e731e3a137b4e352cdfc0a7230615742d05ab755c0",
+      "destination_sha256": "141c67ada257f7c3d3b158e731e3a137b4e352cdfc0a7230615742d05ab755c0",
+      "hash_match": true
+    },
+    {
+      "category": "historical_fts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/verify_locked_historical_fts_fit.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/historical_fts/verify_locked_historical_fts_fit.py",
+      "status": "new_copy",
+      "bytes": 3053,
+      "source_sha256": "6714aa82ca05710bcf0f89ceadb66f5727ce5310f91fe3314f4e1d7e1975531b",
+      "destination_sha256": "6714aa82ca05710bcf0f89ceadb66f5727ce5310f91fe3314f4e1d7e1975531b",
+      "hash_match": true
+    },
+    {
+      "category": "historical_fts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/historical_hermes_general_fts_state_recovered.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/historical_fts/historical_hermes_general_fts_state_recovered.py",
+      "status": "new_copy",
+      "bytes": 15798,
+      "source_sha256": "b33790f35bdb7aa067c27eb14332b68572412bf666f86ae70cec27266b3251ee",
+      "destination_sha256": "b33790f35bdb7aa067c27eb14332b68572412bf666f86ae70cec27266b3251ee",
+      "hash_match": true
+    },
+    {
+      "category": "historical_fts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/locked_historical_fts_diagnostic_fit.json",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/historical_fts/locked_historical_fts_diagnostic_fit.json",
+      "status": "new_copy",
+      "bytes": 4606,
+      "source_sha256": "ddedd6f960f461f8602b10fdb9816037321f34e9c43d349a203120aa84fe73db",
+      "destination_sha256": "ddedd6f960f461f8602b10fdb9816037321f34e9c43d349a203120aa84fe73db",
+      "hash_match": true
+    },
+    {
+      "category": "octonionic_hierarchy",
+      "source": "D:/Projects/can_o_worms/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/octonionic_hierarchy/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "status": "new_copy",
+      "bytes": 14406,
+      "source_sha256": "1c7c20050df4590f1fa2121690395fc83e3b9a500d864ba90738a27147721d0c",
+      "destination_sha256": "1c7c20050df4590f1fa2121690395fc83e3b9a500d864ba90738a27147721d0c",
+      "hash_match": true
+    },
+    {
+      "category": "octonionic_hierarchy",
+      "source": "D:/Projects/can_o_worms/octonionic_nonhollow_operator_gate.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/octonionic_hierarchy/octonionic_nonhollow_operator_gate.py",
+      "status": "new_copy",
+      "bytes": 5641,
+      "source_sha256": "84ae81407ec8892c8fc4519fe928ca341ea3ed4c6a9f8efd74793a592420e2db",
+      "destination_sha256": "84ae81407ec8892c8fc4519fe928ca341ea3ed4c6a9f8efd74793a592420e2db",
+      "hash_match": true
+    },
+    {
+      "category": "octonionic_hierarchy",
+      "source": "D:/Projects/can_o_worms/octonionic_nonhollow_operator_gate_results.json",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/octonionic_hierarchy/octonionic_nonhollow_operator_gate_results.json",
+      "status": "new_copy",
+      "bytes": 2520,
+      "source_sha256": "bdae3ef11ab3b46fcf40f90efe62b136ca69847dabb4c9a25ba0e2cb4fd7d08d",
+      "destination_sha256": "bdae3ef11ab3b46fcf40f90efe62b136ca69847dabb4c9a25ba0e2cb4fd7d08d",
+      "hash_match": true
+    },
+    {
+      "category": "octonionic_hierarchy",
+      "source": "D:/Projects/can_o_worms/octonion_g2_kernel.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/octonionic_hierarchy/octonion_g2_kernel.py",
+      "status": "new_copy",
+      "bytes": 12273,
+      "source_sha256": "9f884f1414f5e6b7390cf316bf2a870209838a61f77624e689b6030380692f33",
+      "destination_sha256": "9f884f1414f5e6b7390cf316bf2a870209838a61f77624e689b6030380692f33",
+      "hash_match": true
+    },
+    {
+      "category": "project_policy",
+      "source": "D:/Projects/can_o_worms/AGENTS.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/project_policy/AGENTS.md",
+      "status": "new_copy",
+      "bytes": 705,
+      "source_sha256": "e9174bac7309e06bf75ded506a0e7b69634093b067421816c87e6a7f730f668f",
+      "destination_sha256": "e9174bac7309e06bf75ded506a0e7b69634093b067421816c87e6a7f730f668f",
+      "hash_match": true
+    },
+    {
+      "category": "compiled_artifacts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/__pycache__/octonionic_nonhollow_operator_gate.cpython-314.pyc",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/compiled_artifacts/octonionic_nonhollow_operator_gate.cpython-314.pyc",
+      "status": "new_copy",
+      "bytes": 11112,
+      "source_sha256": "3bb3ef6a45607ea90acdc49f14edda523ce6220e09c3f565fb1f2786102bdf4e",
+      "destination_sha256": "3bb3ef6a45607ea90acdc49f14edda523ce6220e09c3f565fb1f2786102bdf4e",
+      "hash_match": true
+    },
+    {
+      "category": "compiled_artifacts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/__pycache__/historical_hermes_general_fts_state_recovered.cpython-314.pyc",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/compiled_artifacts/historical_hermes_general_fts_state_recovered.cpython-314.pyc",
+      "status": "new_copy",
+      "bytes": 41390,
+      "source_sha256": "efe67e8fc1b238ed4ed7e21864629359aad9eecf0d72247ef3d4320fc031c3db",
+      "destination_sha256": "efe67e8fc1b238ed4ed7e21864629359aad9eecf0d72247ef3d4320fc031c3db",
+      "hash_match": true
+    },
+    {
+      "category": "compiled_artifacts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/__pycache__/historical_hermes_general_fts_state_recovered.cpython-311.pyc",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/compiled_artifacts/historical_hermes_general_fts_state_recovered.cpython-311.pyc",
+      "status": "new_copy",
+      "bytes": 44487,
+      "source_sha256": "a8de672a46538171e84f792598e7d770d61763c998a43cb97227919f1f87bf32",
+      "destination_sha256": "a8de672a46538171e84f792598e7d770d61763c998a43cb97227919f1f87bf32",
+      "hash_match": true
+    },
+    {
+      "category": "compiled_artifacts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/__pycache__/verify_locked_historical_fts_fit.cpython-314.pyc",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/compiled_artifacts/verify_locked_historical_fts_fit.cpython-314.pyc",
+      "status": "new_copy",
+      "bytes": 7796,
+      "source_sha256": "6dc27e00d09d7bb99e866fc97959f55ab40d41fac416449a0fbecad6502dfee1",
+      "destination_sha256": "6dc27e00d09d7bb99e866fc97959f55ab40d41fac416449a0fbecad6502dfee1",
+      "hash_match": true
+    },
+    {
+      "category": "compiled_artifacts",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/__pycache__/verify_locked_historical_fts_fit.cpython-311.pyc",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/compiled_artifacts/verify_locked_historical_fts_fit.cpython-311.pyc",
+      "status": "new_copy",
+      "bytes": 7266,
+      "source_sha256": "cb348fb84b1937564e30f7a39bc6cd5f64114c01909821fdc59ae6132a08b2b4",
+      "destination_sha256": "cb348fb84b1937564e30f7a39bc6cd5f64114c01909821fdc59ae6132a08b2b4",
+      "hash_match": true
+    },
+    {
+      "category": "surviving_generated_or_modified_files",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/surviving_generated_or_modified_files/D/Projects/ToE_21st_June_NEWEST/LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md",
+      "status": "new_copy",
+      "bytes": 12242,
+      "source_sha256": "76f7d3fdcf9d94cc7518e0cfba2900bcf0eec4a0a9f0cb0d19a6d02297cafa7e",
+      "destination_sha256": "76f7d3fdcf9d94cc7518e0cfba2900bcf0eec4a0a9f0cb0d19a6d02297cafa7e",
+      "hash_match": true
+    },
+    {
+      "category": "surviving_generated_or_modified_files",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/octonionic_nonhollow_operator_gate.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/surviving_generated_or_modified_files/D/Projects/ToE_21st_June_NEWEST/octonionic_nonhollow_operator_gate.py",
+      "status": "new_copy",
+      "bytes": 5641,
+      "source_sha256": "84ae81407ec8892c8fc4519fe928ca341ea3ed4c6a9f8efd74793a592420e2db",
+      "destination_sha256": "84ae81407ec8892c8fc4519fe928ca341ea3ed4c6a9f8efd74793a592420e2db",
+      "hash_match": true
+    },
+    {
+      "category": "surviving_generated_or_modified_files",
+      "source": "D:/Projects/ToE_21st_June_NEWEST/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/surviving_generated_or_modified_files/D/Projects/ToE_21st_June_NEWEST/OCTONIONIC_MASS_HIERARCHY_WITHOUT_SPECTRAL_RIGIDITY.md",
+      "status": "new_copy",
+      "bytes": 14406,
+      "source_sha256": "1c7c20050df4590f1fa2121690395fc83e3b9a500d864ba90738a27147721d0c",
+      "destination_sha256": "1c7c20050df4590f1fa2121690395fc83e3b9a500d864ba90738a27147721d0c",
+      "hash_match": true
+    },
+    {
+      "category": "surviving_generated_or_modified_files",
+      "source": "D:/Projects/can_o_worms/AGENTS.md",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/surviving_generated_or_modified_files/D/Projects/can_o_worms/AGENTS.md",
+      "status": "new_copy",
+      "bytes": 705,
+      "source_sha256": "e9174bac7309e06bf75ded506a0e7b69634093b067421816c87e6a7f730f668f",
+      "destination_sha256": "e9174bac7309e06bf75ded506a0e7b69634093b067421816c87e6a7f730f668f",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9444_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9444_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "new_copy",
+      "bytes": 3007,
+      "source_sha256": "7051b9e762d16372a410ec6e33a75b6ec58cdc54d3f758ff28ad3ad30b049d7f",
+      "destination_sha256": "7051b9e762d16372a410ec6e33a75b6ec58cdc54d3f758ff28ad3ad30b049d7f",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "new_copy",
+      "bytes": 2445,
+      "source_sha256": "9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3",
+      "destination_sha256": "9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9493_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9493_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "new_copy",
+      "bytes": 3007,
+      "source_sha256": "7051b9e762d16372a410ec6e33a75b6ec58cdc54d3f758ff28ad3ad30b049d7f",
+      "destination_sha256": "7051b9e762d16372a410ec6e33a75b6ec58cdc54d3f758ff28ad3ad30b049d7f",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9499_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9499_call_1_write_file__hermes-verify-locked-fts-direct.py",
+      "status": "new_copy",
+      "bytes": 2445,
+      "source_sha256": "9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3",
+      "destination_sha256": "9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9578_call_1_write_file__hermes-verify-fts-writeup.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9578_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "new_copy",
+      "bytes": 2880,
+      "source_sha256": "079e99895ed4a35661121b22254704d55604450d98bfff03ba6023e81805a04b",
+      "destination_sha256": "079e99895ed4a35661121b22254704d55604450d98bfff03ba6023e81805a04b",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "new_copy",
+      "bytes": 2976,
+      "source_sha256": "b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337",
+      "destination_sha256": "b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9650_call_1_write_file__hermes-verify-fts-writeup.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9650_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "new_copy",
+      "bytes": 221,
+      "source_sha256": "51a0dfacea53727de7bdaf335adfee6bd2f8f106b756888935c6b23b1964fd5c",
+      "destination_sha256": "51a0dfacea53727de7bdaf335adfee6bd2f8f106b756888935c6b23b1964fd5c",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9659_call_1_write_file__hermes-verify-fts-writeup.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9659_call_1_write_file__hermes-verify-fts-writeup.py",
+      "status": "new_copy",
+      "bytes": 2976,
+      "source_sha256": "b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337",
+      "destination_sha256": "b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9731_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+      "status": "new_copy",
+      "bytes": 3873,
+      "source_sha256": "0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5",
+      "destination_sha256": "0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9739_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+      "status": "new_copy",
+      "bytes": 1432,
+      "source_sha256": "46dd17071da779c5fd9268833f0f7351c5e13ecdde6c1df05965721414ac1015",
+      "destination_sha256": "46dd17071da779c5fd9268833f0f7351c5e13ecdde6c1df05965721414ac1015",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9799_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9799_call_1_write_file__hermes-verify-octonionic-hierarchy-proposal.py",
+      "status": "new_copy",
+      "bytes": 3873,
+      "source_sha256": "0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5",
+      "destination_sha256": "0afff0c968a78ce83d9cc3372a7bcac61dfb3903b65a1559a5427f1e1dc2b1f5",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/recovered_write_file_payloads/message_9807_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9807_call_1_write_file__hermes-verify-octonionic-hierarchy-postpatch.py",
+      "status": "new_copy",
+      "bytes": 1432,
+      "source_sha256": "46dd17071da779c5fd9268833f0f7351c5e13ecdde6c1df05965721414ac1015",
+      "destination_sha256": "46dd17071da779c5fd9268833f0f7351c5e13ecdde6c1df05965721414ac1015",
+      "hash_match": true
+    },
+    {
+      "category": "reconstructed_deleted_verifier",
+      "source": "D:/Projects/can_o_worms/chat_artifacts_v1/session_provenance/execute_code_programs/message_9820_call_1_execute_code.py::verifier string",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/dynamic/message_9820_hermes_verify_dynamic_execute_code.py",
+      "status": "reconstructed_from_archived_execute_code",
+      "bytes": 4481,
+      "destination_sha256": "648daec552c6b91ad0f2e1f238e6adccd1f7653d81fff884fc640309f3202c08",
+      "hash_match": null
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_CIqD9w3WCQ8Av7xX4444LqQV.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_CIqD9w3WCQ8Av7xX4444LqQV.txt",
+      "status": "new_copy",
+      "bytes": 421134,
+      "source_sha256": "0e7e3893f029077a0c5400f45609bdcecfd58d5c94668fac57fcaf73dd053f12",
+      "destination_sha256": "0e7e3893f029077a0c5400f45609bdcecfd58d5c94668fac57fcaf73dd053f12",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_OiMM0aoremSklBwCUDnrwx3d.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_OiMM0aoremSklBwCUDnrwx3d.txt",
+      "status": "new_copy",
+      "bytes": 189631,
+      "source_sha256": "a9e491cc269abbb61a0d487c8215873f2dd679fa2accd7080776c5b6f59b67c6",
+      "destination_sha256": "a9e491cc269abbb61a0d487c8215873f2dd679fa2accd7080776c5b6f59b67c6",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_RdmUN171ukS9hkxkoBt4GLH7.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_RdmUN171ukS9hkxkoBt4GLH7.txt",
+      "status": "new_copy",
+      "bytes": 387076,
+      "source_sha256": "8472a2eebff848104d3a5dc892529427c24571c729f0558550f4112292e45da2",
+      "destination_sha256": "8472a2eebff848104d3a5dc892529427c24571c729f0558550f4112292e45da2",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_UtbhR9B3a5eJdfReJ727FIdI.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_UtbhR9B3a5eJdfReJ727FIdI.txt",
+      "status": "new_copy",
+      "bytes": 154843,
+      "source_sha256": "ed48a2e75920b71f963e45c7af2549043421430ec7811c58f85e4e0567ad3b5d",
+      "destination_sha256": "ed48a2e75920b71f963e45c7af2549043421430ec7811c58f85e4e0567ad3b5d",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_XyrPeu8JOhBEnR40Em56b1gR.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_XyrPeu8JOhBEnR40Em56b1gR.txt",
+      "status": "new_copy",
+      "bytes": 222921,
+      "source_sha256": "001d19815206d70a62f34bfb99a9b2cd5dcd47e1d320c006ecc44a5407d9f841",
+      "destination_sha256": "001d19815206d70a62f34bfb99a9b2cd5dcd47e1d320c006ecc44a5407d9f841",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_YR7SBktdL9TMBJGERlJHyYBE.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_YR7SBktdL9TMBJGERlJHyYBE.txt",
+      "status": "new_copy",
+      "bytes": 308970,
+      "source_sha256": "7cdc55272e4ed4c075918333e791664b9fc0cd964f639f5c9d7427f40e188b5f",
+      "destination_sha256": "7cdc55272e4ed4c075918333e791664b9fc0cd964f639f5c9d7427f40e188b5f",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_aVNSwTUIhQ4t4ckyJqTHbSDN.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_aVNSwTUIhQ4t4ckyJqTHbSDN.txt",
+      "status": "new_copy",
+      "bytes": 231731,
+      "source_sha256": "12cd54f16877c694cf95f65f6bc7cd454b83e70535a499daf6d6ee8d5ef9b2f6",
+      "destination_sha256": "12cd54f16877c694cf95f65f6bc7cd454b83e70535a499daf6d6ee8d5ef9b2f6",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_bjrinitC26DmQPb7Soj7LFmK.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_bjrinitC26DmQPb7Soj7LFmK.txt",
+      "status": "new_copy",
+      "bytes": 323544,
+      "source_sha256": "b04f015966106f4f92d15b287c3bde06dee89c21bf803bfbdd3fc85586e6f938",
+      "destination_sha256": "b04f015966106f4f92d15b287c3bde06dee89c21bf803bfbdd3fc85586e6f938",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_d2u28tOWmq3QlDZrQNb8DJCu.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_d2u28tOWmq3QlDZrQNb8DJCu.txt",
+      "status": "new_copy",
+      "bytes": 455025,
+      "source_sha256": "93be71b5f7f28a3f5e5369c6cf5d22ff6212d919587bf27e5551b3996d130299",
+      "destination_sha256": "93be71b5f7f28a3f5e5369c6cf5d22ff6212d919587bf27e5551b3996d130299",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_grMJwAEZC5oZrJrXxuKKjdGC.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_grMJwAEZC5oZrJrXxuKKjdGC.txt",
+      "status": "new_copy",
+      "bytes": 135192,
+      "source_sha256": "07a1c40649a46022a8c436b069447fbd4244fe9ab75a0324ea0d9356826d1898",
+      "destination_sha256": "07a1c40649a46022a8c436b069447fbd4244fe9ab75a0324ea0d9356826d1898",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_hTmGCAggj6QbOVFrJhPtNbt1.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_hTmGCAggj6QbOVFrJhPtNbt1.txt",
+      "status": "new_copy",
+      "bytes": 241648,
+      "source_sha256": "0d68221aceaea16f6c9198a748166e0e42a7e2c75c71b24013dd4bb0f052d9b6",
+      "destination_sha256": "0d68221aceaea16f6c9198a748166e0e42a7e2c75c71b24013dd4bb0f052d9b6",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_hZtBehRvR6K1OtvrQ22Eq6Mi.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_hZtBehRvR6K1OtvrQ22Eq6Mi.txt",
+      "status": "new_copy",
+      "bytes": 183930,
+      "source_sha256": "35dcb3eb61a12c4cbf1e8764c12175465833e8414258fc4786876a76b4524c10",
+      "destination_sha256": "35dcb3eb61a12c4cbf1e8764c12175465833e8414258fc4786876a76b4524c10",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_ho5woNe4R6Hh4gRY8G9qSObp.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_ho5woNe4R6Hh4gRY8G9qSObp.txt",
+      "status": "new_copy",
+      "bytes": 240491,
+      "source_sha256": "3760f2a4091ee8c8d0121ea8b50f85db7c8d455933b2d3b2b2a81cb345fe7e3f",
+      "destination_sha256": "3760f2a4091ee8c8d0121ea8b50f85db7c8d455933b2d3b2b2a81cb345fe7e3f",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_jHj89wZhO63KcGtDSvxAuBdP.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_jHj89wZhO63KcGtDSvxAuBdP.txt",
+      "status": "new_copy",
+      "bytes": 152840,
+      "source_sha256": "c5e14561529c4077c4f8736ace40b10f66082f4600946014ee5923a1609cdf16",
+      "destination_sha256": "c5e14561529c4077c4f8736ace40b10f66082f4600946014ee5923a1609cdf16",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_qFB5paLMafuRM0xS7ghzgcFk.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_qFB5paLMafuRM0xS7ghzgcFk.txt",
+      "status": "new_copy",
+      "bytes": 135878,
+      "source_sha256": "858ab9c75c349792ecc89fc180394710824409ac2099eae4b0008af11ae5dec7",
+      "destination_sha256": "858ab9c75c349792ecc89fc180394710824409ac2099eae4b0008af11ae5dec7",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_qkhAOtganIDuEzVeVzE3RjGk.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_qkhAOtganIDuEzVeVzE3RjGk.txt",
+      "status": "new_copy",
+      "bytes": 344327,
+      "source_sha256": "05a4d5b778b1e122d4d2ebe900e78c6dc2c6d428930f9bd5072422f669613adc",
+      "destination_sha256": "05a4d5b778b1e122d4d2ebe900e78c6dc2c6d428930f9bd5072422f669613adc",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_r7Qb0HNPQsrKrG4n8EfqGp80.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_r7Qb0HNPQsrKrG4n8EfqGp80.txt",
+      "status": "new_copy",
+      "bytes": 135598,
+      "source_sha256": "6390b9b4d27e58c7ceed11363c51e9d74baa3b105baf89a7b865e7a1e6cceb03",
+      "destination_sha256": "6390b9b4d27e58c7ceed11363c51e9d74baa3b105baf89a7b865e7a1e6cceb03",
+      "hash_match": true
+    },
+    {
+      "category": "persisted_tool_output",
+      "source": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/cache/terminal/hermes-results/call_tsakCO9rqtzsuyk5ccwA5f1x.txt",
+      "destination": "D:/Projects/can_o_worms/chat_artifacts_v1/persisted_tool_outputs/call_tsakCO9rqtzsuyk5ccwA5f1x.txt",
+      "status": "new_copy",
+      "bytes": 210849,
+      "source_sha256": "8f0b0562bec04ad735fd51272845a886bb167608f27dea695f6c61ac6f51eb57",
+      "destination_sha256": "8f0b0562bec04ad735fd51272845a886bb167608f27dea695f6c61ac6f51eb57",
+      "hash_match": true
+    }
+  ],
+  "missing_generated_paths": [
+    {
+      "message_id": 9444,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9450,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9493,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9499,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-locked-fts-direct.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9578,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9587,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9650,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9659,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-fts-writeup.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9731,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-proposal.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9739,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9799,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-proposal.py",
+      "status": "not_present_at_archive_time"
+    },
+    {
+      "message_id": 9807,
+      "call_index": 1,
+      "tool_name": "write_file",
+      "original_path": "C:/Users/theai/AppData/Local/Temp/hermes-verify-octonionic-hierarchy-postpatch.py",
+      "status": "not_present_at_archive_time"
+    }
+  ],
+  "summary": {
+    "records": 50,
+    "verified_hash_matches": 49,
+    "reconstructed_payloads": 13,
+    "missing_paths": 12,
+    "hash_failures": 0
+  }
+}

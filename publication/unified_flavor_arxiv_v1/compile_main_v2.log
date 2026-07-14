@@ -1,0 +1,43 @@
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+note: downloading cleveref.sty
+note: downloading rm-lmr17.tfm
+note: downloading ec-lmcsc10.tfm
+warning: main_v2.tex:91: Underfull \hbox (badness 3954) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 5490) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+note: downloading ot1lmss.fd
+note: downloading rm-lmss10.tfm
+note: downloading rm-lmss8.tfm
+warning: main_v2.tex:250: Overfull \hbox (11.30264pt too wide) in paragraph at lines 248--250
+note: downloading rm-lmss12.tfm
+note: downloading ts1-lmr10.tfm
+note: Running BibTeX on main_v2.aux ...
+note: downloading unsrt.bst
+note: warnings were issued by BibTeX; use --print and/or --keep-logs for details.
+note: Rerunning TeX because bibtex was run ...
+warning: main_v2.tex:91: Underfull \hbox (badness 3954) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 5490) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+warning: main_v2.tex:250: Overfull \hbox (11.30264pt too wide) in paragraph at lines 248--250
+note: Rerunning TeX because "main_v2.aux" changed ...
+warning: main_v2.tex:91: Underfull \hbox (badness 3954) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 5490) in paragraph at lines 91--91
+warning: main_v2.tex:91: Underfull \hbox (badness 10000) in paragraph at lines 91--91
+warning: main_v2.tex:250: Overfull \hbox (11.30264pt too wide) in paragraph at lines 248--250
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: downloading lmcsc10.pfb
+note: downloading lmss8.pfb
+note: downloading lmmi6.pfb
+note: downloading lmsy6.pfb
+note: downloading lm-ts1.enc
+note: Writing `build_v2\main_v2.log` (23.5947265625 KiB)
+note: Writing `build_v2\main_v2.out` (4.5859375 KiB)
+note: Writing `build_v2\main_v2.bbl` (1.2392578125 KiB)
+note: Writing `build_v2\main_v2.aux` (12.3515625 KiB)
+note: Writing `build_v2\main_v2.blg` (263 B)
+note: Writing `build_v2\main_v2.pdf` (402.140625 KiB)

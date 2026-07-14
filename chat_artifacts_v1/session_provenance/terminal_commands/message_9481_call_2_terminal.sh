@@ -1,0 +1,1 @@
+test -f 'C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/state.db' && printf 'state_db_exists\n' || printf 'state_db_missing\n'; sqlite3 'C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/state.db' '.tables'

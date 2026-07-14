@@ -1,0 +1,54 @@
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+SOURCE = ROOT / "ad_hoc_changed_path_verifier_v2_source.txt"
+TEMP = Path(r"C:/Users/theai/AppData/Local/Temp")
+
+
+def main() -> int:
+    temporary_path: Path | None = None
+    result = None
+    cleaned = False
+    try:
+        with tempfile.NamedTemporaryFile(
+            prefix="hermes-verify-",
+            suffix=".py",
+            dir=TEMP,
+            delete=False,
+        ) as stream:
+            temporary_path = Path(stream.name)
+            stream.write(SOURCE.read_bytes())
+        print(f"TEMP_VERIFIER_PATH={temporary_path}")
+        result = subprocess.run(
+            [sys.executable, str(temporary_path)],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            timeout=600,
+            check=False,
+        )
+        if result.stdout:
+            print(result.stdout, end="")
+        if result.stderr:
+            print(result.stderr, file=sys.stderr, end="")
+        return_code = result.returncode
+    finally:
+        if temporary_path is not None:
+            try:
+                temporary_path.unlink(missing_ok=True)
+            finally:
+                cleaned = not temporary_path.exists()
+        print(f"TEMP_VERIFIER_CLEANED={cleaned}")
+    if result is None:
+        return 1
+    return return_code if cleaned else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

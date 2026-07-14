@@ -1,0 +1,5 @@
+PASS 82/82 checks
+point_1 {'light_masses_eV': [0.12285407438345036, 0.1324915341421815], 'sin2_theta23': 0.34692601153023367, 'light_sterile_amplitudes': [9.540834284263378e-11, 1.0987822192399083e-10], 'nu_c_masses_GeV': [149556000000.0, 152852000000.0], 's_masses_GeV': [6679200000000000.0, 6826400000000000.0], 'max_eigenspectrum_relative_residual': '3.107539716e-30'}
+point_2 {'light_masses_eV': [0.06708999213884685, 0.08135000246198096], 'sin2_theta23': 0.3149533390497558, 'light_sterile_amplitudes': [6.445339169892948e-12, 7.593637821454176e-12], 'nu_c_masses_GeV': [1584239999999.9998, 4046160000000.0], 's_masses_GeV': [3960599999999999.0, 1.0115399999999998e+16], 'max_eigenspectrum_relative_residual': '3.613811775e-30'}
+WROTE D:\Projects\can_o_worms\verify_e6_higgs_vev_neutral_mixing_v6_v2.json
+WROTE D:\Projects\can_o_worms\verify_e6_higgs_vev_neutral_mixing_v6_v2.md

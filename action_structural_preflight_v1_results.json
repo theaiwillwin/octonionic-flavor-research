@@ -1,0 +1,137 @@
+{
+  "status": "STRUCTURAL_PREFLIGHT_ONLY_NO_HIERARCHY_TARGETS",
+  "seed": 2026071403,
+  "n_orthonormal_pairs": 64,
+  "canonical_source": "D:\\Projects\\can_o_worms\\octonion_g2_kernel.py",
+  "canonical_source_sha256": "9f884f1414f5e6b7390cf316bf2a870209838a61f77624e689b6030380692f33",
+  "canonical_A_sign_vs_2Phi": "-",
+  "definition": "B[i,l]=<[e_i,V,H],e_l>; Y=L^T B R",
+  "expected_pair_identity": "B^T B=4(I-P_span(V,H,VxH)); sv(B)=(2,2,2,2,0,0,0)",
+  "expected_action_bound": "S=-||Y||_F^2 >= -12",
+  "equality_implication": "At S=-12, Y^T Y=4 I_3 and sv(Y)=(2,2,2), so the global floor is non-hierarchical.",
+  "max_residuals": {
+    "tensor_vs_direct": 2.220446049250313e-16,
+    "skew": 4.440892098500626e-16,
+    "kernel": 7.060615034787734e-16,
+    "AtA_minus_4P": 3.9968028886505635e-15,
+    "spectrum": 1.7763568394002505e-15,
+    "direct_Y_vs_matrix_Y": 4.440892098500626e-16,
+    "witness_constraints": 1.5543122344752192e-15,
+    "witness_floor": 2.4868995751603507e-14,
+    "witness_equal_singular_values": 3.3306690738754696e-15
+  },
+  "tolerances": {
+    "tensor_vs_direct": 2e-12,
+    "skew": 2e-12,
+    "kernel": 5e-12,
+    "AtA_minus_4P": 1e-11,
+    "spectrum": 5e-12,
+    "direct_Y_vs_matrix_Y": 2e-12,
+    "witness_constraints": 5e-12,
+    "witness_floor": 2e-11,
+    "witness_equal_singular_values": 5e-12
+  },
+  "checks": {
+    "tensor_vs_direct": true,
+    "skew": true,
+    "kernel": true,
+    "AtA_minus_4P": true,
+    "spectrum": true,
+    "direct_Y_vs_matrix_Y": true,
+    "witness_constraints": true,
+    "witness_floor": true,
+    "witness_equal_singular_values": true
+  },
+  "all_pass": true,
+  "last_witness": {
+    "B": [
+      [
+        4.2500725161431774e-17,
+        0.40694107285150183,
+        -0.3598190239290896,
+        0.39482158654795113,
+        -0.1843817777723874,
+        -0.9888529386960038,
+        -0.5250803427115818
+      ],
+      [
+        -0.40694107285150183,
+        8.673617379884035e-19,
+        0.649559881482118,
+        -0.10462069516774802,
+        1.5814403542241537,
+        -0.2923057998450241,
+        0.5854845967877784
+      ],
+      [
+        0.35981902392908965,
+        -0.649559881482118,
+        -4.0766001685454967e-17,
+        0.4396608950730771,
+        0.6946665995668446,
+        -0.8807076079833749,
+        -0.5772918364214612
+      ],
+      [
+        -0.39482158654795113,
+        0.10462069516774805,
+        -0.4396608950730771,
+        -1.3010426069826053e-17,
+        0.10793008455399067,
+        -0.6132533868835779,
+        0.05991709443497943
+      ],
+      [
+        0.1843817777723874,
+        -1.5814403542241537,
+        -0.6946665995668446,
+        -0.10793008455399067,
+        -1.9949319973733282e-17,
+        0.0021434974737370577,
+        -0.1780750867495863
+      ],
+      [
+        0.9888529386960038,
+        0.2923057998450241,
+        0.8807076079833749,
+        0.6132533868835779,
+        -0.0021434974737370577,
+        2.862293735361732e-17,
+        -0.8316476651130831
+      ],
+      [
+        0.5250803427115818,
+        -0.5854845967877784,
+        0.5772918364214612,
+        -0.059917094434979445,
+        0.17807508674958628,
+        0.8316476651130831,
+        2.168404344971009e-17
+      ]
+    ],
+    "Y_witness": [
+      [
+        2.000000000000001,
+        3.6590198930438936e-17,
+        -1.354647333964007e-16
+      ],
+      [
+        6.166142560114045e-17,
+        2.0000000000000013,
+        1.8193938960079976e-16
+      ],
+      [
+        2.9503804416057145e-17,
+        6.500102761693679e-17,
+        2.000000000000001
+      ]
+    ],
+    "singular_values_Y": [
+      2.0000000000000013,
+      2.0000000000000013,
+      2.000000000000001
+    ],
+    "S": -12.000000000000012
+  },
+  "honesty_boundary": "This finite check validates conventions and numerical witnesses. The global bound and equality characterization require the separate exact linear-algebra derivation; random tests alone are not proof."
+}

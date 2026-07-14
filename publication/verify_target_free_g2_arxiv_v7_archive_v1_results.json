@@ -1,0 +1,50 @@
+{
+  "schema": "verify_target_free_g2_arxiv_v7_archive_v1",
+  "status": "PASS",
+  "verification_kind": "focused permanent project-local ad-hoc verification; not canonical suite green",
+  "os_temp_used": false,
+  "checks": {
+    "archive contains exactly the five declared source files": true,
+    "archive has no absolute or parent-traversal member": true,
+    "all extracted source hashes match the release directory": true,
+    "release TeX log has no warning/error markers": true,
+    "release PDF has valid header and substantial size": true,
+    "clean archive TeX log has no warning/error markers": true,
+    "clean archive PDF has valid header and substantial size": true,
+    "release and clean-archive PDFs have the same page count": true,
+    "release and clean-archive PDFs extract to identical normalized text": true,
+    "clean PDF retains the finite-class claim boundary": true,
+    "archive matches its recorded SHA-256": true
+  },
+  "notes": {
+    "archive_members": [
+      "main.tex",
+      "references.bib",
+      "selection_funnel.png",
+      "isolated_full_rank_spectra.png",
+      "README.md"
+    ],
+    "source_hashes": {
+      "README.md": "43ccfe9204151988adb753598cc5d60695f413e6b5cb4ff3c465aa4d5a8244ba",
+      "isolated_full_rank_spectra.png": "235c6b76a4f27eb284954552eeec11afc7abeaf8d8d3b24efc187625587dd288",
+      "main.tex": "d5bf502dc4e8a3db6eb627ec7b13345a1ace0ad2b585d694ee317d6b6b9c259b",
+      "references.bib": "8a39a2853d9b6a387e725c21cb562b3e5f208eca9a8c587adeeb34c8904d3340",
+      "selection_funnel.png": "df065eb6b84371d535b98740adeb2c9eb24def919cfbb234ac02101463d9e58c"
+    },
+    "extracted_hashes": {
+      "README.md": "43ccfe9204151988adb753598cc5d60695f413e6b5cb4ff3c465aa4d5a8244ba",
+      "isolated_full_rank_spectra.png": "235c6b76a4f27eb284954552eeec11afc7abeaf8d8d3b24efc187625587dd288",
+      "main.tex": "d5bf502dc4e8a3db6eb627ec7b13345a1ace0ad2b585d694ee317d6b6b9c259b",
+      "references.bib": "8a39a2853d9b6a387e725c21cb562b3e5f208eca9a8c587adeeb34c8904d3340",
+      "selection_funnel.png": "df065eb6b84371d535b98740adeb2c9eb24def919cfbb234ac02101463d9e58c"
+    },
+    "release_pdf_sha256": "10da228968f54351acee832b8919ef77a7d3c86241dd61a1edbdd65d9d3804bf",
+    "clean_pdf_sha256": "3a7a0c001eaeb86ab836e06fb38565b04646b445d3000bd731c899119320a410",
+    "pdf_pages": {
+      "release": 11,
+      "clean": 11
+    },
+    "archive_sha256": "768fc2a4f6bf7a399a05e1e22cc5e33cf2df3f5002e2434365f4834f90cf104c",
+    "archive_bytes": 252449
+  }
+}

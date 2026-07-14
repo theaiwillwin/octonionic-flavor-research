@@ -1,0 +1,110 @@
+{
+  "schema": "exceptional-flavor-arxiv-claim-ledger/v1",
+  "paper_scope": "Finite computational predictivity gates for a target-free G2 four-plane flavor model; the E6 neutral-fermion calculation is retained only as an external benchmark appendix and is not presented as a consequence of the G2 model.",
+  "assertions": {
+    "baseline_pipeline_verifier_passed": true,
+    "baseline_isolated_two_gap_count_is_zero": true,
+    "both_scalar_loop_candidates_are_stable_but_nonisolated": true,
+    "link_hessian_verifier_passed": true,
+    "link_gate_has_no_three_angle_compatible_stable_branch": true,
+    "heavy_external_benchmark_verifier_passed": true,
+    "local_F4_26_branching_is_dimensionally_inconsistent": true
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "The four-plane configuration space is Gr(3,7)^4 with a residual SU(3) stabilizer after fixing h=e7.",
+      "status": "analytic construction",
+      "scope": "Model definition, not a Standard Model derivation."
+    },
+    {
+      "id": "C2",
+      "claim": "A 21-feature projector/G2-tensor basis is numerically independent on the locked Haar sample, and 74 coefficient choices were fixed before flavor evaluation.",
+      "status": "verified computation",
+      "scope": "Finite sampled basis and coefficient ensemble; not the full invariant ring."
+    },
+    {
+      "id": "C3",
+      "claim": "At the strict reliability cut, 68 retained branches are stable and 29 are isolated modulo residual symmetry.",
+      "status": "verified computation",
+      "scope": "Best of four generic starts per action; no global completeness certificate."
+    },
+    {
+      "id": "C4",
+      "claim": "Among 6 isolated full-rank post-stability spectra, none has two adjacent decade-scale gaps in both sectors.",
+      "status": "negative finite gate",
+      "scope": "Applies only to the declared signed-associator map and 74-action ensemble."
+    },
+    {
+      "id": "C5",
+      "claim": "Without a shared left-generation link, a CKM/PMNS-like matrix is not invariant under the independent left-frame O(3) gauges.",
+      "status": "analytic obstruction plus numerical gauge check",
+      "scope": "The mass singular values remain gauge invariant."
+    },
+    {
+      "id": "C6",
+      "claim": "Within the three inequivalent oriented four-cycle pseudoscalars, the stated exchange/CP characters select one primitive loop and one minimal exchange-even three-channel product.",
+      "status": "analytic finite-class selection with numerical tensor checks",
+      "scope": "Uniqueness is only within the declared scalar complex-loop class."
+    },
+    {
+      "id": "C7",
+      "claim": "The primitive and three-channel loop actions are stable at their retained stationary representatives but have 7 and 6 extra physical zero modes, respectively.",
+      "status": "negative quotient-isolation gates",
+      "scope": "Each used 96 generic starts; common numerical energies do not prove global minimality."
+    },
+    {
+      "id": "C8",
+      "claim": "Integrating out the auxiliary unitary link in -Re Tr(Sigma^dagger K) gives -||K||_*.",
+      "status": "analytic matrix result",
+      "scope": "The standardized unit coefficient used in the action is a modeling convention, not a symmetry-derived coupling."
+    },
+    {
+      "id": "C9",
+      "claim": "Of 21 angle-evaluable retained backreacted branches, 16 have smooth classical Hessians; all 16 are quotient-stable, 2 are isolated, and none satisfies all three NuFIT 6.0 three-sigma angle intervals.",
+      "status": "independently verified negative finite gate",
+      "scope": "Post-exposure exploratory angle test; the CP phase was not scored, and five rank-deficient rows are N/A for a classical Hessian."
+    },
+    {
+      "id": "C10",
+      "claim": "The closest retained angle diagnostic has L1 residual 22.622022 degrees and is stable but non-isolated.",
+      "status": "post-hoc numerical diagnostic",
+      "scope": "Not a prediction and not evidence for a full PMNS match."
+    },
+    {
+      "id": "C11",
+      "claim": "The supplied 'Quaternionic Kernel Theorem' narrative does not provide a precise theorem, proof, locked action, or reproducible derivation of its quoted CKM/PMNS numbers.",
+      "status": "excluded unverified claim",
+      "scope": "Its numerical assertions are not used as results in the manuscript."
+    },
+    {
+      "id": "C12",
+      "claim": "In the external two-family E6 benchmark, nu^c and the extra singlet s are distinct heavy states; the reproduced physical masses are [149556000000.0, 152852000000.0] and [6679200000000000.0, 6826400000000000.0] GeV at point 1, with corresponding point-2 masses [1584239999999.9998, 4046160000000.0] and [3960599999999999.5, 1.01154e+16] GeV.",
+      "status": "external published-benchmark reanalysis",
+      "scope": "Two-family fit; exact electroweak active-sterile mixing and a third family are not reconstructed."
+    },
+    {
+      "id": "C13",
+      "claim": "The local 26 -> 16+10+1 branching claim is dimensionally inconsistent; the valid 16+10+1 decomposition belongs to the E6 27 under SO(10)xU(1).",
+      "status": "analytic negative gate",
+      "scope": "The E6 benchmark cannot be attributed to an F4 26 construction."
+    }
+  ],
+  "source_hashes": {
+    "target_free_g2_post_stability_flavor_diagnostic_v1_results.json": "b9f6699bfe1cbe4780fb0f003288ec95a7149a3bfb7dba4ec53d26618407873c",
+    "target_free_g2_flavor_shape_verifier_v1_results.json": "fd9b953bfb762e70a9dff48770e42e60169151c9c24b6f73c88b3c7415e1c3cb",
+    "verify_target_free_g2_action_to_flavor_pipeline_v1_results.json": "064d5421e061c270ed89dd8122746e53c9461600db109461192e9f83b3225bc3",
+    "third_tensor_chiral_loop_action_lock_v1_results.json": "6473f9955c9b20ae28446f6a2c910442fdbaaa38d8e7f473fb534f4050b05e7f",
+    "third_tensor_chiral_loop_vacuum_solver_v1_results.json": "02c0263d1409679f7598aa34940fdab8ce4741f96afa214692c6fab8fd178b5d",
+    "third_tensor_chiral_loop_stability_gate_v1_results.json": "41aad31cb95818d5898a1a0339afabf0a605ffe782e2ac432af26f9cabd82c84",
+    "third_tensor_predictive_action_lock_v2_results.json": "d5d25fc05892f1c5ffd4c343085153b6616b12f849f30318668b2271032d7656",
+    "third_tensor_predictive_vacuum_solver_v2_results.json": "8c9caca780b913f79945caee9aa3d7dbf55dac83342164070fbbc09cbba7a31d",
+    "third_tensor_predictive_stability_gate_v2_results.json": "651034887546e9a9bac9942f0e24d1c3f773ced46cbe18a1207f7cf892b318f6",
+    "backreacted_lepton_link_action_lock_v1_results.json": "f3f29e1ff17861cbc7d558e61ef6f46f51ea18ebbe09dd8e2571977b7a1e28d1",
+    "backreacted_lepton_link_vacuum_solver_v1_results.json": "056ec73194e7e1daa984422a862917e18b6fe3aa4a84a147b8ebd24d8f9d4d24",
+    "backreacted_lepton_link_pmns_evaluable_quotient_hessian_gate_v1_results.json": "f64c15468a2715aaefaac873dadf00f35dba709a692f7610e1db85252459afa7",
+    "verify_backreacted_lepton_link_pmns_evaluable_quotient_hessian_v1_results.json": "6034a166f1f4c71f7088a45804de34f2cb04dfe300781f1365d78a7a4134dcce",
+    "heavy_sterile_neutrino_spectrum_results_v1.json": "dde9c2937272d98a3c6b3314362c14afbb605fd705efdaf5e5292cb992b883cb",
+    "heavy_sterile_neutrino_independent_verification_v1.json": "54fe5f7934dffe062a81dac4add6af43e5f7e74dfb199ff5852a1cd4741447dc"
+  }
+}

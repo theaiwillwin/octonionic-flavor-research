@@ -1,0 +1,203 @@
+{
+  "schema": "heavy-sterile-neutrino-spectrum-results/v1",
+  "input_path": "D:\\Projects\\can_o_worms\\heavy_sterile_neutrino_benchmark_inputs_v1.json",
+  "input_sha256": "473fa77ae07e9a643522b4c90371cfa56e962d1fdc89b497dea066af4652cb79",
+  "status": "published two-family diagnostic benchmark; not a parameter-free prediction",
+  "mass_model": {
+    "M_nu_c": "f1 * Y351_prime",
+    "M_s": "f3 * Y351_prime",
+    "approximation": "Electroweak-scale mixings with nu_prime_c are neglected when extracting the heavy singlet eigenvalues."
+  },
+  "points": {
+    "point_1": {
+      "f1_GeV": 412000000000.0,
+      "f3_GeV": -1.84e+16,
+      "Y351_prime": [
+        [
+          -0.371,
+          0.0
+        ],
+        [
+          0.0,
+          0.363
+        ]
+      ],
+      "M_nu_c_GeV": [
+        [
+          -152852000000.0,
+          0.0
+        ],
+        [
+          0.0,
+          149556000000.0
+        ]
+      ],
+      "nu_c_spectrum": {
+        "signed_eigenvalues_GeV": [
+          -152852000000.0,
+          149556000000.0
+        ],
+        "physical_masses_GeV_sorted": [
+          149556000000.0,
+          152852000000.0
+        ],
+        "eigenvectors_columns": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "eigenpair_residual_norms_GeV": [
+          0.0,
+          0.0
+        ],
+        "reconstruction_residual_frobenius_GeV": 0.0
+      },
+      "M_s_GeV": [
+        [
+          6826400000000000.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -6679200000000000.0
+        ]
+      ],
+      "s_spectrum": {
+        "signed_eigenvalues_GeV": [
+          -6679200000000000.0,
+          6826400000000000.0
+        ],
+        "physical_masses_GeV_sorted": [
+          6679200000000000.0,
+          6826400000000000.0
+        ],
+        "eigenvectors_columns": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "eigenpair_residual_norms_GeV": [
+          0.0,
+          0.0
+        ],
+        "reconstruction_residual_frobenius_GeV": 0.0
+      },
+      "lightest_nu_c_mass_GeV": 149556000000.0,
+      "lightest_s_mass_GeV": 6679200000000000.0,
+      "all_extracted_states_heavier_than_1_TeV": true,
+      "sterile_basis_fraction_in_decoupled_heavy_blocks": 1.0,
+      "sterile_fraction_scope": "Exact only for the isolated nu_c and s blocks after neglecting electroweak mixing; not an exact full-neutral-matrix active/sterile fraction."
+    },
+    "point_2": {
+      "f1_GeV": -5520000000000.0,
+      "f3_GeV": 1.38e+16,
+      "Y351_prime": [
+        [
+          0.733,
+          0.0
+        ],
+        [
+          0.0,
+          -0.287
+        ]
+      ],
+      "M_nu_c_GeV": [
+        [
+          -4046160000000.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          1584239999999.9998
+        ]
+      ],
+      "nu_c_spectrum": {
+        "signed_eigenvalues_GeV": [
+          -4046160000000.0,
+          1584239999999.9998
+        ],
+        "physical_masses_GeV_sorted": [
+          1584239999999.9998,
+          4046160000000.0
+        ],
+        "eigenvectors_columns": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "eigenpair_residual_norms_GeV": [
+          0.0,
+          0.0
+        ],
+        "reconstruction_residual_frobenius_GeV": 0.0
+      },
+      "M_s_GeV": [
+        [
+          1.01154e+16,
+          0.0
+        ],
+        [
+          0.0,
+          -3960599999999999.5
+        ]
+      ],
+      "s_spectrum": {
+        "signed_eigenvalues_GeV": [
+          -3960599999999999.5,
+          1.01154e+16
+        ],
+        "physical_masses_GeV_sorted": [
+          3960599999999999.5,
+          1.01154e+16
+        ],
+        "eigenvectors_columns": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "eigenpair_residual_norms_GeV": [
+          0.0,
+          0.0
+        ],
+        "reconstruction_residual_frobenius_GeV": 0.0
+      },
+      "lightest_nu_c_mass_GeV": 1584239999999.9998,
+      "lightest_s_mass_GeV": 3960599999999999.5,
+      "all_extracted_states_heavier_than_1_TeV": true,
+      "sterile_basis_fraction_in_decoupled_heavy_blocks": 1.0,
+      "sterile_fraction_scope": "Exact only for the isolated nu_c and s blocks after neglecting electroweak mixing; not an exact full-neutral-matrix active/sterile fraction."
+    }
+  },
+  "gates": {
+    "representation_identity": {
+      "E6_27_under_SO10_x_U1": "16_(+1) + 10_(-2) + 1_(+4)",
+      "nu_c_location": "16_(+1)",
+      "s_location": "1_(+4)",
+      "local_claim_26_to_16_plus_10_plus_1_lhs_dimension": 26,
+      "local_claim_26_to_16_plus_10_plus_1_rhs_dimension": 27,
+      "local_claim_dimension_consistent": false
+    },
+    "exact_full_active_sterile_mixing_available": false,
+    "mixing_blocker": "Table 2 does not report the electroweak doublet VEV composition needed to reconstruct every entry coupling active nu and nu_prime to nu_c and s."
+  }
+}

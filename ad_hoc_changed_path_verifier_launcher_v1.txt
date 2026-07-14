@@ -1,0 +1,43 @@
+"""Launch the retained closure probe from a random OS-temp Python path."""
+from __future__ import annotations
+
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+PROJECT = Path("D:/Projects/can_o_worms")
+SOURCE = PROJECT / "ad_hoc_changed_path_verifier_v3_source.txt"
+TEMP_ROOT = Path("C:/Users/theai/AppData/Local/Temp")
+
+handle = tempfile.NamedTemporaryFile(
+    prefix="hermes-verify-",
+    suffix=".py",
+    dir=TEMP_ROOT,
+    delete=False,
+)
+temp_path = Path(handle.name)
+handle.close()
+shutil.copyfile(SOURCE, temp_path)
+print(f"TEMP_VERIFIER_PATH: {temp_path}")
+try:
+    completed = subprocess.run(
+        [sys.executable, str(temp_path)],
+        cwd=PROJECT,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if completed.stdout:
+        print(completed.stdout, end="")
+    if completed.stderr:
+        print(completed.stderr, end="", file=sys.stderr)
+finally:
+    temp_path.unlink(missing_ok=True)
+
+cleaned = not temp_path.exists()
+print(f"TEMP_VERIFIER_CLEANED: {cleaned}")
+if not cleaned:
+    raise SystemExit(97)
+raise SystemExit(completed.returncode)

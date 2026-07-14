@@ -1,0 +1,42 @@
+{
+  "schema": "heavy-sterile-neutrino-benchmark-inputs/v1",
+  "status": "published two-family diagnostic benchmark; not a parameter-free prediction",
+  "source": {
+    "citation": "K.S. Babu, B. Bajc, V. Susic, A Minimal Supersymmetric E6 Unified Theory, arXiv:1504.00904v2 (2015)",
+    "pdf_sha256": "95e049a617565f13856abedb30c593451664300dc0f5cdbb1280f0a7d9be0c3a",
+    "representation_and_neutral_mass_matrix_pdf_page": 15,
+    "benchmark_table_pdf_page": 21,
+    "discussion_pdf_page": 20,
+    "source_extract": "D:/Projects/can_o_worms/heavy_sterile_neutrino_source_extract_v1.json"
+  },
+  "basis": {
+    "nu_c": "SM-singlet right-handed neutrino in the SO(10) 16 subset of the E6 27",
+    "s": "additional SM-sterile SO(10) singlet 1 subset of the E6 27",
+    "heavy_neutral_block_equation_78": ["nu_c", "s", "nu_prime_c"]
+  },
+  "fit_assumptions": {
+    "families": 2,
+    "parameters_real": true,
+    "f2_GeV": 0.0,
+    "reason_f2_zero": "The numerical-fit ansatz immediately before Eq. (87) sets f2=0.",
+    "Y351_prime_off_diagonal": 0.0,
+    "reason_Y351_prime_diagonal": "A family rotation is used to diagonalize one symmetric Yukawa matrix; Table 2 reports only its 11 and 22 entries.",
+    "heavy_block_approximation": "Electroweak-scale mixings with nu_prime_c are neglected when extracting the heavy singlet eigenvalues.",
+    "mass_relations": {
+      "M_nu_c": "f1 * Y351_prime",
+      "M_s": "f3 * Y351_prime"
+    }
+  },
+  "benchmark_points": {
+    "point_1": {
+      "f1_GeV": 4.12e11,
+      "f3_GeV": -1.84e16,
+      "Y351_prime": [[-0.371, 0.0], [0.0, 0.363]]
+    },
+    "point_2": {
+      "f1_GeV": -5.52e12,
+      "f3_GeV": 1.38e16,
+      "Y351_prime": [[0.733, 0.0], [0.0, -0.287]]
+    }
+  }
+}

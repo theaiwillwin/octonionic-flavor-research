@@ -1,0 +1,1124 @@
+{
+  "schema": "score_shared_lepton_link_pmns_held_out_v1",
+  "status": "held_out_scoring_complete",
+  "ordering_contract": "target-free vacuum and link frozen -> structural verification passed -> NuFIT benchmark frozen -> score with no refit",
+  "sources": [
+    "D:\\Projects\\can_o_worms\\shared_lepton_link_structural_gate_v1_results.json",
+    "D:\\Projects\\can_o_worms\\verify_shared_lepton_link_structural_gate_v2_results.json",
+    "D:\\Projects\\can_o_worms\\pmns_held_out_benchmark_nufit60_v1.json"
+  ],
+  "benchmark_summary": {
+    "schema": "pmns_held_out_benchmark_nufit60_v1",
+    "status": "external_benchmark_frozen_after_shared_link_structural_gate",
+    "ordering": "normal",
+    "analysis_variant": "NuFIT 6.0 IC24 including Super-Kamiokande and IceCube atmospheric tabulated chi-square data",
+    "best_fit": {
+      "theta12_deg": 33.68,
+      "theta23_deg": 43.3,
+      "theta13_deg": 8.56,
+      "delta_cp_deg": 212.0
+    },
+    "three_sigma_ranges_deg": {
+      "theta12": [
+        31.63,
+        35.95
+      ],
+      "theta23": [
+        41.3,
+        49.9
+      ],
+      "theta13": [
+        8.19,
+        8.89
+      ],
+      "delta_cp": [
+        124.0,
+        364.0
+      ]
+    },
+    "source": {
+      "parameter_table": "https://www.nu-fit.org/sites/default/files/v60.tbl-parameters.pdf",
+      "release_page": "https://www.nu-fit.org/?q=node/294",
+      "paper": "https://arxiv.org/abs/2410.05380",
+      "citation": "I. Esteban et al., NuFit-6.0: updated global analysis of three-flavor neutrino oscillations, JHEP 12 (2024) 216"
+    },
+    "claim_boundary": "This benchmark was created only after shared_lepton_link_structural_gate_v1_results.json and its degeneracy-aware verification existed. It was not read by any vacuum, link, Jordan, or Yukawa construction."
+  },
+  "nufit60_best_fit_jarlskog": -0.017764921505851194,
+  "primary_isolated_case_count": 3,
+  "primary_isolated_all_angle_three_sigma_pass_count": 0,
+  "all_qualified_case_count": 21,
+  "all_qualified_all_angle_three_sigma_pass_count": 0,
+  "best_isolated_diagnostic": {
+    "label": "rademacher_12",
+    "vacuum_class": "isolated_modulo_residual_symmetry",
+    "angles_deg": {
+      "theta13_deg": 5.487095704191807,
+      "theta12_deg": 6.629978876987016,
+      "theta23_deg": 65.60767367326375
+    },
+    "angle_residuals_deg": {
+      "theta12_deg": -27.050021123012982,
+      "theta23_deg": 22.30767367326375,
+      "theta13_deg": -3.0729042958081934
+    },
+    "angle_l1_residual_deg": 52.430599092084925,
+    "all_three_angles_inside_nufit60_three_sigma": false,
+    "individual_three_sigma_pass": {
+      "theta12": false,
+      "theta23": false,
+      "theta13": false
+    },
+    "jarlskog": 0.0037119129620208913,
+    "nufit60_best_fit_jarlskog": -0.017764921505851194,
+    "jarlskog_residual": 0.021476834467872085,
+    "mixing_abs": [
+      [
+        0.9887608945567306,
+        0.11492784603346799,
+        0.09562156452120064
+      ],
+      [
+        0.11492785387048315,
+        0.4061158945638047,
+        0.9065657552474423
+      ],
+      [
+        0.09562155510186748,
+        0.9065657562409624,
+        0.4110900726253951
+      ]
+    ]
+  },
+  "best_all_qualified_diagnostic": {
+    "label": "primitive_plus__single_sum_phi_PPhh",
+    "vacuum_class": "continuous_extra_moduli",
+    "angles_deg": {
+      "theta13_deg": 9.036665925091274,
+      "theta12_deg": 16.939483432972864,
+      "theta23_deg": 52.75632618017756
+    },
+    "angle_residuals_deg": {
+      "theta12_deg": -16.740516567027136,
+      "theta23_deg": 9.456326180177562,
+      "theta13_deg": 0.4766659250912735
+    },
+    "angle_l1_residual_deg": 26.673508672295974,
+    "all_three_angles_inside_nufit60_three_sigma": false,
+    "individual_three_sigma_pass": {
+      "theta12": false,
+      "theta23": false,
+      "theta13": false
+    },
+    "jarlskog": 0.020504549772793472,
+    "nufit60_best_fit_jarlskog": -0.017764921505851194,
+    "jarlskog_residual": 0.03826947127864466,
+    "mixing_abs": [
+      [
+        0.9447395766952041,
+        0.28774510989073515,
+        0.15706649534427908
+      ],
+      [
+        0.20496333009221587,
+        0.5830080514778829,
+        0.786188046989695
+      ],
+      [
+        0.2558459801194363,
+        0.759805477504559,
+        0.5976942954477592
+      ]
+    ]
+  },
+  "primary_isolated_results": [
+    {
+      "label": "rademacher_12",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 5.487095704191807,
+        "theta12_deg": 6.629978876987016,
+        "theta23_deg": 65.60767367326375
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -27.050021123012982,
+        "theta23_deg": 22.30767367326375,
+        "theta13_deg": -3.0729042958081934
+      },
+      "angle_l1_residual_deg": 52.430599092084925,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.0037119129620208913,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.021476834467872085,
+      "mixing_abs": [
+        [
+          0.9887608945567306,
+          0.11492784603346799,
+          0.09562156452120064
+        ],
+        [
+          0.11492785387048315,
+          0.4061158945638047,
+          0.9065657552474423
+        ],
+        [
+          0.09562155510186748,
+          0.9065657562409624,
+          0.4110900726253951
+        ]
+      ]
+    },
+    {
+      "label": "rademacher_23",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 9.497473600052891e-07,
+        "theta12_deg": 1.4128330596330839e-06,
+        "theta23_deg": 1.768880041802499e-06
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -33.67999858716694,
+        "theta23_deg": -43.29999823111996,
+        "theta13_deg": -8.55999905025264
+      },
+      "angle_l1_residual_deg": 85.53999586853955,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -1.3718368773718338e-23,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764921505851194,
+      "mixing_abs": [
+        [
+          0.9999999999999997,
+          2.4658588671622698e-08,
+          1.6576218494216205e-08
+        ],
+        [
+          2.465858890589598e-08,
+          0.9999999999999999,
+          3.087278080226854e-08
+        ],
+        [
+          1.6576217881458277e-08,
+          3.0872780865948176e-08,
+          0.9999999999999998
+        ]
+      ]
+    },
+    {
+      "label": "rademacher_07",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 1.7114588330380145,
+        "theta12_deg": 68.29324089371956,
+        "theta23_deg": 89.96639070494307
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 34.613240893719556,
+        "theta23_deg": 46.66639070494307,
+        "theta13_deg": -6.8485411669619864
+      },
+      "angle_l1_residual_deg": 88.12817276562461,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -2.477261887765276e-09,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764919028589305,
+      "mixing_abs": [
+        [
+          0.36969137290734694,
+          0.9286744865087094,
+          0.02986614982994042
+        ],
+        [
+          0.011591180524365514,
+          0.02753134983855404,
+          0.9995537350788685
+        ],
+        [
+          0.9290823070815271,
+          0.3698725765501559,
+          0.0005863311494527227
+        ]
+      ]
+    }
+  ],
+  "all_qualified_results": [
+    {
+      "label": "primitive_plus__single_sum_phi_PPhh",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 9.036665925091274,
+        "theta12_deg": 16.939483432972864,
+        "theta23_deg": 52.75632618017756
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -16.740516567027136,
+        "theta23_deg": 9.456326180177562,
+        "theta13_deg": 0.4766659250912735
+      },
+      "angle_l1_residual_deg": 26.673508672295974,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.020504549772793472,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.03826947127864466,
+      "mixing_abs": [
+        [
+          0.9447395766952041,
+          0.28774510989073515,
+          0.15706649534427908
+        ],
+        [
+          0.20496333009221587,
+          0.5830080514778829,
+          0.786188046989695
+        ],
+        [
+          0.2558459801194363,
+          0.759805477504559,
+          0.5976942954477592
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 16.247264776048656,
+        "theta12_deg": 23.188400720597762,
+        "theta23_deg": 57.6019770148995
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -10.491599279402237,
+        "theta23_deg": 14.3019770148995,
+        "theta13_deg": 7.687264776048655
+      },
+      "angle_l1_residual_deg": 32.480841070350394,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.022807905799258045,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.040572827305109235,
+      "mixing_abs": [
+        [
+          0.8825045747250198,
+          0.3780304836108709,
+          0.27978318221498416
+        ],
+        [
+          0.41082148707220445,
+          0.41726647015421253,
+          0.8106259301581871
+        ],
+        [
+          0.2289353213228449,
+          0.8264270363111161,
+          0.514399623157746
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 34.424432630629575,
+        "theta12_deg": 30.65670691908982,
+        "theta23_deg": 34.41191461281092
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -3.023293080910179,
+        "theta23_deg": -8.88808538718908,
+        "theta13_deg": 25.864432630629572
+      },
+      "angle_l1_residual_deg": 37.77581109872883,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -0.021135448589832538,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": -0.0033705270839813443,
+      "mixing_abs": [
+        [
+          0.7095865050627069,
+          0.4205967670647299,
+          0.5653188050716093
+        ],
+        [
+          0.6893519389440049,
+          0.5545105775719898,
+          0.46616727001680386
+        ],
+        [
+          0.14587973165260323,
+          0.7180643278254926,
+          0.6805165133907402
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__four_psi_PQRS",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 12.982673389236687,
+        "theta12_deg": 51.94143615596027,
+        "theta23_deg": 26.662205276345208
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 18.26143615596027,
+        "theta23_deg": -16.63779472365479,
+        "theta13_deg": 4.422673389236687
+      },
+      "angle_l1_residual_deg": 39.321904268851746,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -0.040387396088703564,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": -0.02262247458285237,
+      "mixing_abs": [
+        [
+          0.6007085140579328,
+          0.7672540572251383,
+          0.22465638831307408
+        ],
+        [
+          0.7206276381654131,
+          0.5380522349365827,
+          0.4372591904029995
+        ],
+        [
+          0.3461864934546826,
+          0.3490286580659429,
+          0.8708236948993973
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 29.163918842114498,
+        "theta12_deg": 32.32327484080073,
+        "theta23_deg": 20.948924740022736
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -1.3567251591992715,
+        "theta23_deg": -22.35107525997726,
+        "theta13_deg": 20.603918842114496
+      },
+      "angle_l1_residual_deg": 44.31171926129103,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": true,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.04874526437624572,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.06651018588209691,
+      "mixing_abs": [
+        [
+          0.7379176430095897,
+          0.4669118326266828,
+          0.4873098528537714
+        ],
+        [
+          0.5862261260201874,
+          0.7475717635266584,
+          0.31221048596900874
+        ],
+        [
+          0.33438971471403695,
+          0.47236617039203227,
+          0.8155082585496181
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 30.484279005595358,
+        "theta12_deg": 50.519879571449756,
+        "theta23_deg": 49.44617811773242
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 16.839879571449757,
+        "theta23_deg": 6.1461781177324255,
+        "theta13_deg": 21.92427900559536
+      },
+      "angle_l1_residual_deg": 44.91033669477754,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": true,
+        "theta13": false
+      },
+      "jarlskog": 0.07175743933944295,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.08952236084529415,
+      "mixing_abs": [
+        [
+          0.5479213517708811,
+          0.6651518223414313,
+          0.5073019273661834
+        ],
+        [
+          0.6812127060215164,
+          0.3274574556325437,
+          0.6547677938823071
+        ],
+        [
+          0.48552182384359777,
+          0.6710772444261051,
+          0.560289113391517
+        ]
+      ]
+    },
+    {
+      "label": "rademacher_12",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 5.487095704191807,
+        "theta12_deg": 6.629978876987016,
+        "theta23_deg": 65.60767367326375
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -27.050021123012982,
+        "theta23_deg": 22.30767367326375,
+        "theta13_deg": -3.0729042958081934
+      },
+      "angle_l1_residual_deg": 52.430599092084925,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.0037119129620208913,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.021476834467872085,
+      "mixing_abs": [
+        [
+          0.9887608945567306,
+          0.11492784603346799,
+          0.09562156452120064
+        ],
+        [
+          0.11492785387048315,
+          0.4061158945638047,
+          0.9065657552474423
+        ],
+        [
+          0.09562155510186748,
+          0.9065657562409624,
+          0.4110900726253951
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 8.945287166963107,
+        "theta12_deg": 57.4028611298195,
+        "theta23_deg": 14.110287450771198
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 23.7228611298195,
+        "theta23_deg": -29.1897125492288,
+        "theta13_deg": 0.3852871669631064
+      },
+      "angle_l1_residual_deg": 53.2978608460114,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.0025328988279411796,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.020297820333792373,
+      "mixing_abs": [
+        [
+          0.5321763049578662,
+          0.8322324539414211,
+          0.15549123141847307
+        ],
+        [
+          0.83723928021594,
+          0.4909523247472857,
+          0.2408240072931491
+        ],
+        [
+          0.12577268425571317,
+          0.25759456017524224,
+          0.9580325017781155
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 12.653578651866741,
+        "theta12_deg": 19.097000659433476,
+        "theta23_deg": 8.504384728505412
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -14.582999340566523,
+        "theta23_deg": -34.79561527149458,
+        "theta13_deg": 4.093578651866741
+      },
+      "angle_l1_residual_deg": 53.47219326392785,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.002135360376851282,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.019900281882702476,
+      "mixing_abs": [
+        [
+          0.9220150303677246,
+          0.3192222777697503,
+          0.21905574895787988
+        ],
+        [
+          0.3534561156791839,
+          0.9242554913715083,
+          0.14429331571003218
+        ],
+        [
+          0.15797803032380395,
+          0.2094013468082386,
+          0.9649839469596925
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 31.321373241059057,
+        "theta12_deg": 25.70718763159684,
+        "theta23_deg": 14.958822555596019
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -7.972812368403158,
+        "theta23_deg": -28.34117744440398,
+        "theta13_deg": 22.761373241059054
+      },
+      "angle_l1_residual_deg": 59.07536305386619,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.03696725080504201,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.05473217231089321,
+      "mixing_abs": [
+        [
+          0.7697120575793991,
+          0.370556327680571,
+          0.5198378174323003
+        ],
+        [
+          0.43378953077532445,
+          0.8736150883434896,
+          0.2205069622672249
+        ],
+        [
+          0.46836950307061204,
+          0.3154119297592989,
+          0.8253152871229897
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__pair_lr_sum_psi_PPQQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 50.41209028360528,
+        "theta12_deg": 44.892466158742124,
+        "theta23_deg": 54.54069187733647
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 11.212466158742124,
+        "theta23_deg": 11.240691877336474,
+        "theta13_deg": 41.85209028360528
+      },
+      "angle_l1_residual_deg": 64.30524831968387,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -0.03497891912913247,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": -0.01721399762328128,
+      "mixing_abs": [
+        [
+          0.4514567700970738,
+          0.4497653368083579,
+          0.7706477318069406
+        ],
+        [
+          0.828383032998927,
+          0.2105965956910244,
+          0.5190670713143433
+        ],
+        [
+          0.33161473937841923,
+          0.8679632571077042,
+          0.36969101820029054
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__single_sum_phi_PPP",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 55.94364113492502,
+        "theta12_deg": 46.24908294232333,
+        "theta23_deg": 52.3969115074744
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 12.569082942323327,
+        "theta23_deg": 9.096911507474402,
+        "theta13_deg": 47.38364113492502
+      },
+      "angle_l1_residual_deg": 69.04963558472275,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -0.06096697335972087,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": -0.043202051853869675,
+      "mixing_abs": [
+        [
+          0.3872593967316623,
+          0.404523481546049,
+          0.8284871227248453
+        ],
+        [
+          0.7034319142384976,
+          0.5552839697412786,
+          0.44367020970438165
+        ],
+        [
+          0.5959980718708678,
+          0.7266501674301258,
+          0.3417101586139593
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 17.489333338613104,
+        "theta12_deg": 12.645968591635958,
+        "theta23_deg": 82.51076000472054
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -21.034031408364044,
+        "theta23_deg": 39.21076000472054,
+        "theta13_deg": 8.929333338613104
+      },
+      "angle_l1_residual_deg": 69.17412475169769,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -0.002915768973499791,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.014849152532351403,
+      "mixing_abs": [
+        [
+          0.9306357498644522,
+          0.208805834714544,
+          0.30052824237231185
+        ],
+        [
+          0.31724705408430254,
+          0.07159393085035111,
+          0.9456366192889462
+        ],
+        [
+          0.18240451680005035,
+          0.9753329854232136,
+          0.12431476097544618
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_diagonal_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 3.2406936438725102,
+        "theta12_deg": 81.27722219047433,
+        "theta23_deg": 60.98479634211622
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 47.597222190474334,
+        "theta23_deg": 17.684796342116222,
+        "theta13_deg": -5.31930635612749
+      },
+      "angle_l1_residual_deg": 70.60132488871804,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.0009096382873052077,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.018674559793156402,
+      "mixing_abs": [
+        [
+          0.15141126707801936,
+          0.9868530372021553,
+          0.056530621495869154
+        ],
+        [
+          0.4866866935232696,
+          0.029075267364994245,
+          0.8730926017181913
+        ],
+        [
+          0.8603549793830532,
+          0.15898336954705256,
+          0.4842660401661977
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__single_sum_hPh",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 27.486169530927555,
+        "theta12_deg": 20.956655178785557,
+        "theta23_deg": 85.25462485469907
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -12.723344821214443,
+        "theta23_deg": 41.95462485469908,
+        "theta13_deg": 18.926169530927552
+      },
+      "angle_l1_residual_deg": 73.60413920684107,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.009944454248322614,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.027709375754173808,
+      "mixing_abs": [
+        [
+          0.8284402546051858,
+          0.3172895556636027,
+          0.4615344867033095
+        ],
+        [
+          0.4273750639742877,
+          0.18907849375642866,
+          0.8840813751526341
+        ],
+        [
+          0.3619907446919976,
+          0.9292882550993482,
+          0.07338964294598532
+        ]
+      ]
+    },
+    {
+      "label": "primitive_plus__triple_sum_phi_PQR",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 51.42203161571241,
+        "theta12_deg": 20.604912307528963,
+        "theta23_deg": 71.88082454029744
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -13.075087692471037,
+        "theta23_deg": 28.580824540297442,
+        "theta13_deg": 42.86203161571241
+      },
+      "angle_l1_residual_deg": 84.51794384848088,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 0.020167114608277407,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.0379320361141286,
+      "mixing_abs": [
+        [
+          0.5836882911987422,
+          0.2194511201712355,
+          0.7817603114593898
+        ],
+        [
+          0.7791483902051065,
+          0.2041707284894854,
+          0.5926568144119028
+        ],
+        [
+          0.22855144882123016,
+          0.9540207122928006,
+          0.19392966703950607
+        ]
+      ]
+    },
+    {
+      "label": "rademacher_23",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 9.497473600052891e-07,
+        "theta12_deg": 1.4128330596330839e-06,
+        "theta23_deg": 1.768880041802499e-06
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -33.67999858716694,
+        "theta23_deg": -43.29999823111996,
+        "theta13_deg": -8.55999905025264
+      },
+      "angle_l1_residual_deg": 85.53999586853955,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -1.3718368773718338e-23,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764921505851194,
+      "mixing_abs": [
+        [
+          0.9999999999999997,
+          2.4658588671622698e-08,
+          1.6576218494216205e-08
+        ],
+        [
+          2.465858890589598e-08,
+          0.9999999999999999,
+          3.087278080226854e-08
+        ],
+        [
+          1.6576217881458277e-08,
+          3.0872780865948176e-08,
+          0.9999999999999998
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_phi_symmetric",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 3.510733921058965e-14,
+        "theta12_deg": 2.2839693295364094e-14,
+        "theta23_deg": 6.011964391390403e-14
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -33.67999999999998,
+        "theta23_deg": -43.29999999999994,
+        "theta13_deg": -8.559999999999965
+      },
+      "angle_l1_residual_deg": 85.53999999999988,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 2.014317345133764e-31,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764921505851194,
+      "mixing_abs": [
+        [
+          1.0000000000000004,
+          3.9862784814977736e-16,
+          6.1273866083929635e-16
+        ],
+        [
+          6.278175325690978e-16,
+          0.9999999999999998,
+          1.049285731424195e-15
+        ],
+        [
+          9.131923517696165e-16,
+          1.3327760296947951e-15,
+          0.9999999999999994
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 2.0220063711245262e-14,
+        "theta12_deg": 2.250081436738916e-14,
+        "theta23_deg": 1.1826175062273235e-14
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -33.67999999999998,
+        "theta23_deg": -43.29999999999998,
+        "theta13_deg": -8.559999999999981
+      },
+      "angle_l1_residual_deg": 85.53999999999994,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -1.4175377493302433e-31,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764921505851194,
+      "mixing_abs": [
+        [
+          1.0000000000000002,
+          3.9271329509098596e-16,
+          3.529066867242538e-16
+        ],
+        [
+          6.780547875918261e-16,
+          1.0000000000000002,
+          2.0640569275391342e-16
+        ],
+        [
+          7.200205928299268e-16,
+          6.543980011050299e-16,
+          1.0000000000000002
+        ]
+      ]
+    },
+    {
+      "label": "primitive_minus__pair_sector_sum_trPQ",
+      "vacuum_class": "continuous_extra_moduli",
+      "angles_deg": {
+        "theta13_deg": 1.1178898984176915e-14,
+        "theta12_deg": 7.679134266189794e-15,
+        "theta23_deg": 3.1466629326012185e-14
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": -33.67999999999999,
+        "theta23_deg": -43.29999999999997,
+        "theta13_deg": -8.55999999999999
+      },
+      "angle_l1_residual_deg": 85.53999999999995,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": 3.947749236278211e-32,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764921505851194,
+      "mixing_abs": [
+        [
+          0.9999999999999992,
+          1.3402617664773048e-16,
+          1.9510859402173666e-16
+        ],
+        [
+          6.199278985415529e-16,
+          0.9999999999999994,
+          5.491962862435163e-16
+        ],
+        [
+          2.346039832544203e-16,
+          4.475963844771777e-16,
+          0.999999999999999
+        ]
+      ]
+    },
+    {
+      "label": "rademacher_07",
+      "vacuum_class": "isolated_modulo_residual_symmetry",
+      "angles_deg": {
+        "theta13_deg": 1.7114588330380145,
+        "theta12_deg": 68.29324089371956,
+        "theta23_deg": 89.96639070494307
+      },
+      "angle_residuals_deg": {
+        "theta12_deg": 34.613240893719556,
+        "theta23_deg": 46.66639070494307,
+        "theta13_deg": -6.8485411669619864
+      },
+      "angle_l1_residual_deg": 88.12817276562461,
+      "all_three_angles_inside_nufit60_three_sigma": false,
+      "individual_three_sigma_pass": {
+        "theta12": false,
+        "theta23": false,
+        "theta13": false
+      },
+      "jarlskog": -2.477261887765276e-09,
+      "nufit60_best_fit_jarlskog": -0.017764921505851194,
+      "jarlskog_residual": 0.017764919028589305,
+      "mixing_abs": [
+        [
+          0.36969137290734694,
+          0.9286744865087094,
+          0.02986614982994042
+        ],
+        [
+          0.011591180524365514,
+          0.02753134983855404,
+          0.9995537350788685
+        ],
+        [
+          0.9290823070815271,
+          0.3698725765501559,
+          0.0005863311494527227
+        ]
+      ]
+    }
+  ],
+  "verdict": "FAIL_HELD_OUT_PMNS_ANGLES_IN_TESTED_TARGET_FREE_ENSEMBLE",
+  "claim_boundary": "The three isolated, nondegenerate, full-rank-link vacua are the primary test. The minimum over candidates is diagnostic only and is not a prediction. No action coefficient, vacuum, link, Jordan operator, ordering rule, or generation permutation was changed after reading the benchmark. The score tests mixing angles and reports Jarlskog residual; it does not claim a neutrino absolute-mass or mass-splitting fit."
+}

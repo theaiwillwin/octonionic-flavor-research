@@ -1,0 +1,17 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9826,
+  "call_index": 2,
+  "tool_name": "project_list",
+  "call": {
+    "id": "call_hgbj7OgYEMKcPdBDHoe0NRyo",
+    "call_id": "call_hgbj7OgYEMKcPdBDHoe0NRyo",
+    "response_item_id": "fc_071f367ba0e10612016a55371069508191b9eda8a1b5e378b7",
+    "type": "function",
+    "function": {
+      "name": "project_list",
+      "arguments": "{}"
+    }
+  },
+  "parsed_arguments": {}
+}

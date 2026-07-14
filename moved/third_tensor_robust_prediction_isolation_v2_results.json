@@ -1,0 +1,91 @@
+{
+  "schema": "third_tensor_robust_prediction_isolation_v2",
+  "status": "ONLY_DEGENERATE_RANK_ONE_CP_CONSERVING_PREDICTION_IS_ROBUST",
+  "target_firewall": {
+    "observed_flavor_values_read": [],
+    "comparison_to_experiment": "not_performed"
+  },
+  "orbit_sampling": {
+    "trials": 512,
+    "seed": 20260731
+  },
+  "operator_well_posedness": {
+    "composite_v_gap_min_max": [
+      0.0,
+      4.440892098500626e-15
+    ],
+    "composite_v_degenerate_everywhere": true,
+    "link_min_singular_value_min_max": [
+      0.0,
+      4.0283031167278633e-16
+    ],
+    "link_rank_deficient_everywhere": true
+  },
+  "robust_predictions": {
+    "charged_lepton_normalized_singular_value_min": [
+      0.0,
+      2.3685248022068968e-17,
+      1.0
+    ],
+    "charged_lepton_normalized_singular_value_max": [
+      1.8000363780240164e-14,
+      4.058338462820932e-14,
+      1.0
+    ],
+    "neutrino_normalized_singular_value_min": [
+      0.0,
+      2.3702919166623326e-17,
+      1.0
+    ],
+    "neutrino_normalized_singular_value_max": [
+      1.0708560103755776e-14,
+      1.633669041431172e-14,
+      1.0
+    ],
+    "both_yukawas_numerically_rank_one": true,
+    "jarlskog_min_max": [
+      -3.7470027081099033e-16,
+      2.914335439641036e-16
+    ],
+    "CP_conserving_J_zero": true
+  },
+  "not_predictions": {
+    "PMNS_abs_entry_min": [
+      [
+        0.002556239594317096,
+        0.00378117789959419,
+        3.4791658139417953e-17
+      ],
+      [
+        0.0037811778995938596,
+        0.0025562395943174027,
+        3.758842121786892e-17
+      ],
+      [
+        4.418309533930066e-17,
+        3.722116234503095e-17,
+        0.999999999999999
+      ]
+    ],
+    "PMNS_abs_entry_max": [
+      [
+        0.9999928513212941,
+        0.9999967328142313,
+        1.782501844218161e-13
+      ],
+      [
+        0.9999967328142312,
+        0.9999928513212946,
+        1.4960136139173102e-13
+      ],
+      [
+        1.5667276054180288e-13,
+        1.881209191943719e-13,
+        1.0000000000000009
+      ]
+    ],
+    "reason": "The mixing entries vary on the exact action orbit because both the composite family vector and the polar link are nonunique."
+  },
+  "verdict": "The action isolates a robust rank-one, CP-conserving flavor class, not a complete 3x3 PMNS matrix or realistic three-generation spectrum.",
+  "claim_boundary": "Only orbit-invariant statements are called predictions. A displayed matrix from one eigenvector/SVD convention is explicitly excluded."
+}

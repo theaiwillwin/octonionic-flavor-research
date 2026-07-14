@@ -1,0 +1,152 @@
+from __future__ import annotations
+
+import importlib.util
+import json
+from pathlib import Path
+import sys
+
+import numpy as np
+import torch
+
+ROOT = Path(r"D:/Projects/can_o_worms")
+sys.path.insert(0, str(ROOT))
+
+CHANGED = [
+    "next_hard_gate/test_pmns_polar_link_reachability_v2.py",
+    "backreacted_lepton_link_saturated_quotient_hessian_gate_v1.py",
+    "verify_backreacted_lepton_link_saturated_quotient_hessian_v1.py",
+    "verify_backreacted_lepton_link_saturated_quotient_hessian_v2.py",
+    "backreacted_lepton_link_pmns_evaluable_quotient_hessian_gate_v1.py",
+    "verify_backreacted_lepton_link_pmns_evaluable_quotient_hessian_v1.py",
+]
+
+
+def import_path(filename: str, module_name: str):
+    path = (ROOT / filename).resolve()
+    spec = importlib.util.spec_from_file_location(module_name, path)
+    if spec is None or spec.loader is None:
+        raise AssertionError(f"cannot create import spec: {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    actual = Path(module.__file__).resolve()
+    if actual != path:
+        raise AssertionError(f"wrong module path: {actual} != {path}")
+    return module
+
+
+modules = {
+    filename: import_path(filename, f"hermes_link_gate_{index}")
+    for index, filename in enumerate(CHANGED)
+}
+
+# Verify the corrected theorem and its necessary Lagrangian hypothesis.
+reach_module = modules["next_hard_gate/test_pmns_polar_link_reachability_v2.py"]
+phi_reach = reach_module.build_phi()
+h_reach = np.zeros(7)
+h_reach[0] = 1.0
+j_reach = np.einsum("ijk,k->ij", phi_reach, h_reach)
+p_reach, q_reach = reach_module.construct_complex_basis(j_reach, h_reach)
+if np.linalg.norm(p_reach.T @ j_reach @ p_reach) > 1.0e-12:
+    raise AssertionError("corrected construction is not Lagrangian")
+a_reach = np.eye(7) - np.outer(h_reach, h_reach) + 1j * j_reach
+rng_reach = np.random.default_rng(20260714)
+worst_reach = 0.0
+for _ in range(100):
+    target = reach_module.haar_unitary(rng_reach)
+    lnu = reach_module.frame_for_unitary(target, p_reach, q_reach)
+    residual = np.linalg.norm(p_reach.T @ a_reach @ lnu - target)
+    worst_reach = max(worst_reach, float(residual))
+if worst_reach > 1.0e-12:
+    raise AssertionError(f"corrected U(3) construction residual: {worst_reach}")
+
+# Exhibit why arbitrary orthonormal P is insufficient.
+p_bad = np.column_stack((p_reach[:, 0], q_reach[:, 0], p_reach[:, 1]))
+if np.linalg.norm(p_bad.T @ p_bad - np.eye(3)) > 1.0e-12:
+    raise AssertionError("counterexample P is not orthonormal")
+bad_lagrangian = float(np.linalg.norm(p_bad.T @ j_reach @ p_bad))
+if bad_lagrangian < 1.0:
+    raise AssertionError("counterexample did not violate the Lagrangian condition")
+q_bad = -j_reach @ p_bad
+target_bad = reach_module.haar_unitary(rng_reach)
+lnu_bad = reach_module.frame_for_unitary(target_bad, p_bad, q_bad)
+bad_residual = float(np.linalg.norm(p_bad.T @ a_reach @ lnu_bad - target_bad))
+if bad_residual < 1.0e-3:
+    raise AssertionError("arbitrary orthonormal counterexample unexpectedly satisfied K=U")
+
+# Exercise the exact unitary nuclear-norm germ at its declared scope.
+gate_module = modules["backreacted_lepton_link_saturated_quotient_hessian_gate_v1.py"]
+identity = torch.eye(3, dtype=torch.complex128)
+if abs(float(gate_module.unitary_nuclear_germ(identity)) - 3.0) > 1.0e-15:
+    raise AssertionError("unitary nuclear germ does not equal 3 at identity")
+
+# Confirm the explicit residual-orbit construction has the expected coordinate shape.
+frames = np.stack([np.eye(7)[:, :3] for _ in range(4)])
+normals = np.stack([np.eye(7)[:, 3:] for _ in range(4)])
+generator = np.zeros((1, 7, 7))
+orbit = gate_module.orbit_matrix(frames, normals, generator)
+if orbit.shape != (48, 1):
+    raise AssertionError(f"orbit coordinate shape mismatch: {orbit.shape}")
+
+reach = json.loads((ROOT / "next_hard_gate/test_pmns_polar_link_reachability_v2_results.json").read_text(encoding="utf-8"))
+saturated = json.loads((ROOT / "backreacted_lepton_link_saturated_quotient_hessian_gate_v1_results.json").read_text(encoding="utf-8"))
+saturated_verify_v1 = json.loads((ROOT / "verify_backreacted_lepton_link_saturated_quotient_hessian_v1_results.json").read_text(encoding="utf-8"))
+saturated_verify_v2 = json.loads((ROOT / "verify_backreacted_lepton_link_saturated_quotient_hessian_v2_results.json").read_text(encoding="utf-8"))
+pmns_gate = json.loads((ROOT / "backreacted_lepton_link_pmns_evaluable_quotient_hessian_gate_v1_results.json").read_text(encoding="utf-8"))
+pmns_verify = json.loads((ROOT / "verify_backreacted_lepton_link_pmns_evaluable_quotient_hessian_v1_results.json").read_text(encoding="utf-8"))
+action_lock = json.loads((ROOT / "backreacted_lepton_link_action_lock_v2_clarification.json").read_text(encoding="utf-8"))
+
+if reach["status"] != "PASS_EXACT_CONSTRUCTIVE_REACHABILITY":
+    raise AssertionError("exact reachability result is not PASS")
+if reach["checks"]["P_Lagrangian_frobenius"] > 1.0e-12:
+    raise AssertionError("retained reachability result did not certify the Lagrangian condition")
+if action_lock["effective_standardized_link_coefficient"] != -1.0:
+    raise AssertionError("clarified link coefficient mismatch")
+if "exactly once" not in action_lock["sign_rule"]:
+    raise AssertionError("clarified action did not rule out a double sign")
+if saturated["unitary_saturated_branch_count"] != 21:
+    raise AssertionError("saturated branch count mismatch")
+if saturated["saturated_quotient_stable_count"] != 21 or saturated["saturated_quotient_isolated_count"] != 11:
+    raise AssertionError("saturated stability counts mismatch")
+if saturated["pmns_compatible_stable_count"] != 0:
+    raise AssertionError("unexpected saturated PMNS-compatible branch")
+if saturated_verify_v1["status"] != "FAIL" or saturated_verify_v1["assertions"]["all_orbit_ranks_are_8"] is not False:
+    raise AssertionError("retained verifier v1 did not preserve its exact expected rank-assumption failure")
+if saturated_verify_v2["status"] != "PASS":
+    raise AssertionError("corrected saturated verifier v2 did not pass")
+if saturated_verify_v2["maximum_sorted_spectrum_difference"] > 2.0e-5:
+    raise AssertionError("saturated verifier spectrum discrepancy too large")
+if pmns_gate["pmns_evaluable_stationary_branch_count"] != 21:
+    raise AssertionError("PMNS-evaluable branch count mismatch")
+if pmns_gate["smooth_classical_hessian_count"] != 16 or pmns_gate["rank_deficient_nonsmooth_count"] != 5:
+    raise AssertionError("PMNS smooth/nonsmooth split mismatch")
+if pmns_gate["quotient_stable_count"] != 16 or pmns_gate["quotient_isolated_count"] != 2:
+    raise AssertionError("PMNS-evaluable stability counts mismatch")
+if pmns_gate["pmns_compatible_stable_count"] != 0:
+    raise AssertionError("unexpected PMNS-compatible stable orbit")
+if pmns_verify["status"] != "PASS" or pmns_verify["maximum_sorted_spectrum_difference"] > 2.0e-5:
+    raise AssertionError("PMNS-evaluable independent verifier failed")
+
+report = (ROOT / "PMNS_POLAR_LINK_DYNAMIC_SELECTION_GATE_v2.md").read_text(encoding="utf-8")
+plain_report = report.replace("*", "")
+for required in (
+    "only the lowest-energy endpoint per action was retained",
+    "It does not require \\(\\delta_{\\rm CP}\\) or a Jarlskog interval",
+    "Global absence of any PMNS-compatible stable orbit: not proved",
+):
+    if required not in plain_report:
+        raise AssertionError(f"final report missing boundary statement: {required}")
+
+print("AD_HOC_VERIFICATION: PASS")
+print("VERIFICATION_KIND: focused OS-temp changed-path closure, not canonical suite")
+print(f"CHANGED_PATHS_IMPORTED: {len(modules)}/{len(CHANGED)}")
+print(f"EXACT_REACHABILITY_WITH_LAGRANGIAN_P: PASS worst={worst_reach:.3e}")
+print(f"ARBITRARY_ORTHONORMAL_P_COUNTEREXAMPLE: PASS residual={bad_residual:.3e}")
+print("SATURATED_QUOTIENT_HESSIAN: PASS 21/21 stable; 11 isolated")
+print("SATURATED_INDEPENDENT_VERIFIER_V2: PASS")
+print("LEGACY_VERIFIER_V1_EXPECTED_FAILURE: PASS")
+print("PMNS_EVALUABLE_SMOOTH_SPLIT: PASS 16 smooth; 5 nonsmooth")
+print("PMNS_EVALUABLE_QUOTIENT_HESSIAN: PASS 16 stable; 2 isolated")
+print("PMNS_COMPATIBLE_STABLE_ORBITS: 0")
+print("PMNS_EVALUABLE_INDEPENDENT_VERIFIER: PASS")
+print("JSON_ARTIFACTS_PARSED: 7/7 including corrected reachability and action lock")

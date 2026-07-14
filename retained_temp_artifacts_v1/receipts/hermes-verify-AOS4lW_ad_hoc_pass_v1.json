@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "kind": "ad-hoc verification",
+  "checks": {
+    "changed_python_sources_parse": true,
+    "arxiv_archive_hash_matches_manifest": true,
+    "repro_archive_hash_matches_manifest": true,
+    "retained_package_verification_is_pass": true,
+    "tar_paths_safe": true,
+    "tar_member_set_exact": true,
+    "tar_member_hashes_match": true,
+    "zip_paths_safe": true,
+    "zip_member_set_exact": true,
+    "zip_member_hashes_match": true,
+    "clean_archive_compile_exit_zero": true,
+    "clean_archive_pdf_and_log_created": true,
+    "clean_archive_log_has_no_document_warnings": true,
+    "clean_archive_has_six_bibliography_entries": true,
+    "clean_and_final_pdfs_have_eleven_pages": true,
+    "clean_and_final_pdf_texts_identical": true,
+    "clean_pdf_metadata_title_correct": true,
+    "clean_and_final_pdf_fonts_embedded": true,
+    "correct_link_calibration_present": true,
+    "stale_link_calibration_absent": true,
+    "e6_benchmark_appendix_absent": true,
+    "reachability_result_present": true,
+    "claim_ledger_source_hashes_current": true,
+    "claim_ledger_excludes_e6_claims": true
+  },
+  "exit_code": 0,
+  "temporary_verifier_cleaned": true,
+  "temporary_build_directory_cleaned": true
+}

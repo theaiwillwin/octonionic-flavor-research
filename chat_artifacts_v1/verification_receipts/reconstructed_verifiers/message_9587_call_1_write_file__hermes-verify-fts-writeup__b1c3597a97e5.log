@@ -1,0 +1,37 @@
+RECONSTRUCTED_VERIFIER_SHA256=b1c3597a97e5525b4f92331422991f3431f23ca41b0d135ecb0e2ee5c12f5337
+REPRESENTATIVE=D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9587_call_1_write_file__hermes-verify-fts-writeup.py
+DUPLICATE_VERSIONS=2
+EXIT_CODE=0
+--- STDOUT ---
+PASS: artifact exists: LOCKED_HISTORICAL_FTS_DIAGNOSTIC_FIT.md
+PASS: artifact exists: locked_historical_fts_diagnostic_fit.json
+PASS: artifact exists: historical_hermes_general_fts_state_recovered.py
+PASS: artifact exists: verify_locked_historical_fts_fit.py
+PASS: Markdown code fences are balanced
+PASS: no hidden control characters
+PASS: status firewall is present
+PASS: headline honesty boundary is present
+PASS: old missing-artifact statement is explicitly retired
+PASS: final verdict rejects derivation claim
+PASS: document includes locked Frobenius error: 6.128112419919731e-6
+PASS: document includes locked Jarlskog invariant: 3.076559155801642e-5
+PASS: document includes locked Re(r): 0.3887831255168539
+PASS: document includes locked Im(r): 0.28228702817500606
+PASS: document includes locked Re(s): 0.23729498924317205
+PASS: document includes locked Im(s): -0.5117538711322562
+PASS: document includes locked frame action: -0.47369137406837525
+PASS: document includes locked chiral statistic: 0.24298437694050817
+PASS: document includes source provenance hash: 0396ff83436190e87696f1ec7f419b18bf3fba604b7e0cb9bf6f064507cff5f9
+PASS: document includes patch provenance hash: dab887e511e50ac784c2f09e26d94a40a25c0d7dcda7928fedfa9804cb2af3ac
+PASS: recovered source contains ckm_loss_real_fixed
+PASS: recovered source contains obj_physmix
+PASS: recovered source contains J_target
+PASS: recovered source contains state_H_fast
+PASS: recovered source contains build_J_t
+PASS: target-fitted objective is disclosed
+PASS: frame warm-start leakage is disclosed
+PASS: locked Q_star is 7x7
+PASS: machine-readable status rejects derivation
+DOCUMENT_LINES=312
+WRITEUP_VERIFICATION: PASS
+--- STDERR ---

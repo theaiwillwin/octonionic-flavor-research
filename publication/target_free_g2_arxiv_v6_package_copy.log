@@ -1,0 +1,4 @@
+PACKAGE_COPY_V6: PASS
+SOURCE=publication/target_free_g2_arxiv_v5
+DESTINATION=publication/target_free_g2_arxiv_v6
+FILES=5

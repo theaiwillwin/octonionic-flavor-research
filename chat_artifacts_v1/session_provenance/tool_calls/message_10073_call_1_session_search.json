@@ -1,0 +1,17 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 10073,
+  "call_index": 1,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_eW3jChGEiV7b0M7NYgNvpVpH",
+    "call_id": "call_eW3jChGEiV7b0M7NYgNvpVpH",
+    "response_item_id": "fc_071f367ba0e10612016a55395f36b88191b4fce706e916c23a",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{}"
+    }
+  },
+  "parsed_arguments": {}
+}

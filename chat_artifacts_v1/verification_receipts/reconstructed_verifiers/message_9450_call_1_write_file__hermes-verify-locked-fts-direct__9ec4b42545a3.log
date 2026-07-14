@@ -1,0 +1,32 @@
+RECONSTRUCTED_VERIFIER_SHA256=9ec4b42545a34c76f9b977a3bd6d171ac097178177710cc5cfc3f09f720ba8a3
+REPRESENTATIVE=D:/Projects/can_o_worms/chat_artifacts_v1/reconstructed_deleted_verifiers/write_file_payloads/message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py
+DUPLICATE_VERSIONS=2
+EXIT_CODE=0
+--- STDOUT ---
+{
+  "Jarlskog": 3.076559155802683e-05,
+  "Jarlskog_abs_diff": 1.0408340855860843e-17,
+  "V_abs_max_diff": 2.7251435275044145e-09,
+  "all_pass": true,
+  "angles_max_diff": 4.2327252813834093e-16,
+  "col_perm": [
+    1,
+    0,
+    2
+  ],
+  "frame_action_scalar_max_diff": 5.551115123125783e-17,
+  "frame_gradient_abs_diff": 1.8886616296062194e-09,
+  "frame_gradient_recomputed": 1.8013303796483052e-07,
+  "frobenius": 6.128112419538541e-06,
+  "frobenius_abs_diff": 3.811902372528528e-16,
+  "row_perm": [
+    0,
+    1,
+    2
+  ]
+}
+VERIFICATION_RESULT: PASS
+--- STDERR ---
+D:\Projects\can_o_worms\chat_artifacts_v1\reconstructed_deleted_verifiers\write_file_payloads\message_9450_call_1_write_file__hermes-verify-locked-fts-direct.py:24: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:837.)
+  action = {"S": float(S), "A_twist": float(At), "Delta": float(De), "N_d": float(Nd), "P_chiral": float(P)}

@@ -1,0 +1,21 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9388,
+  "call_index": 3,
+  "tool_name": "session_search",
+  "call": {
+    "id": "call_8JuUESxEsYhRAWQ2H1DXcoPx",
+    "call_id": "call_8JuUESxEsYhRAWQ2H1DXcoPx",
+    "response_item_id": "fc_0347e4c19632ac66016a551e28f3008191bd1ef3975cc3191f",
+    "type": "function",
+    "function": {
+      "name": "session_search",
+      "arguments": "{\"limit\":10,\"query\":\"\\\"6.13\\\" AND (restored OR regenerated OR reproduced OR recovered)\",\"sort\":\"newest\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 10,
+    "query": "\"6.13\" AND (restored OR regenerated OR reproduced OR recovered)",
+    "sort": "newest"
+  }
+}

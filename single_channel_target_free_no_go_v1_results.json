@@ -1,0 +1,226 @@
+{
+  "status": "ANALYTIC_NO_GO_FOR_MINIMAL_SINGLE_CHANNEL_TARGET_FREE_ACTION",
+  "seed": 2026071403,
+  "action": {
+    "operator": "Y_ab=<[l_a,V,H],r_b>",
+    "potential": "V_min=-||Y||_F^2",
+    "field_domain": "H,V in Im(O); L,R in St(7,3)",
+    "target_free": true
+  },
+  "algebra_identity_gate": {
+    "A_sign_vs_2Phi": "-",
+    "pass": true
+  },
+  "response_theorem_checks": {
+    "random_trials": 64,
+    "predicted_nonzero_scale": "2||H||||V_perp|| with multiplicity four",
+    "predicted_kernel_dimension": 3,
+    "max_equal_scale_error": 1.1102230246251565e-15,
+    "max_zero_tail": 4.374516090482249e-16,
+    "max_partial_isometry_error": 6.994405055138486e-15,
+    "sample_trials": [
+      {
+        "predicted_scale": 1.7420715538949338,
+        "response_singular_values": [
+          1.742071553894934,
+          1.7420715538949336,
+          1.7420715538949336,
+          1.7420715538949336,
+          2.4456600935519567e-16,
+          1.26317832060428e-16,
+          2.4791905028848483e-17
+        ],
+        "equal_scale_max_abs": 2.220446049250313e-16,
+        "zero_tail_max_abs": 2.4456600935519567e-16,
+        "partial_isometry_max_abs": 2.220446049250313e-15
+      },
+      {
+        "predicted_scale": 1.6499285659634875,
+        "response_singular_values": [
+          1.6499285659634881,
+          1.6499285659634881,
+          1.6499285659634881,
+          1.6499285659634877,
+          2.32596827401399e-16,
+          1.869757735399237e-16,
+          1.2717159526163002e-16
+        ],
+        "equal_scale_max_abs": 6.661338147750939e-16,
+        "zero_tail_max_abs": 2.32596827401399e-16,
+        "partial_isometry_max_abs": 1.5543122344752192e-15
+      },
+      {
+        "predicted_scale": 1.8003895102468825,
+        "response_singular_values": [
+          1.8003895102468834,
+          1.8003895102468832,
+          1.8003895102468828,
+          1.8003895102468828,
+          1.668564813207161e-16,
+          1.4083252559251298e-16,
+          9.993527922123086e-18
+        ],
+        "equal_scale_max_abs": 8.881784197001252e-16,
+        "zero_tail_max_abs": 1.668564813207161e-16,
+        "partial_isometry_max_abs": 1.3322676295501878e-15
+      },
+      {
+        "predicted_scale": 1.9730388619075778,
+        "response_singular_values": [
+          1.9730388619075783,
+          1.9730388619075778,
+          1.9730388619075774,
+          1.9730388619075774,
+          3.4456341852334626e-16,
+          1.5502404178885665e-16,
+          2.4506059066878893e-17
+        ],
+        "equal_scale_max_abs": 4.440892098500626e-16,
+        "zero_tail_max_abs": 3.4456341852334626e-16,
+        "partial_isometry_max_abs": 2.220446049250313e-15
+      }
+    ]
+  },
+  "global_minimum": {
+    "response_singular_values": [
+      1.928412521137575,
+      1.9284125211375749,
+      1.9284125211375749,
+      1.9284125211375744,
+      5.919098187125571e-16,
+      3.7516936409514687e-16,
+      1.353561279633666e-17
+    ],
+    "predicted_scale": 1.9284125211375747,
+    "Y_matrix": [
+      [
+        1.9284125211375747,
+        -1.418945020009873e-16,
+        6.309814240991553e-17
+      ],
+      [
+        -1.7854110211804347e-16,
+        1.9284125211375753,
+        -1.1020627302663125e-17
+      ],
+      [
+        -1.2314387667097499e-17,
+        5.2304780131094886e-17,
+        1.9284125211375749
+      ]
+    ],
+    "Y_singular_values": [
+      1.9284125211375749,
+      1.9284125211375747,
+      1.9284125211375747
+    ],
+    "normalized_Y_singular_values": [
+      1.0,
+      0.9999999999999999,
+      0.9999999999999999
+    ],
+    "action_value": -11.156324555040532,
+    "analytic_lower_bound": -11.15632455504053,
+    "bound_residual": 1.7763568394002505e-15
+  },
+  "flat_minimum_family": {
+    "physical_family": "Gr(3,4) active-domain choices before basis gauge",
+    "dimension": 3,
+    "samples": [
+      {
+        "theta": 0.0,
+        "action": -11.156324555040541,
+        "singular_values": [
+          1.9284125211375767,
+          1.9284125211375756,
+          1.9284125211375749
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 0.2617993877991494,
+        "action": -11.15632455504054,
+        "singular_values": [
+          1.928412521137576,
+          1.9284125211375747,
+          1.9284125211375747
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 0.5235987755982988,
+        "action": -11.156324555040541,
+        "singular_values": [
+          1.9284125211375762,
+          1.9284125211375753,
+          1.9284125211375749
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 0.7853981633974483,
+        "action": -11.156324555040541,
+        "singular_values": [
+          1.9284125211375762,
+          1.9284125211375762,
+          1.9284125211375749
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 1.0471975511965976,
+        "action": -11.15632455504054,
+        "singular_values": [
+          1.928412521137576,
+          1.9284125211375749,
+          1.9284125211375747
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 1.308996938995747,
+        "action": -11.156324555040532,
+        "singular_values": [
+          1.9284125211375749,
+          1.9284125211375747,
+          1.9284125211375744
+        ],
+        "L_orthogonality_max_abs": 5.551115123125783e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      },
+      {
+        "theta": 1.5707963267948966,
+        "action": -11.15632455504054,
+        "singular_values": [
+          1.9284125211375758,
+          1.9284125211375749,
+          1.9284125211375749
+        ],
+        "L_orthogonality_max_abs": 4.440892098500626e-16,
+        "R_orthogonality_max_abs": 8.881784197001252e-16
+      }
+    ],
+    "max_action_variation": 8.881784197001252e-15
+  },
+  "verdict": {
+    "rigidity_evasion": "PASS",
+    "target_free_vacuum_selection": "FAIL",
+    "hierarchical_spectrum": "FAIL_EQUAL_SINGULAR_VALUES",
+    "isolated_stable_vacuum": "FAIL_CONTINUOUS_PHYSICAL_FLAT_DIRECTIONS",
+    "scope": "This rules out V_min=-||Y||_F^2 for one signed associator channel. It does not rule out multi-channel interference, higher invariants, or an E6/Jordan completion."
+  },
+  "checks": {
+    "response_has_four_equal_nonzero_singular_values": true,
+    "response_has_three_dimensional_kernel": true,
+    "response_is_scaled_partial_isometry": true,
+    "constructed_vacuum_saturates_global_bound": true,
+    "selected_spectrum_is_threefold_degenerate": true,
+    "continuous_minimum_family_verified": true
+  },
+  "all_pass": true
+}

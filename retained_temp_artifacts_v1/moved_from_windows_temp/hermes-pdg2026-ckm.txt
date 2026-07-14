@@ -1,0 +1,1338 @@
+1           12. CKM Quark-Mixing Matrix
+
+   12. CKM Quark-Mixing Matrix
+
+Revised March 2026 by A. Ceccucci (CERN), Z. Ligeti (LBNL) and Y. Sakai (KEK).
+
+12.1 Introduction
+
+    The masses and mixings of quarks have a common origin in the Standard Model (SM). They
+arise from the Yukawa interactions with the Higgs condensate,
+
+      LY = -Yidj QILi  dRj I - Yiju QILi uRj I + h.c.,                                          (12.1)
+
+where Y u,d are 3×3 complex matrices,  is the Higgs field, i, j are generation labels, and is the 2×2
+
+antisymmetric tensor. QIL are left-handed quark doublets, and dIR and uIR are right-handed down-
+
+and up-type quark singlets, respectively, in the weak-eigenstate basis. When  acquires a vacuum
+expectation value,  = (0, v/ 2), Eq. (12.1) yields mass terms for the quarks. The physical states
+are obtained by diagonalizing Y u,d by four unitary matrices, VL,R u,d, as Mdiag f = VLf Y f VRf(v/2),
+f = u, d. As a result, the charged-current W ± interactions couple to the physical uLj and dLk
+
+quarks with couplings given by                                                                
+                                                          u d Vud Vus Vub
+                                                 VCKM  VL VL = Vcd Vcs Vcb  .                   (12.2)
+     -g µ + dL
+      (uL, cL, tL) Wµ VCKM sL + h.c.,                                           Vtd Vts Vtb
+
+        2 bL
+
+   This Cabibbo-Kobayashi-Maskawa (CKM) matrix [1, 2] is a 3 × 3 unitary matrix. It can be
+
+parameterized by three mixing angles and the CP -violating KM phase [2]. Of the many possible
+
+conventions, a standard choice has become [3]
+
+                                                                                        
+     10       0  c13                               0 s13 e-i c12                s12 0
+                                                                                c12 0
+   VCKM = 0 c23 s23  0                                                           01
+                                                   1 0 -s12
+                                                                                          
+      0 -s23 c23 -s13 ei 0 c13                                 0                s13 e-i
+
+    i c12 c13                                             s12 c13                               (12.3)
+   = -s12 c23 - c12 s23 s13 e                                                    s23 c13  ,
+                                                                             i   c23 c13
+                                                 c12 c23 - s12 s23 s13 e
+
+      s12 s23 - c12 c23 s13 ei -c12 s23 - s12 c23 s13 ei
+
+where sij = sin ij, cij = cos ij, and  is the phase responsible for all CP -violating phenomena in
+flavor-changing processes in the SM. The angles ij can be chosen to lie in the first quadrant, so
+sij, cij  0.
+
+    It is known experimentally that s13 s23 s12 1, and it is convenient to exhibit this
+hierarchy using the Wolfenstein parameterization. We define [4-6]
+
+   s12 =  =       |Vus| ,                                 s23 = A2 =  Vcb ,
+              |Vud|2 + |Vus|2                                                 Vus
+                                                             
+                                                   A3(¯ + i¯) 1 - A24
+   i             3
+   s13e = Vub = A ( + i) =                                                         .            (12.4)
+                                                   1 - 2 [1 - A24(¯ + i¯)]
+
+These relations ensure that ¯ + i¯ = -(VudVub)/(VcdVcb) is phase convention independent, and the
+
+CKM matrix written in terms of , A, ¯, and ¯ is unitary to all orders in . The definitions of ¯, ¯
+
+reproduce all approximate results in the literature; i.e., ¯ = (1-2/2+. . .) and ¯ = (1-2/2+. . .),
+
+and one can write VCKM to O(4) either in terms of ¯, ¯ or, traditionally,
+                                                                          
+              1 - 2/2                                     A3( - i)
+                                                                          
+   VCKM =     -                                  1 - 2/2  A2                    +  O(4  )  .    (12.5)
+
+      A3(1 -  - i) -A2                                    1
+
+   F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                             1st June, 2026 11:08am
+2                               12. CKM Quark-Mixing Matrix
+
+   Figure 12.1: Sketch of the unitarity triangle.
+
+   The CKM matrix elements are fundamental parameters of the SM, so their precise determination
+
+is important. The unitarity of the CKM matrix imposes i VijV ik = jk and j VijVkj = ik. The
+six vanishing combinations can be represented as triangles in a complex plane, of which those
+
+obtained by taking scalar products of neighboring rows or columns are nearly degenerate. The
+
+areas of all triangles are the same, half of the Jarlskog invariant, J [7], which is a phase-convention-
+
+independent measure of CP violation, defined by Im VijVklVil Vkj = J  m,n ikmjln.
+    The most commonly used unitarity triangle arises from
+
+                                Vud Vub + Vcd Vcb + Vtd Vtb = 0 ,                  (12.6)
+
+by dividing each side by VcdVcb (see Fig. 12.1). Its vertices are exactly (0, 0), (1, 0), and, due to
+the definition in Eq. (12.4), (¯, ¯). An important goal of flavor physics is to overconstrain the
+CKM elements, and many measurements can be conveniently displayed and compared in the ¯, ¯
+plane. While the Lagrangian in Eq. (12.1) is renormalized, and the CKM matrix has a well-known
+scale dependence above the weak scale [8], below µ = mW the CKM elements can be treated as
+constants, with all µ-dependence contained in the running of quark masses and higher-dimension
+operators.
+
+    Unless explicitly stated otherwise, we describe all measurements assuming the SM, to extract
+magnitudes and phases of CKM elements in Sec. 12.2 and 12.3. Processes dominated by loop-level
+contributions in the SM are particularly sensitive to new physics beyond the SM (BSM). We give
+the global fit results for the CKM elements in Sec. 12.4, and discuss some implications for beyond
+standard model physics in Sec. 12.5.
+
+12.2 Magnitudes of CKM elements
+
+12.2.1 |Vud|
+    The most precise determination of |Vud| comes from the study of superallowed 0+  0+ nuclear
+
+beta decays, which are pure vector transitions. Taking the average of the fifteen most precise
+
+determinations [9] yields [10]
+
+                                |Vud| = 0.97367 ± 0.00032 .                        (12.7)
+
+                                1st June, 2026
+3  12. CKM Quark-Mixing Matrix
+
+This uncertainty is slightly more than twice as large as that in the 2020 edition, due to a more
+
+conservative estimate of the nuclear structure uncertainties. A less precise determination of |Vud|
+can be obtained from the measurement of the neutron lifetime. The theoretical uncertainties are
+
+very small, but the determination is limited by the knowledge of the ratio of the axial-vector and
+
+vector couplings, gA = GA/GV [10]. The PIBETA experiment [11] has improved the measurement
+of the +  0e+ branching ratio to 0.6%, and Ref. [12] quotes |Vud| = 0.9739 ± 0.0027, in
+agreement with the more precise result listed above. The interest in this measurement is that the
+
+determination of |Vud| is very clean theoretically, because it is a pure vector transition and is free
+from nuclear-structure uncertainties.
+
+12.2.2 |Vus|
+    The product of |Vus| and the form factor at q2 = 0, |Vus| f+(0), has been extracted traditionally
+
+from K0L  e decays in order to avoid isospin-breaking corrections (0 -  mixing) that affect
+K± semileptonic decay, and the complications induced by a second (scalar) form factor present in
+
+the muonic decays. The last round of measurements has led to enough experimental constraints to
+
+justify the comparison between different decay modes. Systematic errors related to the experimen-
+
+tal quantities, e.g., the lifetime of neutral or charged kaons, and the form factor determinations
+
+for electron and muonic decays, differ among decay modes, and the consistency between different
+
+determinations enhances the confidence in the final result. For this reason, we follow the prescrip-
+tion [13] to average K0L  e, K0L  µ, K±  0e±, K±  0µ± and K0S  e. The
+average of these five decay modes yields |Vus| f+(0) = 0.21656 ± 0.00035. Results obtained from
+each decay mode, and exhaustive references to the experimental data, are listed for instance in
+
+Ref. [10]. The form factor average f+(0) = 0.9698 ± 0.0017 [14] from Nf = 2 + 1 + 1 lattice QCD
+calculations gives |Vus| = 0.2233 ± 0.0005 [10].1 The broadly used classic calculation of f+(0) [16]
+is in good agreement with this value, while other calculations [18] differ by as much as 2%.
+
+    The calculation of the ratio of the kaon and pion decay constants enables one to extract |Vus/Vud|
+from K  µ() and   µ(), where () indicates that radiative decays are included [19].
+
+The value of  (K  µ()) [10] derived from the KLOE measurement of the corresponding
+
+branching ratio [20], combined with the lattice QCD result, fK/f = 1.1978 ± 0.0022 [10], leads to
+|Vus| = 0.2250 ± 0.0004, where the accuracy is limited by the knowledge of the ratio of the decay
+constants. The average of these two determinations, with the error scaled according to the PDG
+prescription [21] by 2 = 2.5, is quoted as [10]
+
+   |Vus| = 0.22431 ± 0.00085 .  (12.8)
+
+It is important to include both QED and QCD sources of isospin violations in the lattice QCD
+calculations.
+
+    The latest determination from hyperon decays can be found in Ref. [22]. The authors focus on
+the analysis of the vector form factor, protected from first order flavor SU (3) breaking effects by
+the Ademollo-Gatto theorem [23], and treat the ratio between the axial and vector form factors
+g1/f1 as experimental input, thus avoiding first order SU (3) breaking effects in the axial-vector
+contribution. They find |Vus| = 0.2250 ± 0.0027, although this does not include an estimate of the
+theoretical uncertainty due to second-order SU (3) breaking, contrary to Eq. (12.8). Concerning
+hadronic  decays to strange particles, averaging the inclusive decay and the exclusive   h
+(h = , K) measurements yields |Vus| = 0.2208 ± 0.0014 [24].
+
+12.2.3 |Vcd|
+    The magnitude of Vcd can be extracted from semileptonic charm decays, using theoretical
+
+knowledge of the form factors. In semileptonic D decays, lattice QCD calculations have pre-
+
+     1For lattice QCD inputs, we use the averages from Ref. [14], unless the minireviews [10,15] choose different values.
+We only use unquenched results, and if both Nf = 2 + 1 + 1 and 2 + 1 calculations are available, we use the former.
+
+   1st June, 2026
+4  12. CKM Quark-Mixing Matrix
+
+dicted the normalization of the D    and D  K  form factors [14]. The dependence on
+the invariant mass of the lepton pair, q2, is determined from lattice QCD and theoretical con-
+
+straints from analyticity [15]. Using Nf = 2 + 1 + 1 lattice QCD calculations for D   ,
+f+D(0) = 0.6296 ± 0.0050 [14], and the average [24] of the measurements of D    decays by
+BABAR [25], BESIII [26], CLEO-c [27], and Belle [28], one obtains |Vcd| = 0.2265 ± 0.0029 ± 0.0018,
+where the first uncertainty is experimental, and the second is from the theoretical uncertainty of
+
+the form factor.
+    The determination of |Vcd| is also possible from the leptonic decay D+  µ+ and  +. The
+
+experimental uncertainties decreased significantly recently [29]. We take the average [30] (which
+
+includes the Sirlin factor, the universal short-distance electromagnetic correction), the BESIII [29]
+and earlier CLEO [31] measurements for µ+ and BESIII [32] for  +, and use the Nf = 2 + 1 + 1
+lattice QCD result, fD = 212.0 ± 0.7 MeV [14], to obtain |Vcd| = 0.2330 ± 0.0028 ± 0.0007.2
+
+    Earlier determinations of |Vcd| came from neutrino scattering data. The difference of the ratio
+of double-muon to single-muon production by neutrino and antineutrino beams is proportional to
+the charm cross section off valence d quarks, and therefore to |Vcd|2 times the average semilep-
+tonic branching ratio of charm mesons, Bµ. The method was used first by CDHS [33] and then
+by CCFR [34] and CHARM II [35]. Averaging these results is complicated, because it requires
+
+assumptions about the scale of the QCD corrections, and because Bµ is an effective quantity,
+which depends on the specific neutrino beam characteristics. With no recent experimental input
+available, we quote the average from a past review, Bµ|Vcd|2 = (0.463 ± 0.034) × 10-2 [36]. Anal-
+ysis cuts make these experiments insensitive to neutrino energies smaller than 30 GeV. Thus, Bµ
+should be computed using only neutrino interactions with visible energy larger than 30 GeV. An
+
+appraisal [37] based on charm-production fractions measured in neutrino interactions [38] gives
+
+Bµ = 0.088 ± 0.006. Data from the CHORUS experiment [39] are sufficiently precise to extract Bµ
+directly, by comparing the number of charm decays with a muon to the total number of charmed
+
+hadrons found in the nuclear emulsions. Requiring the visible energy to be larger than 30 GeV,
+
+CHORUS found Bµ = 0.085 ± 0.009 ± 0.006. We use the average of these two determinations,
+Bµ = 0.087 ± 0.005, and obtain |Vcd| = 0.230 ± 0.011. Averaging the three determinations above,
+we find
+
+   |Vcd| = 0.2247 ± 0.0022 .                                                                            (12.9)
+
+12.2.4 |Vcs|
+
+    The direct determination of |Vcs| is possible from semileptonic D or leptonic Ds decays, using
+lattice QCD calculations of the semileptonic D form factor or the Ds decay constant. For muonic
+decays, the average of Belle [40], CLEO-c [41], BABAR [42], and BESIII [43, 44] is B(Ds+  µ+) =
+(5.34 ± 0.12) × 10-3 [30]. For decays to  leptons, the average of CLEO-c [41, 45], BABAR [42],
+Belle [40], and BESIII [44, 46] gives B(Ds+   +) = (5.388 ± 0.093) × 10-2 [30]. From each
+of these values, determinations of |Vcs| can be obtained using the PDG values for the mass and
+lifetime of the Ds, the masses of the leptons, and fDs = (249.9 ± 0.5) MeV [14]. The average of
+these determinations gives |Vcs| = 0.976 ± 0.010, where the error is dominated by the experimental
+uncertainty.
+
+    In semileptonic D decays, lattice QCD calculations of the D  K  form factor are available
+[14]. Using f+DK(0) = 0.7430 ± 0.0027 and the average [24] of CLEO-c [27], Belle [28], BABAR [47],
+and recent BESIII [26, 48] measurements of D  K  decays, one obtains |Vcs| = 0.966 ± 0.006,
+where the dominant uncertainty is from the theoretical calculation of the form factor. Averaging
+
+   2Hereafter the first error is statistical and the second is systematic, unless mentioned otherwise.
+
+   1st June, 2026
+5  12. CKM Quark-Mixing Matrix
+
+the determinations from leptonic and semileptonic decays, we find
+
+   |Vcs| = 0.969 ± 0.005 .                                         (12.10)
+
+    Measurements of on-shell W ± decays sensitive to |Vcs| were made at LEP-2 and the LHC. The W
+branching ratios depend on the six CKM elements involving only the quarks lighter than mW . The
+W branching ratio to each lepton flavor is 1/B(W  ¯ ) = 3 1 + u,c,d,s,b |Vij|2 (1 + s(mW )/) +
+. . . . Assuming lepton universality, and averaging the LEP [49] and CMS [50] measurements,
+we find B(W  ¯ ) = (10.88 ± 0.06)%, which implies u,c,d,s,b |Vij|2 = 1.988 ± 0.017. This is
+a precise test of unitarity of the 1st and 2nd raw of the CKM matrix. However, only flavor-
+tagged W -decays determine |Vcs| directly, such as DELPHI's tagged W +  cs¯ analysis, yielding
+|Vcs| = 0.94-0.26 +0.32 ± 0.13 [51].
+
+12.2.5 |Vcb|
+    This matrix element can be determined from exclusive and inclusive semileptonic decays of
+
+B mesons to charm. The inclusive determinations use the semileptonic decay rate measurement,
+
+together with (certain moments of) the lepton energy and the hadronic invariant-mass spectra. The
+
+theoretical basis is the operator product expansion [52, 53], which allows calculation of the decay
+
+rate and various spectra as expansions in s and inverse powers of the heavy-quark mass. The
+dependence on mb, mc, and the parameters that occur at subleading order is different for different
+moments. The measurements of many moments overconstrain these parameters, and also test the
+
+consistency of their determination. The precise extraction of |Vcb| requires using a "threshold"
+quark mass definition [54, 55]. Inclusive measurements have been performed using B mesons from
+Z0 decays at LEP, and at e+e- colliders operated at the  (4S). At LEP, the large boost of B
+mesons from the Z0 decay allows the determination of the moments throughout phase space, which
+
+is not possible otherwise, but the large statistics available at the B factories lead to more precise
+
+determinations. An average of the measurements and a compilation of the references are provided
+in Ref. [15]: |Vcb| = (42.0 ± 0.5) × 10-3.
+
+    Complementary determinations are based on exclusive semileptonic B decays to D and D.
+
+In the mb,c QCD limit, all form factors are given by a single Isgur-Wise function [56], which
+depends on the product of the four-velocities of the B and D() mesons, w = v · v . Heavy-quark
+
+symmetry determines the rate (in the symmetry limit) at w = 1, the point in phase space at
+
+which the invariant mass of the ¯ pair is maximal; |Vcb| is obtained from extrapolating a fit to the
+spectrum to w = 1. The current update of the Vcb and Vub minireview quotes from exclusive decays
+|Vcb| = (39.5 ± 0.5) × 10-3 [15], based on the only unfolded measurement of B  D semileptonic
+decay distributions [57], and using a more general fit [58] than in earlier B factory measurements.
+With the uncertainty scaled by 2 = 3.7, this yields the combination [15],
+
+   |Vcb| = (40.7 ± 1.3) × 10-3 .                                   (12.11)
+
+    Determinations of |Vcb| that are currently less precise and not included in this average, can be
+obtained from the measurement of Bs  Ds()µ¯ decays [59]. In addition, semileptonic decays to
+ leptons measured in B  D() ¯ and related modes are also sensitive to |Vcb|. The most precise
+data involving  leptons are the |Vcb|-independent ratios, B(B  D() ¯)/B(B  D() ¯) measured
+by BaBar, Belle, and LHCb. If the current, approximately 3.8  [24] hint of lepton non-universality
+
+prevails, the determination of |Vcb| becomes more complicated.
+
+12.2.6 |Vub|
+    The determination of |Vub| from inclusive B  Xu ¯ decay is complicated due to large B 
+
+Xc ¯ backgrounds. In most regions of phase space where the charm background is kinematically
+
+   1st June, 2026
+6                               12. CKM Quark-Mixing Matrix
+
+forbidden, the hadronic physics enters via unknown nonperturbative functions, so-called shape
+
+functions. (By contrast, the nonperturbative physics for |Vcb| is encoded in a few parameters.)
+At leading order in QCD/mb, there is only one shape function, which can be extracted from
+the photon energy spectrum in B  Xs [60, 61], and applied to several spectra in B  Xu ¯.
+The subleading shape functions are modeled in the current determinations. Phase space cuts for
+
+which the rate has only subleading dependence on the shape function are also possible [62]. The
+
+measurements of both the hadronic and the leptonic systems are important for an optimal choice
+
+of phase space. A different approach is to make the measurements more inclusive by extending
+
+them deeper into the B  Xc ¯ region, and thus reduce the theoretical uncertainties. Analyses of
+the electron-energy endpoint from CLEO [63], BABAR [64], and Belle [65] quote B  Xue¯ partial
+rates for |pe|  2.0 GeV and 1.9 GeV, which are well below the charm endpoint. The large and
+pure BB samples at the B factories permit the selection of B  Xu ¯ decays in events where the
+other B is fully reconstructed [66]. With this full-reconstruction tag method, the four-momenta
+
+of both the leptonic and the hadronic final states can be measured. It also gives access to a
+
+wider kinematic region, because of improved signal purity. Ref. [15] quotes the inclusive average,
+|Vub| = (4.06 ± 0.11 ± 0.13 ± 0.18) × 10-3, where the first error is experimental, the second arises
+from the model dependence quoted by the individual measurements, and the third is an additional
+
+one estimated in Ref. [15].
+
+    To extract |Vub| from exclusive decays, the form factors have to be known. Experimentally,
+better signal-to-background ratios are offset by smaller yields. The B   ¯ branching ratio is
+
+now known to 5%. Lattice QCD calculations of the B   ¯ form factor are available [67] for the
+high q2 region (q2 > 16 or 18 GeV2). A fit to the experimental partial rates and lattice QCD results
+versus q2 yields |Vub| = (3.75 ± 0.06 ± 0.19) × 10-3 [24].
+
+    The uncertainties in extracting |Vub| from inclusive and exclusive decays are different to a large
+extent. An average of these determinations, with the uncertainty scaled by 2 = 1.1, is [15]
+
+                                |Vub| = (3.89 ± 0.16) × 10-3 .                                       (12.12)
+
+   A determination of |Vub| not included in this average can be obtained from B(B   ¯) =
+
+(1.12 ± 0.19) × 10-4 [24]. Using fB = (190.0 ± 1.3) MeV [14] and B± = (1.638 ± 0.004) ps [68],
+we find the remarkably consistent result, |Vub| = (4.16 ± 0.35) × 10-3. This decay is sensitive,
+
+for example, to tree-level charged Higgs contributions, and the measured rate is consistent with
+
+the SM expectation. The LHCb measurements of |Vub/Vcb| from the ratios of b  p+µ-¯ and
+
+b    +c µ-¯  [69]  and  B0      K - µ+   and  B0      Ds-µ+  [70]   in  different  regions  of  q2,  provides
+
+                           s                     s
+
+another complementary determination.
+
+12.2.7 |Vtd| and |Vts|
+
+    The CKM elements |Vtd| and |Vts| are not likely to be precisely measurable in tree-level processes
+involving top quarks, so one has to rely on determinations from B0 - B0 mixing, dominated by box
+
+diagrams with top quarks, or loop-mediated rare K and B decays. Theoretical uncertainties in
+
+hadronic effects limit the accuracy of the current determinations. These can be reduced by taking
+
+ratios of processes that are equal in the flavor SU (3) limit to determine |Vtd/Vts|.
+    The phenomenon of B0 - B0 mixing was discovered by ARGUS [71], and the mass difference is
+
+now precisely measured as md    = (0.5068 ± 0.0019) ps-1     [72].  In  the  B0    system, ms        was first
+
+                                                                                s
+
+measured significantly by CDF [73] and the world average, dominated by an LHCb measurement
+
+[74], is ms = (17.765 ± 0.006) ps-1 [72]. Neglecting corrections suppressed by |Vtb| - 1, and using
+
+the lattice QCD results fBd BBd = (210.6 ± 5.5) MeV and fBs BBs = (256.1 ± 5.7) MeV [14],
+
+                   |Vtd| = (8.6 ± 0.2) × 10-3 , |Vts| = (41.5 ± 0.9) × 10-3 .                        (12.13)
+
+                                         1st June, 2026
+7  12. CKM Quark-Mixing Matrix
+
+The uncertainties are dominated by lattice QCD. Several uncertainties are reduced in the calculation
+
+of the ratio  = fBs BBs / fBd BBd = 1.216 ± 0.016 [14] and therefore the constraint on
+|Vtd/Vts| from md/ms is more reliable theoretically. These provide a theoretically clean and
+significantly improved determination,
+
+   Vtd/Vts = 0.207 ± 0.001 ± 0.003 .  (12.14)
+
+    The inclusive branching ratio B(B  Xs) = (3.49 ± 0.19) × 10-4 extrapolated to E >
+E0 = 1.6 GeV [24] is also sensitive to |VtbVts|. In addition to t-quark penguins, a substantial part
+of the rate comes from charm contributions proportional to VcbVcs via the application of 3 × 3
+CKM unitarity (which is used here). With the NNLO calculation of B(B  Xs)E>E0/B(B 
+Xce¯) [75], we obtain |Vts/Vcb| = 1.00 ± 0.04. The Bs  µ+µ- rate is also proportional to |VtbVts|2
+in the SM, and the world average, B(Bs  µ+µ-) = (3.34 ± 0.27) × 10-9 [68], is consistent with
+the SM, with sizable uncertainties.
+
+    A complementary determination of |Vtd/Vts| is possible from the ratio of B   and K rates.
+The ratio of the neutral modes is theoretically cleaner than that of the charged ones, because the
+
+poorly known spectator-interaction contribution is expected to be smaller (W -exchange vs. weak
+
+annihilation). For now, because of low statistics, we average the charged and neutral rates assuming
+the isospin symmetry and heavy-quark limit motivated relation, |Vtd/Vts|2/2 = [ (B+  +) +
+2 (B0  0)]/[ (B+  K+) +  (B0  K0)] = (3.63 ± 0.41)% [24, 76]. Here  contains the
+poorly known hadronic physics. Using  = 1.2 ± 0.2 [77] gives |Vtd/Vts| = 0.228 ± 0.013 ± 0.038,
+where the first uncertainty is experimental and the second is theoretical.
+
+    A theoretically clean determination of |VtdVts| is possible from K+  +¯ decay [78]. Exper-
+imentally, the decay has been observed by NA62 [79] and the branching fraction is consistent with
+
+the SM within uncertainties. Much more data are needed for a precision measurement.
+
+12.2.8 |Vtb|
+
+    The determination of |Vtb| from top decays uses the ratio of branching fractions R = B(t 
+W b)/B(t  W q) = |Vtb|2/( q |Vtq|2) = |Vtb|2, where q = b, s, d. The CDF and DØ measurements
+performed on data collected during Run II of the Tevatron give |Vtb| > 0.85 [80] and 0.99 >
+|Vtb| > 0.90 [81], respectively, at 95% CL. CMS measured the same quantity at 8 TeV and obtained
+|Vtb| > 0.975 [82] at 95% CL.
+
+    The direct determination of |Vtb|, without assuming unitarity, is possible from the single top
+quark production cross section. The (3.30+0.52 -0.40) pb combined cross section [83] of DØ and CDF
+measurements implies |Vtb| = 1.02-0.05 +0.06. The LHC experiments, ATLAS and CMS, have measured
+single top quark production cross sections (and extracted |Vtb|) in t-channel, W t-channel, and s-
+channel at 7 TeV, 8 TeV, and 13 TeV [84]. The average of these |Vtb| values is calculated to be
+|Vtb| = 0.998 ± 0.026, where all systematic errors and theoretical errors are treated to be fully
+correlated. The average of Tevatron and LHC values gives
+
+   |Vtb| = 1.002 ± 0.024 .            (12.15)
+
+The experimental systematic uncertainties dominate, and a dedicated combination would be wel-
+come.
+
+    A weak constraint on |Vtb| can be obtained from precision electroweak data, where top quarks
+enter in loops. The sensitivity is best in  (Z  b¯b) and yields |Vtb| = 0.77-0.24 +0.18 [85].
+
+                                                                            1st June, 2026
+8                                    12. CKM Quark-Mixing Matrix
+
+12.3 Phases of CKM elements
+
+    As can be seen from Fig. 12.1, the angles of the unitarity triangle are
+
+                                            = 1 = arg               VcdVcb
+                                            = 2 = arg   -                 ,
+                                            = 3 = arg               VtdVtb
+
+                                                        -           VtdVtb,
+
+                                                                    VudVub
+
+                                                                    VudVub                     (12.16)
+                                                        -                 .
+                                                                    VcdVcb
+
+Since CP violation involves phases of CKM elements, many measurements of CP -violating observ-
+ables can be used to constrain these angles and the ¯, ¯ parameters.
+
+12.3.1 and
+    The measurement of CP violation in K0-K0 mixing, | | = (2.228 ± 0.011) × 10-3 [86], provides
+
+important information about the CKM matrix. The phase of is determined by long-distance
+physics, = 12 ei sin  arg(-M12/12), where  = arctan |2mK /K | 43.5. The SM
+prediction can be written as
+
+                            =  ei    G  2  m  2  m  K  fK2 BK ttS(xt) Im[(VtsVtd )2]
+                                        F     W
+
+                                     12 2  mK 2
+
+                                + 2ctS(xc, xt) Im(VcsVcdVtsVtd) + cc xc Im[(VcsVcd)2] ,        (12.17)
+
+where  0.94 ± 0.02 [87] includes the effects of strangeness changing s = 1 operators and
+
+additional dependence on  = /4 (see also Ref. [88]). The displayed terms are the short-distance
+
+s = 2 contribution to ImM12 in the usual phase convention, S is an Inami-Lim function [89],
+
+xq  =  m  2  /m  2  ,  and  ij  are  perturbative  QCD  corrections.  The    constraint  from  in the ¯, ¯ plane is
+          q      W
+
+bounded by approximate hyperbolas. Lattice QCD determined the bag parameter BK = 0.717 ±
+0.024 [14] and the main uncertainties are from (VtsVtd)2 (approximately given by that of |Vcb|4 or
+A4), the ij coefficients, and estimates of  .
+
+    The measurement of 6 Re( / ) = 1 - |00/+-|2, where each ij = ij|H|KL / ij|H|KS
+
+violates CP , provides a qualitative test of the CKM mechanism, and strong constraints on many
+
+BSM scenarios. Its nonzero value, Re( / ) = (1.67 ± 0.23) × 10-3 [86], demonstrated the existence
+
+of direct CP violation, a prediction of the KM ansatz. While Re( / )  Im(VtdVts), this quantity
+
+cannot easily be used to extract CKM parameters, because cancellations between the electromag-
+
+netic and gluonic penguin contributions for large mt [90] enhance the hadronic uncertainties. Most
+
+SM estimates [91] agree with the observed value, indicating that ¯ is positive. Progress in lattice
+
+QCD [92] may yield a precise SM prediction in the future, and trigger new work on assessing the
+
+consistency of the SM with the measured value [93, 94].
+
+12.3.2  / 1
+12.3.2.1 Charmonium modes
+
+     CP -violation measurements in B-meson decays provide direct information on the angles of the
+
+unitarity triangle, shown in Fig. 12.1. These overconstraining measurements serve to improve the
+
+determination of the CKM elements, and to reveal possible effects beyond the SM.
+     The time-dependent CP asymmetry of neutral B decays to a final state f common to B0 and
+
+B0 is given by [95-97]
+
+                      (B0(t)  f ) -  (B0(t)  f )                                               (12.18)
+             Af =  (B0(t)  f ) +  (B0(t)  f ) = Sf sin(md t) - Cf cos(md t) ,
+
+                                                    1st June, 2026
+9      12. CKM Quark-Mixing Matrix
+
+where                                1 - |f |2            q A¯f
+                                                   f = p Af .
+       Sf = 1 + |f |2 2 Imf ,  Cf =  1 + |f |  2,                (12.19)
+
+Here, q/p describes B0-B0 mixing and, to a good approximation in the SM, q/p = VtbVtd/VtbVtd =
+e-2i+O(4) in the usual phase convention. Af (A¯f ) is the amplitude of the B0  f (B0  f )
+
+decay. If f is a CP eigenstate, and amplitudes with one CKM phase dominate the decay, then
+|Af | = |A¯f |, Cf = 0, and Sf = sin(arg f ) = f sin 2, where f is the CP eigenvalue of f and
+2 is the phase difference between the B0  f and B0  B0  f decay paths. A contribution
+
+of another amplitude to the decay with a different CKM phase makes the value of Sf sensitive to
+
+relative strong-interaction phases between the decay amplitudes (it also makes Cf = 0 possible).
+    The b  cc¯s decays to CP eigenstates (B0  charmonium KS0,L) give currently the most
+
+precise measurements of Sf = -f sin 2. The b  s penguin amplitudes have dominantly the
+same weak phase as the b  cc¯s tree amplitude. Since only 2-suppressed penguin amplitudes
+
+introduce a different CP -violating phase, amplitudes with a single weak phase dominate, and we
+expect |A¯K /AK | - 1 < 0.01. The e+e- asymmetric-energy B-factory experiments, BABAR [98]
+
+and Belle [99], and LHCb [100] provided precise measurements. The world average, including some
+
+other measurements, is [24, 97, 101]
+
+       sin 2 = 0.710 ± 0.011 .                                   (12.20)
+
+    This measurement has a four-fold ambiguity in , which can be resolved by a global fit as
+
+mentioned in Sec. 12.4. Experimentally, the two-fold ambiguity   /2- (but not   +) can
+be resolved by a time-dependent angular analysis of B0  J/K0 [102, 103], or a time-dependent
+Dalitz plot analysis of B0  D0h0. The time-dependent Dalitz plot analysis of B0  D0h0
+(h0 = 0, , ) with D0  K0S+-, jointly performed by Belle and BABAR, excludes the /2 - 
+solution with 7.3 confidence level [104]. These results exclude the negative cos 2 solutions, in
+
+agreement with the global CKM fit, which is no longer shown in Fig. 12.2.
+    The b  cc¯d mediated transitions, such as B0  J/0 and B0  D()+D()-, also measure
+
+approximately sin 2. However, the dominant component of the b  d penguin amplitude has a
+different CKM phase (VtbVtd) than the tree amplitude (VcbVcd), and their magnitudes are of the same
+order in . Therefore, the effect of penguins could be large, resulting in Sf = -f sin 2 and Cf = 0.
+Such decay modes have been measured by BABAR, Belle, and LHCb. The world averages [24],
+SJ/0 = -0.87 ± 0.11, SJ/0 = -0.66-0.12 +0.16, SD+D- = -0.69 ± 0.07, and SD+D- = -0.71 ± 0.09
+(where f = +1 for the J/0 and D+D- modes, while J/0 and D+D- are mixtures of CP
+even and odd states), are consistent with sin 2 obtained from B0  charmonium K0 decays, and
+
+the Cf 's are consistent with zero, although the uncertainties are sizable.
+    The b  cu¯d decays B0  D0()h0, with D0  CP eigenstates and D0  K0S+- with Dalitz
+
+plot analysis, have no penguin contributions, and provide theoretically clean sin 2 measurements.
+
+The average of joint analyses of BABAR and Belle data [104, 105] give sin 2 = 0.71 ± 0.09 [24].
+
+12.3.2.2 Penguin-dominated modes
+
+    The b  sq¯q penguin-dominated decays have the same CKM phase as the b  cc¯s tree level
+decays, up to corrections suppressed by 2, since VtbVts = -VcbVcs[1 + O(2)]. Therefore, decays
+such as B0  K0 and  K0 provide sin 2 measurements in the SM. Any BSM contribution to
+
+the amplitude with a different weak phase would give rise to Sf = -f sin 2, and possibly Cf = 0.
+Therefore, the main interest in these modes is not simply to measure sin 2, but to search for new
+physics. Measurements of many other decay modes in this category, such as B  0KS0 , K0SK0SK0S,
+etc., have also been performed by BABAR and Belle. The results and their uncertainties are sum-
+
+marized in Fig. 13.3 and Table 13.1 of Ref. [96]. The comparison of CP violation measurements
+
+                               1st June, 2026
+10                            12. CKM Quark-Mixing Matrix
+
+between  tree-dominated  and  penguin-dominated  modes  in  B0    decays  provides  similar  sensitivity  to
+
+                                                               s
+
+new physics.
+
+12.3.3  / 2
+    Since  is the phase between VtbVtd and VubVud, only time-dependent CP asymmetries in decay
+
+modes dominated by b  uu¯d transitions can directly measure sin 2, in contrast to sin 2, where
+
+several different quark-level transitions can be used. Since b  d penguin amplitudes have a
+
+different CKM phase than b  uu¯d tree amplitudes, and their magnitudes are of the same order in
+
+, the penguin contribution can be sizable, which makes the determination of  complicated. To
+
+date,  has been measured in B  ,  and  decay modes.
+
+12.3.3.1 B  
+
+    It is well-established from the data that there is a sizable contribution of b  d penguin
+amplitudes in B   decays. Thus, S+- in the time-dependent B0  +- analysis does not
+measure sin 2, but
+
+                              S+- = 1 - C2+- sin(2 + 2) ,                                    (12.21)
+
+where 2 is the phase difference between e2iA¯+- and A+-. The value of , and hence ,
+
+can be extracted using the isospin relation among the amplitudes of B0  +-, B0  00, and
+
+B+  +0 decays [106],
+
+                               1                                                             (12.22)
+                               A+- + A00 - A+0 = 0 ,
+
+                                2
+
+and a similar expression for the A¯'s. This method utilizes the fact that a pair of pions from
+B   decay must be in a zero angular momentum state, and, because of Bose statistics, they must
+have even isospin. Consequently, ±0 is in a pure isospin-2 state, while the penguin amplitudes
+
+only contribute to the isospin-0 final state. The latter does not hold for the electroweak penguin
+
+amplitudes, but their effect is expected to be small. The isospin analysis uses the world averages
+
+of BABAR, Belle, and LHCb measurements, S+- = -0.666 ± 0.029, C+- = -0.311 ± 0.030, the
+decay widths of all three modes, and the direct CP asymmetry C00 = -0.23 ± 0.18 [24]. This
+analysis leads to 16 mirror solutions for 0   < 2. Because of this, and due to the experimental
+
+uncertainties, some of these solutions are not well separated [97].
+
+12.3.3.2 B  
+    The decay B0  +- contains two vector mesons in the final state, and so in general is a
+
+mixture of CP -even and CP -odd components. At the current level of precision, it simplifies the
+analysis that the longitudinal polarization fractions in B+  +0 and B0  +- decays were
+
+measured to be close to unity [107], which implies that the final states are almost purely CP -even.
+Furthermore, B(B0  00) = (0.95 ± 0.15) × 10-6 is much smaller than B(B0  +-) = (28.0 ±
+1.7)×10-6 and B(B+  +0) = (24, 0±1.9)×10-6 [24], which implies that the effect of the penguin
+
+contributions is small. The isospin analysis using the world averages, S+- = -0.18 ± 0.11 and
+C+- = -0.01 ± 0.08 [24], together with the time-dependent CP asymmetry, S00 = 0.3 ± 0.7 and
+C00 = 0.2 ± 0.9 [108], and the above mentioned branching fractions and longitudinal polarization
+fractions, gives two solutions (with mirror solutions at 3/2 - ) [97]. A possible small violation
+
+of Eq. (12.22) due to the finite width of the  [109] is so far neglected.
+
+12.3.3.3 B  
+    The final state in B0  +- decay is not a CP eigenstate, but this decay proceeds via the
+
+same quark-level diagrams as B0  +-, and both B0 and B0 can decay to +-, while the final
+state in B0  00 is a CP eigenstate. Consequently, mixing-induced CP violation can occur in
+B0 and B0 decays to ± and 00. The time-dependent Dalitz plot analysis of B0  +-0
+
+                              1st June, 2026
+11                                 12. CKM Quark-Mixing Matrix
+
+decays permits the extraction of  with a single discrete ambiguity,    + , since one knows the
+variation of the strong phases in the interference regions of the +-, -+, and 00 amplitudes
+in the Dalitz plot [110]. The combination of Belle [111] and BABAR [112] measurements gives only
+moderate constraints [97].
+
+    Combining the B  , , and  decay modes [24, 97, 101],  is constrained as
+
+                                                  = 84.1-3.0 +3.7  .                                          (12.23)
+
+Similar results can be found in Refs. [113, 114].
+
+12.3.4  / 3
+    By virtue of Eq. (12.16),  does not depend on CKM elements involving the top quark, so it
+
+can be measured in tree-level B decays. This is an important distinction from the measurements of
+ and , and implies that measurements of  are unlikely to be affected by physics beyond the SM.
+
+12.3.4.1 B(s)  D(s)K()
+    The interference of B-  D0K- (b  cu¯s) and B-  D0K- (b  uc¯s) transitions can be
+
+studied in final states accessible in both D0 and D0 decays [95]. In principle, it is possible to
+
+extract the B and D decay amplitudes, the relative strong phases, and the weak phase  from the
+
+data [97].
+
+    A practical complication is that the precision depends sensitively on the ratio of the interfering
+
+amplitudes
+
+                               rB = A(B-  D0K-) A(B-  D0K-) ,                                                 (12.24)
+
+which is around 0.1. The original GLW method [115, 116] considers D decays to CP eigenstates,
+
+such as B±  D() CP ( +-)K()±. To alleviate the smallness of rB and make the interfering
+amplitudes (which are products of the B and D decay amplitudes) comparable in magnitude, the
+
+ADS method [117] considers final states where Cabibbo-allowed D0 and doubly-Cabibbo-suppressed
+
+D0 decays interfere. Measurements have been made by the B factories, CDF, and LHCb, using
+
+both methods [24]. The GLW method currently gives only a loose constraint on , while the ADS
+
+method provides a moderate constraint.
+
+    The BPGGSZ method [118,119] utilizes the fact that both D0 and D0 can have large branching
+
+fractions to CP self-conjugate three- and four-body final states, such as K0S+-, and the analysis
+can be optimized by studying the Dalitz plot dependence of the interferences. The best present
+
+determination of  comes from this method, dominated by 3-body D decay modes. Combining
+
+results in 3-body decay modes from Belle [120], BABAR [121], and the most precise LHCb [122] one,
+
+ = (68 ± 4) is obtained [97]. The uncertainty is sensitive to the central value of the amplitude
+
+ratio rB (and rB for the DK mode), for which Belle found somewhat larger central values than
+BABAR and LHCb. The same values of rB() enter the ADS analyses, and the data (including 4-body
+D decays [123]) can be combined to fit for rB() and . The effect of D0 - D0 mixing on  is either
+below the present experimental accuracy or can be taken into account in the analysis [124] (even if
+
+D0 - D0 mixing is due to CP -violating new physics [125]).
+
+    The  amplitude  ratio  is  much  larger  in  the  analogous  B0      D±K       decays,  which  allows  a  model-
+
+                                                                    s       s
+independent extraction of  - 2s [126] (here s = arg(-VtsVtb/VcsVcb) is related to the phase of
+                                                   B0      D±K                     B0      D±K+-
+Bs  mixing).  Measurements     by    LHCb    with                      [127]  and                  [128]      give
+                                                      s       s                       s       s
+ = (76 ± 10) using a constraint on 2s (see Sec. 12.5).
+
+    Combining all the above measurements [24, 97, 101],  is constrained as
+
+                                                  = 66.4-2.8 +2.7  .                                          (12.25)
+
+Similar results can be found in Refs. [113, 114].
+
+                                                 1st June, 2026
+12        12. CKM Quark-Mixing Matrix
+
+12.3.4.2 B0  D()±
+
+     The interference of b  u and b  c transitions can be studied in B0  D()+- (b  cu¯d) and
+B0  B0  D()+- (¯b  u¯cd¯) decays and their CP conjugates, since both B0 and B0 decay to
+D()± (or D±, etc.). Since there are only tree and no penguin contributions to these decays,
+in principle, it is possible to extract from the four time-dependent rates the magnitudes of the two
+hadronic amplitudes, their relative strong phase, and the weak phase between the two decay paths,
+which is 2 + .
+
+     A complication is that the ratio of the interfering amplitudes is very small, rD = A(B0 
+D+-)/A(B0  D+-) = O(0.01) (and similarly for rD and rD), and therefore it has not
+been possible to measure it. To obtain 2 + , SU (3) flavor symmetry and dynamical assump-
+tions have been used to relate A(B0  D-+) to A(B0  Ds-+), so this measurement is not
+model independent at present. Combining the D±, D± and D± measurements [129] gives
+sin(2 + ) > 0.68 at 68% CL [113], consistent with the previously discussed results for  and .
+
+12.4 Global fit in the Standard Model
+
+     Using the independently measured CKM elements mentioned in the previous sections, the uni-
+tarity of the CKM matrix can be checked. We obtain |Vud|2 + |Vus|2 + |Vub|2 = 0.9984 ± 0.0007 (1st
+row), |Vcd|2 + |Vcs|2 + |Vcb|2 = 0.991 ± 0.010 (2nd row), |Vud|2 + |Vcd|2 + |Vtd|2 = 0.9986 ± 0.0011 (1st
+column), and |Vus|2 + |Vcs|2 + |Vts|2 = 0.991 ± 0.010 (2nd column), respectively. There is currently
+a 2.3  tension with unitarity in the 1st row. The uncertainties in the second row and column are
+dominated by that of |Vcs|. (Less precise tests of 1st and 2nd row unitarity can be obtained from
+the measurement of u,c,d,s,b |Vij|2 in Sec. 12.2.4, combined with either the LEP-LHC average of
+B(W  cq)/B(W  qq ) = 0.490 ± 0.018 [130] or with the 1st row unitarity check above.) These
+provide strong tests of the unitarity of the CKM matrix. With the significantly improved direct
+determination of |Vtb|, the unitarity checks for the third row and column have also become fairly
+precise, leaving decreasing room for mixing with other states. The sum of the three angles of the
+unitarity triangle,  +  +  = 173+5 -4 , is also consistent with the SM expectation.
+
+     The CKM matrix elements can be most precisely determined using a global fit to all available
+measurements and imposing the SM constraints (i.e., three generation unitarity). The fit must also
+use theory predictions for hadronic matrix elements, which sometimes have significant uncertainties.
+There are several approaches to combining the experimental data. CKMfitter [6,113] and Ref. [131]
+(which develops [132, 133] further) use frequentist statistics, while UTfit [114, 134] uses a Bayesian
+approach. These approaches provide similar results.
+
+     The constraints implied by the unitarity of the three generation CKM matrix significantly
+reduce the allowed range of some of the CKM elements. The fit for the Wolfenstein parameters
+defined in Eq. (12.4) gives
+
+           = 0.22517 ± 0.00068 ,                                      A = 0.826-0.015 +0.017 ,     (12.26)
+          ¯ = 0.1576+0.0092 -0.0091 ,                                 ¯ = 0.3556+0.0071 -0.0069 .
+
+These values are obtained using the method of Refs. [6, 113]. The prescription of Refs. [114, 134]
+gives  = 0.22519 ± 0.00068, A = 0.820 ± 0.011, ¯ = 0.1561 ± 0.0088, and ¯ = 0.3587 ± 0.0069 [135];
+these results are very close to one another. The fit results for the magnitudes of all nine CKM
+elements are
+
+    VCKM     0.97431 ± 0.00016             0.22517 ± 0.00068          0.003763-0.000083 +0.000088  (12.27)
+                                                                                  +0.00081 
+          = 0.22503 ± 0.00068              0.97345 ± 0.00016
+                                            0.04117-0.00068 +0.00079   0.04189-0.00069  ,
+                 0.00863-0.00017 +0.00019                             0.999115-0.000034 +0.000029
+
+                                           1st June, 2026
+13                 12. CKM Quark-Mixing Matrix
+
+      1.5
+
+            excluded area has CL > 0.95
+
+                                                              md & ms
+
+      1.0
+
+            sin 2                                                  md
+
+      0.5
+
+             K                                           
+                                       
+       0.0                                                  
+                      Vub
+              
+
+      -0.5
+
+      -1.0                                                              K
+
+                
+
+      -1.5
+
+      -1.0      -0.5  0.0                   0.5               1.0  1.5                           2.0
+
+                                            
+
+    Figure 12.2: Constraints on the ¯, ¯ plane. The shaded areas have 95% CL.
+
+and the Jarlskog invariant is J = 3.16-0.11 +0.13 × 10-5. The parameters in Eq. (12.3) are
+
+      sin 12 = 0.22517 ± 0.00068 ,                       sin 13 = 0.003763-0.000083 +0.000088 ,       (12.28)
+      sin 23 = 0.04189-0.00069 +0.00081 ,                       = 1.154 ± 0.025 .
+
+    Fig. 12.2 illustrates the constraints on the ¯, ¯ plane from various measurements, and the global
+fit result. The shaded 95% CL regions all overlap consistently around the global fit region.
+
+    If one uses only tree-level inputs (magnitudes of CKM elements not coupling to the top quark
+and the angle ), the resulting fit is almost identical for  in Eq. (12.26), while the other pa-
+rameters' central values can change by about a sigma and their uncertainties double, yielding
+ = 0.22528 ± 0.00069, A = 0.802 ± 0.026, ¯ = 0.166-0.020 +0.021, and ¯ = 0.379-0.021 +0.022. This illustrates
+how the constraints can be less tight in the presence of BSM physics.
+
+12.5 Implications beyond the SM
+
+    The effects in B, Bs, K, and D decays and mixings due to high-scale physics (W , Z, t, H in
+the SM, and unknown heavier particles) can be parameterized by operators composed of SM fields,
+obeying the SU (3) × SU (2) × U (1) gauge symmetry. Flavor-changing neutral currents, suppressed
+in the SM, are especially sensitive to beyond SM contributions. Processes studied in great detail,
+
+                                         1st June, 2026
+14                                12. CKM Quark-Mixing Matrix
+
+both experimentally and theoretically, include neutral meson mixings, B(s)  X, X + -, + -,
+
+K  ¯, etc. The BSM contributions to these operators are suppressed by powers of the scale at
+
+which they are generated. Already at lowest order, there are many dimension-6 operators, and the
+
+observable effects of BSM interactions are encoded in their coefficients. In the SM, these coefficients
+
+are determined by just the four CKM parameters, and the W , Z, and quark masses. For example,
+
+md,  (B  ),  (B   + -), and  (B  + -) are all proportional to |VtdVtb|2 in the
+
+SM, however, they may receive unrelated BSM contributions. These BSM contributions may or
+
+may not obey the SM relations. (For example, the flavor sector of the MSSM contains 69 CP -
+
+conserving parameters and 41 CP -violating phases, i.e., 40 new ones [136]). Thus, similar to the
+
+measurements of sin 2 in tree- and loop-dominated decay modes, overconstraining measurements
+
+of the magnitudes and phases of flavor-changing neutral-current amplitudes gives good sensitivity
+
+to BSM.
+
+     To illustrate the level of suppression required for BSM contributions, consider a class of models
+
+in which the unitarity of the CKM matrix is maintained, and the dominant BSM effects modify the
+
+neutral meson mixing amplitudes [137] by (zij/2)(qiµPLqj)2, where zij is an unknown coefficient
+
+and  is the scale suppressing this BSM contribution (see, [138, 139]). It is only known since the
+
+first measurements of  and  that the SM gives the leading contribution to B0 - B0 mixing [6,140].
+
+Nevertheless, new physics with a generic weak phase may still contribute to neutral meson mixings
+
+at a significant fraction of the SM [134, 141, 142]. The existing data imply that /|zij|1/2 has to
+exceed about 104 TeV for K0 - K0 mixing, 103 TeV for D0 - D0 mixing, 500 TeV for B0 - B0 mixing,
+
+and  100 TeV  for  B0    -  B  0  mixing  [134,139].   (Some  other    operators  are  even  better  constrained  [134].)
+                               s
+                      s
+
+The constraints are the strongest in the kaon sector, because the CKM suppression is the most
+
+severe. Thus, if there is new physics at the TeV scale, |zij| 1 is required. Even if |zij| are
+suppressed by a loop factor and |Vti Vtj|2 (in the down quark sector), similar to the SM, one
+
+expects percent-level effects, which may be observable in forthcoming flavor physics experiments.
+
+To constrain such extensions of the SM, many measurements irrelevant for the SM-CKM fit, such
+as the CP asymmetry in semileptonic B0d,s decays, ASL d,s, are important [143]. The current world
+
+averages [24] are consistent with the SM, with experimental uncertainties far greater than those of
+
+the theory predictions.
+
+     There are many key measurements sensitive to BSM physics, which do not constrain the unitar-
+
+ity triangle in Fig. 12.1. For example, a key quantity in the Bs system is s = arg(-VtsVtb/VcsVcb),
+which is the small, 2-suppressed, angle of a "squashed" unitarity triangle, obtained by taking the
+
+scalar product of the second and third columns of the CKM matrix. This angle can be measured
+
+via  time-dependent      CP       violation  in  B0     J/ ,  similar  to    in   B0    J/K0.        Since  the   J/ 
+
+                                                    s
+
+final state is not a CP eigenstate, an angular analysis of the decay products is needed to sep-
+
+arate the CP -even and CP -odd components, which give opposite asymmetries. In the SM, the
+
+asymmetry for the CP -even part is 2s, when one neglects subdominant amplitudes with a weak
+
+phase Vub. (Sometimes the notation s = -2s plus a possible BSM contribution to the Bs mixing
+phase is used.) Testing if the data agree with the SM prediction, 2s = 0.03768-0.00075 +0.00076 [113], is
+
+another sensitive probe of the SM. The current world average, dominated by LHC measurements
+
+including the Bs  J/ K+K- and J/ +- decay modes, is 2s = 0.053 ± 0.013 [72]. Since
+
+the uncertainty is much larger than that in the SM, a lot will be learned from more precise future
+
+measurements. Searches for CP violation in the charm sector, in particular in D0 - D0 mixing,
+
+provide complementary sensitivity to BSM.
+
+     In the kaon sector, the CP -violating observables, and , are tiny, so models in which all sources
+
+of CP violation are small were viable before the B-factory measurements. Since the measurement
+
+of sin 2, we know that CP violation can be an O(1) effect, and only flavor mixing is suppressed
+
+between the three quark generations. Thus, many models with spontaneous CP violation were
+
+                                                       1st June, 2026
+15  12. CKM Quark-Mixing Matrix
+
+excluded. In the kaon sector, clean tests of the SM can come from measurements of K+  +¯ [79]
+and K0L  0¯ [144] These loop-induced rare decays are sensitive to BSM, and will allow precise
+tests [145] of the CKM paradigm, independent of B decays.
+
+    The CKM elements are fundamental parameters, so they should be measured as precisely as
+possible. The overconstraining measurements of CP asymmetries, mixing, semileptonic, and rare
+decays severely constrain the magnitudes and phases of possible BSM contributions to flavor-
+changing interactions. If new particles are observed at the LHC, it will be important to explore
+their flavor parameters as precisely as possible to understand the underlying physics.
+
+References
+   [1] N. Cabibbo, Phys. Rev. Lett. 10, 531 (1963).
+
+   [2] M. Kobayashi and T. Maskawa, Prog. Theor. Phys. 49, 652 (1973).
+
+   [3] L.-L. Chau and W.-Y. Keung, Phys. Rev. Lett. 53, 1802 (1984).
+
+   [4] L. Wolfenstein, Phys. Rev. Lett. 51, 1945 (1983).
+
+   [5] A. J. Buras, M. E. Lautenbacher and G. Ostermaier, Phys. Rev. D50, 3433 (1994), [hep-
+       ph/9403384].
+
+   [6] J. Charles et al. (CKMfitter Group), Eur. Phys. J. C41, 1, 1 (2005), [hep-ph/0406184].
+
+   [7] C. Jarlskog, Phys. Rev. Lett. 55, 1039 (1985).
+
+   [8] W. J. Marciano and A. Sirlin, Nucl. Phys. B93, 303 (1975); K. S. Babu, Z. Phys. C35, 69
+       (1987).
+
+   [9] J. C. Hardy and I. S. Towner, Phys. Rev. C 102, 4, 045501 (2020).
+
+ [10] E. Blucher, G. D'Ambrosio, and W.J. Marciano, "Vud, Vus, the Cabibbo Angle and CKM
+       Unitarity," in this Review.
+
+ [11] D. Pocanic et al., Phys. Rev. Lett. 93, 181803 (2004), [hep-ex/0312030].
+
+ [12] A. Czarnecki, W. J. Marciano and A. Sirlin, Phys. Rev. D 101, 9, 091301 (2020),
+       [arXiv:1911.04685].
+
+ [13] M. Antonelli et al. (FlaviaNet Working Group on Kaon Decays), Eur. Phys. J. C69, 399
+       (2010), [arXiv:1005.2323]; see also http://www.lnf.infn.it/wg/vus.
+
+ [14] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)), Phys. Rev. D 113, 1, 014508
+       (2026), the original papers that led to the quoted averages are cited in this reference or on
+       the web page https://flag.itp.unibe.ch/, [arXiv:2411.04268].
+
+ [15] A.X. El-Khadra and P. Urquijo, "Semileptonic b-Hadron Decays, Determination of Vcb and
+       Vub," in this Review.
+
+ [16] H. Leutwyler and M. Roos, Z. Phys. C25, 91 (1984); For earlier fits for |Vud| and |Vus| in the
+       3-generation SM, see Ref. [17].
+
+ [17] R. E. Shrock and L.-L. Wang, Phys. Rev. Lett. 41, 1692 (1978).
+
+ [18] J. Bijnens and P. Talavera, Nucl. Phys. B669, 341 (2003), [hep-ph/0303103]; M. Jamin, J. A.
+       Oller and A. Pich, JHEP 02, 047 (2004), [hep-ph/0401080]; V. Cirigliano et al., JHEP 04, 006
+       (2005), [hep-ph/0503108]; C. Dawson et al., PoS LAT2005, 337 (2006), [hep-lat/0510018];
+       N. Tsutsui et al. (JLQCD), PoS LAT2005, 357 (2006), [hep-lat/0510068]; M. Okamoto
+       (Fermilab Lattice, MILC, HPQCD), in "3rd Conference on Flavor Physics and CP Violation
+       (FPCP 2004) Daegu, Korea, October 4-9, 2004," (2004), [hep-lat/0412044].
+
+ [19] W. J. Marciano, Phys. Rev. Lett. 93, 231803 (2004), [hep-ph/0402299].
+
+ [20] F. Ambrosino et al. (KLOE), Phys. Lett. B632, 76 (2006), [hep-ex/0509045].
+
+                                                                            1st June, 2026
+16  12. CKM Quark-Mixing Matrix
+
+[21] See Sec. 5.2, "Averages and fits," in the Introduction to this Review, https://pdg.lbl.gov/
+      2023/reviews/rpp2023-rev-rpp-intro.pdf.
+
+[22] N. Cabibbo, E. C. Swallow and R. Winston, Ann. Rev. Nucl. Part. Sci. 53, 39 (2003), [hep-
+      ph/0307298]; N. Cabibbo, E. C. Swallow and R. Winston, Phys. Rev. Lett. 92, 251803 (2004),
+      [hep-ph/0307214].
+
+[23] M. Ademollo and R. Gatto, Phys. Rev. Lett. 13, 264 (1964).
+[24] S. Banerjee et al. (HFLAV), Phys. Rev. D 113, 1, 012008 (2026), [arXiv:2411.18639]; and
+
+      updates at https://hflav.web.cern.ch/.
+[25] J. P. Lees et al. (BaBar), Phys. Rev. D91, 5, 052022 (2015), [arXiv:1412.5502].
+[26] M. Ablikim et al. (BESIII), Phys. Rev. D92, 7, 072012 (2015), [arXiv:1508.07560]; M. Ablikim
+
+      et al. (BESIII), Phys. Rev. D96, 1, 012002 (2017), [arXiv:1703.09084].
+[27] D. Besson et al. (CLEO), Phys. Rev. D80, 032005 (2009), [arXiv:0906.2983].
+[28] L. Widhalm et al. (Belle), Phys. Rev. Lett. 97, 061804 (2006), [hep-ex/0604049].
+[29] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 135, 061801 (2025), [arXiv:2410.07626].
+[30] R.A. Briere, J.L. Rosner, S.L. Stone and R. Van de Water, "Leptonic Decays of Charged
+
+      Pseudoscalar Mesons," in this Review.
+[31] B. I. Eisenstein et al. (CLEO), Phys. Rev. D78, 052003 (2008), [arXiv:0806.2112].
+[32] M. Ablikim et al. (BESIII), JHEP 01, 089 (2025), [arXiv:2410.20063].
+[33] H. Abramowicz et al., Z. Phys. C15, 19 (1982).
+[34] S. A. Rabinowitz et al., Phys. Rev. Lett. 70, 134 (1993); A. O. Bazarko et al. (CCFR), Z.
+
+      Phys. C65, 189 (1995), [hep-ex/9406007].
+[35] P. Vilain et al. (CHARM II), Eur. Phys. J. C11, 19 (1999).
+[36] F. J. Gilman, K. Kleinknecht and B. Renk (2004).
+[37] G. De Lellis, P. Migliozzi and P. Santorelli, Phys. Rept. 399, 227 (2004), [Erratum: Phys.
+
+      Rept.411,323(2005)].
+[38] N. Ushida et al. (Fermilab E531), Phys. Lett. B206, 380 (1988); T. Bolton (1997), [hep-
+
+      ex/9708014].
+[39] A. Kayis-Topaksu et al. (CHORUS), Phys. Lett. B626, 24 (2005).
+[40] A. Zupanc et al. (Belle), JHEP 09, 139 (2013), [arXiv:1307.6240].
+[41] J. P. Alexander et al. (CLEO), Phys. Rev. D79, 052001 (2009), [arXiv:0901.1216].
+[42] P. del Amo Sanchez et al. (BaBar), Phys. Rev. D82, 091103 (2010), [Erratum: Phys.
+
+      Rev.D91,no.1,019901(2015)], [arXiv:1008.4080].
+[43] M. Ablikim et al. (BESIII), Phys. Rev. D 108, 11, 112001 (2023), [arXiv:2307.14585].
+[44] M. Ablikim et al. (BESIII), Phys. Rev. D94, 7, 072004 (2016), [arXiv:1608.06732]; M. Ablikim
+
+      et al. (BESIII), Phys. Rev. D 110, 5, 052002 (2024), [arXiv:2407.11727].
+[45] P. U. E. Onyisi et al. (CLEO), Phys. Rev. D79, 052002 (2009), [arXiv:0901.1147]; P. Naik
+
+      et al. (CLEO), Phys. Rev. D80, 112004 (2009), [arXiv:0910.3602].
+[46] M. Ablikim et al. (BESIII), Phys. Rev. D 104, 3, 032001 (2021), [arXiv:2105.07178]; M. Ab-
+
+      likim et al. (BESIII), Phys. Rev. Lett. 127, 17, 171801 (2021), [arXiv:2106.02218]; M. Ablikim
+      et al. (BESIII), Phys. Rev. D 108, 9, 092014 (2023), [arXiv:2303.12600]; M. Ablikim et al.
+      (BESIII), JHEP 09, 124 (2023), [arXiv:2303.12468].
+[47] B. Aubert et al. (BaBar), Phys. Rev. D76, 052005 (2007), [arXiv:0704.0020].
+
+                                                                          1st June, 2026
+17  12. CKM Quark-Mixing Matrix
+
+[48] M. Ablikim et al. (BESIII), Phys. Rev. Lett. 122, 1, 011804 (2019), [arXiv:1810.03127].
+[49] S. Schael et al. (ALEPH, DELPHI, L3, OPAL, LEP Electroweak), Phys. Rept. 532, 119
+
+      (2013), [arXiv:1302.3415].
+[50] A. Tumasyan et al. (CMS), Phys. Rev. D 105, 7, 072008 (2022), [arXiv:2201.07861].
+[51] P. Abreu et al. (DELPHI), Phys. Lett. B439, 209 (1998).
+[52] I. I. Y. Bigi et al., Phys. Rev. Lett. 71, 496 (1993), [hep-ph/9304225].
+[53] A. V. Manohar and M. B. Wise, Phys. Rev. D49, 1310 (1994), [hep-ph/9308246].
+[54] I. I. Y. Bigi et al., Phys. Rev. D56, 4017 (1997), [hep-ph/9704245].
+[55] A. H. Hoang, Z. Ligeti and A. V. Manohar, Phys. Rev. D59, 074017 (1999), [hep-ph/9811239];
+
+      A. H. Hoang, Z. Ligeti and A. V. Manohar, Phys. Rev. Lett. 82, 277 (1999), [hep-ph/9809423];
+      A. H. Hoang and T. Teubner, Phys. Rev. D60, 114027 (1999), [hep-ph/9904468].
+[56] N. Isgur and M. B. Wise, Phys. Lett. B237, 527 (1990); N. Isgur and M. B. Wise, Phys.
+      Lett. B232, 113 (1989).
+[57] A. Abdesselam et al. (Belle) (2017), [arXiv:1702.01521].
+[58] C. G. Boyd, B. Grinstein and R. F. Lebed, Phys. Rev. D56, 6895 (1997), [hep-ph/9705252];
+      C. G. Boyd, B. Grinstein and R. F. Lebed, Nucl. Phys. B461, 493 (1996), [hep-ph/9508211].
+[59] R. Aaij et al. (LHCb), Phys. Rev. D 101, 7, 072004 (2020), [arXiv:2001.03225].
+[60] M. Neubert, Phys. Rev. D49, 3392 (1994), [hep-ph/9311325]; M. Neubert, Phys. Rev. D49,
+      4623 (1994), [hep-ph/9312311].
+[61] I. I. Y. Bigi et al., Int. J. Mod. Phys. A9, 2467 (1994), [hep-ph/9312359].
+[62] C. W. Bauer, Z. Ligeti and M. E. Luke, Phys. Lett. B479, 395 (2000), [hep-ph/0002161];
+      C. W. Bauer, Z. Ligeti and M. E. Luke, Phys. Rev. D64, 113004 (2001), [hep-ph/0107074].
+[63] A. Bornheim et al. (CLEO), Phys. Rev. Lett. 88, 231803 (2002), [hep-ex/0202019].
+[64] B. Aubert et al. (BaBar), Phys. Rev. D73, 012006 (2006), [hep-ex/0509040].
+[65] A. Limosani et al. (Belle), Phys. Lett. B621, 28 (2005), [hep-ex/0504046].
+[66] P. Urquijo et al. (Belle), Phys. Rev. Lett. 104, 021801 (2010), [arXiv:0907.0379]; J. P. Lees
+      et al. (BaBar), Phys. Rev. D86, 032004 (2012), [arXiv:1112.0702].
+[67] J. A. Bailey et al. (Fermilab Lattice, MILC), Phys. Rev. D92, 1, 014024 (2015),
+      [arXiv:1503.07839]; J. M. Flynn et al., Phys. Rev. D91, 7, 074510 (2015), [arXiv:1501.05373];
+      B. Colquhoun et al., Phys. Rev. D93, 3, 034502 (2016), [arXiv:1510.07446].
+[68] Particle listing, in this Review.
+[69] R. Aaij et al. (LHCb), Nature Phys. 11, 743 (2015), [arXiv:1504.01568].
+[70] R. Aaij et al. (LHCb), Phys. Rev. Lett. 126, 8, 081804 (2021), [arXiv:2012.05143].
+[71] H. Albrecht et al. (ARGUS), Phys. Lett. B192, 245 (1987).
+[72] O. Schneider, "B0-B0 mixing," in this Review.
+[73] A. Abulencia et al. (CDF), Phys. Rev. Lett. 97, 242003 (2006), [hep-ex/0609040].
+[74] R. Aaij et al. (LHCb), Nature Phys. 18, 1, 1 (2022), [arXiv:2104.04421].
+[75] M. Misiak et al., Phys. Rev. Lett. 114, 22, 221801 (2015), [arXiv:1503.01789]; M. Czakon
+      et al., JHEP 04, 168 (2015), [arXiv:1503.01791].
+[76] Heavy Flavor Averaging Group [24] CP Asymmetries in Charmless B Decay, End of April
+      2023, https://hflav-eos.web.cern.ch/hflav-eos/rare/Apr2023/html/index.html.
+
+                                                                          1st June, 2026
+18  12. CKM Quark-Mixing Matrix
+
+[77] B. Grinstein and D. Pirjol, Phys. Rev. D62, 093002 (2000), [hep-ph/0002216]; A. Ali,
+      E. Lunghi and A. Ya. Parkhomenko, Phys. Lett. B595, 323 (2004), [hep-ph/0405075];
+      M. Beneke, T. Feldmann and D. Seidel, Nucl. Phys. B612, 25 (2001), [hep-ph/0106067];
+      S. W. Bosch and G. Buchalla, Nucl. Phys. B621, 459 (2002), [hep-ph/0106081]; Z. Ligeti and
+      M. B. Wise, Phys. Rev. D60, 117506 (1999), [hep-ph/9905277]; D. Becirevic et al., JHEP 05,
+      007 (2003), [hep-lat/0301020]; P. Ball, G. W. Jones and R. Zwicky, Phys. Rev. D75, 054004
+      (2007), [hep-ph/0612081]; W. Wang, R.-H. Li and C.-D. Lu (2007), [arXiv:0711.0432]; C.-D.
+      Lu, W. Wang and Z.-T. Wei, Phys. Rev. D76, 014013 (2007), [hep-ph/0701265].
+
+[78] A. J. Buras et al., Phys. Rev. Lett. 95, 261805 (2005), [hep-ph/0508165].
+
+[79] E. Cortina Gil et al. (NA62), JHEP 02, 191 (2025), [arXiv:2412.12015].
+
+[80] T. A. Aaltonen et al. (CDF), Phys. Rev. Lett. 112, 22, 221801 (2014), [arXiv:1404.3392].
+
+[81] V. M. Abazov et al. (D0), Phys. Rev. Lett. 107, 121802 (2011), [arXiv:1106.5436].
+
+[82] V. Khachatryan et al. (CMS), Phys. Lett. B736, 33 (2014), [arXiv:1404.2292].
+
+[83] T. A. Aaltonen et al. (CDF, D0), Phys. Rev. Lett. 115, 15, 152003 (2015), [arXiv:1503.05027].
+
+[84] LHC Top Working Group summary plots, single top quark production, May 2025, https:
+      //twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCTopWGSummaryPlots.
+
+[85] J. Swain and L. Taylor, Phys. Rev. D58, 093006 (1998), [hep-ph/9712420].
+[86] "KL0 meson" particle listing, in this Review.
+[87] A. J. Buras, D. Guadagnoli and G. Isidori, Phys. Lett. B688, 309 (2010), [arXiv:1002.3612];
+
+      For earlier discussions, see Ref. [88].
+
+[88] E. A. Andriyash, G. G. Ovanesyan and M. I. Vysotsky, Phys. Lett. B599, 253 (2004), [hep-
+      ph/0310314]; K. Anikeev et al., in "Workshop on B Physics at the Tevatron: Run II and
+      Beyond Batavia, Illinois, September 23-25, 1999," (2001), [hep-ph/0201071]; A. J. Buras and
+      D. Guadagnoli, Phys. Rev. D78, 033005 (2008), [arXiv:0805.3887].
+
+[89] T. Inami and C. S. Lim, Prog. Theor. Phys. 65, 297 (1981), [Erratum: Prog. Theor.
+      Phys.65,1772(1981)].
+
+[90] J. M. Flynn and L. Randall, Phys. Lett. B224, 221 (1989), [Erratum: Phys.
+      Lett.B235,412(1990)]; G. Buchalla, A. J. Buras and M. K. Harlander, Nucl. Phys. B337,
+      313 (1990).
+
+[91] M. Ciuchini et al., Phys. Lett. B301, 263 (1993), [hep-ph/9212203]; A. J. Buras, M. Jamin
+      and M. E. Lautenbacher, Nucl. Phys. B408, 209 (1993), [hep-ph/9303284]; T. Hambye et al.,
+      Nucl. Phys. B564, 391 (2000), [hep-ph/9906434]; S. Bertolini, J. O. Eeg and M. Fabbrichesi,
+      Phys. Rev. D63, 056009 (2001), [hep-ph/0002234]; V. Cirigliano et al., Phys. Rev. Lett. 91,
+      162001 (2003), [hep-ph/0307030].
+
+[92] R. Abbott et al. (RBC, UKQCD), Phys. Rev. D 102, 5, 054509 (2020), [arXiv:2004.09440].
+
+[93] A. J. Buras et al., JHEP 11, 202 (2015), [arXiv:1507.06345].
+
+[94] V. Cirigliano et al., JHEP 02, 032 (2020), [arXiv:1911.01359].
+
+[95] A. B. Carter and A. I. Sanda, Phys. Rev. Lett. 45, 952 (1980); A. B. Carter and A. I. Sanda,
+      Phys. Rev. D23, 1567 (1981).
+
+[96] A more detailed discussion and references can be found in: T. Gershon and Y. Nir, "CP
+      violation in meson decays," in this Review.
+
+[97] T. Gershon, M. Kenzie and K. Trabelsi, "Determination of CKM angles from B hadrons," in
+      this Review.
+
+                                                                          1st June, 2026
+19  12. CKM Quark-Mixing Matrix
+
+ [98] B. Aubert et al. (BaBar), Phys. Rev. D79, 072009 (2009), [arXiv:0902.1708].
+ [99] I. Adachi et al. (Belle), Phys. Rev. Lett. 108, 171802 (2012), [arXiv:1201.4643].
+[100] R. Aaij et al. (LHCb), Phys. Rev. Lett. 132, 2, 021801 (2024), [arXiv:2309.09728].
+[101] Heavy Flavor Averaging Group [24], Results on Time-Dependent CP Violation and Measure-
+
+       ments Related to the Angles of the Unitarity Triangle: Winter conferences (Moriond, etc.)
+       2024: https://hflav-eos.web.cern.ch/hflav-eos/triangle/moriond2024/.
+[102] B. Aubert et al. (BaBar), Phys. Rev. D71, 032005 (2005), [hep-ex/0411016].
+[103] R. Itoh et al. (Belle), Phys. Rev. Lett. 95, 091601 (2005), [hep-ex/0504030].
+[104] I. Adachi et al. (BaBar, Belle), Phys. Rev. Lett. 121, 26, 261801 (2018), [arXiv:1804.06152];
+       I. Adachi et al. (BaBar, Belle), Phys. Rev. D98, 11, 112012 (2018), [arXiv:1804.06153].
+[105] A. Abdesselam et al. (BaBar, Belle), Phys. Rev. Lett. 115, 12, 121604 (2015),
+       [arXiv:1505.04147].
+[106] M. Gronau and D. London, Phys. Rev. Lett. 65, 3381 (1990).
+[107] J. Zhang et al. (Belle), Phys. Rev. Lett. 91, 221801 (2003), [hep-ex/0306007]; A. Somov et al.
+       (Belle), Phys. Rev. Lett. 96, 171801 (2006), [hep-ex/0601024]; B. Aubert et al. (BaBar),
+       Phys. Rev. Lett. 97, 261801 (2006), [hep-ex/0607092]; B. Aubert et al. (BaBar), Phys. Rev.
+       D76, 052007 (2007), [arXiv:0705.2157].
+[108] B. Aubert et al. (BaBar), Phys. Rev. D78, 071104 (2008), [arXiv:0807.4977].
+[109] A. F. Falk et al., Phys. Rev. D69, 011502 (2004), [hep-ph/0310242].
+[110] A. E. Snyder and H. R. Quinn, Phys. Rev. D48, 2139 (1993).
+[111] A. Kusaka et al. (Belle), Phys. Rev. Lett. 98, 221602 (2007), [hep-ex/0701015].
+[112] J. P. Lees et al. (BaBar), Phys. Rev. D88, 1, 012003 (2013), [arXiv:1304.3503].
+[113] A. Hocker et al., Eur. Phys. J. C21, 225 (2001), [hep-ph/0104062]; and updates at http:
+       //ckmfitter.in2p3.fr/.
+[114] M. Bona et al. (UTfit), JHEP 07, 028 (2005), [hep-ph/0501199]; and updates at http:
+       //www.utfit.org.
+[115] M. Gronau and D. London, Phys. Lett. B253, 483 (1991).
+[116] M. Gronau and D. Wyler, Phys. Lett. B265, 172 (1991).
+[117] D. Atwood, I. Dunietz and A. Soni, Phys. Rev. Lett. 78, 3257 (1997), [hep-ph/9612433];
+       D. Atwood, I. Dunietz and A. Soni, Phys. Rev. D63, 036005 (2001), [hep-ph/0008090].
+[118] A. Bondar, talk at the Belle analysis workshop, Novosibirsk, September 2002; A. Poluektov
+       et al. (Belle), Phys. Rev. D70, 072003 (2004), [hep-ex/0406067].
+[119] A. Giri et al., Phys. Rev. D68, 054018 (2003), [hep-ph/0303187].
+[120] A. Poluektov et al. (Belle), Phys. Rev. D81, 112002 (2010), [arXiv:1003.3360].
+[121] P. del Amo Sanchez et al. (BaBar), Phys. Rev. Lett. 105, 121801 (2010), [arXiv:1005.1096].
+[122] R. Aaij et al. (LHCb), JHEP 02, 169 (2021), [arXiv:2010.08483].
+[123] R. Aaij et al. (LHCb), JHEP 07, 138 (2023), [arXiv:2209.03692]; R. Aaij et al. (LHCb), Eur.
+       Phys. J. C 83, 6, 547 (2023), [Erratum: Eur.Phys.J.C 83, 672 (2023)], [arXiv:2301.10328].
+[124] Y. Grossman, A. Soffer and J. Zupan, Phys. Rev. D72, 031501 (2005), [hep-ph/0505270];
+       M. Rama, Phys. Rev. D 89, 1, 014021 (2014), [arXiv:1307.4384].
+[125] A. Amorim, M. G. Santos and J. P. Silva, Phys. Rev. D59, 056001 (1999), [hep-ph/9807364].
+[126] R. Aleksan, I. Dunietz and B. Kayser, Z. Phys. C54, 653 (1992).
+
+                                                                            1st June, 2026
+20  12. CKM Quark-Mixing Matrix
+
+[127] R. Aaij et al. (LHCb), JHEP 03, 059 (2018), [arXiv:1712.07428].
+
+[128] R. Aaij et al. (LHCb), JHEP 03, 137 (2021), [arXiv:2011.12041].
+
+[129] B. Aubert et al. (BaBar), Phys. Rev. D71, 112003 (2005), [hep-ex/0504035]; B. Aubert
+       et al. (BaBar), Phys. Rev. D73, 111101 (2006), [hep-ex/0602049]; F. J. Ronga et al. (Belle),
+       Phys. Rev. D73, 092003 (2006), [hep-ex/0604013]; S. Bahinipati et al. (Belle), Phys. Rev.
+       D84, 021101 (2011), [arXiv:1102.0888]; R. Aaij et al. (LHCb), JHEP 06, 084 (2018),
+       [arXiv:1805.03448].
+
+[130] R. Barate et al. (ALEPH), Phys. Lett. B 465, 349 (1999); G. Abbiendi et al. (OPAL), Phys.
+       Lett. B 490, 71 (2000), [hep-ex/0009020]; A. Hayrapetyan et al. (CMS), Phys. Lett. B 868,
+       139754 (2025), [arXiv:2412.16296].
+
+[131] G. P. Dubois-Felsmann et al., Sensitivity of CKM fits to theoretical uncertainties and their
+       representation (2003), [hep-ph/0308262]; G. Eigen et al., Phys. Rev. D89, 3, 033004 (2014),
+       [arXiv:1301.5867].
+
+[132] D. Boutigny et al. (BaBar), in "Workshop on Physics at an Asymmetric B Factory (BaBar
+       Collaboration Meeting) Pasadena, California, September 22-24, 1997," (1998), URL http:
+       //www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=SLAC-R-504.
+
+[133] S. Plaszczynski and M.-H. Schune hf8/019 (1999), [PoShf8,019(1999)], [hep-ph/9911280].
+
+[134] M. Bona et al. (UTfit), JHEP 03, 049 (2008), [arXiv:0707.0636].
+
+[135] We thank the CKMfitter and UTfit groups for performing fits and preparing plots using input
+       values from this Review.
+
+[136] H. E. Haber, Nucl. Phys. Proc. Suppl. 62, 469 (1998), [hep-ph/9709450]; Y. Nir, CP violation:
+       A New era (2001), [hep-ph/0109090].
+
+[137] J. M. Soares and L. Wolfenstein, Phys. Rev. D47, 1021 (1993); T. Goto et al., Phys. Rev.
+       D53, 6662 (1996), [hep-ph/9506311]; J. P. Silva and L. Wolfenstein, Phys. Rev. D55, 5331
+       (1997), [hep-ph/9610208].
+
+[138] Y. Grossman, Z. Ligeti and Y. Nir, Prog. Theor. Phys. 122, 125 (2009), [arXiv:0904.4262].
+
+[139] G. Isidori, Y. Nir and G. Perez, Ann. Rev. Nucl. Part. Sci. 60, 355 (2010), [arXiv:1002.0900];
+       G. Isidori, in "Proceedings, 2012 European School of High-Energy Physics (ESHEP 2012):
+       La Pommeraye, Anjou, France, June 06-19, 2012," 69-105 (2014), [arXiv:1302.0661].
+
+[140] Z. Ligeti, Int. J. Mod. Phys. A20, 5105 (2005), [hep-ph/0408267].
+
+[141] J. Charles et al., Phys. Rev. D89, 3, 033016 (2014), [arXiv:1309.2293].
+
+[142] K. Agashe et al. (2005), [hep-ph/0509117].
+
+[143] S. Laplace et al., Phys. Rev. D65, 094040 (2002), [hep-ph/0202010].
+
+[144] J. K. Ahn et al. (KOTO), Phys. Rev. Lett. 134, 8, 081802 (2025), [arXiv:2411.11237].
+
+[145] A. J. Buras et al., JHEP 11, 033 (2015), [arXiv:1503.02693].
+
+    1st June, 2026
+

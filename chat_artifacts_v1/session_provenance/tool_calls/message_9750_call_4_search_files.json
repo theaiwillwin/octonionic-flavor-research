@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9750,
+  "call_index": 4,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_lE7H9OSPJBJI3GFTPIF7qKSd",
+    "call_id": "call_lE7H9OSPJBJI3GFTPIF7qKSd",
+    "response_item_id": "fc_071f367ba0e10612016a5532d7ab9881918f84041011da4e9e",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":50,\"path\":\"C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/personal\",\"pattern\":\"*flavor_higgs_wedge*\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 50,
+    "path": "C:/Users/theai/AppData/Local/hermes/profiles/d-drive-profile/personal",
+    "pattern": "*flavor_higgs_wedge*",
+    "target": "files"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EXACT_CONSTRUCTIVE_REACHABILITY",
+  "polar_residual": 3.6088919696935627e-16,
+  "objective_squared": 1.3024101248918682e-31,
+  "stress_cases": 1000,
+  "worst_stress_polar_residual": 1.3376416615943753e-15,
+  "results": "D:\\Projects\\can_o_worms\\next_hard_gate\\test_pmns_polar_link_reachability_v2_results.json",
+  "report": "D:\\Projects\\can_o_worms\\next_hard_gate\\PMNS_POLAR_LINK_REACHABILITY_REPORT_v2.md"
+}

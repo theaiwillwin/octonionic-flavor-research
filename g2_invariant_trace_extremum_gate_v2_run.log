@@ -1,0 +1,114 @@
+{
+  "output": "D:\\Projects\\can_o_worms\\g2_invariant_trace_extremum_gate_v2_results.json",
+  "conclusion": "no_recognizable_individual_extremum_in_tested_low_degree_basis",
+  "individually_stationary_candidates": [],
+  "candidate_summary": {
+    "sum_tr_P_hh": {
+      "value": 2.188995772946847,
+      "gradient_norm": 1.4886792164893299,
+      "gradient_percentile": 4.6875,
+      "increase_fraction": 0.5234375
+    },
+    "sum_phi_XXX_sq": {
+      "value": 0.87909496345361,
+      "gradient_norm": 2.498564149555158,
+      "gradient_percentile": 64.0625,
+      "increase_fraction": 0.51171875
+    },
+    "sum_phi_XXh_sq": {
+      "value": 2.0521324540093357,
+      "gradient_norm": 2.415664482263012,
+      "gradient_percentile": 81.25,
+      "increase_fraction": 0.486328125
+    },
+    "sum_assoc_XXh_sq": {
+      "value": 22.279504000387877,
+      "gradient_norm": 12.252013536270853,
+      "gradient_percentile": 12.5,
+      "increase_fraction": 0.447265625
+    },
+    "sector_sum_tr_PQ": {
+      "value": 2.587996870680937,
+      "gradient_norm": 2.3484324456668992,
+      "gradient_percentile": 31.25,
+      "increase_fraction": 0.5078125
+    },
+    "sector_sum_tr_PQPQ": {
+      "value": 1.8986050017763625,
+      "gradient_norm": 2.588838313808214,
+      "gradient_percentile": 29.6875,
+      "increase_fraction": 0.552734375
+    },
+    "sector_sum_det_XtY_sq": {
+      "value": 0.016320658166844814,
+      "gradient_norm": 0.19608119932070356,
+      "gradient_percentile": 26.5625,
+      "increase_fraction": 0.494140625
+    },
+    "sector_sum_phi_mixed_sq": {
+      "value": 5.443442563448614,
+      "gradient_norm": 3.2770713384839474,
+      "gradient_percentile": 6.25,
+      "increase_fraction": 0.5078125
+    },
+    "sector_sum_psi_mixed_sq": {
+      "value": 1.237072325200246,
+      "gradient_norm": 2.6217437741898517,
+      "gradient_percentile": 40.625,
+      "increase_fraction": 0.484375
+    },
+    "sector_sum_assoc_mixed_sq": {
+      "value": 80.81827981531052,
+      "gradient_norm": 34.32134221963515,
+      "gradient_percentile": 37.5,
+      "increase_fraction": 0.466796875
+    },
+    "cross_sum_tr_PQ": {
+      "value": 2.437383010054049,
+      "gradient_norm": 2.2867154372869276,
+      "gradient_percentile": 21.875,
+      "increase_fraction": 0.50390625
+    },
+    "cross_sum_phi_mixed_sq": {
+      "value": 5.470921601726511,
+      "gradient_norm": 2.7152273889394793,
+      "gradient_percentile": 0.0,
+      "increase_fraction": 0.490234375
+    }
+  },
+  "posthoc_combo": {
+    "status": "post_selected_at_target_fitted_frame_not_a_derivation",
+    "raw_unit_weights": {
+      "sum_tr_P_hh": -0.8340538112595867,
+      "sum_phi_XXX_sq": -3.769280467012535e-11,
+      "sum_phi_XXh_sq": -0.41702690565403944,
+      "sum_assoc_XXh_sq": -0.10425672642157206,
+      "sector_sum_tr_PQ": 0.33485426127710227,
+      "sector_sum_tr_PQPQ": -2.3171302198890112e-10,
+      "sector_sum_det_XtY_sq": 9.043478814196255e-10,
+      "sector_sum_phi_mixed_sq": 0.08371356533814199,
+      "sector_sum_psi_mixed_sq": 8.388093353286849e-11,
+      "sector_sum_assoc_mixed_sq": 0.020928391308815415,
+      "cross_sum_tr_PQ": -1.94047430131314e-11,
+      "cross_sum_phi_mixed_sq": -4.826486642447422e-11
+    },
+    "scaled_gradient_singular_values": [
+      1.8070410881844399,
+      1.3117149864495938,
+      1.1810450933076206,
+      1.0024917764886245,
+      0.940140153888619,
+      0.7176463534564421,
+      0.5948027538195063,
+      0.49442555078293765,
+      0.4109825233403709,
+      0.16386881686289675,
+      2.531663207443322e-09,
+      4.482749202835268e-10
+    ],
+    "smallest_to_largest_singular_value_ratio": 2.4807123823283677e-10,
+    "gradient_norm": 1.1540466481931238e-09,
+    "local_direction_fraction_increase": 0.509765625,
+    "local_direction_fraction_decrease": 0.490234375
+  }
+}

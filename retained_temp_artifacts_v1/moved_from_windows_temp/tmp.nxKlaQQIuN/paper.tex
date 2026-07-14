@@ -1,0 +1,474 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+
+\newcommand{\Oa}{\mathbb{O}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\norm}[1]{\lVert #1\rVert}
+\newcommand{\abs}[1]{\lvert #1\rvert}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{Weighted Conditional Negativity and Exact Spectral Obstructions\\
+for Octonionic Associator Energy Matrices}
+\author{Matthew Connelly}
+\date{July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $u_1,\ldots,u_n$ and $H$ be imaginary octonions and define the pairwise associator-energy matrix
+\[
+ M_{ab}=\norm{[u_a,u_b,H]}^2,
+ \qquad [x,y,z]=(xy)z-x(yz).
+\]
+After fixing a nonzero vacuum direction, the octonion associator reduces to a complex $SU(3)$ cross product.  On the active support this gives
+\[
+ M_{ab}=4\bigl(r_a r_b-\abs{G_{ab}}^2\bigr),
+\]
+where $G$ is a complex Gram matrix and $r_a=G_{aa}$.  We prove that the diagonally normalized matrix is conditionally negative definite in the standard sense and that the raw matrix $M$, by congruence, has at most one positive eigenvalue.  Since $M$ is hollow, every nonzero such matrix has exactly one positive eigenvalue and its ordered singular values obey the universal identity
+\[
+ s_1=\sum_{j=2}^n s_j.
+\]
+Consequently, an exact geometric spectrum $(1,x,\ldots,x^{n-1})$ can occur only when $1=x+\cdots+x^{n-1}$.  For $n=3$ the unique positive base is the inverse golden ratio.  We also derive the exact least-squares obstruction to any prescribed three-rung base and show that archived numerical floors coincide with the analytic formula.  The result excludes strongly hierarchical geometric singular spectra for this operator class; it does not exclude Froggatt--Nielsen models generally, other octonionic operators, or nonlinear maps from the spectrum to physical masses.  For complete orthonormal seven-frames we record additional tight-frame identities, while leaving exact hexanacci nonattainability as an open algebraic problem.
+\end{abstract}
+
+\section{Introduction}
+
+Octonionic and exceptional-algebraic structures have long been investigated as organizing frameworks for fermionic degrees of freedom and generation structure \cite{GunaydinGursey1973,Baez2002}.  A particularly direct construction assigns to generation directions $u_a\in\operatorname{Im}(\Oa)$ and a vacuum direction $H\in\operatorname{Im}(\Oa)$ the symmetric matrix
+\begin{equation}
+ M_{ab}(U;H)=\norm{[u_a,u_b,H]}^2.
+ \label{eq:def-M}
+\end{equation}
+Because octonions are alternative, the associator is alternating.  Thus $M$ is entrywise nonnegative and hollow.  It is nevertheless not a Gram matrix in the usual positive-semidefinite sense; throughout this paper we call it the \emph{associator-energy matrix}.
+
+A natural spectral question is whether the ordered singular values of \eqref{eq:def-M} can form a geometric ladder
+\begin{equation}
+ \frac{(s_1,\ldots,s_n)}{s_1}=(1,x,x^2,\ldots,x^{n-1}),
+ \qquad 0<x<1.
+ \label{eq:ladder}
+\end{equation}
+Small choices such as $x\sim\lambda^2$ or $x\sim\lambda^4$, with $\lambda$ the Cabibbo parameter, resemble the hierarchical powers used in Froggatt--Nielsen model building \cite{FroggattNielsen1979,Wolfenstein1983}.  Equation \eqref{eq:ladder}, however, is a specific singular-value ansatz for the operator \eqref{eq:def-M}; it is not a definition of the Froggatt--Nielsen mechanism.
+
+The central observation is that \eqref{eq:def-M} has Lorentzian-type inertia for every finite collection of vectors, with no orthonormality assumption.  The strongest statements and their boundaries are summarized in Table~\ref{tab:status}.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.34\textwidth} >{\raggedright\arraybackslash}p{0.20\textwidth} >{\raggedright\arraybackslash}p{0.36\textwidth}}
+\toprule
+Claim & Status & Boundary \\
+\midrule
+$SU(3)$ cross-product reduction & analytic, convention fixed & a different octonion convention changes phases and signs, not the norm identity \\
+\addlinespace[2pt]
+At most one positive eigenvalue and $s_1=\sum_{j>1}s_j$ & analytic theorem & applies to the operator \eqref{eq:def-M}, not to arbitrary octonionic mass operators \\
+\addlinespace[2pt]
+Unique admissible geometric base & analytic necessary condition & attainability under extra frame constraints is separate \\
+\addlinespace[2pt]
+Three-rung residual floor & analytic theorem & the archived optimization uses the squared Euclidean residual defined below \\
+\addlinespace[2pt]
+Archived frame and matrix checks & verified numerical audit & internal and operator-level consistency, not a replacement for the proof \\
+\addlinespace[2pt]
+Full seven-frame hexanacci miss & numerical obstruction evidence & no formal emptiness certificate is claimed \\
+\bottomrule
+\end{tabular}
+\caption{Claim-status register.}
+\label{tab:status}
+\end{table}
+
+\section{Octonionic reduction at fixed vacuum}
+
+\subsection{Conventions}
+
+Let $\Oa$ denote the real octonions in the Cayley--Dickson convention $\Oa=\mathbb{H}\oplus\mathbb{H}\ell$, with multiplication inherited from
+\[
+ (a,b)(c,d)=\bigl(ac-\overline d\,b,\; da+b\overline c\bigr).
+\]
+Write $1,e_1,\ldots,e_7$ for the resulting orthonormal basis and identify $\operatorname{Im}(\Oa)$ with $\R^7$.  The norm is multiplicative and the algebra is alternative; in particular the associator is a totally alternating trilinear map \cite{Schafer1966,Baez2002}.
+
+For a nonzero $H$, the transitive action of $G_2=\operatorname{Aut}(\Oa)$ on the unit sphere in $\operatorname{Im}(\Oa)$ allows us to rotate $H/\norm H$ to $e_7$.  Trilinearity then contributes only an overall factor $\norm H^2$ to $M$.  The case $H=0$ is trivial.
+
+In the fixed convention, define
+\begin{equation}
+ z(u)=\bigl(u_1+\ii u_6,\;u_2-\ii u_5,\;u_3-\ii u_4\bigr)\in\C^3.
+ \label{eq:zmap}
+\end{equation}
+By alternation, an $e_7$ component in either $u$ or $v$ produces an
+associator with two equal arguments and therefore does not contribute to
+$[u,v,e_7]$.
+
+\begin{lemma}[Fixed-vacuum cross-product identity]
+For $u,v\in\operatorname{Im}(\Oa)$, the convention \eqref{eq:zmap} gives
+\begin{equation}
+ z\bigl([u,v,e_7]\bigr)=2\ii\,\overline{z(u)\times z(v)},
+ \qquad
+ \norm{[u,v,e_7]}^2=4\norm{z(u)\times z(v)}^2.
+ \label{eq:cross}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Both sides of the first identity are real-bilinear and alternating in $u,v$.  It is therefore enough to check the basis pairs $e_i,e_j$ using the Cayley--Dickson multiplication displayed above.  The resulting components agree with $2\ii\,\overline{z(e_i)\times z(e_j)}$.  The second identity follows because \eqref{eq:zmap} is an isometry from $e_7^\perp\subset\operatorname{Im}(\Oa)$ to $\C^3$ as real inner-product spaces.
+\end{proof}
+
+Let $z_a=z(u_a)$, let $Z\in\C^{3\times n}$ have columns $z_a$, and set
+\begin{equation}
+ G=Z^\dagger Z,
+ \qquad G_{ab}=\ip{z_a}{z_b},
+ \qquad r_a=G_{aa}=\norm{z_a}^2.
+ \label{eq:Gram}
+\end{equation}
+The complex Lagrange identity gives
+\begin{equation}
+ \norm{z_a\times z_b}^2
+ =\norm{z_a}^2\norm{z_b}^2-\abs{\ip{z_a}{z_b}}^2,
+\end{equation}
+so that
+\begin{equation}
+ M_{ab}=4\bigl(r_a r_b-\abs{G_{ab}}^2\bigr).
+ \label{eq:M-Gram}
+\end{equation}
+
+\section{Weighted conditional negativity and inertia}
+
+The phrase ``conditionally negative definite'' normally refers to nonpositivity on the hyperplane $\sum_a c_a=0$ \cite{Schoenberg1938}.  The raw matrix $M$ need not have that property when the transverse norms $r_a$ differ.  The correct statement is that a diagonal normalization is conditionally negative definite and that $M$ is congruent to it.  This distinction is essential for standard terminology.
+
+Let $I=\{a:r_a>0\}$ be the active support.  If $r_a=0$, then $z_a=0$ and the corresponding row and column of $M$ vanish.  On $I$, define $D=\diag(r_a)$ and
+\begin{equation}
+ \widetilde M=D^{-1}MD^{-1}.
+ \label{eq:Mtilde}
+\end{equation}
+Equivalently, with $w_a=z_a/\sqrt{r_a}$,
+\begin{equation}
+ \widetilde M_{ab}=4\left(1-\abs{\ip{w_a}{w_b}}^2\right).
+ \label{eq:normalized-CND}
+\end{equation}
+
+\begin{theorem}[Conditional negativity and Lorentzian inertia]
+The normalized matrix $\widetilde M$ is conditionally negative semidefinite: for every real vector $d$ satisfying $\sum_{a\in I}d_a=0$,
+\begin{equation}
+ d^T\widetilde M d\le0.
+ \label{eq:CND}
+\end{equation}
+Consequently, the raw matrix $M$ has at most one positive eigenvalue.
+\end{theorem}
+
+\begin{proof}
+Let $W$ be the $3\times\abs I$ matrix with columns $w_a$, and define the Hermitian matrix
+\[
+ A=W\diag(d)W^\dagger.
+\]
+Since $\norm{w_a}=1$,
+\[
+ \tr A=\sum_a d_a=0.
+\]
+Furthermore,
+\begin{align}
+ \frac14 d^T\widetilde M d
+ &=\left(\sum_a d_a\right)^2
+   -\sum_{a,b}d_a d_b\abs{\ip{w_a}{w_b}}^2 \\
+ &=(\tr A)^2-\tr(A^2)
+ =-\tr(A^2)\le0,
+\end{align}
+where the last inequality follows because $A$ is Hermitian.  This proves \eqref{eq:CND}.
+
+A real symmetric matrix nonpositive on a codimension-one subspace has positive inertia index at most one.  Finally,
+\[
+ M=D\widetilde M D
+\]
+on the active support, so Sylvester's law of inertia gives the same positive inertia index for $M$ and $\widetilde M$.  Zero-support rows only add zero eigenvalues.
+\end{proof}
+
+The same conclusion can be obtained directly without normalization.  For real $c$, set $A=Z\diag(c)Z^\dagger$.  Then
+\begin{equation}
+ \frac14 c^TMc=(c^Tr)^2-\tr(A^2),
+ \label{eq:weighted-form}
+\end{equation}
+which is nonpositive on the weighted hyperplane $c^Tr=0$.
+
+\begin{corollary}[Universal singular-value sum rule]
+Let $s_1\ge s_2\ge\cdots\ge s_n\ge0$ be the singular values of $M$.  If $M\ne0$, then $M$ has exactly one positive eigenvalue and
+\begin{equation}
+ \boxed{s_1=\sum_{j=2}^n s_j.}
+ \label{eq:sum-rule}
+\end{equation}
+For $M=0$, the identity is trivial.
+\end{corollary}
+
+\begin{proof}
+The diagonal of $M$ vanishes, so $\tr M=0$.  A nonzero negative-semidefinite matrix has strictly negative trace; therefore a nonzero $M$ must have a positive eigenvalue.  The theorem shows that this eigenvalue is unique.  Write it as $\lambda_+>0$.  All remaining eigenvalues are nonpositive, and trace zero gives
+\[
+ \lambda_+=\sum_{\lambda_j<0}\abs{\lambda_j}.
+\]
+Hence $\lambda_+$ is at least as large as the magnitude of every negative eigenvalue.  It is therefore the largest singular value, and the displayed identity is exactly \eqref{eq:sum-rule}.
+\end{proof}
+
+\begin{remark}
+For $n=3$, the inertia conclusion also follows from Perron--Frobenius theory
+for hollow symmetric nonnegative matrices; related inertia constraints are
+studied in \cite{CharlesEtAl2013}.  The normalized conditional-negativity
+argument is stronger because it applies to arbitrary finite $n$ and uses the
+octonionic image structure rather than a dimension-specific matrix theorem.
+\end{remark}
+
+\section{Exact obstruction to geometric ladders}
+
+\begin{corollary}[Unique admissible geometric base]
+Suppose $M\ne0$ has the normalized geometric singular spectrum \eqref{eq:ladder}.  Then
+\begin{equation}
+ 1=x+x^2+\cdots+x^{n-1}.
+ \label{eq:nbonacci}
+\end{equation}
+For every $n\ge3$, equation \eqref{eq:nbonacci} has a unique solution in $(0,1)$.  Equivalently, $x$ is the reciprocal of the positive $(n-1)$-bonacci constant.  For $n=3$,
+\begin{equation}
+ x^2+x-1=0,
+ \qquad
+ x=\frac{\sqrt5-1}{2}=\varphi^{-1}.
+ \label{eq:golden}
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Substitution of \eqref{eq:ladder} into \eqref{eq:sum-rule} gives \eqref{eq:nbonacci}.  The function $f_n(x)=\sum_{k=1}^{n-1}x^k$ is continuous and strictly increasing on $(0,1)$, with $f_n(0)=0$ and $f_n(1)=n-1>1$.  Hence the root is unique.  Equation \eqref{eq:golden} is the $n=3$ specialization.
+\end{proof}
+
+Thus the golden ratio is not selected by an optimization landscape.  It is the unique intersection of the geometric-ladder curve with the exact singular-value hyperplane.
+
+\subsection{Exact realization without an orthonormality constraint}
+
+The preceding corollary is a necessary condition.  In the unrestricted vector domain it is also attainable for $n=3$.
+
+\begin{proposition}[Realization of the full three-rung sum-rule line]
+For every $r\in[1/2,1]$, there exist $u_1,u_2,u_3\in\operatorname{Im}(\Oa)$ and $H=e_7$ for which the normalized singular spectrum is
+\begin{equation}
+ (1,r,1-r).
+ \label{eq:line}
+\end{equation}
+In particular, setting $r=\varphi^{-1}$ gives an exact golden ladder.
+\end{proposition}
+
+\begin{proof}
+Set $t=\sqrt{(1-r)/2}$ and consider the hollow nonnegative matrix
+\begin{equation}
+ M_r=
+ \begin{pmatrix}
+ 0&r&t\\
+ r&0&t\\
+ t&t&0
+ \end{pmatrix}.
+ \label{eq:Mr}
+\end{equation}
+The vector $(1,-1,0)^T$ has eigenvalue $-r$.  On the orthogonal span of $(1,1,0)^T$ and $(0,0,1)^T$, the remaining eigenvalues are $1$ and $-(1-r)$.  Hence the singular spectrum is \eqref{eq:line}.
+
+It remains to realize the entries by octonionic associators.  Choose mutually orthogonal complex directions and write
+\[
+ z_1=A(1,0,0),\qquad z_2=B(0,1,0),\qquad z_3=C(0,0,1).
+\]
+For any three positive off-diagonal targets $p,q,s$, the equations
+\[
+ 4A^2B^2=p,\qquad4A^2C^2=q,\qquad4B^2C^2=s
+\]
+have the positive solutions
+\[
+ A^2=\frac12\sqrt{\frac{pq}{s}},\qquad
+ B^2=\frac12\sqrt{\frac{ps}{q}},\qquad
+ C^2=\frac12\sqrt{\frac{qs}{p}}.
+\]
+Taking $(p,q,s)=(r,t,t)$ realizes \eqref{eq:Mr} through
+\eqref{eq:cross} for $r<1$.  At $r=1$, take $z_3=0$ and choose
+$4A^2B^2=1$.
+\end{proof}
+
+This construction does not impose that the $u_a$ form an orthonormal Stiefel frame.  Attainability under that additional constraint is a separate question; the archived computations discussed below provide numerical, not analytic, evidence there.
+
+\subsection{Exact three-rung residual floor}
+
+Let a prescribed base $x\in(0,1)$ define the target $(1,x,x^2)$.  For any nonzero three-vector associator-energy matrix, the normalized spectrum is $(1,r,1-r)$ with $r\in[1/2,1]$.  Define the squared residual
+\begin{equation}
+ \mathcal E_x(r)=(r-x)^2+(1-r-x^2)^2.
+ \label{eq:objective}
+\end{equation}
+
+\begin{theorem}[Exact prescribed-base obstruction]
+For $0<x<1$,
+\begin{equation}
+ \min_{1/2\le r\le1}\mathcal E_x(r)
+ =\frac{(1-x-x^2)^2}{2},
+ \qquad
+ r_*(x)=\frac{1+x-x^2}{2}.
+ \label{eq:floor}
+\end{equation}
+The minimum vanishes if and only if $x=\varphi^{-1}$.
+\end{theorem}
+
+\begin{proof}
+Differentiating \eqref{eq:objective} gives
+\[
+ \mathcal E_x'(r)=4r-2(1+x-x^2),
+\]
+so the unique stationary point is $r_*(x)$.  Since $0<x<1$, one has $1/2\le r_*(x)\le5/8$, so it lies in the admissible interval.  Substitution gives \eqref{eq:floor}.  The zero condition is $1-x-x^2=0$.
+\end{proof}
+
+By the realization proposition, \eqref{eq:floor} is the exact global minimum over unrestricted vectors.  Under additional orthonormal-frame constraints it remains an exact lower bound.
+
+\section{Numerical artifact audit}
+
+The accompanying artifact contains a $120{,}000$-frame random scan with seed $424242$, optimized candidate frames, and prescribed-base least-squares tests.  The audit script independently reconstructs the octonion product using the Cayley--Dickson convention, recomputes every stored associator-energy matrix from its frame, and checks the spectra and analytic floors.
+
+For the three phenomenologically motivated bases recorded in the artifact, Table~\ref{tab:floors} compares the stored squared objective to \eqref{eq:floor}.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Base $x$ & Stored objective & Analytic floor \\
+\midrule
+$\lambda^4=0.0025311454040401$ & $0.4974656674842361$ & $0.4974656674842361$ \\
+$\lambda^2=0.05031049$ & $0.4485544838120462$ & $0.4485544838120462$ \\
+$\lambda=0.2243$ & $0.2630949706090197$ & $0.2630949706090197$ \\
+$\varphi^{-1}$ & $3.08\times10^{-33}$ & $0$ to floating precision \\
+\bottomrule
+\end{tabular}
+\caption{The optimized floors are the analytic projection distances, not unexplained optimizer stalls.  Values are squared Euclidean residuals.}
+\label{tab:floors}
+\end{table}
+
+The archived best random near-geometric candidate has normalized spectrum
+\[
+ (1,0.6180408423,0.3819591577)
+\]
+and geometric residual $2.35\times10^{-10}$.  Among frames with residual below $10^{-6}$, the archived base range is $[0.6175868,0.6184808]$.  These observations are expected from the unique intersection proved above: any spectrum near both the sum-rule line and the geometric curve must lie near $\varphi^{-1}$.
+
+The numerical evidence is corroborative only.  The sum rule and floor formula do not depend on random sampling or optimization.
+
+\section{Complete seven-frames and the remaining open problem}
+
+For a full orthonormal frame $u_1,\ldots,u_7$ of $\operatorname{Im}(\Oa)$ with $H=e_7$, let $x_a=\ip{u_a}{e_7}$ and retain the $3\times7$ complex matrix $Z$ of transverse coordinates.  Completeness gives the tight-frame identities
+\begin{equation}
+ ZZ^\dagger=2I_3,
+ \qquad
+ ZZ^T=0.
+ \label{eq:tight}
+\end{equation}
+Consequently the $7\times7$ Hermitian Gram matrix $G=Z^\dagger Z$ satisfies
+\begin{equation}
+ G^2=2G,
+ \qquad
+ \rank G=3.
+ \label{eq:projection}
+\end{equation}
+Writing
+\begin{equation}
+ G=I-xx^T+\ii S,
+ \end{equation}
+with $S$ real gives
+\begin{equation}
+ S^T=-S,
+ \qquad Sx=0,
+ \qquad S^2=xx^T-I.
+ \label{eq:S-identities}
+\end{equation}
+These identities show that a complete frame occupies a much smaller real-algebraic subset than an arbitrary collection of seven vectors.  They are therefore plausible sources of additional attainability obstructions beyond the universal sum rule.
+
+Earlier numerical searches found near-geometric seven-rung spectra displaced from the reciprocal hexanacci base, with the residual concentrated in one weak spectral-moment direction.  Equations \eqref{eq:projection}--\eqref{eq:S-identities} localize the appropriate algebraic arena, but they do not by themselves prove that the exact ladder equations have no solution.  We therefore leave the following problem open.
+
+\begin{quote}
+\textbf{Open problem.} Determine whether the polynomial system consisting of \eqref{eq:projection}, the orthonormal-frame constraints, and the exact reciprocal-hexanacci spectral moments is empty.  A proof requires an invariant inequality, elimination argument, interval certificate, or rational sum-of-squares/Positivstellensatz certificate.
+\end{quote}
+
+No topological argument or numerical optimizer floor is treated here as an emptiness certificate.
+
+\section{Scope for flavor model building}
+
+The mathematical obstruction is exact but narrow.  If physical masses or Yukawa singular values are identified directly with the singular values of \eqref{eq:def-M}, then the model predicts \eqref{eq:sum-rule}.  A strongly hierarchical normalized target $(1,\epsilon,\delta)$ with $\epsilon+\delta\ll1$ lies a finite distance from the allowed line and cannot be generated by this operator.
+
+There are several ways a broader model could evade the theorem, each of which changes the construction rather than the proof:
+\begin{enumerate}
+ \item replace squared associator norms by signed or interference-sensitive entries;
+ \item enlarge the state space and use a Jordan or Freudenthal observable rather than \eqref{eq:def-M};
+ \item apply a nonlinear physical map between the eigen/singular spectrum of $M$ and masses;
+ \item introduce additional vacuum or spurion sectors whose combined observable is not hollow and nonnegative.
+\end{enumerate}
+Accordingly, the result is not a no-go theorem for octonionic flavor or for Froggatt--Nielsen theory.  It closes only the direct geometric-singular-ladder route through the pairwise squared-associator operator \eqref{eq:def-M}.
+
+\section{Conclusion}
+
+The fixed-vacuum octonion associator has a simple complex-geometric form.  After diagonal normalization, its pairwise energy matrix is conditionally negative definite; before normalization it is congruent to that matrix and therefore has at most one positive eigenvalue.  Hollowness upgrades this inertia statement to the exact singular-value identity
+\[
+ s_1=\sum_{j=2}^n s_j.
+\]
+The inverse golden ratio in the three-rung problem is thus not an emergent numerical preference.  It is the unique positive base compatible with an exact geometric ladder.  Prescribed Cabibbo-power bases have the exact squared residual floor $(1-x-x^2)^2/2$, matching the archived numerical optimizations.
+
+The positive content is a parameter-free spectral signature and a precise design constraint: any viable extension must alter the operator or the physical spectral map.  The complete-seven-frame identities provide a sharper algebraic arena for future work, but exact hexanacci nonattainability remains unproved and is stated as such.
+
+\section*{Reproducibility statement}
+
+The source package includes the audit script and archived result artifact
+\begin{center}
+\small
+\path{verify_results.py}\\
+\path{fn_ladder_rigidity_results.json}.
+\end{center}
+The script reconstructs the canonical Cayley--Dickson product, recomputes each
+stored matrix from its frame, verifies orthonormality and stored spectra, and
+checks the analytic floor formula.  It is an independent artifact audit; the
+proofs in the paper do not rely on floating-point computation.
+
+\begin{thebibliography}{99}
+
+\bibitem{Baez2002}
+J.~C. Baez,
+``The Octonions,''
+\emph{Bulletin of the American Mathematical Society} \textbf{39} (2002), 145--205.
+
+\bibitem{Schafer1966}
+R.~D. Schafer,
+\emph{An Introduction to Nonassociative Algebras},
+Academic Press, New York, 1966.
+
+\bibitem{GunaydinGursey1973}
+M. G\"unaydin and F. G\"ursey,
+``Quark structure and octonions,''
+\emph{Journal of Mathematical Physics} \textbf{14} (1973), 1651--1667.
+
+\bibitem{Schoenberg1938}
+I.~J. Schoenberg,
+``Metric spaces and positive definite functions,''
+\emph{Transactions of the American Mathematical Society} \textbf{44} (1938), 522--536.
+
+\bibitem{CharlesEtAl2013}
+Z.~B. Charles, M. Farber, C.~R. Johnson, and L. Kennedy-Shaffer,
+``Nonpositive eigenvalues of hollow, symmetric, nonnegative matrices,''
+\emph{SIAM Journal on Matrix Analysis and Applications} \textbf{34} (2013), 1384--1400.
+
+\bibitem{FroggattNielsen1979}
+C.~D. Froggatt and H.~B. Nielsen,
+``Hierarchy of quark masses, Cabibbo angles and CP violation,''
+\emph{Nuclear Physics B} \textbf{147} (1979), 277--298.
+
+\bibitem{Wolfenstein1983}
+L. Wolfenstein,
+``Parametrization of the Kobayashi--Maskawa matrix,''
+\emph{Physical Review Letters} \textbf{51} (1983), 1945--1947.
+
+\end{thebibliography}
+
+\end{document}

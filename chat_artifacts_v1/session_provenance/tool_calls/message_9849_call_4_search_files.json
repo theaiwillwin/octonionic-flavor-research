@@ -1,0 +1,22 @@
+{
+  "session_id": "20260714_031854_c2a49e",
+  "message_id": 9849,
+  "call_index": 4,
+  "tool_name": "search_files",
+  "call": {
+    "id": "call_zuiuJLUZrlJm0bEF8eJFizcp",
+    "call_id": "call_zuiuJLUZrlJm0bEF8eJFizcp",
+    "response_item_id": "fc_071f367ba0e10612016a55379d634c8191a7bd6f0781146543",
+    "type": "function",
+    "function": {
+      "name": "search_files",
+      "arguments": "{\"limit\":100,\"path\":\"D:/Projects/ToE_21st_June_NEWEST\",\"pattern\":\"*octonionic*hierarchy*\",\"target\":\"files\"}"
+    }
+  },
+  "parsed_arguments": {
+    "limit": 100,
+    "path": "D:/Projects/ToE_21st_June_NEWEST",
+    "pattern": "*octonionic*hierarchy*",
+    "target": "files"
+  }
+}

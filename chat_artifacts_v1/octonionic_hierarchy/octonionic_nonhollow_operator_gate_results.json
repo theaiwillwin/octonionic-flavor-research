@@ -1,0 +1,102 @@
+{
+  "status": "STRUCTURAL_CAPACITY_ONLY_NOT_HIERARCHY_DERIVATION",
+  "seed": 20260714,
+  "algebra": {
+    "A_sign_vs_2Phi": "-",
+    "identity_gate": "PASS"
+  },
+  "original_operator": {
+    "matrix": [
+      [
+        2.311115933264683e-32,
+        0.23635301581470694,
+        3.9862559074253783
+      ],
+      [
+        0.23635301581470705,
+        2.2340787354891936e-32,
+        3.9776459623588165
+      ],
+      [
+        3.986255907425379,
+        3.9776459623588165,
+        2.619264724366641e-32
+      ]
+    ],
+    "hollow_max_abs": 2.619264724366641e-32,
+    "symmetry_max_abs": 8.881784197001252e-16,
+    "singular_values_desc": [
+      5.750748417958402,
+      5.514395956606443,
+      0.2363524613519582
+    ],
+    "sum_rule_residual": 3.3306690738754696e-16
+  },
+  "modified_operator": {
+    "matrix_real_imag": [
+      [
+        [
+          0.9673562385925211,
+          -0.396708812925702
+        ],
+        [
+          -0.5385970132463721,
+          -0.21085717196699866
+        ],
+        [
+          0.36403889624838315,
+          0.24537406777765425
+        ]
+      ],
+      [
+        [
+          -0.8545552399062661,
+          -0.3205279283594111
+        ],
+        [
+          -0.010432503703878243,
+          0.4054411222648718
+        ],
+        [
+          0.4751462116359128,
+          -0.29344204943038965
+        ]
+      ],
+      [
+        [
+          -0.1654454841015317,
+          -0.03373439353907112
+        ],
+        [
+          -0.288482354482495,
+          0.21788291280885355
+        ],
+        [
+          0.025487144377287933,
+          0.5588579927094671
+        ]
+      ]
+    ],
+    "diagonal_min_abs": 0.4055753206950963,
+    "hollowness_max_abs": 1.0455409961339583,
+    "symmetry_residual_frobenius": 1.6215389739478303,
+    "singular_values_desc": [
+      1.677185060621344,
+      0.7232794182662744,
+      0.2567036851705869
+    ],
+    "old_sum_rule_residual": 0.6972019571844827,
+    "determinant_abs": 0.31140042113962174,
+    "rank": 3
+  },
+  "honesty_boundary": "The modified class evades hollowness and the old singular-value sum. The illustrative vacuum and coefficients do not derive Standard Model mass ratios or CKM mixing.",
+  "checks": {
+    "original_hollow": true,
+    "original_symmetric": true,
+    "original_sum_rule": true,
+    "modified_nonhollow": true,
+    "modified_full_rank": true,
+    "modified_breaks_old_sum_rule": true
+  },
+  "all_pass": true
+}

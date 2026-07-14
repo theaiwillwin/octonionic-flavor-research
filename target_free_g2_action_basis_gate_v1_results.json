@@ -1,0 +1,225 @@
+{
+  "schema": "target_free_g2_action_basis_gate_v1",
+  "status": "basis_locked_before_flavor_scoring",
+  "symmetry": {
+    "continuous": "simultaneous G2; gauge representative h=e7 with residual SU(3)",
+    "frame_gauge": "independent O(3)^4 basis changes",
+    "discrete": "Z2 sector exchange x Z2 left-right exchange via orbit sums"
+  },
+  "field_space": "Gr(3,7)^4 after fixing the G2 orbit of unit h",
+  "physical_coordinates_before_residual_symmetry_quotient": 48,
+  "candidate_count": 21,
+  "independent_rank": 21,
+  "affine_rank_including_constant": 22,
+  "rank_tolerance_relative": 1e-10,
+  "calibration": {
+    "distribution": "independent Haar Stiefel frames",
+    "count": 768,
+    "seed": 20260714
+  },
+  "all_candidate_names": [
+    "single_sum_hPh",
+    "single_sum_phi_PPP",
+    "single_sum_phi_PPhh",
+    "pair_lr_sum_trPQ",
+    "pair_lr_sum_trPQPQ",
+    "pair_lr_sum_phi_symmetric",
+    "pair_lr_sum_psi_PPQQ",
+    "pair_sector_sum_trPQ",
+    "pair_sector_sum_trPQPQ",
+    "pair_sector_sum_phi_symmetric",
+    "pair_sector_sum_psi_PPQQ",
+    "pair_diagonal_sum_trPQ",
+    "pair_diagonal_sum_trPQPQ",
+    "pair_diagonal_sum_phi_symmetric",
+    "pair_diagonal_sum_psi_PPQQ",
+    "triple_sum_trPQR",
+    "triple_sum_phi_PQR",
+    "triple_sum_sym_hPQRh",
+    "four_sum_tr_cycles",
+    "four_psi_PQRS",
+    "four_sum_sym_h_cycle_h"
+  ],
+  "selected_independent_names": [
+    "single_sum_hPh",
+    "single_sum_phi_PPP",
+    "single_sum_phi_PPhh",
+    "pair_lr_sum_trPQ",
+    "pair_lr_sum_trPQPQ",
+    "pair_lr_sum_phi_symmetric",
+    "pair_lr_sum_psi_PPQQ",
+    "pair_sector_sum_trPQ",
+    "pair_sector_sum_trPQPQ",
+    "pair_sector_sum_phi_symmetric",
+    "pair_sector_sum_psi_PPQQ",
+    "pair_diagonal_sum_trPQ",
+    "pair_diagonal_sum_trPQPQ",
+    "pair_diagonal_sum_phi_symmetric",
+    "pair_diagonal_sum_psi_PPQQ",
+    "triple_sum_trPQR",
+    "triple_sum_phi_PQR",
+    "triple_sum_sym_hPQRh",
+    "four_sum_tr_cycles",
+    "four_psi_PQRS",
+    "four_sum_sym_h_cycle_h"
+  ],
+  "rejected_dependent_names": [],
+  "normalization": {
+    "single_sum_hPh": {
+      "haar_mean": 1.6951162758558402,
+      "haar_std": 0.4912283787192638
+    },
+    "single_sum_phi_PPP": {
+      "haar_mean": 4.938268014978578,
+      "haar_std": 2.633828754198692
+    },
+    "single_sum_phi_PPhh": {
+      "haar_mean": 3.4554434677195425,
+      "haar_std": 0.9426018833023845
+    },
+    "pair_lr_sum_trPQ": {
+      "haar_mean": 2.5919546576622774,
+      "haar_std": 0.47123345399214195
+    },
+    "pair_lr_sum_trPQPQ": {
+      "haar_mean": 1.8231662503949257,
+      "haar_std": 0.4940756348291598
+    },
+    "pair_lr_sum_phi_symmetric": {
+      "haar_mean": 10.20081088205423,
+      "haar_std": 1.4429732408031197
+    },
+    "pair_lr_sum_psi_PPQQ": {
+      "haar_mean": 6.882753916909621,
+      "haar_std": 1.8987207241313042
+    },
+    "pair_sector_sum_trPQ": {
+      "haar_mean": 2.563678163468105,
+      "haar_std": 0.4667043154439411
+    },
+    "pair_sector_sum_trPQPQ": {
+      "haar_mean": 1.800011069473349,
+      "haar_std": 0.47770025895322454
+    },
+    "pair_sector_sum_phi_symmetric": {
+      "haar_mean": 10.224291272552788,
+      "haar_std": 1.3984539307562855
+    },
+    "pair_sector_sum_psi_PPQQ": {
+      "haar_mean": 6.976530994352402,
+      "haar_std": 1.830030280890421
+    },
+    "pair_diagonal_sum_trPQ": {
+      "haar_mean": 2.585706381899381,
+      "haar_std": 0.4790004748162228
+    },
+    "pair_diagonal_sum_trPQPQ": {
+      "haar_mean": 1.8300867137658383,
+      "haar_std": 0.49467881734769137
+    },
+    "pair_diagonal_sum_phi_symmetric": {
+      "haar_mean": 10.257878350231278,
+      "haar_std": 1.4036143605141829
+    },
+    "pair_diagonal_sum_psi_PPQQ": {
+      "haar_mean": 6.822077698848076,
+      "haar_std": 1.900016641989462
+    },
+    "triple_sum_trPQR": {
+      "haar_mean": 2.23157055549551,
+      "haar_std": 0.7555841986936201
+    },
+    "triple_sum_phi_PQR": {
+      "haar_mean": 13.221493967267653,
+      "haar_std": 1.0892552508620936
+    },
+    "triple_sum_sym_hPQRh": {
+      "haar_mean": 0.3120469255147168,
+      "haar_std": 0.3527044476346526
+    },
+    "four_sum_tr_cycles": {
+      "haar_mean": 0.7298026348579959,
+      "haar_std": 0.5518023468543589
+    },
+    "four_psi_PQRS": {
+      "haar_mean": 5.637614496393826,
+      "haar_std": 0.7798423653660335
+    },
+    "four_sum_sym_h_cycle_h": {
+      "haar_mean": 0.1018187848115295,
+      "haar_std": 0.1987467300652931
+    }
+  },
+  "standardized_singular_values": [
+    67.65660979034945,
+    46.187337617037684,
+    44.742595909148136,
+    42.82096664773932,
+    29.84699741631563,
+    29.224008298461445,
+    28.75066365618911,
+    26.77394591034805,
+    24.565153660600906,
+    24.07072584762344,
+    18.339577874065956,
+    14.493942514518949,
+    11.41002331610029,
+    10.962722623872947,
+    10.318389148808997,
+    8.816603060305917,
+    6.057734253308872,
+    5.724061995964156,
+    4.906310572865688,
+    3.272474450558627,
+    2.0910515683248136
+  ],
+  "augmented_affine_singular_values": [
+    67.65660979034948,
+    46.18733761703768,
+    44.74259590914812,
+    42.820966647739326,
+    29.846997416315638,
+    29.22400829846143,
+    28.7506636561891,
+    27.712812921102035,
+    26.77394591034805,
+    24.56515366060089,
+    24.070725847623436,
+    18.33957787406597,
+    14.49394251451895,
+    11.410023316100304,
+    10.962722623872942,
+    10.318389148808995,
+    8.816603060305924,
+    6.057734253308876,
+    5.724061995964155,
+    4.906310572865686,
+    3.272474450558627,
+    2.091051568324812
+  ],
+  "coefficient_class_locked_for_next_stage": {
+    "action": "V_c=sum_alpha c_alpha (I_alpha-mu_alpha)/sigma_alpha",
+    "primitive_actions": "each selected basis direction with c=+1 and c=-1",
+    "mixed_actions": "32 deterministic Rademacher coefficient vectors normalized to unit Euclidean norm",
+    "coefficient_seed": 20260715,
+    "prohibited": "coefficient selection or optimization using masses, mixing, fitted frames, or archived flavor objectives"
+  },
+  "target_firewall": {
+    "read_inputs": [
+      "D:\\Projects\\can_o_worms\\octonion_g2_kernel.py"
+    ],
+    "flavor_artifacts_read": [],
+    "source_token_audit_note": "Forbidden words appear only in this declarative firewall and are not file inputs.",
+    "declarative_token_hits": [
+      "fn_joint_ckm",
+      "ckm_target",
+      "cabibbo",
+      "mass_target",
+      "lambda_target"
+    ]
+  },
+  "kernel_convention": {
+    "A_vs_2starphi": "-"
+  },
+  "script_sha256": "cf8c9b7c13e326082c37206c0f5aea9ffed0cf5fda491ef148a085cb7943d637"
+}

@@ -1,0 +1,68 @@
+Derivation of Sterile Neutrinos in the E6
+
+Inspired Model
+
+In the E6 inspired supersymmetric model described in arXiv:1504.00904, the neutral sector
+for each generation is expanded beyond the Standard Model (SM) to include several singlets
+and vector-like states.
+
+1. Neutral Sector Basis
+
+The matter content of each generation is contained in the 27 representation of E6. Under
+the SO(10) × U(1) subgroup, the 27 decomposes as:
+
+                                  27 = 16(1) + 10(-2) + 1(4)
+
+The neutral states in each generation are:
+· : The light neutrino (part of the L doublet in the 16).
+· c: The right-handed neutrino (SM singlet in the 16).
+· s: The SO(10) singlet (SM singlet in the 1).
+·  and c: Components of the vector-like lepton doublets L0 and L0c in the 10.
+For a two-family benchmark, the basis is:
+
+                          N  = (1, 2, 1  , 2  , 1  c, 2  c, s1, s2, 1  c, 2  c)T
+
+2. Mass Matrix Structure
+
+The 10 × 10 neutral mass matrix MN has the following block structure (suppressing
+generation indices):
+
+                                   Lmass =  1 N  T MN N  + h.c.
+                                               2
+
+The matrix MN is derived from the Yukawa couplings Y27 and Y351 and the various VEVs.
+Based on the paper, the mass terms involve:
+· Dirac terms mixing ,  with c, s, c.
+· Majorana terms for c and s induced by the E6 breaking VEVs (e.g., f1 and f3) .
+3. The Sterile Neutrino Definition
+
+In this context, the "sterile neutrinos" are the states that are singlets under the SM gauge
+group:
+1. Right-handed neutrinos (c): Part of the SO(10) 16-plet.
+2. E6 singlets (s): The SO(10) singlet state.
+These states are typically very heavy (at the seesaw scale  1011 - 1016 GeV), which
+explains why the "sterile fractions" in the light neutrinos are so small ( 10-20).
+
+4. Seesaw and Mixing
+
+The light neutrino mass matrix m is obtained by the seesaw formula:
+
+                                        m   -mDMR  -1mD T
+
+where mD is the Dirac mass matrix and MR is the heavy Majorana matrix.
+The sterile amplitude in the light neutrino light is given by the mixing element:
+
+                                         Asterile  mDMR  -1
+
+The sterile fraction is the square of this amplitude:
+
+                                         Psterile  Asterile2
+
+Given your Point 1 results:
+· mc  1011 GeV
+· ms  1015 GeV
+· Sterile amplitudes  10-10
+· Sterile fractions  10-20
+This confirms that the sterile states are decoupled and the light neutrinos are almost purely
+active.
+

@@ -1,0 +1,109 @@
+{
+  "schema": "unified-flavor-arxiv-publication-verification/v6",
+  "status": "FAIL",
+  "assertions": {
+    "pdf_opens": true,
+    "page_count_at_least_ten": true,
+    "all_expected_phrases_present": true,
+    "no_forbidden_source_markers": true,
+    "tex_has_no_hidden_control_characters": true,
+    "bib_has_no_hidden_control_characters": true,
+    "compiled_text_has_no_unresolved_question_marks": true,
+    "compile_log_has_no_document_warnings": true,
+    "bibtex_output_has_six_cited_entries": true,
+    "all_pdf_fonts_embedded": true,
+    "pdf_metadata_title_present": false,
+    "pdf_metadata_author_correct": true,
+    "visual_target_pages_located": true
+  },
+  "page_count": 11,
+  "page_targets_one_based": {
+    "gate": 3,
+    "angles": 8,
+    "appendix": 10
+  },
+  "expected_phrase_checks": {
+    "Reachability Is Not Selection in Target-Free": true,
+    "68 branches pass a strict stationarity and stability cut": true,
+    "none lies inside all three NuFIT 6.0 three-sigma angle intervals": true,
+    "22.62": true,
+    "nuclear norm is nonsmooth": true,
+    "surjective onto U(3)": true,
+    "2.1768243": true,
+    "not a global no-go theorem": true
+  },
+  "forbidden_marker_checks": {
+    "D:/Projects/": true,
+    "C:/Users/": true,
+    "PLACEHOLDER": true,
+    "TODO": true,
+    "TBD": true,
+    "[REDACTED]": true,
+    "External E6 neutral-fermion benchmark": true,
+    "BabuBajcSusic2015": true,
+    "0.3520919": true,
+    "sterile_neutrino_derivation.pdf": true,
+    "unified_flavor_prediction.pdf": true
+  },
+  "compile_log_checks": {
+    "LaTeX Warning:": true,
+    "Package hyperref Warning:": true,
+    "Overfull \\hbox": true,
+    "Underfull \\hbox": true,
+    "Undefined control sequence": true,
+    "Citation `": true,
+    "Reference `": true
+  },
+  "font_embedding": {
+    "IHAIZV+LMRoman12-Bold": true,
+    "BZIVMZ+LMMathItalic12-Regular": true,
+    "IXFAWU+LMRoman12-Regular": true,
+    "TQTHRL+LMRoman12-Regular": true,
+    "YEUUOC+LMRoman10-Regular": true,
+    "AKHCZK+LMRoman10-Bold": true,
+    "VDVGTR+MSBM10": true,
+    "CAFSZL+LMRoman7-Regular": true,
+    "DDIEWW+LMRoman10-Regular": true,
+    "FKPJSN+LMMathItalic10-Regular": true,
+    "PVTTLK+LMMathSymbols7-Regular": true,
+    "JAGKKY+LMMathSymbols10-Regular": true,
+    "NOMARO+LMRoman8-Regular": true,
+    "KPXLOM+LMRomanCaps10-Regular": true,
+    "UTACNV+LMMathItalic8-Regular": true,
+    "FZDNHS+LMMathSymbols8-Regular": true,
+    "DZGKAF+LMSans8-Regular": true,
+    "GJMHKB+LMMathExtension10-Regular": true,
+    "NITCSQ+LMRoman10-Italic": true,
+    "UBBQTN+LMMathItalic6-Regular": true,
+    "LPOGEQ+LMRoman10-Regular": true
+  },
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Finite Predictivity Gates for Target-Free G2 Flavor Dynamics",
+    "author": "Matthew Connelly",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "xdvipdfmx (0.1)",
+    "creationDate": "D:20260714013614-00'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "sha256": {
+    "main_v4.tex": "49cf3faffaeffc58e2d430355a682dccaf565192fbe7d6bf39487e4e6bfb48ec",
+    "references_v3.bib": "245377840aa4247402882c8e235264acd2e3c218e828a0cae0fed9e214b4174b",
+    "main_v4.pdf": "00af6f67281adb8bd7208432a3f9536fbe33cac3feeeca978ed2183a999bd4ea",
+    "claim_ledger_v2.json": "7356e3c8108a99ddc573dd86adf7589b3b8e4a8f3b00174f664fb6d3e04418cd"
+  },
+  "outputs": [
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\build_v4\\main_v4_pdftotext_v6.txt",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\manuscript_contact_sheet_v6.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\inspection_title_page_v6.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\inspection_gate_figure_page_v6.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\inspection_angle_figure_page_v6.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\inspection_appendix_page_v6.png",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\publication_verification_v6.json",
+    "D:\\Projects\\can_o_worms\\publication\\unified_flavor_arxiv_v1\\PUBLICATION_VERIFICATION_v6.md"
+  ]
+}
