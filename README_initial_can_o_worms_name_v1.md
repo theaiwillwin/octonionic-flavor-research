@@ -1,8 +1,6 @@
-# Octonionic Flavor Research
+# can_o_worms
 
-Private, provenance-preserving research archive for computational investigations of octonionic flavor models, candidate effective-field-theory Lagrangians, invariant constructions, numerical verification, and falsification tests.
-
-This repository contains the complete `D:\Projects\can_o_worms` project state captured on 14 July 2026. Results should be interpreted according to their recorded validation status; passed structural or numerical gates do not by themselves establish a unique physical Lagrangian.
+Private archival repository for the complete `D:\Projects\can_o_worms` project state captured on 14 July 2026.
 
 ## Retention status
 
